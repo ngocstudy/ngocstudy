@@ -1,1 +1,290 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 03 - Technology | IELTS Foundation 4.0</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="top-bar">
+
+        <button id="backBtn" class="icon-btn">
+            ←
+        </button>
+
+        <div class="lesson-title">
+            Lesson 03
+        </div>
+
+        <button id="homeBtn" class="icon-btn">
+            🏠
+        </button>
+
+    </header>
+
+
+    <!-- PROGRESS -->
+
+    <section class="progress-section">
+
+        <div class="progress-top">
+
+            <span id="progressText">
+                1 / 10
+            </span>
+
+            <span id="progressPercent">
+                10%
+            </span>
+
+        </div>
+
+        <div class="progress-bar">
+
+            <div
+                id="progressFill"
+                class="progress-fill">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VOCABULARY CARD -->
+
+    <main class="card">
+
+        <div class="word-header">
+
+            <button
+                id="speakWord"
+                class="speaker">
+
+                🔊
+
+            </button>
+
+            <h1 id="word">
+
+                Loading...
+
+            </h1>
+
+        </div>
+
+
+        <div
+            id="ipa"
+            class="ipa">
+
+            /.../
+
+        </div>
+
+
+        <div
+            id="meaning"
+            class="meaning">
+
+            Meaning
+
+        </div>
+
+
+        <!-- SYNONYMS -->
+
+        <section class="box">
+
+            <h2>
+
+                Synonyms
+
+            </h2>
+
+            <div
+                id="synonyms"
+                class="items">
+
+            </div>
+
+        </section>
+
+
+        <!-- WORD FAMILY -->
+
+        <section class="box">
+
+            <h2>
+
+                Word Family
+
+            </h2>
+
+            <div
+                id="family"
+                class="items">
+
+            </div>
+
+        </section>
+
+    </main>
+        <!-- NAVIGATION -->
+
+    <section class="navigation">
+
+        <button
+            id="prevBtn"
+            class="nav-btn">
+
+            ← Previous
+
+        </button>
+
+        <button
+            id="nextBtn"
+            class="nav-btn primary">
+
+            Next →
+
+        </button>
+
+    </section>
+
+
+    <!-- COMPLETED -->
+
+    <section
+        id="finishScreen"
+        class="finish-screen hidden">
+
+        <div class="finish-icon">
+
+            🎉
+
+        </div>
+
+        <h2>
+
+            Vocabulary Completed!
+
+        </h2>
+
+        <p>
+
+            You have finished all 10 vocabulary words.
+
+        </p>
+
+        <button
+            id="matchingBtn"
+            class="start-btn">
+
+            Start Matching Game
+
+        </button>
+
+    </section>
+
+
+    <!-- MATCHING GAME -->
+
+    <section
+        id="matchingScreen"
+        class="matching-screen hidden">
+
+        <h2>
+
+            Vocabulary Matching
+
+        </h2>
+
+        <p>
+
+            Match each English word with its Vietnamese meaning.
+
+        </p>
+
+        <div
+            id="matchingContainer"
+            class="matching-container">
+
+        </div>
+
+    </section>
+
+
+    <!-- READING LOCK -->
+
+    <section
+        id="readingLocked"
+        class="reading-lock hidden">
+
+        <div class="lock-icon">
+
+            🔒
+
+        </div>
+
+        <h2>
+
+            Reading Locked
+
+        </h2>
+
+        <p>
+
+            Complete the Matching Game with 100% accuracy to unlock Reading.
+
+        </p>
+
+    </section>
+        <!-- READING UNLOCKED -->
+
+    <section
+        id="readingUnlocked"
+        class="reading-unlocked hidden">
+
+        <div class="unlock-icon">
+
+            🔓
+
+        </div>
+
+        <h2>
+
+            Congratulations!
+
+        </h2>
+
+        <p>
+
+            Vocabulary completed successfully.
+
+        </p>
+
+        <button
+            id="readingBtn"
+            class="start-btn">
+
+            Start Reading 1
+
+        </button>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
