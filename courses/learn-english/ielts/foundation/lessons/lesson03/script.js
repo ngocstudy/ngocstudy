@@ -6,7 +6,19 @@
 let vocabulary = [];
 let currentIndex = 0;
 
+// ===============================
+// MATCHING GAME VARIABLES
+// ===============================
 
+let matchingPairs = [];
+
+let selectedEnglish = null;
+
+let selectedMeaning = null;
+
+let correctMatches = 0;
+
+let reviewTimer = null;
 // ===============================
 // GET ELEMENTS
 // ===============================
@@ -59,7 +71,49 @@ document.querySelector(".navigation");
 const finishScreen =
 document.getElementById("finishScreen");
 
+// Matching
 
+const matchingScreen =
+document.getElementById("matchingScreen");
+
+const matchingContainer =
+document.getElementById("matchingContainer");
+
+const matchingMessage =
+document.getElementById("matchingMessage");
+
+const correctCount =
+document.getElementById("correctCount");
+
+
+// Review
+
+const reviewScreen =
+document.getElementById("reviewScreen");
+
+const reviewWord =
+document.getElementById("reviewWord");
+
+const reviewIPA =
+document.getElementById("reviewIPA");
+
+const reviewMeaning =
+document.getElementById("reviewMeaning");
+
+const reviewSynonyms =
+document.getElementById("reviewSynonyms");
+
+const reviewFamily =
+document.getElementById("reviewFamily");
+
+const reviewSpeaker =
+document.getElementById("reviewSpeaker");
+
+const continueMatchingBtn =
+document.getElementById("continueMatchingBtn");
+
+const countdownText =
+document.getElementById("countdownText");
 // ===============================
 // LOAD LESSON JSON
 // ===============================
