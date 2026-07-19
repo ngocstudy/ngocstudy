@@ -716,3 +716,91 @@ width:100%;
     font-weight:600;
 
         }
+/* ===========================
+   MOBILE OPTIMIZATION
+=========================== */
+
+@media (max-width:768px){
+
+    .matching-container{
+
+        gap:12px;
+
+    }
+
+    .match-column{
+
+        width:48%;
+
+    }
+
+    .match-card{
+
+        min-height:72px;
+
+        padding:12px;
+
+        border-radius:16px;
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+        text-align:center;
+
+        font-size:16px;
+
+        font-weight:600;
+
+    }
+
+    .speaker-circle{
+
+        width:46px;
+
+        height:46px;
+
+        font-size:20px;
+
+        flex-shrink:0;
+
+    }
+
+    .review-screen{
+
+        padding:18px;
+
+    }
+
+    #reviewWord{
+
+        font-size:30px;
+
+        margin:15px 0 8px;
+
+    }
+
+    #reviewIPA{
+
+        color:#666;
+
+        margin-bottom:10px;
+
+    }
+
+    #reviewMeaning{
+
+        font-size:20px;
+
+        font-weight:700;
+
+        color:#1976d2;
+
+        margin-bottom:20px;
+
+    }
+
+}
+
