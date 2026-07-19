@@ -1,0 +1,386 @@
+[
+  {
+    "word": "Research",
+    "ipa": "/rɪˈsɜːtʃ/",
+    "meaning": "nghiên cứu",
+    "synonyms": [
+      {
+        "word": "study",
+        "ipa": "/ˈstʌdi/",
+        "meaning": "nghiên cứu"
+      },
+      {
+        "word": "investigation",
+        "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+        "meaning": "sự điều tra, nghiên cứu"
+      },
+      {
+        "word": "inquiry",
+        "ipa": "/ɪnˈkwaɪəri/",
+        "meaning": "sự tìm hiểu, điều tra"
+      }
+    ],
+    "family": [
+      {
+        "word": "researcher",
+        "ipa": "/rɪˈsɜːtʃə(r)/",
+        "pos": "n",
+        "meaning": "nhà nghiên cứu"
+      },
+      {
+        "word": "researchable",
+        "ipa": "/rɪˈsɜːtʃəbl/",
+        "pos": "adj",
+        "meaning": "có thể nghiên cứu"
+      }
+    ]
+  },
+  {
+    "word": "Evidence",
+    "ipa": "/ˈevɪdəns/",
+    "meaning": "bằng chứng",
+    "synonyms": [
+      {
+        "word": "proof",
+        "ipa": "/pruːf/",
+        "meaning": "bằng chứng"
+      },
+      {
+        "word": "indication",
+        "ipa": "/ˌɪndɪˈkeɪʃn/",
+        "meaning": "dấu hiệu"
+      },
+      {
+        "word": "testimony",
+        "ipa": "/ˈtestɪməni/",
+        "meaning": "lời chứng"
+      }
+    ],
+    "family": [
+      {
+        "word": "evident",
+        "ipa": "/ˈevɪdənt/",
+        "pos": "adj",
+        "meaning": "rõ ràng"
+      },
+      {
+        "word": "evidently",
+        "ipa": "/ˈevɪdəntli/",
+        "pos": "adv",
+        "meaning": "rõ ràng"
+      }
+    ]
+  },
+  {
+    "word": "Experiment",
+    "ipa": "/ɪkˈsperɪmənt/",
+    "meaning": "thí nghiệm",
+    "synonyms": [
+      {
+        "word": "test",
+        "ipa": "/test/",
+        "meaning": "kiểm tra"
+      },
+      {
+        "word": "trial",
+        "ipa": "/ˈtraɪəl/",
+        "meaning": "thử nghiệm"
+      },
+      {
+        "word": "investigation",
+        "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+        "meaning": "nghiên cứu"
+      }
+    ],
+    "family": [
+      {
+        "word": "experimental",
+        "ipa": "/ɪkˌsperɪˈmentl/",
+        "pos": "adj",
+        "meaning": "mang tính thực nghiệm"
+      },
+      {
+        "word": "experimentally",
+        "ipa": "/ɪkˌsperɪˈmentəli/",
+        "pos": "adv",
+        "meaning": "bằng thực nghiệm"
+      },
+      {
+        "word": "experimentation",
+        "ipa": "/ɪkˌsperɪmenˈteɪʃn/",
+        "pos": "n",
+        "meaning": "sự thử nghiệm"
+      }
+    ]
+  },
+  {
+    "word": "Discover",
+    "ipa": "/dɪˈskʌvə(r)/",
+    "meaning": "khám phá",
+    "synonyms": [
+      {
+        "word": "find",
+        "ipa": "/faɪnd/",
+        "meaning": "tìm thấy"
+      },
+      {
+        "word": "detect",
+        "ipa": "/dɪˈtekt/",
+        "meaning": "phát hiện"
+      },
+      {
+        "word": "uncover",
+        "ipa": "/ʌnˈkʌvə(r)/",
+        "meaning": "khám phá"
+      }
+    ],
+    "family": [
+      {
+        "word": "discovery",
+        "ipa": "/dɪˈskʌvəri/",
+        "pos": "n",
+        "meaning": "sự khám phá"
+      },
+      {
+        "word": "discoverer",
+        "ipa": "/dɪˈskʌvərə(r)/",
+        "pos": "n",
+        "meaning": "người khám phá"
+      }
+    ]
+  },
+  {
+    "word": "Scientist",
+    "ipa": "/ˈsaɪəntɪst/",
+    "meaning": "nhà khoa học",
+    "synonyms": [
+      {
+        "word": "researcher",
+        "ipa": "/rɪˈsɜːtʃə(r)/",
+        "meaning": "nhà nghiên cứu"
+      },
+      {
+        "word": "expert",
+        "ipa": "/ˈekspɜːt/",
+        "meaning": "chuyên gia"
+      },
+      {
+        "word": "academic",
+        "ipa": "/ˌækəˈdemɪk/",
+        "meaning": "học giả"
+      }
+    ],
+    "family": [
+      {
+        "word": "science",
+        "ipa": "/ˈsaɪəns/",
+        "pos": "n",
+        "meaning": "khoa học"
+      },
+      {
+        "word": "scientific",
+        "ipa": "/ˌsaɪənˈtɪfɪk/",
+        "pos": "adj",
+        "meaning": "thuộc khoa học"
+      },
+      {
+        "word": "scientifically",
+        "ipa": "/ˌsaɪənˈtɪfɪkli/",
+        "pos": "adv",
+        "meaning": "một cách khoa học"
+      }
+    ]
+  },
+  {
+    "word": "Theory",
+    "ipa": "/ˈθɪəri/",
+    "meaning": "lý thuyết",
+    "synonyms": [
+      {
+        "word": "principle",
+        "ipa": "/ˈprɪnsəpl/",
+        "meaning": "nguyên lý"
+      },
+      {
+        "word": "concept",
+        "ipa": "/ˈkɒnsept/",
+        "meaning": "khái niệm"
+      },
+      {
+        "word": "hypothesis",
+        "ipa": "/haɪˈpɒθəsɪs/",
+        "meaning": "giả thuyết"
+      }
+    ],
+    "family": [
+      {
+        "word": "theoretical",
+        "ipa": "/ˌθɪəˈretɪkl/",
+        "pos": "adj",
+        "meaning": "mang tính lý thuyết"
+      },
+      {
+        "word": "theoretically",
+        "ipa": "/ˌθɪəˈretɪkli/",
+        "pos": "adv",
+        "meaning": "về mặt lý thuyết"
+      },
+      {
+        "word": "theorize",
+        "ipa": "/ˈθɪəraɪz/",
+        "pos": "v",
+        "meaning": "đưa ra giả thuyết"
+      }
+    ]
+  },
+  {
+    "word": "Method",
+    "ipa": "/ˈmeθəd/",
+    "meaning": "phương pháp",
+    "synonyms": [
+      {
+        "word": "approach",
+        "ipa": "/əˈprəʊtʃ/",
+        "meaning": "cách tiếp cận"
+      },
+      {
+        "word": "technique",
+        "ipa": "/tekˈniːk/",
+        "meaning": "kỹ thuật"
+      },
+      {
+        "word": "procedure",
+        "ipa": "/prəˈsiːdʒə(r)/",
+        "meaning": "quy trình"
+      }
+    ],
+    "family": [
+      {
+        "word": "methodological",
+        "ipa": "/ˌmeθədəˈlɒdʒɪkl/",
+        "pos": "adj",
+        "meaning": "thuộc phương pháp"
+      },
+      {
+        "word": "methodology",
+        "ipa": "/ˌmeθəˈdɒlədʒi/",
+        "pos": "n",
+        "meaning": "phương pháp luận"
+      }
+    ]
+  },
+  {
+    "word": "Data",
+    "ipa": "/ˈdeɪtə/",
+    "meaning": "dữ liệu",
+    "synonyms": [
+      {
+        "word": "statistics",
+        "ipa": "/stəˈtɪstɪks/",
+        "meaning": "số liệu thống kê"
+      },
+      {
+        "word": "figures",
+        "ipa": "/ˈfɪɡəz/",
+        "meaning": "số liệu"
+      },
+      {
+        "word": "records",
+        "ipa": "/ˈrekɔːdz/",
+        "meaning": "hồ sơ, dữ liệu"
+      }
+    ],
+    "family": [
+      {
+        "word": "database",
+        "ipa": "/ˈdeɪtəbeɪs/",
+        "pos": "n",
+        "meaning": "cơ sở dữ liệu"
+      },
+      {
+        "word": "datum",
+        "ipa": "/ˈdeɪtəm/",
+        "pos": "n",
+        "meaning": "một mục dữ liệu"
+      }
+    ]
+  },
+  {
+    "word": "Information",
+    "ipa": "/ˌɪnfəˈmeɪʃn/",
+    "meaning": "thông tin",
+    "synonyms": [
+      {
+        "word": "details",
+        "ipa": "/ˈdiːteɪlz/",
+        "meaning": "chi tiết"
+      },
+      {
+        "word": "facts",
+        "ipa": "/fækts/",
+        "meaning": "sự thật"
+      },
+      {
+        "word": "knowledge",
+        "ipa": "/ˈnɒlɪdʒ/",
+        "meaning": "kiến thức"
+      }
+    ],
+    "family": [
+      {
+        "word": "inform",
+        "ipa": "/ɪnˈfɔːm/",
+        "pos": "v",
+        "meaning": "thông báo"
+      },
+      {
+        "word": "informative",
+        "ipa": "/ɪnˈfɔːmətɪv/",
+        "pos": "adj",
+        "meaning": "giàu thông tin"
+      },
+      {
+        "word": "informed",
+        "ipa": "/ɪnˈfɔːmd/",
+        "pos": "adj",
+        "meaning": "được cung cấp thông tin"
+      }
+    ]
+  },
+  {
+    "word": "Knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "meaning": "kiến thức",
+    "synonyms": [
+      {
+        "word": "understanding",
+        "ipa": "/ˌʌndəˈstændɪŋ/",
+        "meaning": "sự hiểu biết"
+      },
+      {
+        "word": "awareness",
+        "ipa": "/əˈweənəs/",
+        "meaning": "nhận thức"
+      },
+      {
+        "word": "learning",
+        "ipa": "/ˈlɜːnɪŋ/",
+        "meaning": "sự học hỏi"
+      }
+    ],
+    "family": [
+      {
+        "word": "knowledgeable",
+        "ipa": "/ˈnɒlɪdʒəbl/",
+        "pos": "adj",
+        "meaning": "hiểu biết"
+      },
+      {
+        "word": "know",
+        "ipa": "/nəʊ/",
+        "pos": "v",
+        "meaning": "biết"
+      }
+    ]
+  }
+]
