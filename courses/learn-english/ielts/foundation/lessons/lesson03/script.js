@@ -111,13 +111,12 @@ fetch("./lesson03.json")
 
 .catch(error=>{
 
-
     console.error(error);
 
-
     word.textContent =
-    "JSON Loading Error";
+    error.message;
 
+    alert(error.message);
 
 });
 // ===============================
