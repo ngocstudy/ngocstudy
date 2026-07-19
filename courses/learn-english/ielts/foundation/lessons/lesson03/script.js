@@ -1,7 +1,11 @@
+// ===============================
+// LESSON 03 - VOCABULARY ENGINE
+// ===============================
 
 let vocabulary = [];
-let current = 0;
+let currentIndex = 0;
 
+// Main Elements
 const word = document.getElementById("word");
 const ipa = document.getElementById("ipa");
 const meaning = document.getElementById("meaning");
@@ -9,23 +13,49 @@ const meaning = document.getElementById("meaning");
 const synonyms = document.getElementById("synonyms");
 const family = document.getElementById("family");
 
+// Progress
 const progressText = document.getElementById("progressText");
 const progressPercent = document.getElementById("progressPercent");
 const progressFill = document.getElementById("progressFill");
 
+// Buttons
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const speakBtn = document.getElementById("speakWord");
+
+// Screens
+const card = document.querySelector(".card");
+const navigation = document.querySelector(".navigation");
+const finishScreen = document.getElementById("finishScreen");
+
+// ===============================
+// LOAD JSON
+// ===============================
+
 fetch("lesson03.json")
-.then(res => res.json())
-.then(data => {
+    .then(response => response.json())
+    .then(data => {
 
-    vocabulary = data;
+        vocabulary = data;
 
-    showWord();
+        showWord();
 
-});
+    })
+    .catch(error => {
 
-function showWord(){
+        console.error(error);
 
-    const item = vocabulary[current];
+        word.textContent = "Cannot load lesson03.json";
+
+    });
+
+// ===============================
+// SHOW WORD
+// ===============================
+
+function showWord() {
+
+    const item = vocabulary[currentIndex];
 
     word.textContent = item.word;
 
@@ -33,37 +63,64 @@ function showWord(){
 
     meaning.textContent = item.meaning;
 
-    progressText.textContent =
-    `${current+1} / ${vocabulary.length}`;
-
-    let percent =
-    Math.round((current+1)/vocabulary.length*100);
-
-    progressPercent.textContent =
-    percent+"%";
-
-    progressFill.style.width =
-    percent+"%";
-
     loadSynonyms(item.synonyms);
 
     loadFamily(item.family);
 
+    updateProgress();
+
 }
+// ===============================
+// UPDATE PROGRESS
+// ===============================
+
+function updateProgress(){
+
+    let total = vocabulary.length;
+
+    let current = currentIndex + 1;
+
+    let percent = Math.round((current / total) * 100);
+
+
+    progressText.textContent =
+        `${current} / ${total}`;
+
+
+    progressPercent.textContent =
+        `${percent}%`;
+
+
+    progressFill.style.width =
+        `${percent}%`;
+
+}
+
+
+// ===============================
+// LOAD SYNONYMS
+// ===============================
+
 function loadSynonyms(list){
 
     synonyms.innerHTML = "";
 
-    list.forEach(item=>{
 
-        synonyms.innerHTML += `
-        <div class="item">
+    list.forEach(item => {
+
+        let box = document.createElement("div");
+
+        box.className = "item";
+
+
+        box.innerHTML = `
 
             <button onclick="speak('${item.word}')">
 
                 🔊
 
             </button>
+
 
             <div class="item-content">
 
@@ -73,11 +130,13 @@ function loadSynonyms(list){
 
                 </div>
 
+
                 <div class="item-ipa">
 
                     ${item.ipa}
 
                 </div>
+
 
                 <div class="item-meaning">
 
@@ -87,21 +146,34 @@ function loadSynonyms(list){
 
             </div>
 
-        </div>
         `;
+
+
+        synonyms.appendChild(box);
 
     });
 
 }
 
+
+
+// ===============================
+// LOAD WORD FAMILY
+// ===============================
+
 function loadFamily(list){
 
     family.innerHTML = "";
 
-    list.forEach(item=>{
 
-        family.innerHTML += `
-        <div class="item">
+    list.forEach(item => {
+
+        let box = document.createElement("div");
+
+        box.className = "item";
+
+
+        box.innerHTML = `
 
             <button onclick="speak('${item.word}')">
 
@@ -109,13 +181,16 @@ function loadFamily(list){
 
             </button>
 
+
             <div class="item-content">
 
                 <div class="item-word">
 
-                    ${item.word} (${item.pos})
+                    ${item.word}
+                    (${item.pos})
 
                 </div>
+
 
                 <div class="item-ipa">
 
@@ -123,68 +198,146 @@ function loadFamily(list){
 
                 </div>
 
+
                 <div class="item-meaning">
 
                     ${item.meaning}
 
                 </div>
 
+
             </div>
 
-        </div>
         `;
+
+
+        family.appendChild(box);
 
     });
 
-}document.getElementById("nextBtn").onclick = ()=>{
+}
+// ===============================
+// NAVIGATION
+// ===============================
 
-    if(current < vocabulary.length-1){
+nextBtn.addEventListener("click",()=>{
 
-        current++;
+
+    if(currentIndex < vocabulary.length - 1){
+
+
+        currentIndex++;
+
 
         showWord();
+
 
     }else{
 
-        document.querySelector(".card").style.display="none";
 
-        document.querySelector(".navigation").style.display="none";
+        finishVocabulary();
 
-        document.getElementById("finishScreen")
-        .classList.remove("hidden");
 
     }
 
-};
 
-document.getElementById("prevBtn").onclick = ()=>{
+});
 
-    if(current>0){
 
-        current--;
+
+prevBtn.addEventListener("click",()=>{
+
+
+    if(currentIndex > 0){
+
+
+        currentIndex--;
+
 
         showWord();
 
+
     }
 
-};
 
-function speak(text){
+});
 
-    let speech =
-    new SpeechSynthesisUtterance(text);
 
-    speech.lang="en-US";
 
-    speech.rate=0.9;
+// ===============================
+// FINISH VOCABULARY
+// ===============================
 
-    speechSynthesis.speak(speech);
+function finishVocabulary(){
+
+
+    card.style.display = "none";
+
+
+    navigation.style.display = "none";
+
+
+    finishScreen.classList.remove("hidden");
+
 
 }
 
-document.getElementById("speakWord").onclick=()=>{
 
-    speak(vocabulary[current].word);
 
-};
+// ===============================
+// TEXT TO SPEECH
+// ===============================
 
+function speak(text){
+
+
+    let speech =
+        new SpeechSynthesisUtterance(text);
+
+
+    speech.lang = "en-US";
+
+
+    speech.rate = 0.85;
+
+
+    speechSynthesis.speak(speech);
+
+
+}
+
+
+
+// Main word pronunciation
+
+speakBtn.addEventListener("click",()=>{
+
+
+    speak(vocabulary[currentIndex].word);
+
+
+});
+
+
+
+// ===============================
+// START MATCHING BUTTON
+// ===============================
+
+const matchingBtn =
+document.getElementById("matchingBtn");
+
+
+if(matchingBtn){
+
+
+    matchingBtn.addEventListener("click",()=>{
+
+
+        alert("Matching Game will start next");
+
+
+    });
+
+
+}
