@@ -531,168 +531,587 @@ window.addEventListener("load",()=>{
 
 });
 // ===============================
-// MATCHING GAME
+// MATCHING GAME 2.0
 // ===============================
 
 const matchingBtn =
 document.getElementById("matchingBtn");
 
-const matchingScreen =
-document.getElementById("matchingScreen");
+let englishCards = [];
+let meaningCards = [];
+let matchedPairs = [];
 
-const englishColumn =
-document.getElementById("englishColumn");
+matchingBtn.addEventListener("click", startMatching);
 
-const meaningColumn =
-document.getElementById("meaningColumn");
 
-const matchScore =
-document.getElementById("matchScore");
+// ===============================
+// START MATCHING
+// ===============================
 
-const finishMatchingBtn =
-document.getElementById("finishMatchingBtn");
-
-const resetMatchingBtn =
-document.getElementById("resetMatchingBtn");
-
-let selectedEnglish = null;
-let selectedMeaning = null;
-let matchedCount = 0;
-
-matchingBtn.addEventListener("click", () => {
+function startMatching(){
 
     finishScreen.classList.add("hidden");
 
     matchingScreen.classList.remove("hidden");
 
-    createMatchingGame();
+    card.style.display="none";
 
-});
-function createMatchingGame(){
+    navigation.style.display="none";
 
-    englishColumn.innerHTML = "";
-    meaningColumn.innerHTML = "";
+    correctMatches = 0;
 
-    matchedCount = 0;
+    correctCount.textContent = "0";
 
-    matchScore.textContent = "Correct: 0 / 10";
+    selectedEnglish = null;
 
-    finishMatchingBtn.disabled = true;
+    selectedMeaning = null;
 
-    const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
+    matchedPairs = [];
 
-    vocabulary.forEach(item => {
+    buildMatching();
 
-        const div = document.createElement("div");
+}
 
-        div.className = "matching-item";
 
-        div.textContent = item.word;
 
-        div.dataset.word = item.word;
+// ===============================
+// BUILD MATCHING
+// ===============================
 
-        div.onclick = () => selectEnglish(div);
+function buildMatching(){
+
+    matchingContainer.innerHTML="";
+
+    let englishColumn =
+    document.createElement("div");
+
+    englishColumn.className =
+    "match-column";
+
+
+    let meaningColumn =
+    document.createElement("div");
+
+    meaningColumn.className =
+    "match-column";
+
+
+    englishCards =
+    vocabulary.map((item,index)=>({
+
+        index:index,
+
+        word:item.word,
+
+        ipa:item.ipa,
+
+        meaning:item.meaning
+
+    }));
+
+
+    meaningCards =
+    vocabulary.map((item,index)=>({
+
+        index:index,
+
+        meaning:item.meaning
+
+    }));
+
+
+    shuffleArray(
+    meaningCards
+    );
+
+
+
+    // ENGLISH COLUMN
+
+    englishCards.forEach(item=>{
+
+        let div =
+        document.createElement("div");
+
+        div.className =
+        "match-card";
+
+        div.dataset.index =
+        item.index;
+
+
+        div.innerHTML = `
+
+        <button
+        class="speaker-circle">
+
+        🔊
+
+        </button>
+
+        <span>
+
+        ${item.word}
+
+        </span>
+
+        `;
+
+
+        div.querySelector("button")
+        .addEventListener("click",(e)=>{
+
+            e.stopPropagation();
+
+            speak(item.word);
+
+        });
+
+
+        div.addEventListener("click",()=>{
+
+            selectEnglish(div,item);
+
+        });
+
 
         englishColumn.appendChild(div);
 
     });
 
-    shuffled.forEach(item => {
 
-        const div = document.createElement("div");
 
-        div.className = "matching-item";
 
-        div.textContent = item.meaning;
+    // MEANING COLUMN
 
-        div.dataset.word = item.word;
+    meaningCards.forEach(item=>{
 
-        div.onclick = () => selectMeaning(div);
+        let div =
+        document.createElement("div");
+
+        div.className =
+        "match-card";
+
+        div.dataset.index =
+        item.index;
+
+        div.textContent =
+        item.meaning;
+
+
+        div.addEventListener("click",()=>{
+
+            selectMeaning(div,item);
+
+        });
+
 
         meaningColumn.appendChild(div);
 
     });
 
-}
-function selectEnglish(item){
 
-    if(item.classList.contains("correct")) return;
 
-    document.querySelectorAll("#englishColumn .matching-item")
-        .forEach(e => e.classList.remove("selected"));
+    matchingContainer.appendChild(
+    englishColumn
+    );
 
-    selectedEnglish = item;
-
-    item.classList.add("selected");
-
-    checkMatch();
+    matchingContainer.appendChild(
+    meaningColumn
+    );
 
 }
 
-function selectMeaning(item){
 
-    if(item.classList.contains("correct")) return;
 
-    document.querySelectorAll("#meaningColumn .matching-item")
-        .forEach(e => e.classList.remove("selected"));
+// ===============================
+// SHUFFLE
+// ===============================
 
-    selectedMeaning = item;
+function shuffleArray(array){
 
-    item.classList.add("selected");
+    for(
+        let i=array.length-1;
+        i>0;
+        i--
+    ){
 
-    checkMatch();
+        let j =
+        Math.floor(
+        Math.random()*(i+1)
+        );
 
-}
-
-function checkMatch(){
-
-    if(!selectedEnglish || !selectedMeaning) return;
-
-    if(selectedEnglish.dataset.word === selectedMeaning.dataset.word){
-
-        selectedEnglish.classList.remove("selected");
-        selectedMeaning.classList.remove("selected");
-
-        selectedEnglish.classList.add("correct");
-        selectedMeaning.classList.add("correct");
-
-        matchedCount++;
-
-        matchScore.textContent =
-        `Correct: ${matchedCount} / ${vocabulary.length}`;
-
-        if(matchedCount === vocabulary.length){
-
-            finishMatchingBtn.disabled = false;
-
-        }
-
-    }else{
-
-        selectedEnglish.classList.add("wrong");
-        selectedMeaning.classList.add("wrong");
-
-        setTimeout(()=>{
-
-            selectedEnglish.classList.remove("selected","wrong");
-            selectedMeaning.classList.remove("selected","wrong");
-
-        },500);
+        [array[i],array[j]] =
+        [array[j],array[i]];
 
     }
 
-    selectedEnglish = null;
-    selectedMeaning = null;
+}
+// ===============================
+// SELECT ENGLISH
+// ===============================
+
+function selectEnglish(card,item){
+
+    if(card.classList.contains("correct")) return;
+
+    document
+    .querySelectorAll(".match-column:first-child .match-card")
+    .forEach(c=>c.classList.remove("selected"));
+
+    card.classList.add("selected");
+
+    selectedEnglish={
+        card:card,
+        item:item
+    };
+
+    checkMatch();
 
 }
 
-resetMatchingBtn.addEventListener("click", createMatchingGame);
 
-finishMatchingBtn.addEventListener("click",()=>{
+
+// ===============================
+// SELECT MEANING
+// ===============================
+
+function selectMeaning(card,item){
+
+    if(card.classList.contains("correct")) return;
+
+    document
+    .querySelectorAll(".match-column:last-child .match-card")
+    .forEach(c=>c.classList.remove("selected"));
+
+    card.classList.add("selected");
+
+    selectedMeaning={
+        card:card,
+        item:item
+    };
+
+    checkMatch();
+
+}
+
+
+
+// ===============================
+// CHECK MATCH
+// ===============================
+
+function checkMatch(){
+
+    if(
+        !selectedEnglish ||
+        !selectedMeaning
+    ){
+        return;
+    }
+
+
+    // CORRECT
+
+    if(
+        selectedEnglish.item.index ===
+        selectedMeaning.item.index
+    ){
+
+        selectedEnglish.card
+        .classList.add("correct");
+
+        selectedMeaning.card
+        .classList.add("correct");
+
+
+        correctMatches++;
+
+        correctCount.textContent=
+        correctMatches;
+
+
+        setTimeout(()=>{
+
+            selectedEnglish.card.remove();
+
+            selectedMeaning.card.remove();
+
+        },500);
+
+
+        if(correctMatches===10){
+
+            setTimeout(()=>{
+
+                finishMatching();
+
+            },700);
+
+        }
+
+
+    }
+
+
+    // WRONG
+
+    else{
+
+        selectedEnglish.card
+        .classList.add("wrong");
+
+        selectedMeaning.card
+        .classList.add("wrong");
+
+
+        setTimeout(()=>{
+
+            selectedEnglish.card
+            .classList.remove("wrong");
+
+            selectedMeaning.card
+            .classList.remove("wrong");
+
+        },500);
+
+
+        showReview(
+            vocabulary[
+                selectedEnglish.item.index
+            ]
+        );
+
+    }
+
+
+    document
+    .querySelectorAll(".match-card")
+    .forEach(card=>{
+
+        card.classList.remove("selected");
+
+    });
+
+
+    selectedEnglish=null;
+
+    selectedMeaning=null;
+
+    }
+// ===============================
+// REVIEW SCREEN
+// ===============================
+
+function showReview(item){
 
     matchingScreen.classList.add("hidden");
 
-    document.getElementById("readingUnlocked")
-        .classList.remove("hidden");
+    reviewScreen.classList.remove("hidden");
+
+    reviewWord.textContent =
+    item.word;
+
+    reviewIPA.textContent =
+    item.ipa;
+
+    reviewMeaning.textContent =
+    item.meaning;
+
+
+
+    reviewSynonyms.innerHTML =
+    "<h3>Synonyms</h3>";
+
+    item.synonyms.forEach(s=>{
+
+        reviewSynonyms.innerHTML += `
+
+        <div class="item">
+
+            🔊 ${s.word}
+
+            <br>
+
+            ${s.ipa}
+
+            <br>
+
+            ${s.meaning}
+
+        </div>
+
+        `;
+
+    });
+
+
+
+    reviewFamily.innerHTML =
+    "<h3>Word Family</h3>";
+
+    item.family.forEach(f=>{
+
+        reviewFamily.innerHTML += `
+
+        <div class="item">
+
+            🔊 ${f.word}
+
+            (${f.pos})
+
+            <br>
+
+            ${f.ipa}
+
+            <br>
+
+            ${f.meaning}
+
+        </div>
+
+        `;
+
+    });
+
+
+
+    reviewSpeaker.onclick = ()=>{
+
+        speak(item.word);
+
+    };
+
+
+
+    let second = 4;
+
+    countdownText.textContent =
+    `Returning to Matching in ${second}...`;
+
+
+    clearInterval(reviewTimer);
+
+    reviewTimer =
+    setInterval(()=>{
+
+        second--;
+
+        countdownText.textContent =
+        `Returning to Matching in ${second}...`;
+
+        if(second<=0){
+
+            clearInterval(reviewTimer);
+
+            backToMatching();
+
+        }
+
+    },1000);
+
+}
+
+
+
+// ===============================
+// CONTINUE BUTTON
+// ===============================
+
+continueMatchingBtn.addEventListener("click",()=>{
+
+    clearInterval(reviewTimer);
+
+    backToMatching();
 
 });
+
+
+
+// ===============================
+// BACK TO MATCHING
+// ===============================
+
+function backToMatching(){
+
+    reviewScreen.classList.add("hidden");
+
+    matchingScreen.classList.remove("hidden");
+
+        }
+// ===============================
+// FINISH MATCHING
+// ===============================
+
+function finishMatching(){
+
+    matchingScreen.classList.add("hidden");
+
+    reviewScreen.classList.add("hidden");
+
+    const readingLocked =
+    document.getElementById("readingLocked");
+
+    const readingUnlocked =
+    document.getElementById("readingUnlocked");
+
+    if(readingLocked){
+        readingLocked.classList.add("hidden");
+    }
+
+    if(readingUnlocked){
+        readingUnlocked.classList.remove("hidden");
+    }
+
+}
+
+
+
+// ===============================
+// START READING
+// ===============================
+
+const readingBtn =
+document.getElementById("readingBtn");
+
+if(readingBtn){
+
+    readingBtn.addEventListener("click",()=>{
+
+        alert(
+        "Reading 1 will be available in the next version."
+        );
+
+    });
+
+}
+
+
+
+// ===============================
+// RESET MATCHING
+// ===============================
+
+function resetMatching(){
+
+    selectedEnglish = null;
+
+    selectedMeaning = null;
+
+    correctMatches = 0;
+
+    correctCount.textContent = "0";
+
+    clearInterval(reviewTimer);
+
+}
+
+
+
+// ===============================
+// DEBUG
+// ===============================
+
+console.log(
+    "Matching Game 2.0 Loaded"
+);
