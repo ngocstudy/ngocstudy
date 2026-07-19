@@ -476,3 +476,169 @@ window.addEventListener("load",()=>{
 
 
 });
+// ===============================
+// MATCHING GAME
+// ===============================
+
+const matchingBtn =
+document.getElementById("matchingBtn");
+
+const matchingScreen =
+document.getElementById("matchingScreen");
+
+const englishColumn =
+document.getElementById("englishColumn");
+
+const meaningColumn =
+document.getElementById("meaningColumn");
+
+const matchScore =
+document.getElementById("matchScore");
+
+const finishMatchingBtn =
+document.getElementById("finishMatchingBtn");
+
+const resetMatchingBtn =
+document.getElementById("resetMatchingBtn");
+
+let selectedEnglish = null;
+let selectedMeaning = null;
+let matchedCount = 0;
+
+matchingBtn.addEventListener("click", () => {
+
+    finishScreen.classList.add("hidden");
+
+    matchingScreen.classList.remove("hidden");
+
+    createMatchingGame();
+
+});
+function createMatchingGame(){
+
+    englishColumn.innerHTML = "";
+    meaningColumn.innerHTML = "";
+
+    matchedCount = 0;
+
+    matchScore.textContent = "Correct: 0 / 10";
+
+    finishMatchingBtn.disabled = true;
+
+    const shuffled = [...vocabulary].sort(() => Math.random() - 0.5);
+
+    vocabulary.forEach(item => {
+
+        const div = document.createElement("div");
+
+        div.className = "matching-item";
+
+        div.textContent = item.word;
+
+        div.dataset.word = item.word;
+
+        div.onclick = () => selectEnglish(div);
+
+        englishColumn.appendChild(div);
+
+    });
+
+    shuffled.forEach(item => {
+
+        const div = document.createElement("div");
+
+        div.className = "matching-item";
+
+        div.textContent = item.meaning;
+
+        div.dataset.word = item.word;
+
+        div.onclick = () => selectMeaning(div);
+
+        meaningColumn.appendChild(div);
+
+    });
+
+}
+function selectEnglish(item){
+
+    if(item.classList.contains("correct")) return;
+
+    document.querySelectorAll("#englishColumn .matching-item")
+        .forEach(e => e.classList.remove("selected"));
+
+    selectedEnglish = item;
+
+    item.classList.add("selected");
+
+    checkMatch();
+
+}
+
+function selectMeaning(item){
+
+    if(item.classList.contains("correct")) return;
+
+    document.querySelectorAll("#meaningColumn .matching-item")
+        .forEach(e => e.classList.remove("selected"));
+
+    selectedMeaning = item;
+
+    item.classList.add("selected");
+
+    checkMatch();
+
+}
+
+function checkMatch(){
+
+    if(!selectedEnglish || !selectedMeaning) return;
+
+    if(selectedEnglish.dataset.word === selectedMeaning.dataset.word){
+
+        selectedEnglish.classList.remove("selected");
+        selectedMeaning.classList.remove("selected");
+
+        selectedEnglish.classList.add("correct");
+        selectedMeaning.classList.add("correct");
+
+        matchedCount++;
+
+        matchScore.textContent =
+        `Correct: ${matchedCount} / ${vocabulary.length}`;
+
+        if(matchedCount === vocabulary.length){
+
+            finishMatchingBtn.disabled = false;
+
+        }
+
+    }else{
+
+        selectedEnglish.classList.add("wrong");
+        selectedMeaning.classList.add("wrong");
+
+        setTimeout(()=>{
+
+            selectedEnglish.classList.remove("selected","wrong");
+            selectedMeaning.classList.remove("selected","wrong");
+
+        },500);
+
+    }
+
+    selectedEnglish = null;
+    selectedMeaning = null;
+
+}
+
+resetMatchingBtn.addEventListener("click", createMatchingGame);
+
+finishMatchingBtn.addEventListener("click",()=>{
+
+    matchingScreen.classList.add("hidden");
+
+    document.getElementById("readingUnlocked")
+        .classList.remove("hidden");
+
+});
