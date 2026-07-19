@@ -213,69 +213,75 @@
 
     <!-- MATCHING GAME -->
 
+<!-- MATCHING GAME -->
+
 <section
     id="matchingScreen"
     class="matching-screen hidden">
 
-    <h2>
-        Vocabulary Matching
-    </h2>
+    <h2>Vocabulary Matching</h2>
 
     <p>
         Match each English word with its Vietnamese meaning.
     </p>
 
-    <div class="matching-progress">
-
-        <span id="matchScore">
-            Correct: 0 / 10
-        </span>
-
+    <div id="matchingScore">
+        Correct: <span id="correctCount">0</span> / 10
     </div>
 
     <div
-        id="matchingBoard"
-        class="matching-board">
-
-        <div
-            id="englishColumn"
-            class="matching-column">
-
-        </div>
-
-        <div
-            id="meaningColumn"
-            class="matching-column">
-
-        </div>
-</div>
-
-<div class="matching-footer">
-
-    <button
-        id="resetMatchingBtn"
-        class="nav-btn">
-
-        Reset
-
-    </button>
-
-    <button
-        id="finishMatchingBtn"
-        class="nav-btn primary"
-        disabled>
-
-        Finish Matching
-
-    </button>
-
-</div>
-
-</section>
+        id="matchingContainer"
+        class="matching-container">
     </div>
 
+</section>
 
-    <!-- READING LOCK -->
+
+<!-- REVIEW POPUP -->
+
+<section
+    id="reviewScreen"
+    class="review-screen hidden">
+
+    <button
+        id="reviewSpeaker"
+        class="review-speaker">
+
+        🔊
+
+    </button>
+
+    <h2 id="reviewWord">
+        Word
+    </h2>
+
+    <div id="reviewIPA">
+        /.../
+    </div>
+
+    <div id="reviewMeaning">
+        Meaning
+    </div>
+
+    <div id="reviewSynonyms">
+    </div>
+
+    <div id="reviewFamily">
+    </div>
+
+    <p id="countdownText">
+        Returning to Matching in 4...
+    </p>
+
+    <button
+        id="continueMatchingBtn"
+        class="start-btn">
+
+        Continue Matching
+
+    </button>
+
+</section>
 
     <section
         id="readingLocked"
