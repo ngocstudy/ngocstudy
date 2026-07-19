@@ -557,3 +557,162 @@ width:100%;
     color:#666;
     margin-top:2px;
 }
+/* ===========================
+   MATCHING GAME 2.0
+=========================== */
+
+.matching-message{
+
+    background:#eef6ff;
+
+    color:#1565c0;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    margin:15px 0;
+
+    text-align:center;
+
+    font-weight:600;
+
+}
+
+#matchingScore{
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:#2e7d32;
+
+    margin-bottom:18px;
+
+}
+
+.matching-container{
+
+    display:flex;
+
+    gap:18px;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+}
+
+.match-column{
+
+    width:48%;
+
+}
+
+.match-card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:14px;
+
+    margin-bottom:14px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.match-card:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.match-card.selected{
+
+    border:3px solid #1976d2;
+
+}
+
+.match-card.correct{
+
+    background:#dff5df;
+
+    border:3px solid #2e7d32;
+
+}
+
+.match-card.wrong{
+
+    background:#ffe2e2;
+
+    border:3px solid #d32f2f;
+
+}
+
+.speaker-circle{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#1976d2;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    margin-right:10px;
+
+}
+
+.review-screen{
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+.review-speaker{
+
+    width:70px;
+
+    height:70px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#1976d2;
+
+    color:white;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+#countdownText{
+
+    margin:20px 0;
+
+    color:#777;
+
+    font-weight:600;
+
+        }
