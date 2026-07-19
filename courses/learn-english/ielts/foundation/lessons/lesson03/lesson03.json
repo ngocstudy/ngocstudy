@@ -1,201 +1,193 @@
-
 [
   {
-    "word":"technology",
-    "ipa":"/tekˈnɒlədʒi/",
-    "meaning":"công nghệ",
-
-    "synonyms":[
+    "word": "technology",
+    "ipa": "/tekˈnɒlədʒi/",
+    "meaning": "công nghệ",
+    "synonyms": [
       {
-        "word":"innovation",
-        "ipa":"/ˌɪnəˈveɪʃən/",
-        "meaning":"đổi mới"
+        "word": "innovation",
+        "ipa": "/ˌɪnəˈveɪʃən/",
+        "meaning": "đổi mới"
       },
       {
-        "word":"engineering",
-        "ipa":"/ˌendʒɪˈnɪərɪŋ/",
-        "meaning":"kỹ thuật"
+        "word": "engineering",
+        "ipa": "/ˌendʒɪˈnɪərɪŋ/",
+        "meaning": "kỹ thuật"
       }
     ],
-
-    "family":[
+    "family": [
       {
-        "word":"technological",
-        "ipa":"/ˌteknəˈlɒdʒɪkl/",
-        "pos":"adj.",
-        "meaning":"thuộc công nghệ"
+        "word": "technological",
+        "ipa": "/ˌteknəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "meaning": "thuộc công nghệ"
       },
       {
-        "word":"technologically",
-        "ipa":"/ˌteknəˈlɒdʒɪkli/",
-        "pos":"adv.",
-        "meaning":"về mặt công nghệ"
+        "word": "technologically",
+        "ipa": "/ˌteknəˈlɒdʒɪkli/",
+        "pos": "adv.",
+        "meaning": "về mặt công nghệ"
       }
     ]
   },
-
   {
-    "word":"device",
-    "ipa":"/dɪˈvaɪs/",
-    "meaning":"thiết bị",
-
-    "synonyms":[
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "meaning": "thiết bị",
+    "synonyms": [
       {
-        "word":"equipment",
-        "ipa":"/ɪˈkwɪpmənt/",
-        "meaning":"thiết bị"
+        "word": "equipment",
+        "ipa": "/ɪˈkwɪpmənt/",
+        "meaning": "thiết bị"
       },
       {
-        "word":"machine",
-        "ipa":"/məˈʃiːn/",
-        "meaning":"máy móc"
+        "word": "machine",
+        "ipa": "/məˈʃiːn/",
+        "meaning": "máy móc"
       }
     ],
-
-    "family":[
+    "family": [
       {
-        "word":"devise",
-        "ipa":"/dɪˈvaɪz/",
-        "pos":"v.",
-        "meaning":"nghĩ ra"
-      }
-    ]
-  },
-
-  {
-    "word":"digital",
-    "ipa":"/ˈdɪdʒɪtl/",
-    "meaning":"kỹ thuật số",
-
-    "synonyms":[
-      {
-        "word":"electronic",
-        "ipa":"/ɪˌlekˈtrɒnɪk/",
-        "meaning":"điện tử"
-      },
-      {
-        "word":"computerized",
-        "ipa":"/kəmˈpjuːtəraɪzd/",
-        "meaning":"được tin học hóa"
-      }
-    ],
-
-    "family":[
-      {
-        "word":"digitally",
-        "ipa":"/ˈdɪdʒɪtəli/",
-        "pos":"adv.",
-        "meaning":"một cách kỹ thuật số"
-      }
-    ]
-  },
-
-  {
-    "word":"internet",
-    "ipa":"/ˈɪntənet/",
-    "meaning":"Internet",
-
-    "synonyms":[
-      {
-        "word":"web",
-        "ipa":"/web/",
-        "meaning":"mạng"
-      },
-      {
-        "word":"online",
-        "ipa":"/ˌɒnˈlaɪn/",
-        "meaning":"trực tuyến"
-      }
-    ],
-
-    "family":[
-      {
-        "word":"
+        "word": "devise",
+        "ipa": "/dɪˈvaɪz/",
+        "pos": "v.",
+        "meaning
         ,
   {
-    "word":"hardware",
-    "ipa":"/ˈhɑːdweə(r)/",
-    "meaning":"phần cứng",
-
-    "synonyms":[
+    "word": "hardware",
+    "ipa": "/ˈhɑːdweə(r)/",
+    "meaning": "phần cứng",
+    "synonyms": [
       {
-        "word":"equipment",
-        "ipa":"/ɪˈkwɪpmənt/",
-        "meaning":"thiết bị"
+        "word": "equipment",
+        "ipa": "/ɪˈkwɪpmənt/",
+        "meaning": "thiết bị"
       },
       {
-        "word":"machinery",
-        "ipa":"/məˈʃiːnəri/",
-        "meaning":"máy móc"
+        "word": "machinery",
+        "ipa": "/məˈʃiːnəri/",
+        "meaning": "máy móc"
       }
     ],
-
-    "family":[
+    "family": [
       {
-        "word":"hard",
-        "ipa":"/hɑːd/",
-        "pos":"adj.",
-        "meaning":"cứng"
+        "word": "hard",
+        "ipa": "/hɑːd/",
+        "pos": "adj.",
+        "meaning": "cứng"
       }
     ]
   },
-
   {
-    "word":"database",
-    "ipa":"/ˈdeɪtəbeɪs/",
-    "meaning":"cơ sở dữ liệu",
-
-    "synonyms":[
+    "word": "database",
+    "ipa": "/ˈdeɪtəbeɪs/",
+    "meaning": "cơ sở dữ liệu",
+    "synonyms": [
       {
-        "word":"record",
-        "ipa":"/ˈrekɔːd/",
-        "meaning":"hồ sơ"
+        "word": "record",
+        "ipa": "/ˈrekɔːd/",
+        "meaning": "hồ sơ"
       },
       {
-        "word":"archive",
-        "ipa":"/ˈɑːkaɪv/",
-        "meaning":"kho lưu trữ"
+        "word": "archive",
+        "ipa": "/ˈɑːkaɪv/",
+        "meaning": "kho lưu trữ"
       }
     ],
-
-    "family":[
+    "family": [
       {
-        "word":"data",
-        "ipa":"/ˈdeɪtə/",
-        "pos":"n.",
-        "meaning":"dữ liệu"
+        "word": "data",
+        "ipa": "/ˈdeɪtə/",
+        "pos": "n.",
+        "meaning": "dữ liệu"
       }
     ]
   },
-
   {
-    "word":"network",
-    "ipa":"/ˈnetwɜːk/",
-    "meaning":"mạng",
-
-    "synonyms":[
+    "word": "network",
+    "ipa": "/ˈnetwɜːk/",
+    "meaning": "mạng",
+    "synonyms": [
       {
-        "word":"system",
-        "ipa":"/ˈsɪstəm/",
-        "meaning":"hệ thống"
+        "word": "system",
+        "ipa": "/ˈsɪstəm/",
+        "meaning": "hệ thống"
       },
       {
-        "word":"connection",
-        "ipa":"/kəˈnekʃn/",
-        "meaning":"kết nối"
+        "word": "connection",
+        "ipa": "/kəˈnekʃn/",
+        "meaning": "kết nối"
       }
     ],
-
-    "family":[
+    "family": [
       {
-        "word":"networking",
-        "ipa":"/ˈnetwɜːkɪŋ/",
-        "pos":"n.",
-        "meaning":"kết nối mạng"
+        "word": "networking",
+        "ipa": "/ˈnetwɜːkɪŋ/",
+        "pos": "n.",
+        "meaning": "kết nối mạng"
       }
     ]
   },
-
   {
-    "word":"innovation",
-    "ipa":"/ˌ
+    "word": "innovation",
+    "ipa": "/ˌɪnəˈveɪʃən/",
+    "meaning": "sự đổi mới",
+    "synonyms": [
+      {
+        "word": "development",
+        "ipa": "/dɪˈveləpmənt/",
+        "meaning": "sự phát triển"
+      },
+      {
+        "word": "advance",
+        "ipa": "/ədˈvɑːns/",
+        "meaning": "tiến bộ"
+      }
+    ],
+    "family": [
+      {
+        "word": "innovative",
+        "ipa": "/ˈɪnəveɪtɪv/",
+        "pos": "adj.",
+        "meaning": "đổi mới"
+      },
+      {
+        "word": "innovatively",
+        "ipa": "/ˈɪnəveɪtɪvli/",
+        "pos": "adv.",
+        "meaning": "một cách đổi mới"
+      }
+    ]
+  },
+  {
+    "word": "artificial intelligence",
+    "ipa": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+    "meaning": "trí tuệ nhân tạo",
+    "synonyms": [
+      {
+        "word": "AI",
+        "ipa": "/ˌeɪˈaɪ/",
+        "meaning": "AI"
+      },
+      {
+        "word": "automation",
+        "ipa": "/ˌɔːtəˈmeɪʃn/",
+        "meaning": "tự động hóa"
+      }
+    ],
+    "family": [
+      {
+        "word": "artificial",
+        "ipa": "/ˌɑːtɪˈfɪʃl/",
+        "pos": "adj.",
+        "meaning": "nhân tạo"
+      },
+      {
+        "word": "intelligent",
+        "ipa": "/ɪnˈtelɪdʒənt/",
+        "pos": "adj.",
+        "meaning": "thông minh"
+      }
+    ]
+  }
+    ]
