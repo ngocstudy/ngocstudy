@@ -79,7 +79,8 @@
         "meaning": "một cách kỹ thuật số"
       }
     ]
-  },
+  }
+  ,
   {
     "word": "internet",
     "ipa": "/ˈɪntənet/",
@@ -91,8 +92,46 @@
         "meaning": "mạng web"
       },
       {
-        "
-      ,
+        "word": "online",
+        "ipa": "/ˌɒnˈlaɪn/",
+        "meaning": "trực tuyến"
+      }
+    ],
+    "family": [
+      {
+        "word": "online",
+        "ipa": "/ˌɒnˈlaɪn/",
+        "pos": "adj.",
+        "meaning": "trực tuyến"
+      }
+    ]
+  },
+  {
+    "word": "software",
+    "ipa": "/ˈsɒftweə(r)/",
+    "meaning": "phần mềm",
+    "synonyms": [
+      {
+        "word": "program",
+        "ipa": "/ˈprəʊɡræm/",
+        "meaning": "chương trình"
+      },
+      {
+        "word": "application",
+        "ipa": "/ˌæplɪˈkeɪʃn/",
+        "meaning": "ứng dụng"
+      }
+    ],
+    "family": [
+      {
+        "word": "soft",
+        "ipa": "/sɒft/",
+        "pos": "adj.",
+        "meaning": "mềm"
+      }
+    ]
+  }
+  ,
   {
     "word": "hardware",
     "ipa": "/ˈhɑːdweə(r)/",
@@ -142,7 +181,8 @@
         "meaning": "dữ liệu"
       }
     ]
-  },
+  }
+  ,
   {
     "word": "network",
     "ipa": "/ˈnetwɜːk/",
@@ -225,10 +265,5 @@
       {
         "word": "intelligent",
         "ipa": "/ɪnˈtelɪdʒənt/",
-        "pos": "adj.",
-        "meaning": "thông minh"
-      }
-    ]
-  }
-    ]
-    
+        "pos": "
+        
