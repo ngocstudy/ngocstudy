@@ -214,3 +214,16 @@ a{
     }
 
 }
+.lesson-en{
+    font-size:17px;
+    font-weight:600;
+    margin-top:8px;
+    margin-bottom:4px;
+}
+
+.lesson-vi{
+    font-size:13px;
+    color:#777;
+    margin-bottom:12px;
+        }
+
