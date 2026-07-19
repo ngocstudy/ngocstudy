@@ -198,29 +198,66 @@
 
     <!-- MATCHING GAME -->
 
-    <section
-        id="matchingScreen"
-        class="matching-screen hidden">
+<section
+    id="matchingScreen"
+    class="matching-screen hidden">
 
-        <h2>
+    <h2>
+        Vocabulary Matching
+    </h2>
 
-            Vocabulary Matching
+    <p>
+        Match each English word with its Vietnamese meaning.
+    </p>
 
-        </h2>
+    <div class="matching-progress">
 
-        <p>
+        <span id="matchScore">
+            Correct: 0 / 10
+        </span>
 
-            Match each English word with its Vietnamese meaning.
+    </div>
 
-        </p>
+    <div
+        id="matchingBoard"
+        class="matching-board">
 
         <div
-            id="matchingContainer"
-            class="matching-container">
+            id="englishColumn"
+            class="matching-column">
 
         </div>
 
-    </section>
+        <div
+            id="meaningColumn"
+            class="matching-column">
+
+        </div>
+</div>
+
+<div class="matching-footer">
+
+    <button
+        id="resetMatchingBtn"
+        class="nav-btn">
+
+        Reset
+
+    </button>
+
+    <button
+        id="finishMatchingBtn"
+        class="nav-btn primary"
+        disabled>
+
+        Finish Matching
+
+    </button>
+
+</div>
+
+</section>
+    </div>
 
 
     <!-- READING LOCK -->
