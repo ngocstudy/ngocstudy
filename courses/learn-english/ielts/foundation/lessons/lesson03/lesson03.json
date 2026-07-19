@@ -7,7 +7,7 @@
       {
         "word": "innovation",
         "ipa": "/ˌɪnəˈveɪʃən/",
-        "meaning": "đổi mới"
+        "meaning": "sự đổi mới"
       },
       {
         "word": "engineering",
@@ -51,8 +51,48 @@
         "word": "devise",
         "ipa": "/dɪˈvaɪz/",
         "pos": "v.",
-        "meaning
-        ,
+        "meaning": "sáng chế, nghĩ ra"
+      }
+    ]
+  },
+  {
+    "word": "digital",
+    "ipa": "/ˈdɪdʒɪtl/",
+    "meaning": "kỹ thuật số",
+    "synonyms": [
+      {
+        "word": "electronic",
+        "ipa": "/ɪˌlekˈtrɒnɪk/",
+        "meaning": "điện tử"
+      },
+      {
+        "word": "computerized",
+        "ipa": "/kəmˈpjuːtəraɪzd/",
+        "meaning": "được tin học hóa"
+      }
+    ],
+    "family": [
+      {
+        "word": "digitally",
+        "ipa": "/ˈdɪdʒɪtəli/",
+        "pos": "adv.",
+        "meaning": "một cách kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "word": "internet",
+    "ipa": "/ˈɪntənet/",
+    "meaning": "mạng Internet",
+    "synonyms": [
+      {
+        "word": "web",
+        "ipa": "/web/",
+        "meaning": "mạng web"
+      },
+      {
+        "
+      ,
   {
     "word": "hardware",
     "ipa": "/ˈhɑːdweə(r)/",
@@ -116,7 +156,7 @@
       {
         "word": "connection",
         "ipa": "/kəˈnekʃn/",
-        "meaning": "kết nối"
+        "meaning": "sự kết nối"
       }
     ],
     "family": [
@@ -141,7 +181,7 @@
       {
         "word": "advance",
         "ipa": "/ədˈvɑːns/",
-        "meaning": "tiến bộ"
+        "meaning": "sự tiến bộ"
       }
     ],
     "family": [
@@ -149,13 +189,13 @@
         "word": "innovative",
         "ipa": "/ˈɪnəveɪtɪv/",
         "pos": "adj.",
-        "meaning": "đổi mới"
+        "meaning": "mang tính đổi mới"
       },
       {
-        "word": "innovatively",
-        "ipa": "/ˈɪnəveɪtɪvli/",
-        "pos": "adv.",
-        "meaning": "một cách đổi mới"
+        "word": "innovate",
+        "ipa": "/ˈɪnəveɪt/",
+        "pos": "v.",
+        "meaning": "đổi mới"
       }
     ]
   },
@@ -167,12 +207,12 @@
       {
         "word": "AI",
         "ipa": "/ˌeɪˈaɪ/",
-        "meaning": "AI"
+        "meaning": "trí tuệ nhân tạo"
       },
       {
         "word": "automation",
         "ipa": "/ˌɔːtəˈmeɪʃn/",
-        "meaning": "tự động hóa"
+        "meaning": "sự tự động hóa"
       }
     ],
     "family": [
@@ -191,3 +231,4 @@
     ]
   }
     ]
+    
