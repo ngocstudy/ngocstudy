@@ -1,134 +1,272 @@
-/**
- * ==========================================================
- * matching_review.js
- * Lesson Engine v2.0
- * ----------------------------------------------------------
- * Quản lý màn hình Review khi Matching sai.
- * Không xử lý logic Matching hoặc Reading.
- * ==========================================================
- */
+/* ==========================================================
+   IELTS FOUNDATION 4.0
+   Lesson Engine v2.0
+   matching_review.js
 
-let reviewContainer = null;
-let countdownElement = null;
-let continueButton = null;
+   Chức năng
+   ----------------------------------------------------------
+   - Hiển thị Review
+   - Hiển thị Word
+   - Hiển thị IPA
+   - Hiển thị Meaning
+   - Hiển thị Synonyms
+   - Hiển thị Word Family
+========================================================== */
 
-let countdownTimer = null;
+"use strict";
 
-/**
- * Khởi tạo các phần tử DOM.
- * Chỉ gọi nội bộ trong module.
- */
-function initReviewElements() {
-    if (!reviewContainer) {
-        reviewContainer = document.getElementById("review-screen");
-    }
+/* ==========================================================
+   SHOW REVIEW
+========================================================== */
 
-    if (!countdownElement) {
-        countdownElement = document.getElementById("review-countdown");
-    }
+function showReview() {
 
-    if (!continueButton) {
-        continueButton = document.getElementById("continue-matching-btn");
-    }
-}
+    const word = currentReviewWord();
 
-/**
- * Hiển thị màn hình Review.
- *
- * @param {Object} reviewData
- */
-export function showReview(reviewData) {
+    if (!word) return;
 
-    initReviewElements();
+    renderReview(word);
 
-    if (!reviewContainer) return;
+    hide(DOM.matchingScreen);
 
-    reviewContainer.classList.remove("hidden");
+    show(DOM.reviewScreen);
 
-    // Hiển thị dữ liệu Review.
-    // renderer.js sẽ chịu trách nhiệm render nội dung chi tiết.
-    if (typeof renderReviewCard === "function") {
-        renderReviewCard(reviewData);
-    }
+    speakReviewWord();
 
     startCountdown();
+
 }
 
-/**
- * Ẩn màn hình Review.
- */
-export function hideReview() {
 
-    initReviewElements();
+/* ==========================================================
+   HIDE REVIEW
+========================================================== */
 
-    if (!reviewContainer) return;
+function hideReview() {
 
-    reviewContainer.classList.add("hidden");
+    clearCountdown();
 
-    if (countdownTimer) {
-        clearInterval(countdownTimer);
-        countdownTimer = null;
+    hide(DOM.reviewScreen);
+
+    show(DOM.matchingScreen);
+
+}
+
+
+/* ==========================================================
+   RENDER REVIEW
+========================================================== */
+
+function renderReview(word) {
+
+    setText(DOM.reviewWord, word.word);
+
+    setText(DOM.reviewIPA, word.ipa);
+
+    setText(DOM.reviewMeaning, word.meaning);
+
+    renderReviewSynonyms(word.synonyms);
+
+    renderReviewFamily(word.family);
+
+}
+
+
+/* ==========================================================
+   SYNONYMS
+========================================================== */
+
+function renderReviewSynonyms(list) {
+
+    if (!Array.isArray(list)) {
+
+        setHTML(DOM.reviewSynonyms, "");
+
+        return;
+
     }
+
+    setHTML(
+
+        DOM.reviewSynonyms,
+
+        list.join(", ")
+
+    );
+
 }
 
-/**
- * Tiếp tục Matching.
- */
-export function continueMatching() {
+
+/* ==========================================================
+   WORD FAMILY
+========================================================== */
+
+function renderReviewFamily(list) {
+
+    if (!Array.isArray(list)) {
+
+        setHTML(DOM.reviewFamily, "");
+
+        return;
+
+    }
+
+    setHTML(
+
+        DOM.reviewFamily,
+
+        list.join(", ")
+
+    );
+
+}
+/* ==========================================================
+   CONTINUE BUTTON
+========================================================== */
+
+function continueMatching() {
+
+    clearCountdown();
 
     hideReview();
 
-    if (typeof showMatchingScreen === "function") {
-        showMatchingScreen();
-    }
+    continueMatchingGame();
+
 }
 
-/**
- * Đếm ngược tự động quay lại Matching.
- *
- * @param {number} seconds
- */
-export function startCountdown(seconds = 4) {
 
-    initReviewElements();
+/* ==========================================================
+   COUNTDOWN
+========================================================== */
 
-    if (countdownTimer) {
-        clearInterval(countdownTimer);
-    }
+function startCountdown() {
 
-    let remaining = seconds;
+    clearCountdown();
 
-    if (countdownElement) {
-        countdownElement.textContent = remaining;
-    }
+    ReviewState.countdown = Config.reviewDelay;
 
-    countdownTimer = setInterval(() => {
+    updateCountdown();
 
-        remaining--;
+    ReviewState.timer = setInterval(() => {
 
-        if (countdownElement) {
-            countdownElement.textContent = remaining;
-        }
+        ReviewState.countdown--;
 
-        if (remaining <= 0) {
-            clearInterval(countdownTimer);
-            countdownTimer = null;
+        updateCountdown();
+
+        if (ReviewState.countdown <= 0) {
+
             continueMatching();
+
         }
 
     }, 1000);
 
-    if (continueButton) {
+}
 
-        continueButton.onclick = () => {
 
-            clearInterval(countdownTimer);
-            countdownTimer = null;
+/* ==========================================================
+   UPDATE COUNTDOWN
+========================================================== */
 
-            continueMatching();
+function updateCountdown() {
 
-        };
+    setText(
 
-    }
+        DOM.countdownText,
+
+        ReviewState.countdown
+
+    );
+
+}
+
+
+/* ==========================================================
+   RESET COUNTDOWN
+========================================================== */
+
+function resetCountdown() {
+
+    clearCountdown();
+
+    ReviewState.countdown = Config.reviewDelay;
+
+    updateCountdown();
+
+}
+/* ==========================================================
+   INIT EVENTS
+========================================================== */
+
+function initReviewEvents() {
+
+    if (!DOM.continueMatchingBtn) return;
+
+    DOM.continueMatchingBtn.addEventListener(
+
+        "click",
+
+        continueMatching
+
+    );
+
+}
+
+
+/* ==========================================================
+   RESET REVIEW
+========================================================== */
+
+function resetReview() {
+
+    clearCountdown();
+
+    hide(DOM.reviewScreen);
+
+    MatchingState.reviewWord = null;
+
+}
+
+
+/* ==========================================================
+   DESTROY REVIEW
+========================================================== */
+
+function destroyReview() {
+
+    clearCountdown();
+
+    hide(DOM.reviewScreen);
+
+}
+
+
+/* ==========================================================
+   INIT REVIEW ENGINE
+========================================================== */
+
+function initReviewEngine() {
+
+    initReviewEvents();
+
+    resetReview();
+
+}
+
+
+/* ==========================================================
+   PUBLIC
+========================================================== */
+
+function openReview() {
+
+    showReview();
+
+}
+
+
+function closeReview() {
+
+    continueMatching();
 
 }
