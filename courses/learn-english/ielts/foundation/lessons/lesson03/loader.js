@@ -1,13 +1,16 @@
 /* ==========================================================
    IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
+   Lesson Engine v2.1
    loader.js
 
-   Chức năng:
+   Chức năng
+   ----------------------------------------------------------
    - Load lesson JSON
+   - Chuẩn hóa dữ liệu
+   - Tự sinh id
    - Kiểm tra dữ liệu
-   - Khởi tạo vocabularyData
-   - Cập nhật trạng thái bài học
+   - Khởi tạo Lesson State
+
 ========================================================== */
 
 "use strict";
@@ -48,7 +51,7 @@ async function loadLesson() {
 
 
 /* ==========================================================
-   INITIALIZE LESSON
+   INITIALIZE
 ========================================================== */
 
 function initializeLesson(data) {
@@ -59,16 +62,46 @@ function initializeLesson(data) {
 
     }
 
-    vocabularyData = [...data];
+    vocabularyData = normalizeLesson(data);
 
     VocabularyState.currentIndex = 0;
+
     VocabularyState.totalWords = vocabularyData.length;
 
 }
 
 
 /* ==========================================================
-   VALIDATE
+   NORMALIZE
+========================================================== */
+
+function normalizeLesson(data) {
+
+    return data.map((item, index) => ({
+
+        id: index,
+
+        word: item.word,
+
+        ipa: item.ipa,
+
+        meaning: item.meaning,
+
+        synonyms: Array.isArray(item.synonyms)
+            ? item.synonyms
+            : [],
+
+        family: Array.isArray(item.family)
+            ? item.family
+            : []
+
+    }));
+
+}
+
+
+/* ==========================================================
+   VALIDATE LESSON
 ========================================================== */
 
 function validateLesson(data) {
@@ -85,17 +118,7 @@ function validateLesson(data) {
 
     }
 
-    for (const item of data) {
-
-        if (!validateWord(item)) {
-
-            return false;
-
-        }
-
-    }
-
-    return true;
+    return data.every(validateWord);
 
 }
 
@@ -108,15 +131,11 @@ function validateWord(item) {
 
     if (!item) return false;
 
-    if (!item.word) return false;
+    if (typeof item.word !== "string") return false;
 
-    if (!item.ipa) return false;
+    if (typeof item.ipa !== "string") return false;
 
-    if (!item.meaning) return false;
-
-    if (!Array.isArray(item.synonyms)) return false;
-
-    if (!Array.isArray(item.family)) return false;
+    if (typeof item.meaning !== "string") return false;
 
     return true;
 
@@ -124,21 +143,7 @@ function validateWord(item) {
 
 
 /* ==========================================================
-   LOAD ERROR
-========================================================== */
-
-function showLoadError(message) {
-
-    alert(
-        "Lesson loading failed.\n\n" +
-        message
-    );
-
-}
-
-
-/* ==========================================================
-   GET CURRENT WORD
+   CURRENT WORD
 ========================================================== */
 
 function currentWord() {
@@ -151,7 +156,33 @@ function currentWord() {
 
 
 /* ==========================================================
-   CHECK INDEX
+   GET WORD
+========================================================== */
+
+function getWord(index) {
+
+    return vocabularyData[index];
+
+}
+
+
+/* ==========================================================
+   GET WORD BY ID
+========================================================== */
+
+function getWordById(id) {
+
+    return vocabularyData.find(
+
+        item => item.id === Number(id)
+
+    );
+
+}
+
+
+/* ==========================================================
+   PREVIOUS
 ========================================================== */
 
 function hasPreviousWord() {
@@ -160,18 +191,26 @@ function hasPreviousWord() {
 
 }
 
+
+/* ==========================================================
+   NEXT
+========================================================== */
+
 function hasNextWord() {
 
     return (
+
         VocabularyState.currentIndex <
+
         VocabularyState.totalWords - 1
+
     );
 
 }
 
 
 /* ==========================================================
-   INDEX CONTROL
+   GO TO
 ========================================================== */
 
 function goToWord(index) {
@@ -184,6 +223,11 @@ function goToWord(index) {
 
 }
 
+
+/* ==========================================================
+   NEXT WORD
+========================================================== */
+
 function nextWord() {
 
     if (!hasNextWord()) return;
@@ -192,25 +236,16 @@ function nextWord() {
 
 }
 
+
+/* ==========================================================
+   PREVIOUS WORD
+========================================================== */
+
 function previousWord() {
 
     if (!hasPreviousWord()) return;
 
     VocabularyState.currentIndex--;
-
-}
-
-
-/* ==========================================================
-   LESSON STATUS
-========================================================== */
-
-function lessonCompleted() {
-
-    return (
-        VocabularyState.currentIndex >=
-        VocabularyState.totalWords - 1
-    );
 
 }
 
@@ -226,5 +261,22 @@ function resetLesson() {
     resetMatchingState();
 
     clearCountdown();
+
+}
+
+
+/* ==========================================================
+   LOAD ERROR
+========================================================== */
+
+function showLoadError(message) {
+
+    alert(
+
+        "Lesson loading failed.\n\n"
+
+        + message
+
+    );
 
 }
