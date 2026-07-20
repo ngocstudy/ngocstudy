@@ -1,64 +1,80 @@
-/**
- * ==========================================================
- * matching_finish.js
- * Lesson Engine v2.0
- * ----------------------------------------------------------
- * Quản lý giai đoạn hoàn tất Matching.
- * Chỉ chịu trách nhiệm mở khóa và chuyển sang Reading.
- * ==========================================================
- */
+/* ==========================================================
+   IELTS FOUNDATION 4.0
+   Lesson Engine v2.0
+   matching_finish.js
 
-let readingUnlocked = false;
+   Chức năng
+   ----------------------------------------------------------
+   - Hoàn thành Matching
+   - Unlock Reading
+   - Hiển thị Reading
+   - Reset Finish
+========================================================== */
 
-/**
- * Mở khóa Reading.
- */
-export function unlockReading() {
+"use strict";
 
-    if (readingUnlocked) return;
+/* ==========================================================
+   UNLOCK READING
+========================================================== */
 
-    readingUnlocked = true;
+function unlockReading() {
 
-    // Cập nhật trạng thái nếu hệ thống có API tương ứng.
-    if (typeof VocabularyState !== "undefined") {
-        VocabularyState.readingUnlocked = true;
-    }
+    hide(DOM.readingLocked);
 
-    // Cập nhật giao diện nếu renderer có hỗ trợ.
-    if (typeof updateReadingStatus === "function") {
-        updateReadingStatus(true);
-    }
+    show(DOM.readingUnlocked);
+
+    enable(DOM.readingBtn);
 
 }
 
-/**
- * Hiển thị Reading.
- */
-export function showReading() {
 
-    if (!readingUnlocked) {
-        return;
-    }
+/* ==========================================================
+   LOCK READING
+========================================================== */
 
-    // navigation.js sẽ chịu trách nhiệm điều hướng.
-    if (typeof navigateToReading === "function") {
-        navigateToReading();
-    }
+function lockReading() {
+
+    show(DOM.readingLocked);
+
+    hide(DOM.readingUnlocked);
+
+    disable(DOM.readingBtn);
 
 }
 
-/**
- * Hoàn tất Matching.
- */
-export function finishMatching() {
+
+/* ==========================================================
+   FINISH MATCHING
+========================================================== */
+
+function finishMatching() {
 
     unlockReading();
 
-    // Có thể hiển thị màn hình hoàn thành nếu renderer hỗ trợ.
-    if (typeof showMatchingCompleted === "function") {
-        showMatchingCompleted();
-    }
+    hide(DOM.matchingScreen);
 
-    showReading();
+    show(DOM.finishScreen);
+
+}
+
+
+/* ==========================================================
+   RESET FINISH
+========================================================== */
+
+function resetFinish() {
+
+    lockReading();
+
+}
+
+
+/* ==========================================================
+   INIT FINISH ENGINE
+========================================================== */
+
+function initFinishEngine() {
+
+    resetFinish();
 
 }
