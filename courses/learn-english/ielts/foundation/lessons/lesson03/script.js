@@ -106,13 +106,13 @@ function refreshLesson() {
 
 function goNextWord() {
 
-    if (!hasNextWord()) {
+if (!hasNextWord()) {
 
-        showFinishScreen();
+    finishVocabulary();
 
-        return;
+    return;
 
-    }
+}
 
     nextWord();
 
@@ -145,6 +145,8 @@ function goPreviousWord() {
 ========================================================== */
 
 function finishVocabulary() {
+
+    stopSpeaking();
 
     showFinishScreen();
 
