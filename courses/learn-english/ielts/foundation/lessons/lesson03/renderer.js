@@ -203,14 +203,9 @@ function showVocabularyScreen() {
 ========================================================== */
 function showFinishScreen() {
 
-    stopSpeaking();
-
-    hide(DOM.vocabularyScreen);
-
     show(DOM.finishScreen);
 
 }
-
 
 /* ==========================================================
    EMPTY
