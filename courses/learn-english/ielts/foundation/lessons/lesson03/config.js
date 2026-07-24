@@ -22,7 +22,7 @@ const DOM = {
     homeBtn: document.getElementById("homeBtn"),
 
     // Vocabulary
-   vocabularyScreen: $("vocabularyScreen"),
+   vocabularyScreen: document.getElementById("vocabularyScreen"),
     word: document.getElementById("word"),
     ipa: document.getElementById("ipa"),
     meaning: document.getElementById("meaning"),
