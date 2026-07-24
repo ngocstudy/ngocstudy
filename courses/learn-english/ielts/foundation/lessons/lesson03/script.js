@@ -17,14 +17,13 @@ alert("script.js loaded");
    INIT APP
 ========================================================== */
 
-document.addEventListener(
+document.addEventListener("DOMContentLoaded", () => {
 
-    "DOMContentLoaded",
+    alert("DOMContentLoaded");
 
-    initializeApp
+    initializeApp();
 
-);
-
+});
 
 /* ==========================================================
    INITIALIZE
