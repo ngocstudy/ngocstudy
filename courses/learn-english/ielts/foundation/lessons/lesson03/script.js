@@ -31,7 +31,7 @@ document.addEventListener(
 ========================================================== */
 
 async function initializeApp() {
-
+alert("1");
     if (App.initialized) {
 
         return;
@@ -39,13 +39,13 @@ async function initializeApp() {
     }
 
     try {
-
+alert("2");
         await loadLesson();
-
+alert("3");
         initializeModules();
-
+alert("4");
         renderVocabulary();
-
+alert("5");
         autoSpeakCurrentWord();
 
         App.initialized = true;
