@@ -54,10 +54,11 @@ async function initializeApp() {
 
     catch (error) {
 
-        console.error(error);
+    alert(error.stack);
 
-    }
+    console.error(error);
 
+}
 }
 
 
