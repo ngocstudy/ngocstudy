@@ -12,44 +12,42 @@
 ========================================================== */
 
 "use strict";
-alert("script.js loaded");
+
 /* ==========================================================
    INIT APP
 ========================================================== */
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener(
 
-    alert("DOMContentLoaded");
+    "DOMContentLoaded",
 
-    initializeApp();
+    initializeApp
 
-});
+);
+/* ==========================================================
+   INITIALIZE
+========================================================== */
 
 /* ==========================================================
    INITIALIZE
 ========================================================== */
 
 async function initializeApp() {
-document.body.innerHTML = "<h1>TEST 1</h1>";
-return;
 
-alert("1.5");
+    if (App.initialized) {
 
-if (App.initialized) {
+        return;
 
-    alert("RETURN");
+    }
 
-    return;
+    try {
 
-}
-
-alert("2");
         await loadLesson();
-alert("3");
+
         initializeModules();
-alert("4");
+
         renderVocabulary();
-alert("5");
+
         autoSpeakCurrentWord();
 
         App.initialized = true;
@@ -58,13 +56,13 @@ alert("5");
 
     catch (error) {
 
-    alert(error.stack);
+        console.error(error);
 
-    console.error(error);
+        showLoadError(error.message);
+
+    }
 
 }
-}
-
 
 /* ==========================================================
    MODULES
