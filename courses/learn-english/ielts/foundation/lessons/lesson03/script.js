@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
 ========================================================== */
 
 async function initializeApp() {
-alert("1");
+document.body.innerHTML = "<h1>TEST 1</h1>";
+return;
 
 alert("1.5");
 
