@@ -31,13 +31,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initializeApp() {
 alert("1");
-    if (App.initialized) {
 
-        return;
+alert("1.5");
 
-    }
+if (App.initialized) {
 
-    try {
+    alert("RETURN");
+
+    return;
+
+}
+
 alert("2");
         await loadLesson();
 alert("3");
