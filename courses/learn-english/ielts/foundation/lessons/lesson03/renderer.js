@@ -183,6 +183,8 @@ function refreshVocabulary() {
 
 function showVocabularyScreen() {
 
+    show(DOM.vocabularyScreen);
+
     hide(DOM.finishScreen);
 
     hide(DOM.matchingScreen);
@@ -197,16 +199,16 @@ function showVocabularyScreen() {
 
 }
 
-
 /* ==========================================================
    SHOW FINISH
 ========================================================== */
 function showFinishScreen() {
 
+    hide(DOM.vocabularyScreen);
+
     show(DOM.finishScreen);
 
 }
-
 /* ==========================================================
    EMPTY
 ========================================================== */
