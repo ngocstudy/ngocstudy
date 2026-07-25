@@ -75,6 +75,8 @@ function prepareMatchingData() {
 
 function showMatchingScreen() {
 
+    hide(DOM.vocabularyScreen);
+
     hide(DOM.finishScreen);
 
     hide(DOM.reviewScreen);
