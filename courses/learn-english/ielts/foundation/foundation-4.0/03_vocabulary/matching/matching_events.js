@@ -1,16 +1,84 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   matching_events.js
+/*==========================================================
+Module   : matching_events.js
+Thư mục  : 03_vocabulary/matching
 
-   Chức năng
-   ----------------------------------------------------------
-   - Xử lý click card
-   - Quản lý lựa chọn
-   - Kiểm tra ghép đúng/sai
-   - Không xử lý Review UI
-   - Không Unlock Reading
-========================================================== */
+Version  : 3.1
+Status   : 🔒 LOCKED
+Ngày     : 01/08/2026
+==========================================================
+
+Chức năng
+----------------------------------------------------------
+- Quản lý toàn bộ Event của Matching.
+- Xử lý Click Card.
+- Quản lý lựa chọn.
+- Kiểm tra ghép cặp.
+- Xử lý ghép đúng / ghép sai.
+- Điều phối chuyển đổi giữa Matching và Vocabulary.
+- Quản lý trạng thái khóa / mở khóa Matching.
+
+----------------------------------------------------------
+Gồm các hàm / thành phần
+----------------------------------------------------------
+- attachMatchingEvent()
+- handleCardClick()
+- selectEnglish()
+- selectMeaning()
+- hasSelectedPair()
+- checkMatching()
+- handleCorrect()
+- handleWrong()
+- continueMatchingGame()
+- checkFinishMatching()
+- getSelectedEnglish()
+- getSelectedMeaning()
+- hasEnglishSelected()
+- hasMeaningSelected()
+- lockMatching()
+- unlockMatching()
+- canSelectCard()
+- resetMatchingEvents()
+- destroyMatchingEvents()
+- initMatchingEvents()
+
+----------------------------------------------------------
+Phụ thuộc
+----------------------------------------------------------
+- matching.js
+- matching_state.js
+- matching_cards.js
+- vocabulary_navigation.js
+
+----------------------------------------------------------
+Bị phụ thuộc
+----------------------------------------------------------
+- matching.js
+
+----------------------------------------------------------
+Quy tắc
+----------------------------------------------------------
+- Chỉ xử lý Event của Matching.
+- Không Render Card.
+- Không quản lý Navigation.
+- Không chứa Business Logic ngoài phạm vi Event.
+- Mọi xử lý chuyên biệt phải nằm trong module tương ứng.
+
+----------------------------------------------------------
+IMPORTANT
+----------------------------------------------------------
+Sau khi chuyển từ Matching → Vocabulary phải cập nhật
+Navigation theo đúng luồng đã kiểm thử.
+
+Không xóa hoặc thay đổi các đoạn đã đánh dấu
+IMPORTANT nếu chưa kiểm tra toàn bộ luồng.
+
+Đã từng gây lỗi:
+- Home hiện sai ở Vocabulary.
+- Back/Home không cập nhật sau Review.
+
+PASS : 01/08/2026
+
+==========================================================*/
 
 "use strict";
 
@@ -30,22 +98,13 @@ function attachMatchingEvent(card) {
 
 }
 
-
 /* ==========================================================
    CARD CLICK
 ========================================================== */
 
 function handleCardClick(card) {
 
-    if (!card) return;
-
-    if (card.classList.contains("matched")) return;
-
-    if (card.classList.contains("disabled")) return;
-
-    const id = Number(card.dataset.id);
-
-    if (isMatched(id)) return;
+    if (!canSelectCard(card)) return;
 
     const type = card.dataset.type;
 
@@ -53,8 +112,7 @@ function handleCardClick(card) {
 
         selectEnglish(card);
 
-    }
-    else {
+    } else {
 
         selectMeaning(card);
 
@@ -63,7 +121,6 @@ function handleCardClick(card) {
     checkMatching();
 
 }
-
 
 /* ==========================================================
    SELECT ENGLISH
@@ -83,7 +140,6 @@ function selectEnglish(card) {
 
 }
 
-
 /* ==========================================================
    SELECT MEANING
 ========================================================== */
@@ -102,9 +158,8 @@ function selectMeaning(card) {
 
 }
 
-
 /* ==========================================================
-   READY ?
+   READY
 ========================================================== */
 
 function hasSelectedPair() {
@@ -118,7 +173,6 @@ function hasSelectedPair() {
     );
 
 }
-
 
 /* ==========================================================
    CHECK MATCH
@@ -144,8 +198,7 @@ function checkMatching() {
 
         handleCorrect();
 
-    }
-    else {
+    } else {
 
         handleWrong();
 
@@ -168,23 +221,31 @@ function handleCorrect() {
 
     increaseCorrectPair();
 
-    MatchingState.reviewWord = getWordById(id);
+    englishCard.classList.add("matched");
+
+    meaningCard.classList.add("matched");
 
     disableMatchingCards();
 
-    hideMatchedPair(
-
-        englishCard,
-
-        meaningCard
-
-    );
-
-    resetSelection();
-
     setTimeout(() => {
 
-        showReview();
+        hideMatchedPair(
+
+            englishCard,
+
+            meaningCard
+
+        );
+
+        resetSelection();
+
+        enableMatchingCards();
+
+        if (matchingCompleted()) {
+
+            finishMatchingGame();
+
+        }
 
     }, 300);
 
@@ -221,95 +282,44 @@ function handleWrong() {
 
         enableMatchingCards();
 
+        VocabularyState.currentIndex = Number(
+
+        englishCard.dataset.id
+
+);
+        addVocabularyPracticeAttempt();
+        showVocabularyScreen(true);
+/* ----------------------------------------------------------
+   IMPORTANT
+
+   Sau khi quay từ Matching → Vocabulary bắt buộc phải
+   cập nhật Navigation.
+
+   Không xóa hai dòng dưới nếu chưa kiểm tra toàn bộ luồng.
+
+   Đã từng gây lỗi:
+   - Back/Home không cập nhật sau Review.
+
+   PASS : 01/08/2026
+---------------------------------------------------------- */
+        updateBackButton();
+         
+        updateHomeButton();
+
     }, 600);
 
 }
-
-
 /* ==========================================================
-   CANCEL CURRENT
-========================================================== */
-
-function cancelCurrentSelection() {
-
-    if (MatchingState.selectedEnglish) {
-
-        unselectCard(
-
-            MatchingState.selectedEnglish
-
-        );
-
-    }
-
-    if (MatchingState.selectedMeaning) {
-
-        unselectCard(
-
-            MatchingState.selectedMeaning
-
-        );
-
-    }
-
-    resetSelection();
-
-}
-
-
-/* ==========================================================
-   LOCK
-========================================================== */
-
-function lockMatching() {
-
-    disableMatchingCards();
-
-}
-
-
-/* ==========================================================
-   UNLOCK
-========================================================== */
-
-function unlockMatching() {
-
-    enableMatchingCards();
-
-}
-/* ==========================================================
-   AFTER REVIEW
-========================================================== */
-
-function resumeMatching() {
-
-    MatchingState.reviewWord = null;
-
-    unlockMatching();
-
-    if (matchingCompleted()) {
-
-        finishMatchingGame();
-
-        return;
-
-    }
-
-}
-
-
-/* ==========================================================
-   CONTINUE
+   CONTINUE MATCHING
 ========================================================== */
 
 function continueMatchingGame() {
 
-    hideReview();
+    showMatchingScreen();
 
-    resumeMatching();
+    enableMatchingCards();
 
 }
-
 
 /* ==========================================================
    CHECK FINISH
@@ -329,7 +339,6 @@ function checkFinishMatching() {
 
 }
 
-
 /* ==========================================================
    GET SELECTED
 ========================================================== */
@@ -340,13 +349,11 @@ function getSelectedEnglish() {
 
 }
 
-
 function getSelectedMeaning() {
 
     return MatchingState.selectedMeaning;
 
 }
-
 
 /* ==========================================================
    HAS SELECTION
@@ -358,34 +365,28 @@ function hasEnglishSelected() {
 
 }
 
-
 function hasMeaningSelected() {
 
     return MatchingState.selectedMeaning !== null;
 
 }
 
-
 /* ==========================================================
-   CLEAR REVIEW WORD
+   LOCK / UNLOCK
 ========================================================== */
 
-function clearReviewWord() {
+function lockMatching() {
 
-    MatchingState.reviewWord = null;
+    disableMatchingCards();
 
 }
 
+function unlockMatching() {
 
-/* ==========================================================
-   CURRENT REVIEW WORD
-========================================================== */
-
-function currentReviewWord() {
-
-    return MatchingState.reviewWord;
+    enableMatchingCards();
 
 }
+
 /* ==========================================================
    IGNORE CLICK
 ========================================================== */
@@ -398,59 +399,21 @@ function canSelectCard(card) {
 
     if (card.classList.contains("disabled")) return false;
 
-    const id = Number(card.dataset.id);
-
-    if (isMatched(id)) return false;
-
-    return true;
+    return !isMatched(Number(card.dataset.id));
 
 }
 
-
 /* ==========================================================
-   RESET EVENTS
+   RESET
 ========================================================== */
 
 function resetMatchingEvents() {
 
-    cancelCurrentSelection();
-
-    clearReviewWord();
+    resetSelection();
 
     unlockMatching();
 
 }
-
-
-/* ==========================================================
-   RESTART EVENTS
-========================================================== */
-
-function restartMatchingEvents() {
-
-    resetMatchingEvents();
-
-    updateMatchingScore();
-
-}
-
-
-/* ==========================================================
-   COMPLETE
-========================================================== */
-
-function completeCurrentPair() {
-
-    if (checkFinishMatching()) {
-
-        return;
-
-    }
-
-    unlockMatching();
-
-}
-
 
 /* ==========================================================
    DESTROY
@@ -462,9 +425,8 @@ function destroyMatchingEvents() {
 
 }
 
-
 /* ==========================================================
-   PUBLIC ENTRY
+   INIT
 ========================================================== */
 
 function initMatchingEvents() {

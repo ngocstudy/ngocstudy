@@ -1,14 +1,58 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   config.js
+/*==========================================================
+Module   : config.js
+Thư mục  : 01_engine
 
-   Chứa:
-   - DOM Elements
-   - Global State
-   - Constants
-========================================================== */
+Version  : 1.1
+Status   : 🔒 LOCKED
+Ngày      : 03/08/2026
 
+==========================================================
+
+Chức năng
+- Quản lý DOM Elements
+- Quản lý Global State
+- Quản lý Config
+- Quản lý Speech Config
+
+----------------------------------------------------------
+Gồm các thành phần
+
+DOM
+VocabularyState
+MatchingState
+ReviewState
+SpeechConfig
+Config
+App
+
+----------------------------------------------------------
+Phụ thuộc
+
+Không
+
+----------------------------------------------------------
+Bị phụ thuộc
+
+Hầu hết các module trong dự án
+
+----------------------------------------------------------
+Ghi chú
+
+Foundation Module.
+Không chứa business logic.
+
+Toàn bộ DOM dùng chung được khai báo tại đây.
+
+Bao gồm:
+
+- Vocabulary
+- Matching
+- Review
+- Reading
+- Listening
+- Lesson Result
+
+==========================================================*/
 "use strict";
 
 /* ==========================================================
@@ -44,7 +88,7 @@ const DOM = {
     // Finish
     finishScreen: document.getElementById("finishScreen"),
     matchingBtn: document.getElementById("matchingBtn"),
-
+continueMatchingBtn: document.getElementById("continueMatchingBtn"),
     // Matching
     matchingScreen: document.getElementById("matchingScreen"),
     matchingContainer: document.getElementById("matchingContainer"),
@@ -59,16 +103,40 @@ const DOM = {
     reviewMeaning: document.getElementById("reviewMeaning"),
     reviewSynonyms: document.getElementById("reviewSynonyms"),
     reviewFamily: document.getElementById("reviewFamily"),
-    continueMatchingBtn: document.getElementById("continueMatchingBtn"),
     countdownText: document.getElementById("countdownText"),
 
-    // Reading
-    readingLocked: document.getElementById("readingLocked"),
-    readingUnlocked: document.getElementById("readingUnlocked"),
-    readingBtn: document.getElementById("readingBtn")
+// Reading
+readingLocked: document.getElementById("readingLocked"),
+readingUnlocked: document.getElementById("readingUnlocked"),
 
+readingScreen: document.getElementById("readingScreen"),
+readingTitle: document.getElementById("readingTitle"),
+readingHeading: document.getElementById("readingHeading"),
+readingProgress: document.getElementById("readingProgress"),
+readingContent: document.getElementById("readingContent"),
+continueReadingBtn: document.getElementById("continueReadingBtn"),
+
+readingFinishScreen: document.getElementById("readingFinishScreen"),
+readingFinishBtn: document.getElementById("readingFinishBtn"),
+
+readingBtn: document.getElementById("readingBtn"),
+
+/* Listening */
+listeningScreen: document.getElementById("listeningScreen"),
+listeningHeading: document.getElementById("listeningHeading"),
+listeningProgress: document.getElementById("listeningProgress"),
+listeningContent: document.getElementById("listeningContent"),
+continueListeningBtn: document.getElementById("continueListeningBtn"),
+listeningBtn: document.getElementById("listeningBtn"),
+
+/* Lesson Result */
+lessonResultScreen: document.getElementById("lessonResultScreen"),
+lessonResultContent: document.getElementById("lessonResultContent"),
+reviewMistakesScreen: document.getElementById("reviewMistakesScreen"),
+reviewMistakesContent: document.getElementById("reviewMistakesContent"),
+backToLessonResultBtn: document.getElementById("backToLessonResultBtn"),
+lessonResultBody: null,
 };
-
 
 /* ==========================================================
    LESSON DATA
@@ -141,7 +209,7 @@ const SpeechConfig = {
 
 const Config = {
 
-    lessonFile: "lesson03.json",
+    lessonFile: "02_data/lesson03.json",
 
     autoSpeak: true,
 

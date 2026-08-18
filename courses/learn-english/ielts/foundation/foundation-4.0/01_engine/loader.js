@@ -1,19 +1,73 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.1
-   loader.js
+/*==========================================================
+Module   : loader.js
+Thư mục  : 01_engine
 
-   Chức năng
-   ----------------------------------------------------------
-   - Load lesson JSON
-   - Chuẩn hóa dữ liệu
-   - Tự sinh id
-   - Kiểm tra dữ liệu
-   - Khởi tạo Lesson State
+Version  : 2.1
+Status   : 🔒 LOCKED
+Ngày     : 01/08/2026
+==========================================================
 
-========================================================== */
+Chức năng
+
+- Nạp dữ liệu Lesson.
+- Chuẩn hóa dữ liệu.
+- Kiểm tra dữ liệu.
+- Khởi tạo Lesson State.
+- Cung cấp các hàm truy cập dữ liệu Lesson.
+
+----------------------------------------------------------
+Gồm các hàm / thành phần
+
+- Lesson Data
+- Load Lesson
+- Initialize
+- Normalize
+- Validate Lesson
+- Validate Word
+- Current Word
+- Get Word
+- Get Word By ID
+- Previous
+- Next
+- Go To
+- Next Word
+- Previous Word
+- Reset Lesson
+- Load Error
+
+----------------------------------------------------------
+Phụ thuộc
+
+- config.js
+- utils.js
+
+----------------------------------------------------------
+Bị phụ thuộc
+
+- vocabulary
+- matching
+- reading
+- listening
+- checkpoint
+- app
+
+----------------------------------------------------------
+Ghi chú
+
+- Foundation Module.
+- Chỉ chịu trách nhiệm quản lý dữ liệu Lesson.
+- Không chứa logic giao diện.
+- Không chứa điều hướng.
+- Là cầu nối giữa Lesson Data và Engine.
+
+==========================================================*/
 
 "use strict";
+/* ==========================================================
+   LESSON DATA
+========================================================== */
+
+let lessonData = {};
 
 /* ==========================================================
    LOAD LESSON
@@ -61,8 +115,8 @@ function initializeLesson(data) {
         throw new Error("Invalid lesson data.");
 
     }
-
-    vocabularyData = normalizeLesson(data);
+lessonData = data;
+    vocabularyData = normalizeLesson(data.vocabulary);
 
     VocabularyState.currentIndex = 0;
 
@@ -106,19 +160,21 @@ function normalizeLesson(data) {
 
 function validateLesson(data) {
 
-    if (!Array.isArray(data)) {
+    if (!data) return false;
+
+    if (!Array.isArray(data.vocabulary)) {
 
         return false;
 
     }
 
-    if (data.length === 0) {
+    if (data.vocabulary.length === 0) {
 
         return false;
 
     }
 
-    return data.every(validateWord);
+    return data.vocabulary.every(validateWord);
 
 }
 
@@ -259,7 +315,13 @@ function resetLesson() {
     VocabularyState.currentIndex = 0;
 
     resetMatchingState();
+ListeningState.started = false;
 
+ListeningState.mcqAnswer = [];
+ListeningState.tfnAnswer = [];
+ListeningState.gapFillAnswer = [];
+ListeningState.vocabularyAnswer = [];
+ListeningState.matchingAnswer = [];
     clearCountdown();
 
 }

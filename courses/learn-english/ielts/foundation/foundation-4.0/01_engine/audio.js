@@ -1,15 +1,63 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   audio.js
+/*==========================================================
+Module   : audio.js
+Thư mục  : 01_engine
 
-   Chức năng:
-   - Speech Synthesis
-   - Tự tìm giọng tiếng Anh
-   - Phát âm Vocabulary
-   - Phát âm Matching
-   - Phát âm Review
-========================================================== */
+Version  : 2.0
+Status   : 🔒 LOCKED
+Ngày     : 01/08/2026
+==========================================================
+
+Chức năng
+
+- Quản lý Speech Synthesis.
+- Tự động chọn giọng đọc tiếng Anh.
+- Phát âm Vocabulary.
+- Phát âm Matching.
+- Phát âm Review.
+- Quản lý Audio Events.
+
+----------------------------------------------------------
+Gồm các hàm / thành phần
+
+- Speech Engine
+- Load Voices
+- Stop Speaking
+- Create Utterance
+- Speak Text
+- Speak Word By Index
+- Speak Review Word
+- Auto Speak
+- Button Events
+- Card Speak
+- Cleanup
+
+----------------------------------------------------------
+Phụ thuộc
+
+- config.js
+- loader.js
+
+----------------------------------------------------------
+Bị phụ thuộc
+
+- vocabulary
+- matching
+- review
+- reading
+- listening
+- checkpoint
+- app
+
+----------------------------------------------------------
+Ghi chú
+
+- Foundation Module.
+- Là lớp quản lý phát âm chung cho toàn bộ dự án.
+- Không chứa logic giao diện.
+- Không chứa điều hướng.
+- Không chứa xử lý dữ liệu Lesson.
+
+==========================================================*/
 
 "use strict";
 
@@ -106,7 +154,72 @@ function speak(text) {
     window.speechSynthesis.speak(speech);
 
 }
+/* ==========================================================
+   LISTENING TTS - PLAY TWICE
+   ----------------------------------------------------------
+   Đọc transcript của Listening tối đa 2 lần.
 
+   audioPlayCount:
+   0 = chưa nghe
+   1 = đã nghe lần 1
+   2 = đã nghe đủ 2 lần
+
+   Hàm này KHÔNG reset audioPlayCount.
+   Việc reset sẽ do reset Lesson xử lý.
+   ========================================================== */
+
+function playListeningAudioTwice() {
+
+    // ==========================================================
+// LISTENING TTS - GET TRANSCRIPT
+// ----------------------------------------------------------
+// Transcript thực tế nằm trong listening.passage.
+// ==========================================================
+
+const transcript =
+    lessonData &&
+    lessonData.listening &&
+    lessonData.listening.passage &&
+    lessonData.listening.passage.transcript;
+
+    if (!transcript) return;
+
+    if (!("speechSynthesis" in window)) {
+
+        console.warn("Speech API is not supported.");
+
+        return;
+
+    }
+
+    // Nếu đã nghe đủ 2 lần thì không đọc lại
+    if (ListeningState.audioPlayCount >= 2) {
+
+        return;
+
+    }
+
+    stopSpeaking();
+
+    const speech =
+        createSpeech(transcript);
+
+    speech.onend = () => {
+
+        ListeningState.audioPlayCount++;
+
+        // Nếu mới nghe lần 1 → đọc lần 2
+        if (ListeningState.audioPlayCount < 2) {
+
+            playListeningAudioTwice();
+
+        }
+
+    };
+
+    window.speechSynthesis.speak(speech);
+
+}
 
 /* ==========================================================
    SPEAK WORD BY INDEX

@@ -1,15 +1,70 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   utils.js
+/*==========================================================
+Module   : utils.js
+Thư mục  : 01_engine
 
-   Chứa:
-   - Hàm hiển thị
-   - Hàm xử lý mảng
-   - Hàm DOM
-   - Hàm Shuffle
-   - Hàm Delay
-========================================================== */
+Version  : 1.0
+Status   : 🔒 LOCKED
+Ngày     : 01/08/2026
+==========================================================
+
+Chức năng
+
+- Cung cấp các hàm tiện ích dùng chung cho toàn bộ Lesson Engine.
+- Hỗ trợ thao tác DOM.
+- Hỗ trợ xử lý mảng.
+- Hỗ trợ xử lý chuỗi HTML.
+- Hỗ trợ Random, Shuffle, Delay.
+- Hỗ trợ các thao tác trạng thái dùng chung.
+
+----------------------------------------------------------
+Gồm các hàm / thành phần
+
+- Query
+- DOM
+- Show / Hide
+- Text
+- Clear
+- Button
+- Active
+- Random
+- Shuffle
+- Delay
+- Percent
+- Progress Bar
+- Array to HTML
+- Synonyms
+- Word Family
+- Matched
+- Reset Selection
+- Reset Matching
+- Countdown
+
+----------------------------------------------------------
+Phụ thuộc
+
+- config.js
+
+----------------------------------------------------------
+Bị phụ thuộc
+
+- vocabulary
+- matching
+- reading
+- listening
+- checkpoint
+- app
+- Các module dùng chung khác
+
+----------------------------------------------------------
+Ghi chú
+
+- Foundation Module.
+- Chứa các hàm dùng chung của toàn bộ dự án.
+- Không chứa luồng điều khiển (Controller).
+- Không chứa điều hướng (Navigation).
+- Một số hàm nghiệp vụ sẽ được xem xét chuyển sang module tương ứng khi chuẩn hóa các Feature, nhưng hiện giữ nguyên để bảo toàn logic theo Quy tắc 01.
+
+==========================================================*/
 
 "use strict";
 
@@ -275,17 +330,6 @@ function renderFamily(list) {
         `;
 
     }).join("");
-
-}
-
-
-/* ==========================================================
-   CARD LOOKUP
-========================================================== */
-
-function getWord(index) {
-
-    return vocabularyData[index];
 
 }
 

@@ -1,17 +1,56 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   matching_cards.js
+/*==========================================================
+Module : matching_cards.js
+Thư mục: 03_vocabulary/matching
 
-   Chức năng:
-   - Tạo card English
-   - Tạo card Meaning
-   - Trộn độc lập
-   - Gắn data-id
-   - Gắn data-type
-   - Click English tự phát âm
-   - Không xử lý đúng/sai
-========================================================== */
+Version : 1.0
+Status  : 🔒 LOCKED
+Ngày    : 01/08/2026
+
+------------------------------------------------------------
+Chức năng
+
+- Tạo card English
+- Tạo card Meaning
+- Quản lý trạng thái card
+- Ẩn cặp card đã ghép đúng
+- Tìm card theo id
+- Bật/Tắt thao tác card
+
+------------------------------------------------------------
+Gồm các hàm
+
+buildMatchingCards()
+buildEnglishCards()
+buildMeaningCards()
+createEnglishCard()
+createMeaningCard()
+selectCard()
+unselectCard()
+markMatched()
+hideMatchedCard()
+hideMatchedPair()
+findCard()
+enableMatchingCards()
+disableMatchingCards()
+
+------------------------------------------------------------
+Phụ thuộc
+
+config.js
+utils.js
+matching_events.js
+
+------------------------------------------------------------
+Ghi chú
+
+Module chỉ quản lý việc tạo và hiển thị card Matching.
+
+Không xử lý kiểm tra đúng/sai.
+
+Không xử lý Review.
+
+Không xử lý hoàn thành Matching.
+==========================================================*/
 
 "use strict";
 

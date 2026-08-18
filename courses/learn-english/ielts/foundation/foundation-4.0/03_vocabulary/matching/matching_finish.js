@@ -1,15 +1,45 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   matching_finish.js
+/*==========================================================
+Module : matching_finish.js
+Thư mục: 03_vocabulary/matching
 
-   Chức năng
-   ----------------------------------------------------------
-   - Hoàn thành Matching
-   - Unlock Reading
-   - Hiển thị Reading
-   - Reset Finish
-========================================================== */
+Version : 1.0
+Status  : 🔒 LOCKED
+Ngày    : 01/08/2026
+
+------------------------------------------------------------
+Chức năng
+
+- Hoàn thành Matching
+- Khóa/Mở Reading
+- Chuyển sang màn hình Reading
+- Khởi tạo trạng thái Finish
+
+------------------------------------------------------------
+Gồm các hàm
+
+unlockReading()
+lockReading()
+finishMatching()
+resetFinish()
+initFinishEngine()
+
+------------------------------------------------------------
+Phụ thuộc
+
+config.js
+utils.js
+
+------------------------------------------------------------
+Ghi chú
+
+Module chỉ quản lý trạng thái sau khi hoàn thành Matching.
+
+Không tạo card.
+
+Không xử lý sự kiện Matching.
+
+Không hiển thị Review.
+==========================================================*/
 
 "use strict";
 
@@ -49,14 +79,15 @@ function lockReading() {
 
 function finishMatching() {
 
-    unlockReading();
-
     hide(DOM.matchingScreen);
 
-    show(DOM.finishScreen);
+    show(DOM.readingFinishScreen);
+
+    updateBackButton();
+
+    updateHomeButton();
 
 }
-
 
 /* ==========================================================
    RESET FINISH

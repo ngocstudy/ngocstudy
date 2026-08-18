@@ -2,17 +2,6 @@
    IELTS FOUNDATION 4.0
    Lesson Engine v2.0
    renderer.js
-
-   Chức năng:
-   - Hiển thị Vocabulary
-   - Hiển thị Progress
-   - Tự động phát âm
-   - Cập nhật trạng thái nút Previous / Next
-
-   Không chứa:
-   - Fetch JSON
-   - Logic Matching
-   - Logic Review
 ========================================================== */
 
 "use strict";
@@ -38,24 +27,21 @@ function renderVocabulary() {
     renderProgressSection();
 
     updateNavigationButtons();
-
+updateBackButton();
     autoSpeakCurrentWord();
 
 }
 
-
 /* ==========================================================
    WORD
 ========================================================== */
-
-function renderWord(word) {
+    function renderWord(word) {
 
     setText(DOM.word, word.word);
 
     setText(DOM.ipa, word.ipa);
 
 }
-
 
 /* ==========================================================
    MEANING
@@ -66,7 +52,6 @@ function renderMeaning(word) {
     setText(DOM.meaning, word.meaning);
 
 }
-
 
 /* ==========================================================
    SYNONYMS
@@ -89,7 +74,6 @@ function renderSynonymsSection(word) {
 
 }
 
-
 /* ==========================================================
    WORD FAMILY
 ========================================================== */
@@ -111,7 +95,6 @@ function renderFamilySection(word) {
 
 }
 
-
 /* ==========================================================
    PROGRESS
 ========================================================== */
@@ -128,7 +111,6 @@ function renderProgressSection() {
 
 }
 
-
 /* ==========================================================
    NAVIGATION
 ========================================================== */
@@ -139,9 +121,7 @@ function updateNavigationButtons() {
 
         enable(DOM.prevBtn);
 
-    }
-
-    else {
+    } else {
 
         disable(DOM.prevBtn);
 
@@ -153,9 +133,7 @@ function updateNavigationButtons() {
 
         setText(DOM.nextBtn, "Next");
 
-    }
-
-    else {
+    } else {
 
         enable(DOM.nextBtn);
 
@@ -164,7 +142,6 @@ function updateNavigationButtons() {
     }
 
 }
-
 
 /* ==========================================================
    REFRESH
@@ -175,16 +152,15 @@ function refreshVocabulary() {
     renderVocabulary();
 
 }
-
-
 /* ==========================================================
    SHOW VOCABULARY
 ========================================================== */
 
-function showVocabularyScreen() {
-
+function showVocabularyScreen(fromMatching = false) {
+document.querySelector(".progress-section").style.display = "block";
     show(DOM.vocabularyScreen);
-
+hide(DOM.backBtn);
+hide(DOM.homeBtn);
     hide(DOM.finishScreen);
 
     hide(DOM.matchingScreen);
@@ -197,20 +173,113 @@ function showVocabularyScreen() {
 
     refreshVocabulary();
 
+if (fromMatching) {
+
+    hide(DOM.prevBtn);
+    hide(DOM.nextBtn);
+
+    show(DOM.continueMatchingBtn);
+
+    DOM.continueMatchingBtn.onclick = () => {
+
+        clearTimeout(window.returnMatchingTimer);
+
+        hide(DOM.continueMatchingBtn);
+
+        show(DOM.prevBtn);
+        show(DOM.nextBtn);
+
+        showMatchingScreen();
+
+    };
+
+} else {
+
+    show(DOM.prevBtn);
+    show(DOM.nextBtn);
+
+    hide(DOM.continueMatchingBtn);
+
+}
+    /* =====================================
+       QUAY TỪ MATCHING KHI GHÉP SAI
+    ===================================== */
+
+    if (fromMatching) {
+
+        autoSpeakCurrentWord();
+
+        if (DOM.matchingBtn) {
+
+            show(DOM.matchingBtn);
+
+            DOM.matchingBtn.textContent = "Continue Matching";
+
+            DOM.matchingBtn.onclick = () => {
+
+                showMatchingScreen();
+
+            };
+
+        }
+
+        clearTimeout(window.returnMatchingTimer);
+
+        window.returnMatchingTimer = setTimeout(() => {
+
+            showMatchingScreen();
+
+        }, 4000);
+
+    }
+
 }
 
 /* ==========================================================
+   SHOW MATCHING
+========================================================== */
+
+function showMatchingScreen() {
+
+    hide(DOM.vocabularyScreen);
+
+    hide(DOM.finishScreen);
+
+    hide(DOM.reviewScreen);
+
+    hide(DOM.readingLocked);
+
+    hide(DOM.readingUnlocked);
+
+    show(DOM.matchingScreen);
+
+}
+/* ==========================================================
    SHOW FINISH
 ========================================================== */
+
 function showFinishScreen() {
 
     hide(DOM.vocabularyScreen);
 
+    hide(DOM.matchingScreen);
+
+    hide(DOM.reviewScreen);
+
+    hide(DOM.readingLocked);
+
+    hide(DOM.readingUnlocked);
+
     show(DOM.finishScreen);
+    show(DOM.backBtn);
+show(DOM.homeBtn);
+
+updateBackButton();
 
 }
+
 /* ==========================================================
-   EMPTY
+   CLEAR VOCABULARY
 ========================================================== */
 
 function clearVocabulary() {
@@ -227,7 +296,6 @@ function clearVocabulary() {
 
 }
 
-
 /* ==========================================================
    RELOAD
 ========================================================== */
@@ -239,3 +307,35 @@ function reloadVocabulary() {
     refreshVocabulary();
 
 }
+
+/* ==========================================================
+   MATCHING RETURN
+========================================================== */
+
+function returnToMatching() {
+
+    clearTimeout(window.returnMatchingTimer);
+
+    showMatchingScreen();
+
+}
+
+/* ==========================================================
+   CANCEL RETURN
+========================================================== */
+
+function cancelReturnMatching() {
+
+    clearTimeout(window.returnMatchingTimer);
+
+}
+
+/* ==========================================================
+   DESTROY
+========================================================== */
+
+window.addEventListener("beforeunload", () => {
+
+    cancelReturnMatching();
+
+});

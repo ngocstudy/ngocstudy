@@ -1,20 +1,61 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   navigation.js
+/*==========================================================
+Module   : vocabulary_navigation.js
+Thư mục  : 03_vocabulary
 
-   Chức năng:
-   - Previous
-   - Next
-   - Finish Vocabulary
-   - Đăng ký sự kiện điều hướng
+Version  : 3.0
+Status   : 🔒 LOCKED
+Ngày     : 01/08/2026
+==========================================================
 
-   Không chứa:
-   - Load JSON
-   - Render HTML
-   - Matching
-   - Review
-========================================================== */
+Chức năng
+
+- Điều hướng Vocabulary.
+- Chuyển Previous / Next.
+- Kết thúc Vocabulary.
+- Mở Matching.
+- Đăng ký sự kiện điều hướng.
+
+----------------------------------------------------------
+Gồm các hàm / thành phần
+
+- previousVocabulary()
+- nextVocabulary()
+- finishVocabulary()
+- startMatchingGame()
+- registerVocabularyNavigationEvents()
+- registerVocabularyKeyboardEvents()
+- lockVocabularyNavigation()
+- unlockVocabularyNavigation()
+- restartVocabulary()
+- initializeVocabularyNavigation()
+
+----------------------------------------------------------
+Phụ thuộc
+
+- config.js
+- utils.js
+- loader.js
+- audio.js
+- navigation_history.js
+- navigation_back.js
+
+----------------------------------------------------------
+Bị phụ thuộc
+
+- script.js
+
+----------------------------------------------------------
+Ghi chú
+
+- Chỉ điều hướng Vocabulary.
+- Không quản lý Reading.
+- Không quản lý Listening.
+- Không quản lý Checkpoint.
+- Không quản lý Navigation của App.
+- Không Render.
+- Không quản lý History.
+
+==========================================================*/
 
 "use strict";
 
@@ -76,9 +117,15 @@ function startMatchingGame() {
     show(DOM.matchingScreen);
 
     resetMatchingState();
-
+    resetScoreState();
+ListeningState.mcqAnswer = [];
+ListeningState.tfnAnswer = [];
+ListeningState.gapFillAnswer = [];
+ListeningState.vocabularyAnswer = [];
+ListeningState.matchingAnswer = [];
     createMatchingGame();
-
+    pushNavigationHistory("matching");
+updateBackButton();
 }
 
 
@@ -86,7 +133,7 @@ function startMatchingGame() {
    BUTTON EVENTS
 ========================================================== */
 
-function registerNavigationEvents() {
+function registerVocabularyNavigationEvents() {
 
     if (DOM.prevBtn) {
 
@@ -131,7 +178,7 @@ function registerNavigationEvents() {
    KEYBOARD
 ========================================================== */
 
-function registerKeyboardEvents() {
+function registerVocabularyKeyboardEvents() {
 
     document.addEventListener(
 
@@ -170,7 +217,7 @@ function registerKeyboardEvents() {
    ENABLE / DISABLE
 ========================================================== */
 
-function lockNavigation() {
+function lockVocabularyNavigation() {
 
     disable(DOM.prevBtn);
 
@@ -179,7 +226,7 @@ function lockNavigation() {
 }
 
 
-function unlockNavigation() {
+function unlockVocabularyNavigation() {
 
     updateNavigationButtons();
 
@@ -203,10 +250,12 @@ function restartVocabulary() {
    INITIALIZE
 ========================================================== */
 
-function initializeNavigation() {
+function initializeVocabularyNavigation() {
 
-    registerNavigationEvents();
+    registerVocabularyNavigationEvents();
 
-    registerKeyboardEvents();
+    registerVocabularyKeyboardEvents();
+
+    pushNavigationHistory("vocabulary");
 
 }

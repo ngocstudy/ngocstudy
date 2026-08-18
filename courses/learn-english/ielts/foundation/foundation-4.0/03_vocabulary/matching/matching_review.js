@@ -1,17 +1,58 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   matching_review.js
+/*==========================================================
+Module : matching_review.js
+Thư mục: 03_vocabulary/matching
 
-   Chức năng
-   ----------------------------------------------------------
-   - Hiển thị Review
-   - Hiển thị Word
-   - Hiển thị IPA
-   - Hiển thị Meaning
-   - Hiển thị Synonyms
-   - Hiển thị Word Family
-========================================================== */
+Version : 1.0
+Status  : 🔒 LOCKED
+Ngày    : 01/08/2026
+
+------------------------------------------------------------
+Chức năng
+
+- Hiển thị màn hình Review
+- Hiển thị thông tin từ vựng
+- Hiển thị Synonyms
+- Hiển thị Word Family
+- Điều khiển Countdown
+- Quay lại Matching
+
+------------------------------------------------------------
+Gồm các hàm
+
+showReview()
+hideReview()
+renderReview()
+renderReviewSynonyms()
+renderReviewFamily()
+continueMatching()
+startCountdown()
+updateCountdown()
+resetCountdown()
+initReviewEvents()
+resetReview()
+destroyReview()
+initReviewEngine()
+openReview()
+closeReview()
+
+------------------------------------------------------------
+Phụ thuộc
+
+config.js
+utils.js
+matching.js
+
+------------------------------------------------------------
+Ghi chú
+
+Quản lý toàn bộ màn hình Review của Matching.
+
+Không xử lý tạo card.
+
+Không xử lý kiểm tra đáp án.
+
+Không xử lý hoàn thành Matching.
+==========================================================*/
 
 "use strict";
 

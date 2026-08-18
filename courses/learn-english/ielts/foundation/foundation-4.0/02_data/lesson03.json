@@ -1,0 +1,651 @@
+{
+  "vocabulary": [
+  {
+    "word": "Research",
+    "ipa": "/rɪˈsɜːtʃ/",
+    "meaning": "nghiên cứu",
+    "synonyms": [
+      {
+        "word": "study",
+        "ipa": "/ˈstʌdi/",
+        "meaning": "nghiên cứu"
+      },
+      {
+        "word": "investigation",
+        "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+        "meaning": "sự nghiên cứu, điều tra"
+      }
+    ],
+    "family": [
+      {
+        "word": "researcher",
+        "ipa": "/rɪˈsɜːtʃə(r)/",
+        "pos": "n",
+        "meaning": "nhà nghiên cứu"
+      },
+      {
+        "word": "researchable",
+        "ipa": "/rɪˈsɜːtʃəbl/",
+        "pos": "adj",
+        "meaning": "có thể nghiên cứu"
+      }
+    ]
+  },
+  {
+    "word": "Evidence",
+    "ipa": "/ˈevɪdəns/",
+    "meaning": "bằng chứng",
+    "synonyms": [
+      {
+        "word": "proof",
+        "ipa": "/pruːf/",
+        "meaning": "bằng chứng"
+      },
+      {
+        "word": "indication",
+        "ipa": "/ˌɪndɪˈkeɪʃn/",
+        "meaning": "dấu hiệu"
+      }
+    ],
+    "family": [
+      {
+        "word": "evident",
+        "ipa": "/ˈevɪdənt/",
+        "pos": "adj",
+        "meaning": "rõ ràng"
+      },
+      {
+        "word": "evidently",
+        "ipa": "/ˈevɪdəntli/",
+        "pos": "adv",
+        "meaning": "rõ ràng"
+      }
+    ]
+  },
+  {
+    "word": "Experiment",
+    "ipa": "/ɪkˈsperɪmənt/",
+    "meaning": "thí nghiệm",
+    "synonyms": [
+      {
+        "word": "test",
+        "ipa": "/test/",
+        "meaning": "kiểm tra, thử nghiệm"
+      },
+      {
+        "word": "trial",
+        "ipa": "/ˈtraɪəl/",
+        "meaning": "thử nghiệm"
+      }
+    ],
+    "family": [
+      {
+        "word": "experimental",
+        "ipa": "/ɪkˌsperɪˈmentl/",
+        "pos": "adj",
+        "meaning": "mang tính thực nghiệm"
+      },
+      {
+        "word": "experimentation",
+        "ipa": "/ɪkˌsperɪmenˈteɪʃn/",
+        "pos": "n",
+        "meaning": "sự thử nghiệm"
+      }
+    ]
+  },
+    {
+    "word": "Discover",
+    "ipa": "/dɪˈskʌvə(r)/",
+    "meaning": "khám phá",
+    "synonyms": [
+      {
+        "word": "find",
+        "ipa": "/faɪnd/",
+        "meaning": "tìm thấy"
+      },
+      {
+        "word": "detect",
+        "ipa": "/dɪˈtekt/",
+        "meaning": "phát hiện"
+      }
+    ],
+    "family": [
+      {
+        "word": "discovery",
+        "ipa": "/dɪˈskʌvəri/",
+        "pos": "n",
+        "meaning": "sự khám phá"
+      },
+      {
+        "word": "discoverer",
+        "ipa": "/dɪˈskʌvərə(r)/",
+        "pos": "n",
+        "meaning": "người khám phá"
+      }
+    ]
+  },
+  {
+    "word": "Scientist",
+    "ipa": "/ˈsaɪəntɪst/",
+    "meaning": "nhà khoa học",
+    "synonyms": [
+      {
+        "word": "researcher",
+        "ipa": "/rɪˈsɜːtʃə(r)/",
+        "meaning": "nhà nghiên cứu"
+      },
+      {
+        "word": "expert",
+        "ipa": "/ˈekspɜːt/",
+        "meaning": "chuyên gia"
+      }
+    ],
+    "family": [
+      {
+        "word": "science",
+        "ipa": "/ˈsaɪəns/",
+        "pos": "n",
+        "meaning": "khoa học"
+      },
+      {
+        "word": "scientific",
+        "ipa": "/ˌsaɪənˈtɪfɪk/",
+        "pos": "adj",
+        "meaning": "thuộc khoa học"
+      }
+    ]
+  },
+    {
+    "word": "Theory",
+    "ipa": "/ˈθɪəri/",
+    "meaning": "lý thuyết",
+    "synonyms": [
+      {
+        "word": "hypothesis",
+        "ipa": "/haɪˈpɒθəsɪs/",
+        "meaning": "giả thuyết"
+      },
+      {
+        "word": "principle",
+        "ipa": "/ˈprɪnsəpl/",
+        "meaning": "nguyên lý"
+      }
+    ],
+    "family": [
+      {
+        "word": "theoretical",
+        "ipa": "/ˌθɪəˈretɪkl/",
+        "pos": "adj",
+        "meaning": "mang tính lý thuyết"
+      },
+      {
+        "word": "theorize",
+        "ipa": "/ˈθɪəraɪz/",
+        "pos": "v",
+        "meaning": "đưa ra giả thuyết"
+      }
+    ]
+  },
+  {
+    "word": "Method",
+    "ipa": "/ˈmeθəd/",
+    "meaning": "phương pháp",
+    "synonyms": [
+      {
+        "word": "approach",
+        "ipa": "/əˈprəʊtʃ/",
+        "meaning": "cách tiếp cận"
+      },
+      {
+        "word": "technique",
+        "ipa": "/tekˈniːk/",
+        "meaning": "kỹ thuật"
+      }
+    ],
+    "family": [
+      {
+        "word": "methodology",
+        "ipa": "/ˌmeθəˈdɒlədʒi/",
+        "pos": "n",
+        "meaning": "phương pháp luận"
+      },
+      {
+        "word": "methodological",
+        "ipa": "/ˌmeθədəˈlɒdʒɪkl/",
+        "pos": "adj",
+        "meaning": "thuộc phương pháp"
+      }
+    ]
+  },
+  {
+    "word": "Data",
+    "ipa": "/ˈdeɪtə/",
+    "meaning": "dữ liệu",
+    "synonyms": [
+      {
+        "word": "statistics",
+        "ipa": "/stəˈtɪstɪks/",
+        "meaning": "số liệu thống kê"
+      },
+      {
+        "word": "figures",
+        "ipa": "/ˈfɪɡəz/",
+        "meaning": "số liệu"
+      }
+    ],
+    "family": [
+      {
+        "word": "database",
+        "ipa": "/ˈdeɪtəbeɪs/",
+        "pos": "n",
+        "meaning": "cơ sở dữ liệu"
+      },
+      {
+        "word": "datum",
+        "ipa": "/ˈdeɪtəm/",
+        "pos": "n",
+        "meaning": "một mục dữ liệu"
+      }
+    ]
+  },
+    {
+    "word": "Information",
+    "ipa": "/ˌɪnfəˈmeɪʃn/",
+    "meaning": "thông tin",
+    "synonyms": [
+      {
+        "word": "details",
+        "ipa": "/ˈdiːteɪlz/",
+        "meaning": "chi tiết"
+      },
+      {
+        "word": "knowledge",
+        "ipa": "/ˈnɒlɪdʒ/",
+        "meaning": "kiến thức"
+      }
+    ],
+    "family": [
+      {
+        "word": "inform",
+        "ipa": "/ɪnˈfɔːm/",
+        "pos": "v",
+        "meaning": "thông báo"
+      },
+      {
+        "word": "informative",
+        "ipa": "/ɪnˈfɔːmətɪv/",
+        "pos": "adj",
+        "meaning": "giàu thông tin"
+      }
+    ]
+  },
+  {
+    "word": "Knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "meaning": "kiến thức",
+    "synonyms": [
+      {
+        "word": "understanding",
+        "ipa": "/ˌʌndəˈstændɪŋ/",
+        "meaning": "sự hiểu biết"
+      },
+      {
+        "word": "awareness",
+        "ipa": "/əˈweənəs/",
+        "meaning": "nhận thức"
+      }
+    ],
+    "family": [
+      {
+        "word": "knowledgeable",
+        "ipa": "/ˈnɒlɪdʒəbl/",
+        "pos": "adj",
+        "meaning": "hiểu biết"
+      },
+      {
+        "word": "know",
+        "ipa": "/nəʊ/",
+        "pos": "v",
+        "meaning": "biết"
+      }
+    ]
+  }
+  ],
+
+"reading1": {
+  "passage": {
+    "title": "The School Science Project",
+  "text": "Anna is a student who loves science. She wants to become a scientist one day. Every Friday, her class does a small research project. This month, Anna has a theory. She thinks that bean plants grow better in natural sunlight than under a desk lamp. Her teacher likes the idea and asks the class to do an experiment. First, Anna chooses a simple method. She prepares two small plants. Both plants have the same soil and the same amount of water. The only difference is the light. One plant stays near the window, and the other stays under a lamp. Every afternoon, Anna measures the plants. She writes the data in her notebook. She also adds useful information, such as the weather and the room temperature. She is careful because good research needs correct data. After three weeks, Anna looks at all the results. The plant near the window is taller and has more green leaves. The evidence is clear. Her teacher says the experiment was successful. Anna is excited because she can discover something new. She understands that one experiment cannot prove every theory, but it helps people learn. The project gives her more knowledge about plants and shows her that science is interesting and useful."
+},
+"quiz": {
+   "mcq": [
+  {
+    "question": "Why does Anna do the research?",
+    "options": [
+      "To win a prize",
+      "To learn how plants grow",
+      "To buy new plants",
+      "To decorate her classroom"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the only difference between the two plants?",
+    "options": [
+      "The water",
+      "The soil",
+      "The light",
+      "The classroom"
+    ],
+    "answer": "C"
+  }
+],
+    "tfn": [
+  {
+    "statement": "Anna wants to become a scientist.",
+    "answer": "True"
+  },
+  {
+    "statement": "Anna uses three plants in her experiment.",
+    "answer": "False"
+  },
+  {
+    "statement": "The teacher gives Anna a science book after the experiment.",
+    "answer": "Not Given"
+  }
+],
+   "summary": {
+  "instruction": "Complete the summary with ONE WORD from the reading.",
+  "text": "Anna does a school (6) ________ about plants. She has a (7) ________ that sunlight is better than a lamp. She follows the same (8) ________ for both plants and records the (9) ________ every day. Finally, the (10) ________ shows that sunlight helps the plant grow better.",
+  "answers": [
+    "research",
+    "theory",
+    "method",
+    "data",
+    "evidence"
+  ]
+},
+    "vocabulary": [
+  {
+    "question": "What does evidence mean in the reading?",
+    "options": [
+      "A question",
+      "Proof that something is true",
+      "A plant",
+      "A notebook"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What does method mean?",
+    "options": [
+      "A result",
+      "A way of doing something",
+      "A discovery",
+      "A classroom"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What does discover mean?",
+    "options": [
+      "To forget something",
+      "To find something new",
+      "To write information",
+      "To ask a question"
+    ],
+    "answer": "B"
+  }
+],
+"matching": {
+  "instruction": "Match the words with their synonyms.",
+  "left": [
+    "Research",
+    "Evidence",
+    "Method",
+    "Knowledge"
+  ],
+  "right": [
+    "Proof",
+    "Study",
+    "Approach",
+    "Understanding"
+  ],
+  "answers": {
+    "0": "B",
+    "1": "A",
+    "2": "C",
+    "3": "D"
+  }
+}
+  }
+},
+"reading2": {
+  "passage": {
+    "title": "A Good Science Class",
+    "text": "Mr. Brown is a science teacher at Green Hill School. He wants his students to become more knowledgeable about the world. Every month, the class works on a small research project. The students enjoy learning by doing simple activities. This month, the class wants to discover which drink helps bean plants grow best. Before they begin, Mr. Brown explains the methodology of the project. He tells everyone to use the same method so the results will be fair. Each group prepares three plants with the same soil, the same pots, and the same amount of light. Each group has a different hypothesis. One group believes water is the best. Another group thinks milk will help the plants grow faster. A third group chooses a plant drink. Then the students start the experiment. Every afternoon, they measure the plants and record the data. They also write useful information in their notebooks. At the end of two weeks, they compare all the results. The evidence clearly shows that water helps the plants grow best. The milk and the plant drink do not improve growth. Mr. Brown explains that one experiment does not prove every theory. Good scientists repeat the test many times before they accept a conclusion. They also share their results with other researchers. When different people get the same results, the evidence becomes stronger. The students are happy with their project. They learn that science is not only about finding the right answer. It is also about asking good questions, using the correct method, collecting accurate data, and learning from every discovery. The project gives them more knowledge and makes them more interested in science."
+  },
+  "quiz": {
+    "mcq": [
+      {
+        "question": "What is the aim of the class research?",
+        "options": [
+          "To learn how to make plant drinks",
+          "To discover which drink helps plants grow best",
+          "To compare different classrooms",
+          "To study different kinds of soil"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "Why does Mr. Brown ask every group to use the same method?",
+        "options": [
+          "To finish the project faster",
+          "To make the results fair",
+          "To save money",
+          "To grow bigger plants"
+        ],
+        "answer": "B"
+      }
+    ],
+    "tfn": [
+      {
+        "statement": "Every group uses the same amount of light.",
+        "answer": "True"
+      },
+      {
+        "statement": "Milk helps the plants grow better than water.",
+        "answer": "False"
+      },
+      {
+        "statement": "The students visit a science museum after the project.",
+        "answer": "Not Given"
+      }
+    ],
+    "summary": {
+      "instruction": "Complete the summary with ONE WORD from the reading.",
+      "text": "The students begin a class (6) ________ about plants. They follow the same (7) ________ and collect (8) ________ every afternoon. After two weeks, the (9) ________ shows that water is the best drink for the plants. The project gives the students more (10) ________ about science.",
+      "answers": [
+        "research",
+        "method",
+        "data",
+        "evidence",
+        "knowledge"
+      ]
+    },
+    "vocabulary": [
+      {
+        "question": "What does hypothesis mean in the reading?",
+        "options": [
+          "A guess before testing",
+          "A final answer",
+          "A science teacher",
+          "A notebook"
+        ],
+        "answer": "A"
+      },
+      {
+        "question": "What does researcher mean?",
+        "options": [
+          "A student",
+          "A person who studies and investigates something",
+          "A farmer",
+          "A doctor"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "What does methodology mean?",
+        "options": [
+          "A science book",
+          "The system or plan used to carry out a study",
+          "A laboratory",
+          "A type of plant"
+        ],
+        "answer": "B"
+      }
+    ],
+    "matching": {
+      "instruction": "Match the words with their synonyms.",
+      "left": [
+        "Research",
+        "Evidence",
+        "Theory",
+        "Method"
+      ],
+      "right": [
+        "Approach",
+        "Proof",
+        "Hypothesis",
+        "Study"
+      ],
+      "answers": {
+        "0": "D",
+        "1": "B",
+        "2": "C",
+        "3": "A"
+      }
+    }
+  }
+},
+"listening": {
+  "passage": {
+    "title": "Science and Research",
+    "audio": "",
+    "transcript": "Good morning, everyone. Today we are going to learn about science and research. Every scientist does research to learn new things and build more knowledge. Before starting an experiment, the scientist has a clear theory. Then, he or she chooses the best method to test the idea. A good method helps make the experiment fair and accurate. During the experiment, the scientist collects data every day. The data may include numbers, pictures, or simple notes. The scientist also writes important information in a notebook. Good information helps people understand the results better. After the experiment, the scientist studies all the data carefully. Sometimes the evidence is strong, but sometimes more research is needed. If the evidence is clear, the scientist may discover something new. This discovery can help people solve problems or improve their lives. Science is very important because it helps us understand the world. Every experiment, every piece of evidence, and every new discovery gives us more knowledge. By doing careful research and using the right method, scientists continue to make our future better."
+  },
+  "quiz": {
+    "mcq": [
+      {
+        "question": "Why does a scientist do research?",
+        "options": [
+          "To make money",
+          "To learn new things and build knowledge",
+          "To teach music",
+          "To sell books"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "What does the scientist do before starting an experiment?",
+        "options": [
+          "Collects evidence",
+          "Chooses a good method",
+          "Writes the results",
+          "Shares the discovery"
+        ],
+        "answer": "B"
+      }
+    ],
+    "tfn": [
+      {
+        "statement": "A scientist collects data during an experiment.",
+        "answer": "True"
+      },
+      {
+        "statement": "Strong evidence means more research is always needed.",
+        "answer": "False"
+      },
+      {
+        "statement": "Science helps people understand the world better.",
+        "answer": "True"
+      }
+    ],
+    "gapFill": [
+      {
+        "question": "Every scientist does __________ to learn new things.",
+        "answer": "research"
+      },
+      {
+        "question": "Before the experiment, the scientist has a __________.",
+        "answer": "theory"
+      },
+      {
+        "question": "During the experiment, the scientist collects __________.",
+        "answer": "data"
+      },
+      {
+        "question": "Clear __________ can help a scientist make a discovery.",
+        "answer": "evidence"
+      },
+      {
+        "question": "Science helps us build more __________.",
+        "answer": "knowledge"
+      }
+    ],
+    "vocabulary": [
+      {
+        "question": "What does method mean?",
+        "options": [
+          "A way of doing something",
+          "A type of evidence",
+          "A science class",
+          "A notebook"
+        ],
+        "answer": "A"
+      },
+      {
+        "question": "What does discover mean?",
+        "options": [
+          "To forget something",
+          "To find something new",
+          "To collect data",
+          "To write information"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "What does evidence mean?",
+        "options": [
+          "A picture",
+          "Proof that supports an idea",
+          "A method",
+          "A question"
+        ],
+        "answer": "B"
+      }
+    ],
+    "matching": {
+      "instruction": "Match the words with their meanings.",
+      "left": [
+        "Research",
+        "Experiment",
+        "Data",
+        "Knowledge"
+      ],
+      "right": [
+        "Facts collected during a study",
+        "A careful study to learn something",
+        "A scientific test",
+        "What a person knows"
+      ],
+      "answers": {
+        "0": "B",
+        "1": "C",
+        "2": "A",
+        "3": "D"
+      }
+    }
+  }
+}
+}

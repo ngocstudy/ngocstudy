@@ -174,7 +174,13 @@
         </button>
 
     </section>
+<button
+    id="continueMatchingBtn"
+    class="start-btn hidden">
 
+    Continue Matching
+
+</button>
 </section>
     <!-- COMPLETED -->
 
@@ -288,7 +294,31 @@
     </button>
 
 </section>
+<section
+    id="readingFinishScreen"
+    class="finish-screen hidden">
 
+    <div class="unlock-icon">
+        🔓
+    </div>
+
+    <h2>
+        Congratulations!
+    </h2>
+
+    <p>
+        Vocabulary completed successfully.
+    </p>
+
+    <button
+        id="readingFinishBtn"
+        class="start-btn">
+
+        Start Reading 1
+
+    </button>
+
+</section>
     <section
         id="readingLocked"
         class="reading-lock hidden">
@@ -312,57 +342,150 @@
         </p>
 
     </section>
-        <!-- READING UNLOCKED -->
+    <section id="readingScreen" class="hidden">
 
-    <section
-        id="readingUnlocked"
-        class="reading-unlocked hidden">
+    <div class="reading-header">
 
-        <div class="unlock-icon">
-
-            🔓
-
+        <div id="readingTitle">
+            Reading 1
         </div>
 
-        <h2>
+        <div id="readingProgress">
+            Step 1 / 6
+        </div>
 
-            Congratulations!
+    </div>
 
-        </h2>
+    <h2 id="readingHeading">
+        Reading Title
+    </h2>
 
-        <p>
+    <div id="readingContent">
+        Reading content...
+    </div>
 
-            Vocabulary completed successfully.
+    <button id="continueReadingBtn">
+        Continue
+    </button>
 
-        </p>
+</section>
+<!-- LISTENING -->
 
-        <button
-            id="readingBtn"
-            class="start-btn">
+<section
+    id="listeningScreen"
+    class="hidden">
 
-            Start Reading 1
+    <div class="reading-header">
 
-        </button>
+        <div>
+            Listening
+        </div>
 
-    </section>
+        <div id="listeningProgress">
+            Step 1 / 5
+        </div>
+
+    </div>
+
+    <h2 id="listeningHeading">
+
+        Listening Title
+
+    </h2>
+
+    <div id="listeningContent">
+
+        Listening content...
+
+    </div>
+
+    <button
+        id="continueListeningBtn">
+
+        Continue
+
+    </button>
+
+</section>
+
+<!-- LESSON RESULT -->
+
+<section
+    id="lessonResultScreen"
+    class="hidden">
+
+    <div id="lessonResultContent"></div>
+
+</section>
+<!-- REVIEW MISTAKES SCREEN -->
+<section
+    id="reviewMistakesScreen"
+    class="hidden">
+
+    <div id="reviewMistakesContent"></div>
+
+    <button
+        id="backToLessonResultBtn"
+        class="lesson-button primary">
+
+        ← Back to Lesson Result
+
+    </button>
+
+</section>
+<button
+    id="listeningBtn"
+    class="start-btn hidden">
+
+    Start Listening
+
+</button>
+<button
+    id="readingBtn"
+    class="start-btn hidden">
+
+    Start Reading 1
+
+</button>
 
 </div>
+<script src="01_engine/config.js"></script>
+<script src="01_engine/utils.js"></script>
+<script src="01_engine/loader.js"></script>
+<script src="01_engine/audio.js"></script>
 
-<script src="config.js"></script>
-<script src="utils.js"></script>
-<script src="audio.js"></script>
-
-<script src="loader.js"></script>
 <script src="renderer.js"></script>
-<script src="navigation.js"></script>
+<script src="03_vocabulary/vocabulary_navigation.js"></script>
+<script src="03_vocabulary/matching/matching.js"></script>
+<script src="03_vocabulary/matching/matching_cards.js"></script>
+<script src="03_vocabulary/matching/matching_events.js"></script>
+<script src="03_vocabulary/matching/matching_review.js"></script>
+<script src="03_vocabulary/matching/matching_finish.js"></script>
 
-<script src="matching.js"></script>
-<script src="matching_cards.js"></script>
-<script src="matching_events.js"></script>
-<script src="matching_review.js"></script>
-<script src="matching_finish.js"></script>
+<script src="07_app/navigation_history.js"></script>
+<script src="07_app/navigation_back.js"></script>
+<script src="07_app/navigation_home.js"></script>
+<script src="07_app/navigation_engine.js"></script>
+<script src="07_app/script.js"></script>
 
-<script src="script.js"></script>
+<script src="01_engine/question_state.js"></script>
+<script src="01_engine/question_score_engine.js"></script>
+<script src="01_engine/question_review_engine.js"></script>
+<script src="01_engine/question_renderer.js"></script>
+<script src="01_engine/question_events.js"></script>
+<script src="01_engine/question_navigation.js"></script>
+<script src="01_engine/question_controller.js"></script>
+<script src="01_engine/score_engine.js"></script>
+<script src="01_engine/vocabulary_attempt_engine.js"></script>
 
+<script src="04_reading/reading_renderer.js"></script>
+<script src="04_reading/reading_navigation.js"></script>
+<script src="04_reading/reading_events.js"></script>
+<script src="05_listening/listening_renderer.js"></script>
+<script src="05_listening/listening_navigation.js"></script>
+<script src="05_listening/listening_events.js"></script>
+<script src="06_lesson_result/lesson_result_controller.js"></script>
+<script src="06_lesson_result/lesson_result_renderer.js"></script>
+<script src="06_lesson_result/lesson_result_navigation.js"></script>
 </body>
 </html>
