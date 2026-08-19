@@ -78,6 +78,29 @@ function startListening() {
 
 function continueListening() {
 
+    // Ở Question Preview, bắt buộc đủ 2 phút trước khi đi tiếp.
+    if (ListeningState.currentStep === 1 &&
+        !ListeningState.previewCompleted) {
+
+        return;
+
+    }
+
+    if (ListeningState.currentStep === 1 &&
+        ListeningState.previewCompleted &&
+        !ListeningState.listeningTtsCompleted &&
+        ListeningState.audioPlayCount === 0) {
+
+        ListeningState.currentStep++;
+
+        renderListeningScreen();
+
+        playListeningAudioTwice();
+
+        return;
+
+    }
+
     if (ListeningState.currentStep < ListeningState.totalSteps) {
 
         ListeningState.currentStep++;

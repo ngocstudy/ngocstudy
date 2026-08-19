@@ -135,6 +135,14 @@ if (DOM.listeningScreen &&
 
     }
 
+    // Ở Question Preview, chưa nghe đủ 2 lần thì không được quay về Reading 2.
+    if (ListeningState.currentStep === 1 &&
+        !ListeningState.listeningTtsCompleted) {
+
+        return;
+
+    }
+
     ReadingState.currentReading = 2;
     ReadingState.currentStep = 6;
 
@@ -285,6 +293,17 @@ if (DOM.lessonResultScreen &&
 ========================================================== */
 
 function updateBackButton() {
+
+    if (DOM.listeningScreen &&
+        !DOM.listeningScreen.classList.contains("hidden") &&
+        ListeningState.currentStep === 1 &&
+        !ListeningState.listeningTtsCompleted) {
+
+        hide(DOM.backBtn);
+
+        return;
+
+    }
 
     if (DOM.vocabularyScreen &&
         !DOM.vocabularyScreen.classList.contains("hidden")) {

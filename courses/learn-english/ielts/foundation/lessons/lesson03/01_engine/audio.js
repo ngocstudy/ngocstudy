@@ -67,6 +67,9 @@ Ghi chú
 
 let speechVoice = null;
 
+// Mã dùng để vô hiệu hóa lượt TTS cũ khi cần dừng.
+let listeningTtsGeneration = 0;
+
 
 /* ==========================================================
    LOAD VOICES
@@ -100,9 +103,34 @@ if ("speechSynthesis" in window) {
 
 function stopSpeaking() {
 
+    listeningTtsGeneration++;
+
     if (!("speechSynthesis" in window)) return;
 
     window.speechSynthesis.cancel();
+
+}
+
+
+/* ==========================================================
+   STOP LISTENING AUDIO
+========================================================== */
+
+function stopListeningAudio() {
+
+    listeningTtsGeneration++;
+
+    if ("speechSynthesis" in window) {
+
+        window.speechSynthesis.cancel();
+
+    }
+
+    if (typeof ListeningState !== "undefined") {
+
+        ListeningState.listeningTtsActive = false;
+
+    }
 
 }
 
@@ -201,17 +229,37 @@ const transcript =
 
     stopSpeaking();
 
+    const currentGeneration = listeningTtsGeneration;
+
+    ListeningState.listeningTtsActive = true;
+
     const speech =
         createSpeech(transcript);
 
     speech.onend = () => {
 
+        if (currentGeneration !== listeningTtsGeneration) {
+
+            return;
+
+        }
+
         ListeningState.audioPlayCount++;
 
-        // Nếu mới nghe lần 1 → đọc lần 2
         if (ListeningState.audioPlayCount < 2) {
 
             playListeningAudioTwice();
+
+            return;
+
+        }
+
+        ListeningState.listeningTtsCompleted = true;
+        ListeningState.listeningTtsActive = false;
+
+        if (typeof updateBackButton === "function") {
+
+            updateBackButton();
 
         }
 

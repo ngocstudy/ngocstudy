@@ -100,7 +100,27 @@ const ListeningState = {
 
 previewCompleted: false,
 audioPlayCount: 0,
+
+    listeningTtsCompleted: false,
+// ==========================================================
+// LISTENING TTS STATE
+// ----------------------------------------------------------
+// true  = TTS Listening đang được phép chạy.
+// false = TTS đã dừng.
+// Lesson Result sẽ chuyển giá trị này thành false.
+// ==========================================================
+
+listeningTtsActive: true,
 previewTimer: null,
+// ==========================================================
+// LISTENING PREVIEW TIMER STATE
+// ----------------------------------------------------------
+// Lưu số giây còn lại của 2 phút Preview.
+// Giúp Back qua lại giữa các Step mà không reset timer.
+// Chỉ reset khi toàn bộ Listening/Lesson được reset.
+// ==========================================================
+
+previewRemaining: 120,
     mcqAnswer: [],
     tfnAnswer: [],
     gapFillAnswer: [],

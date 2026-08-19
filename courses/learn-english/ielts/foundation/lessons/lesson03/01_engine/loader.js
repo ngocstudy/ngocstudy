@@ -316,6 +316,13 @@ function resetLesson() {
 
     resetMatchingState();
 ListeningState.started = false;
+ListeningState.currentStep = 1;
+ListeningState.previewCompleted = false;
+ListeningState.audioPlayCount = 0;
+ListeningState.listeningTtsCompleted = false;
+ListeningState.listeningTtsActive = true;
+ListeningState.previewTimer = null;
+ListeningState.previewRemaining = 120;
 
 ListeningState.mcqAnswer = [];
 ListeningState.tfnAnswer = [];

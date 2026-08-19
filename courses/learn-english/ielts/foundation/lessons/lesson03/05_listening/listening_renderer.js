@@ -65,6 +65,14 @@ function showListeningScreen() {
 
 function renderListeningScreen() {
 
+    if (DOM.continueListeningBtn) {
+
+        DOM.continueListeningBtn.disabled =
+            ListeningState.currentStep === 1 &&
+            !ListeningState.previewCompleted;
+
+    }
+
 switch (ListeningState.currentStep) {
 
         case 1:
@@ -363,13 +371,18 @@ function startListeningPreviewTimer() {
     // ======================================================
     // LISTENING PREVIEW COMPLETED
     // ------------------------------------------------------
-    // Người học đã có đủ 2 phút để đọc câu hỏi.
-    // Bây giờ bắt đầu bài nghe bằng TTS.
+    // Đủ 2 phút thì chỉ mở Continue.
+    // TTS sẽ bắt đầu khi người học bấm Continue.
     // ======================================================
 
     ListeningState.previewCompleted = true;
+    ListeningState.previewRemaining = 0;
 
-    playListeningAudioTwice();
+    if (DOM.continueListeningBtn) {
+
+        DOM.continueListeningBtn.disabled = false;
+
+    }
 
     return;
 }
