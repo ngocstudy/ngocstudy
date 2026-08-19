@@ -78,24 +78,9 @@ function startListening() {
 
 function continueListening() {
 
-    // Ở Question Preview, bắt buộc đủ 2 phút trước khi đi tiếp.
+    // Chưa hết 2 phút thì chưa được rời Question Preview.
     if (ListeningState.currentStep === 1 &&
         !ListeningState.previewCompleted) {
-
-        return;
-
-    }
-
-    if (ListeningState.currentStep === 1 &&
-        ListeningState.previewCompleted &&
-        !ListeningState.listeningTtsCompleted &&
-        ListeningState.audioPlayCount === 0) {
-
-        ListeningState.currentStep++;
-
-        renderListeningScreen();
-
-        playListeningAudioTwice();
 
         return;
 
@@ -106,6 +91,8 @@ function continueListening() {
         ListeningState.currentStep++;
 
         renderListeningScreen();
+
+        updateBackButton();
 
         return;
 

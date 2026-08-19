@@ -113,7 +113,6 @@ if (continueBtn) {
 
 function openLessonResult() {
 
-    // Rời Listening để vào kết quả: dừng TTS ngay.
     stopListeningAudio();
 
     /* ======================================================

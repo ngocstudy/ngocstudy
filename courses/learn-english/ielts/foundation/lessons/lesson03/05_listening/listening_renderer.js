@@ -339,7 +339,14 @@ if (!ListeningState.previewCompleted) {
 function startListeningPreviewTimer() {
 
     // 2 phút = 120 giây
-    let remaining = 120;
+    // ==========================================================
+// LISTENING PREVIEW TIMER STATE
+// ----------------------------------------------------------
+// Không tạo lại 120 giây mỗi lần render Step 1.
+// Timer lấy thời gian còn lại từ ListeningState.
+// ==========================================================
+
+let remaining = ListeningState.previewRemaining;
 
     const timerElement =
         document.getElementById("listeningPreviewTimer");
@@ -371,23 +378,32 @@ function startListeningPreviewTimer() {
     // ======================================================
     // LISTENING PREVIEW COMPLETED
     // ------------------------------------------------------
-    // Đủ 2 phút thì chỉ mở Continue.
-    // TTS sẽ bắt đầu khi người học bấm Continue.
+    // Người học đã có đủ 2 phút để đọc câu hỏi.
+    // Bây giờ bắt đầu bài nghe bằng TTS.
     // ======================================================
 
     ListeningState.previewCompleted = true;
     ListeningState.previewRemaining = 0;
 
     if (DOM.continueListeningBtn) {
-
         DOM.continueListeningBtn.disabled = false;
-
     }
+
+    // Hết 2 phút thì TTS tự động bắt đầu.
+    playListeningAudioTwice();
 
     return;
 }
 
         remaining--;
+        // ==========================================================
+// SAVE REMAINING PREVIEW TIME
+// ----------------------------------------------------------
+// Lưu lại thời gian hiện tại để khi Back quay lại Step 1
+// timer tiếp tục từ đúng thời điểm trước đó.
+// ==========================================================
+
+ListeningState.previewRemaining = remaining;
 
     };
 

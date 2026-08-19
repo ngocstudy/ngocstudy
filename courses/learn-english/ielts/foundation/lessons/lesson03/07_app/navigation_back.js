@@ -135,7 +135,7 @@ if (DOM.listeningScreen &&
 
     }
 
-    // Ở Question Preview, chưa nghe đủ 2 lần thì không được quay về Reading 2.
+    // Chỉ khóa Back khi đang ở Question Preview và TTS chưa đủ 2 lần.
     if (ListeningState.currentStep === 1 &&
         !ListeningState.listeningTtsCompleted) {
 
@@ -300,7 +300,6 @@ function updateBackButton() {
         !ListeningState.listeningTtsCompleted) {
 
         hide(DOM.backBtn);
-
         return;
 
     }

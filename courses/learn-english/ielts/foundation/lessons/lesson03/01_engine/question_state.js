@@ -105,8 +105,8 @@ audioPlayCount: 0,
 // ==========================================================
 // LISTENING TTS STATE
 // ----------------------------------------------------------
-// true  = TTS Listening đang được phép chạy.
-// false = TTS đã dừng.
+// true  = TTS Listening được phép tiếp tục
+// false = TTS phải dừng.
 // Lesson Result sẽ chuyển giá trị này thành false.
 // ==========================================================
 
