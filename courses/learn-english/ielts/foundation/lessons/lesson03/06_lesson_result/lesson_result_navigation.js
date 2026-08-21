@@ -12,7 +12,6 @@ Chức năng
 - Mở Lesson Result.
 - Review Mistakes (Coming Soon).
 - Copy To AI (Coming Soon).
-- AI Explain (Coming Soon).
 - Continue → Lesson Selection.
 
 ------------------------------------------------------------
@@ -21,7 +20,6 @@ Gồm các hàm
 - openLessonResult()
 - openReviewMistakes()
 - copyToAI()
-- openAIExplain()
 - continueLesson()
 
 ------------------------------------------------------------
@@ -53,8 +51,6 @@ function initializeLessonResultNavigation() {
     DOM.copyToAIBtn =
         document.getElementById("copyToAIBtn");
 
-    DOM.aiExplainBtn =
-        document.getElementById("aiExplainBtn");
 const continueBtn =
     document.getElementById("continueLessonBtn");
     if (DOM.reviewMistakesBtn) {
@@ -84,17 +80,6 @@ DOM.backToLessonResultBtn.addEventListener(
 
     }
 
-    if (DOM.aiExplainBtn) {
-
-        DOM.aiExplainBtn.addEventListener(
-
-            "click",
-
-            openAIExplain
-
-        );
-
-    }
 if (continueBtn) {
 
     continueBtn.addEventListener(
@@ -134,6 +119,13 @@ function openLessonResult() {
     show(DOM.lessonResultScreen);
     hide(DOM.backBtn);
     hide(DOM.homeBtn);
+
+    /* ======================================================
+       SAVE COMPLETED LESSON TO LEARNING PROFILE
+    ====================================================== */
+
+    saveCurrentLessonToLearningProfile();
+
     /* ======================================================
        RENDER RESULT
     ====================================================== */
@@ -219,15 +211,6 @@ ${mistake.correctAnswer}
 
 }
 
-/* ==========================================================
-   AI EXPLAIN
-========================================================== */
-
-function openAIExplain() {
-
-    alert("AI Explain - Coming Soon");
-
-}
 /* ==========================================================
    CONTINUE LESSON
 ------------------------------------------------------------

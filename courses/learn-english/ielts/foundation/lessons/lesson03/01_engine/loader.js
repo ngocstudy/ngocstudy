@@ -73,16 +73,42 @@ let lessonData = {};
    LOAD LESSON
 ========================================================== */
 
+function getRequestedLessonFile() {
+
+    const params = new URLSearchParams(window.location.search);
+    const lessonParam = params.get("lesson");
+
+    // Không có lesson trên URL → giữ nguyên Lesson 03 hiện tại.
+    if (!lessonParam) {
+        return Config.defaultLessonFile;
+    }
+
+    // Chấp nhận cả "lesson01" và "01" để màn hình Lesson
+    // có thể truyền ID theo cách đơn giản.
+    const lessonId = lessonParam.toLowerCase().startsWith("lesson")
+        ? lessonParam.toLowerCase()
+        : `lesson${lessonParam.padStart(2, "0")}`;
+
+    // Chỉ cho phép ID Lesson dạng lesson01, lesson02...
+    if (!/^lesson\d{2,}$/.test(lessonId)) {
+        throw new Error(`Invalid lesson ID: ${lessonParam}`);
+    }
+
+    return `02_data/${lessonId}.json`;
+}
+
 async function loadLesson() {
 
     try {
 
-        const response = await fetch(Config.lessonFile);
+        const lessonFile = getRequestedLessonFile();
+
+        const response = await fetch(lessonFile);
 
         if (!response.ok) {
 
             throw new Error(
-                `Cannot load ${Config.lessonFile}`
+                `Cannot load ${lessonFile}`
             );
 
         }

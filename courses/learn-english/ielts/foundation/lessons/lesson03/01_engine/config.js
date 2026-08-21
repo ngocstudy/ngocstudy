@@ -135,6 +135,12 @@ lessonResultContent: document.getElementById("lessonResultContent"),
 reviewMistakesScreen: document.getElementById("reviewMistakesScreen"),
 reviewMistakesContent: document.getElementById("reviewMistakesContent"),
 backToLessonResultBtn: document.getElementById("backToLessonResultBtn"),
+
+/* Checkpoint Result */
+checkpointResultScreen: document.getElementById("checkpointResultScreen"),
+checkpointResultContent: document.getElementById("checkpointResultContent"),
+checkpointResultBody: null,
+
 lessonResultBody: null,
 };
 
@@ -209,7 +215,9 @@ const SpeechConfig = {
 
 const Config = {
 
-    lessonFile: "02_data/lesson03.json",
+    // Lesson mặc định để giữ nguyên luồng hiện tại.
+    // Khi người học chọn Lesson khác, loader sẽ lấy lessonId từ URL.
+    defaultLessonFile: "02_data/lesson03.json",
 
     autoSpeak: true,
 

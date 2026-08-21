@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson01",
+    "number": 1,
+    "title": "Basic Academic Verbs",
+    "titleVi": "Động từ học thuật cơ bản"
+  },
+  "vocabulary": [
+    {
+      "word": "Increase",
+      "ipa": "/ɪnˈkriːs/",
+      "meaning": "tăng lên",
+      "synonyms": [
+        {
+          "word": "Rise",
+          "ipa": "/raɪz/",
+          "meaning": "tăng lên"
+        },
+        {
+          "word": "Grow",
+          "ipa": "/ɡrəʊ/",
+          "meaning": "phát triển, tăng"
+        }
+      ],
+      "family": [
+        {
+          "word": "Increased",
+          "ipa": "/ɪnˈkriːst/",
+          "pos": "adj",
+          "meaning": "đã tăng"
+        },
+        {
+          "word": "Increasing",
+          "ipa": "/ɪnˈkriːsɪŋ/",
+          "pos": "adj",
+          "meaning": "đang tăng, ngày càng tăng"
+        }
+      ]
+    },
+    {
+      "word": "Decrease",
+      "ipa": "/dɪˈkriːs/",
+      "meaning": "giảm xuống",
+      "synonyms": [
+        {
+          "word": "Decline",
+          "ipa": "/dɪˈklaɪn/",
+          "meaning": "suy giảm"
+        },
+        {
+          "word": "Reduce",
+          "ipa": "/rɪˈdjuːs/",
+          "meaning": "giảm"
+        }
+      ],
+      "family": [
+        {
+          "word": "Decreased",
+          "ipa": "/dɪˈkriːst/",
+          "pos": "adj",
+          "meaning": "đã giảm"
+        },
+        {
+          "word": "Reduction",
+          "ipa": "/rɪˈdʌkʃən/",
+          "pos": "n",
+          "meaning": "sự giảm"
+        }
+      ]
+    },
+    {
+      "word": "Improve",
+      "ipa": "/ɪmˈpruːv/",
+      "meaning": "cải thiện",
+      "synonyms": [
+        {
+          "word": "Enhance",
+          "ipa": "/ɪnˈhɑːns/",
+          "meaning": "nâng cao"
+        },
+        {
+          "word": "Upgrade",
+          "ipa": "/ˌʌpˈɡreɪd/",
+          "meaning": "nâng cấp"
+        }
+      ],
+      "family": [
+        {
+          "word": "Improvement",
+          "ipa": "/ɪmˈpruːvmənt/",
+          "pos": "n",
+          "meaning": "sự cải thiện"
+        },
+        {
+          "word": "Improved",
+          "ipa": "/ɪmˈpruːvd/",
+          "pos": "adj",
+          "meaning": "được cải thiện"
+        }
+      ]
+    },
+    {
+      "word": "Develop",
+      "ipa": "/dɪˈveləp/",
+      "meaning": "phát triển",
+      "synonyms": [
+        {
+          "word": "Expand",
+          "ipa": "/ɪkˈspænd/",
+          "meaning": "mở rộng"
+        },
+        {
+          "word": "Progress",
+          "ipa": "/ˈprəʊɡres/",
+          "meaning": "tiến bộ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Development",
+          "ipa": "/dɪˈveləpmənt/",
+          "pos": "n",
+          "meaning": "sự phát triển"
+        },
+        {
+          "word": "Developed",
+          "ipa": "/dɪˈveləpt/",
+          "pos": "adj",
+          "meaning": "phát triển"
+        }
+      ]
+    },
+    {
+      "word": "Create",
+      "ipa": "/kriˈeɪt/",
+      "meaning": "tạo ra",
+      "synonyms": [
+        {
+          "word": "Produce",
+          "ipa": "/prəˈdjuːs/",
+          "meaning": "tạo ra"
+        },
+        {
+          "word": "Generate",
+          "ipa": "/ˈdʒenəreɪt/",
+          "meaning": "tạo ra"
+        }
+      ],
+      "family": [
+        {
+          "word": "Creation",
+          "ipa": "/kriˈeɪʃn/",
+          "pos": "n",
+          "meaning": "sự sáng tạo, sự tạo ra"
+        },
+        {
+          "word": "Creative",
+          "ipa": "/kriˈeɪtɪv/",
+          "pos": "adj",
+          "meaning": "sáng tạo"
+        }
+      ]
+    },
+    {
+      "word": "Change",
+      "ipa": "/tʃeɪndʒ/",
+      "meaning": "thay đổi",
+      "synonyms": [
+        {
+          "word": "Alter",
+          "ipa": "/ˈɔːltə(r)/",
+          "meaning": "thay đổi"
+        },
+        {
+          "word": "Modify",
+          "ipa": "/ˈmɒdɪfaɪ/",
+          "meaning": "điều chỉnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Changeable",
+          "ipa": "/ˈtʃeɪndʒəbl/",
+          "pos": "adj",
+          "meaning": "dễ thay đổi"
+        },
+        {
+          "word": "Change",
+          "ipa": "/tʃeɪndʒ/",
+          "pos": "n",
+          "meaning": "sự thay đổi"
+        }
+      ]
+    },
+    {
+      "word": "Affect",
+      "ipa": "/əˈfekt/",
+      "meaning": "ảnh hưởng",
+      "synonyms": [
+        {
+          "word": "Influence",
+          "ipa": "/ˈɪnfluəns/",
+          "meaning": "ảnh hưởng"
+        },
+        {
+          "word": "Impact",
+          "ipa": "/ˈɪmpækt/",
+          "meaning": "tác động"
+        }
+      ],
+      "family": [
+        {
+          "word": "Effect",
+          "ipa": "/ɪˈfekt/",
+          "pos": "n",
+          "meaning": "tác động, ảnh hưởng"
+        },
+        {
+          "word": "Affected",
+          "ipa": "/əˈfektɪd/",
+          "pos": "adj",
+          "meaning": "bị ảnh hưởng"
+        }
+      ]
+    },
+    {
+      "word": "Result",
+      "ipa": "/rɪˈzʌlt/",
+      "meaning": "kết quả",
+      "synonyms": [
+        {
+          "word": "Outcome",
+          "ipa": "/ˈaʊtkʌm/",
+          "meaning": "kết quả"
+        },
+        {
+          "word": "Consequence",
+          "ipa": "/ˈkɒnsɪkwəns/",
+          "meaning": "hậu quả, kết quả"
+        }
+      ],
+      "family": [
+        {
+          "word": "Result in",
+          "ipa": "/rɪˈzʌlt ɪn/",
+          "pos": "v",
+          "meaning": "dẫn đến"
+        },
+        {
+          "word": "Resulting",
+          "ipa": "/ˈrɪzʌltɪŋ/",
+          "pos": "adj",
+          "meaning": "phát sinh, là kết quả của"
+        }
+      ]
+    },
+    {
+      "word": "Reason",
+      "ipa": "/ˈriːzn/",
+      "meaning": "lý do",
+      "synonyms": [
+        {
+          "word": "Cause",
+          "ipa": "/kɔːz/",
+          "meaning": "nguyên nhân"
+        },
+        {
+          "word": "Explanation",
+          "ipa": "/ˌekspləˈneɪʃn/",
+          "meaning": "lời giải thích"
+        }
+      ],
+      "family": [
+        {
+          "word": "Reasonable",
+          "ipa": "/ˈriːznəbl/",
+          "pos": "adj",
+          "meaning": "hợp lý"
+        },
+        {
+          "word": "Reasoning",
+          "ipa": "/ˈriːzənɪŋ/",
+          "pos": "n",
+          "meaning": "lập luận"
+        }
+      ]
+    },
+    {
+      "word": "Problem",
+      "ipa": "/ˈprɒbləm/",
+      "meaning": "vấn đề",
+      "synonyms": [
+        {
+          "word": "Issue",
+          "ipa": "/ˈɪʃuː/",
+          "meaning": "vấn đề"
+        },
+        {
+          "word": "Difficulty",
+          "ipa": "/ˈdɪfɪkəlti/",
+          "meaning": "khó khăn"
+        }
+      ],
+      "family": [
+        {
+          "word": "Problematic",
+          "ipa": "/ˌprɒbləˈmætɪk/",
+          "pos": "adj",
+          "meaning": "có vấn đề"
+        },
+        {
+          "word": "Solve",
+          "ipa": "/sɒlv/",
+          "pos": "v",
+          "meaning": "giải quyết"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Improving Learning at School",
+      "text": "Schools are always looking for ways to improve learning. In many schools, teachers first look at the main problems that students have. Some students have difficulty understanding lessons, while others do not have enough time to study at home.\n\nOne common reason for these problems is the way students use their study time. If students spend too much time on their phones, their study time can decrease. As a result, they may not remember important information. This can also affect their test results.\n\nTo solve this problem, some schools create simple study plans. These plans help students use their time better. Teachers may also change the way they teach. For example, they can use pictures, short videos, or group activities. These methods can help students understand difficult ideas more easily.\n\nSchools can also develop new activities to support students. Extra reading classes and study groups are two examples. When students receive more support, their confidence may increase. Their learning can also improve over time.\n\nSmall changes can make a big difference. A school does not always need expensive technology or large changes. Sometimes, a simple plan and regular support are enough to improve students' learning."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one common problem mentioned in the passage?",
+          "options": [
+            "Students have too many teachers.",
+            "Students have difficulty understanding lessons.",
+            "Schools have too many activities.",
+            "Teachers do not have enough classrooms."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What may happen when students receive more support?",
+          "options": [
+            "Their study time decreases.",
+            "Their confidence may increase.",
+            "Their problems become larger.",
+            "Their test results disappear."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Some students have difficulty understanding lessons.",
+          "answer": "True"
+        },
+        {
+          "statement": "Students who use their phones too much usually get better test results.",
+          "answer": "False"
+        },
+        {
+          "statement": "All schools need expensive technology to improve learning.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using the words from the box.",
+        "text": "Schools try to improve learning by looking at students' (6) ________. One (7) ________ for some learning difficulties is poor use of study time. If students spend too much time on their phones, their study time may (8) ________. As a (9) ________, they may remember less information. Schools can also create new (10) ________ to support students.",
+        "answers": [
+          "problems",
+          "reason",
+          "decrease",
+          "result",
+          "activities"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “improve” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "make better",
+            "make smaller",
+            "make longer",
+            "make different"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “affect” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "influence",
+            "create",
+            "develop",
+            "solve"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “result” in paragraph 2 refers to:",
+          "options": [
+            "a reason",
+            "an outcome",
+            "a problem",
+            "a plan"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "increase",
+          "decrease",
+          "create",
+          "affect"
+        ],
+        "right": [
+          "produce",
+          "influence",
+          "rise",
+          "reduce"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "How Schools Can Create Better Learning Environments",
+      "text": "Education is changing as schools try to improve the way students learn. In the past, many classrooms depended mainly on textbooks and teacher explanations. Today, some schools are trying new methods because they want to develop better learning environments for their students.\n\nOne important reason for this change is that students have different learning needs. Some students learn quickly, while others need more practice. If a lesson is too difficult, students may lose confidence. If it is too easy, they may not feel interested. Therefore, teachers need to find ways to create lessons that are useful for different learners.\n\nTechnology can also play a role. Some schools use computers and online materials to support learning. These tools can help teachers provide extra practice. For example, students can watch a short video again if they do not understand an idea the first time. However, technology does not automatically improve learning. Teachers still need to choose suitable materials and explain how students should use them.\n\nAnother important issue is students' study habits. When students have too many activities, the amount of time available for study may decrease. Poor study habits can also affect their academic performance. As a result, some students may have lower test scores even when they understand the basic lessons.\n\nSchools can respond by making small but useful changes. Teachers may modify classroom activities, increase opportunities for practice, or expand study support after school. Some schools also organize small study groups where students can help one another.\n\nThese actions may produce gradual improvement. A successful learning environment does not always require a completely new system. Instead, schools can identify a problem, understand its cause, and make a reasonable plan. When the plan works, schools can continue to develop it.\n\nThe most important point is that improvement takes time. Schools need to observe students, change their methods when necessary, and measure the result. By doing this regularly, they can find better ways to support students and help them make steady progress."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why are some schools trying new teaching methods?",
+          "options": [
+            "Because textbooks are no longer available.",
+            "Because students have different learning needs.",
+            "Because students do not want to study.",
+            "Because technology is always effective."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does the passage suggest about technology?",
+          "options": [
+            "It always improves learning.",
+            "It should replace teachers.",
+            "It can support learning when used appropriately.",
+            "It should only be used after school."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "All students learn at the same speed.",
+          "answer": "False"
+        },
+        {
+          "statement": "Some schools use computers and online materials to support learning.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that every school has a study group after school.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using the words from the box.",
+        "text": "Schools are trying to (6) ________ their teaching methods because students have different needs. Technology can give students extra (7) ________. However, poor study habits can (8) ________ academic performance. When study time (9) ________, students may get lower test scores. Schools can respond by making small changes and providing more opportunities for practice.",
+        "answers": [
+          "change",
+          "practice",
+          "affect",
+          "decrease",
+          "practice"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “modify” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "change",
+            "remove",
+            "increase",
+            "create"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “expand” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "reduce",
+            "develop or make larger",
+            "affect",
+            "solve"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “gradual” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "happening slowly over time",
+            "happening immediately",
+            "happening by accident",
+            "happening only once"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "develop",
+          "affect",
+          "improve",
+          "result"
+        ],
+        "right": [
+          "consequence",
+          "enhance",
+          "influence",
+          "progress"
+        ],
+        "answers": {
+          "0": "D",
+          "1": "C",
+          "2": "B",
+          "3": "A"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Improving Learning at School",
+      "audio": "",
+      "transcript": "Today, I would like to talk about how schools can improve students' learning.\n\nMany schools have a common problem. Some students do not have enough time to study, while others find some lessons difficult. One reason is that students have different learning needs.\n\nSchools can create simple study plans to help students. Teachers can also change their teaching methods. For example, they can use pictures, short videos, and group activities. These changes may affect students' interest in learning in a positive way.\n\nSchools can also develop extra study activities. Small study groups can give students more opportunities to practise. When students receive regular support, their confidence may increase.\n\nHowever, study problems can also become worse. If students spend too much time on their phones, their study time may decrease. As a result, their test performance may become lower.\n\nTeachers can try to improve the situation by giving students clear advice and extra practice. They can also change activities when students do not understand a lesson.\n\nThe important thing is to look at the problem, find the reason, and make a useful plan. Small changes can lead to better results over time."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one problem mentioned in the talk?",
+          "options": [
+            "Some students do not have enough time to study.",
+            "Schools do not have any teachers.",
+            "Students have too many books.",
+            "Teachers do not use computers."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may increase when students receive regular support?",
+          "options": [
+            "Phone use",
+            "Study problems",
+            "Confidence",
+            "Difficult lessons"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Students have different learning needs.",
+          "answer": "True"
+        },
+        {
+          "statement": "The speaker says that schools should stop using group activities.",
+          "answer": "False"
+        },
+        {
+          "statement": "Spending too much time on phones may decrease study time.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Schools can ________ simple study plans.",
+          "answer": "create"
+        },
+        {
+          "question": "Teachers can ________ their teaching methods.",
+          "answer": "change"
+        },
+        {
+          "question": "Schools can ________ extra study activities.",
+          "answer": "develop"
+        },
+        {
+          "question": "Students' confidence may ________ with regular support.",
+          "answer": "increase"
+        },
+        {
+          "question": "Too much phone use may ________ study time.",
+          "answer": "decrease"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "In the listening, “improve” means:",
+          "options": [
+            "make something better",
+            "make something smaller",
+            "stop something",
+            "remove something"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In the listening, “result” means:",
+          "options": [
+            "an activity",
+            "an outcome",
+            "a reason",
+            "a plan"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "In the listening, “affect” means:",
+          "options": [
+            "influence",
+            "create",
+            "increase",
+            "develop"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "problem",
+          "reason",
+          "increase",
+          "decrease"
+        ],
+        "right": [
+          "a cause or explanation",
+          "a difficulty",
+          "become smaller",
+          "become larger"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "D",
+          "3": "C"
+        }
+      }
+    }
+  }
+}

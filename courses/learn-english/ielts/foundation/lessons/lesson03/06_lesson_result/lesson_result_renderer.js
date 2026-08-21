@@ -236,20 +236,6 @@ function renderLessonButtons() {
     </button>
 
     <button
-        id="aiExplainBtn"
-        class="lesson-button accent">
-
-        AI Explain
-
-        <span class="coming-soon">
-
-            (Coming Soon)
-
-        </span>
-
-    </button>
-
-    <button
         id="continueLessonBtn"
         class="lesson-button primary">
 

@@ -7,6 +7,40 @@
 "use strict";
 
 /* ==========================================================
+   RENDER LESSON HEADER
+========================================================== */
+
+function renderLessonHeader() {
+
+    if (!lessonData || !lessonData.meta) return;
+
+    const meta = lessonData.meta;
+
+    const number = String(meta.number).padStart(2, "0");
+
+    const numberEl = document.querySelector(".lesson-number");
+    const enEl = document.querySelector(".lesson-en");
+    const viEl = document.querySelector(".lesson-vi");
+
+    if (numberEl) {
+        numberEl.textContent = `Lesson ${number}:`;
+    }
+
+    if (enEl) {
+        enEl.textContent = meta.title || "";
+    }
+
+    if (viEl) {
+        viEl.textContent = meta.titleVi || "";
+    }
+
+    document.title =
+        `Lesson ${number} - ${meta.title || ""} | IELTS Foundation 4.0`;
+
+}
+
+
+/* ==========================================================
    RENDER VOCABULARY
 ========================================================== */
 

@@ -67,6 +67,16 @@ function showReadingScreen() {
 
 function renderReadingScreen() {
 
+    // Only the passage step preserves source line breaks.
+    // All question/answer steps use normal whitespace so indentation in
+    // renderer templates cannot become visible vertical spacing.
+    if (DOM.readingContent) {
+        DOM.readingContent.classList.toggle(
+            "reading-passage",
+            ReadingState.currentStep === 1
+        );
+    }
+
     let reading;
 setText(
     DOM.readingTitle,

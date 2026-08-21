@@ -113,6 +113,8 @@ async function initializeApp() {
 
 await loadLesson();
 
+renderLessonHeader();
+
 initializeModules();
 
 hide(DOM.readingLocked);

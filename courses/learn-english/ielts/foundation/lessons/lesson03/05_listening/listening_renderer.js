@@ -65,6 +65,11 @@ function showListeningScreen() {
 
 function renderListeningScreen() {
 
+    // Listening question/answer layouts must not inherit pre-line behavior.
+    if (DOM.listeningContent) {
+        DOM.listeningContent.classList.remove("reading-passage");
+    }
+
     if (DOM.continueListeningBtn) {
 
         DOM.continueListeningBtn.disabled =
@@ -240,7 +245,7 @@ function renderListeningQuestionPreview() {
     ========================= */
 
     html += `
-        <h3>Part 4. Vocabulary in Context</h3>
+        <h3 class="preview-section-heading">Part 4. Vocabulary in Context</h3>
     `;
 
     vocabulary.forEach((item, index) => {
@@ -271,7 +276,7 @@ function renderListeningQuestionPreview() {
     ========================= */
 
     html += `
-        <h3>Part 5. Matching</h3>
+        <h3 class="preview-section-heading">Part 5. Matching</h3>
 
         <p>
             ${matching.instruction}

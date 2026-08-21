@@ -1,664 +1,1254 @@
-/* ==========================================================
-   IELTS FOUNDATION 4.0
-   Lesson Engine v2.0
-   style.css
-========================================================== */
+/* IELTS FOUNDATION 4.0 - UI only */
 
-/* ==========================================================
-   RESET
-========================================================== */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+:root{
+    --blue:#2563eb;
+    --blue-soft:#eef5ff;
+    --green:#16a34a;
+    --green-soft:#ecfdf3;
+    --orange:#f59e0b;
+    --orange-soft:#fff7e8;
+    --red:#dc2626;
+    --red-soft:#fff1f2;
+    --ink:#172033;
+    --muted:#667085;
+    --line:#e7edf5;
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --shadow:0 8px 24px rgba(31,41,55,.08);
+    --shadow-soft:0 3px 12px rgba(31,41,55,.07);
+    --radius:18px;
+    --radius-sm:12px;
 }
 
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;scroll-behavior:smooth}
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#edf3f8;
-    color:#222;
+    font-family:Inter,"Nunito Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
 }
+button,input{font:inherit}
+button{cursor:pointer;-webkit-tap-highlight-color:transparent}
+button:focus-visible,input:focus-visible{outline:3px solid rgba(37,99,235,.22);outline-offset:2px}
 
-/* ==========================================================
-   APP
-========================================================== */
+.hidden{display:none!important}
 
 .app{
-    max-width:700px;
-    margin:auto;
+    width:min(100%,760px);
     min-height:100vh;
-    padding:20px;
+    margin:0 auto;
+    padding:16px;
 }
 
-/* ==========================================================
-   HEADER
-========================================================== */
-
+/* HEADER */
 .top-bar{
-    display:flex;
-    justify-content:space-between;
+    position:relative;
+    display:grid;
+    grid-template-columns:44px 1fr 44px;
     align-items:center;
-    margin-bottom:20px;
+    gap:10px;
+    min-height:54px;
+    margin-bottom:14px;
 }
-
 .icon-btn{
-    width:46px;
-    height:46px;
-    border:none;
-    border-radius:50%;
-    background:#fff;
-    box-shadow:0 3px 10px rgba(0,0,0,.12);
-    cursor:pointer;
-    font-size:20px;
+    width:44px;height:44px;border:1px solid var(--line);border-radius:14px;
+    background:var(--card);color:var(--ink);box-shadow:var(--shadow-soft);
+    font-size:19px;display:grid;place-items:center;transition:.18s ease;
+}
+.icon-btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.icon-btn:active{transform:scale(.96)}
+.lesson-title{text-align:center;display:flex;flex-direction:column;align-items:center;line-height:1.25}
+.lesson-number{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.lesson-name{text-align:center}
+.lesson-en,.lesson-vi{display:block;text-align:center}
+.lesson-en{font-size:20px;font-weight:800;color:var(--blue)}
+.lesson-vi{margin-top:2px;font-size:13px;font-weight:600;color:#d97706}
+
+/* PROGRESS */
+.progress-section{
+    margin:0 0 14px;padding:11px 13px;background:var(--card);
+    border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow-soft)
+}
+.progress-top{display:flex;justify-content:space-between;gap:10px;margin-bottom:7px;font-size:13px;font-weight:800;color:var(--muted)}
+.progress-bar{height:7px;background:#e9eef5;border-radius:999px;overflow:hidden}
+.progress-fill{height:100%;width:0;background:var(--blue);border-radius:999px;transition:width .25s ease}
+
+/* COMMON CARDS */
+.card,.review-card,.review-screen,.matching-screen,.reading-lock,.reading-unlocked,
+#readingScreen,#listeningScreen,#lessonResultScreen,#checkpointResultScreen,#reviewMistakesScreen{
+    width:100%;
+}
+.card,.review-card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px;box-shadow:var(--shadow)
 }
 
+/* VOCABULARY */
+.word-header{display:flex;justify-content:center;align-items:center;gap:10px;margin-bottom:8px}
+#word{font-size:clamp(32px,9vw,46px);line-height:1.1;font-weight:850;color:var(--blue);text-align:center;overflow-wrap:anywhere}
+.speaker,.review-speaker{
+    width:46px;height:46px;flex:0 0 46px;border:0;border-radius:50%;
+    background:var(--blue);color:#fff;box-shadow:0 5px 14px rgba(37,99,235,.22);font-size:20px
+}
+.speaker:active,.review-speaker:active{transform:scale(.95)}
+.ipa{text-align:center;color:var(--muted);font-size:15px;margin:8px 0}
+.meaning{text-align:center;color:#d97706;font-size:22px;font-weight:800;margin:6px 0 20px}
+.box{margin-top:18px}
+.box h2{font-size:14px;color:var(--ink);margin-bottom:9px;letter-spacing:.02em}
+.items{display:flex;flex-direction:column;gap:8px}
+.item{display:flex;align-items:center;gap:10px;padding:11px 12px;background:#f8fafc;border:1px solid var(--line);border-radius:13px}
+.item button{width:34px;height:34px;border:0;border-radius:50%;background:var(--green);color:#fff;font-size:15px}
+.item-content{min-width:0;flex:1}.item-word{font-weight:800}.item-ipa{font-size:13px;color:var(--muted);margin:2px 0}.item-meaning{font-size:14px;color:#16835b;font-weight:600}
+
+/* NAVIGATION / BUTTONS */
+.navigation{display:flex;gap:10px;margin-top:13px}
+.nav-btn,.start-btn,.continue-btn,#continueReadingBtn,#continueListeningBtn{
+    min-height:48px;border:0;border-radius:14px;padding:12px 18px;font-weight:800;font-size:15px;
+    box-shadow:var(--shadow-soft);transition:.18s ease
+}
+.nav-btn{flex:1;background:#eef2f7;color:var(--ink)}
+.nav-btn.primary,.primary,.start-btn,#continueReadingBtn,#continueListeningBtn,.continue-btn{background:var(--blue);color:#fff}
+.nav-btn:hover,.start-btn:hover,.continue-btn:hover,#continueReadingBtn:hover,#continueListeningBtn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.nav-btn:active,.start-btn:active,.continue-btn:active,#continueReadingBtn:active,#continueListeningBtn:active{transform:scale(.98)}
+button:disabled{opacity:.48;cursor:not-allowed;box-shadow:none!important;transform:none!important}
+.start-btn{display:block;margin:18px auto 0;min-width:180px}
+
+/* FINISHED / LOCKED */
+.finish-screen,.reading-lock,.reading-unlocked{text-align:center;padding:30px 20px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.finish-icon,.lock-icon,.unlock-icon{font-size:56px;margin-bottom:10px}
+.finish-screen h2,.reading-lock h2,.reading-unlocked h2{font-size:22px;margin-bottom:7px}
+.finish-screen p{color:var(--muted);font-size:14px}
+
+/* MATCHING */
+.matching-screen{margin-top:0;padding:18px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.matching-screen>h2{text-align:center;font-size:21px;color:var(--blue);margin-bottom:4px}
+.matching-screen>p{text-align:center;color:var(--muted);font-size:13px;margin-bottom:10px}
+.matching-container{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:10px;row-gap:8px;align-items:start}
+.matching-column{display:flex;flex-direction:column;gap:8px}
+.matching-card{width:100%;min-height:44px;margin:0;background:#fff;border:1px solid #dfe7f0;border-radius:12px;padding:8px 7px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;font-weight:750;line-height:1.35;box-shadow:0 2px 7px rgba(31,41,55,.05);transition:.15s ease}
+.matching-card:hover{border-color:var(--blue);transform:translateY(-1px)}
+.matching-card.selected{background:var(--blue-soft);border-color:var(--blue);color:var(--blue)}
+.matching-card.matched{background:var(--green-soft);border-color:var(--green);opacity:.45;pointer-events:none}
+.matching-card.wrong{background:var(--red-soft);border-color:var(--red);color:#b42318}
+.matching-message{text-align:center;margin:10px 0;color:var(--muted);font-size:13px;font-weight:650}
+#matchingScore{text-align:center;font-size:15px;font-weight:800;margin:7px 0 12px}
+.correct-count{text-align:center;margin-top:10px;font-size:15px;font-weight:800}
+
+/* REVIEW */
+.review-screen{margin-top:0}
+.review-card{padding:18px}
+.review-word{text-align:center;font-size:32px;color:var(--blue);font-weight:850}.review-ipa{text-align:center;color:var(--muted);font-size:14px;margin-top:4px}.review-meaning{text-align:center;margin:10px 0;color:#d97706;font-size:21px;font-weight:800}.review-box{margin-top:12px;background:#f8fafc;border:1px solid var(--line);border-radius:13px;padding:12px}.review-box h3{margin-bottom:7px;color:var(--blue);font-size:14px}.continue-btn{width:100%;margin-top:14px}.countdown{text-align:center;margin-top:8px;color:var(--muted);font-size:13px}
+
+/* READING / LISTENING */
+#readingScreen,#listeningScreen{margin-top:0;padding:17px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.reading-header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid var(--line);font-weight:800}
+#readingTitle{font-size:13px;font-weight:800;color:var(--blue)}
+#readingProgress,#listeningProgress{font-size:13px;font-weight:800;color:var(--muted);white-space:nowrap}
+#readingHeading,#listeningHeading{font-size:21px;line-height:1.3;margin-bottom:12px;color:var(--blue);text-align:center}
+#readingContent,#listeningContent{
+    font-size:16px;
+    line-height:1.7;
+    color:#303846;
+    margin-bottom:14px;
+    /* Question renderers contain indented HTML templates. Do not turn
+       template whitespace into visible vertical gaps between questions. */
+    white-space:normal;
+}
+/* Reading passage text is the only content that intentionally preserves
+   source line breaks. Question/answer layouts stay on normal whitespace. */
+#readingContent.reading-passage{white-space:pre-line;}
+#continueReadingBtn,#continueListeningBtn{width:100%;margin-top:5px}
+
+/* QUESTION CARDS */
+.mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{
+    background:#fbfcfe;border:1px solid var(--line);border-radius:14px;padding:13px;margin-bottom:9px
+}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{font-size:15px;line-height:1.45;margin-bottom:8px;color:var(--ink)}
+.mcq-option,.tfn-option,.vocabulary-option{
+    min-height:44px;margin:6px 0;padding:10px 12px;background:#fff;border:1px solid #dfe7f0;border-radius:11px;
+    display:flex;align-items:center;color:#344054;font-size:14px;font-weight:650;cursor:pointer;transition:.15s ease
+}
+.mcq-option:hover,.tfn-option:hover,.vocabulary-option:hover{border-color:var(--blue);background:var(--blue-soft)}
+.selected-test{border:2px solid var(--blue)!important;background:var(--blue-soft)!important;color:#1d4ed8;font-weight:800}
+.summary{background:#fbfcfe;border:1px solid var(--line);border-radius:14px;padding:14px;line-height:1.75}
+.summary p{font-size:15px}.summary-input{min-width:110px;max-width:100%;height:40px;margin:3px 4px;padding:6px 9px;border:1px solid #cfd8e3;border-radius:9px;background:#fff;color:var(--ink)}
+.preview-question{padding:11px;margin-bottom:7px}.preview-question ul,.preview-question ol{padding-left:22px;margin-top:5px;color:#475467;font-size:14px}.preview-question li{margin:2px 0}.preview-matching{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:#fbfcfe;border:1px solid var(--line);border-radius:13px;padding:11px}.preview-matching ol{padding-left:20px;font-size:13px;color:#475467}.preview-matching li{margin:3px 0}
+#listeningPreviewTimer{display:flex;align-items:center;justify-content:center;min-height:58px;margin:10px auto 14px;padding:8px 14px;width:max-content;min-width:145px;border:1px solid #f6d98b;border-radius:14px;background:var(--orange-soft);color:#9a6700;font-size:25px;font-weight:850;box-shadow:var(--shadow-soft)}
+
+/* TABLE MATCHING */
+.matching-table{width:100%;border-collapse:separate;border-spacing:0;margin-top:12px;overflow:hidden;border:1px solid var(--line);border-radius:13px;background:#fff}
+.matching-table th,.matching-table td{border-bottom:1px solid var(--line);padding:9px;text-align:center;font-size:13px}.matching-table th{background:#f5f8fd;color:var(--ink);font-weight:800}.matching-table tr:last-child td{border-bottom:0}.matching-table td:first-child{text-align:left;font-weight:700}.matching-option{cursor:pointer}.matching-circle{width:22px;height:22px;margin:auto;border:2px solid #aab4c2;border-radius:50%;background:#fff}.matching-circle.selected-test{background:var(--blue);border-color:var(--blue);position:relative}.matching-circle.selected-test::after{content:"";position:absolute;width:7px;height:7px;background:#fff;border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%)}
+
+/* RESULT */
+.lesson-result{width:100%;max-width:620px;margin:0 auto;padding:2px 0 10px}
+.lesson-result-title{text-align:center;font-size:26px;line-height:1.2;color:var(--blue);font-weight:850;margin:4px 0 16px}
+.lesson-attempt-card,.lesson-score-card,.lesson-review-card,.checkpoint-ai-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-soft);padding:16px;margin-bottom:11px}
+.lesson-attempt-card h3{font-size:14px;color:var(--blue);margin-bottom:8px}.lesson-attempt-row{padding:7px 0;border-bottom:1px solid #eef2f6;font-size:14px;color:#475467}.lesson-attempt-row:last-child{border-bottom:0}
+.lesson-score-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid #eef2f6;font-size:14px}.lesson-score-row:last-child{border-bottom:0}.lesson-score-label{font-weight:700;color:#475467}.lesson-score-value{font-size:16px;font-weight:850;color:var(--blue);text-align:right}.lesson-score-row.total{padding:15px 0;background:var(--blue-soft);margin:6px -7px;padding-left:10px;padding-right:10px;border-radius:12px;border-bottom:0}.lesson-score-row.total .lesson-score-label{color:var(--blue)}.lesson-score-row.total .lesson-score-value{font-size:27px}.lesson-divider{border:0;border-top:1px solid var(--line);margin:5px 0}
+.lesson-button-group{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}.lesson-button{min-height:46px;border:0;border-radius:13px;padding:10px 13px;font-weight:800;font-size:14px;box-shadow:var(--shadow-soft);transition:.16s ease}.lesson-button:hover{transform:translateY(-1px)}.lesson-button:active{transform:scale(.98)}.lesson-button.primary{background:var(--blue);color:#fff}.lesson-button.secondary{background:#eef4ff;color:var(--blue);border:1px solid #d7e5ff}.lesson-button.accent{background:var(--orange-soft);color:#a15c00;border:1px solid #f7d58c}.coming-soon{font-size:11px;opacity:.75}
+.lesson-review-item{background:#fbfcfe;border:1px solid var(--line);border-radius:13px;padding:12px;margin-top:9px}.lesson-review-header{font-size:12px;font-weight:800;color:var(--blue);margin-bottom:6px}.lesson-review-question{font-size:14px;font-weight:700;margin-bottom:8px}.lesson-review-answer{font-size:13px;padding:7px 9px;border-radius:9px;margin-top:5px}.lesson-review-answer.wrong{background:var(--red-soft);color:#b42318}.lesson-review-answer.correct{background:var(--green-soft);color:#087443}.lesson-review-empty{padding:14px;border-radius:12px;background:var(--green-soft);color:#087443;font-weight:750;text-align:center}
+
+/* CHECKPOINT AI */
+.checkpoint-ai-card{background:linear-gradient(180deg,#f7f9ff,#fff);border-color:#dbe5ff}.checkpoint-ai-card h2{font-size:17px;color:var(--blue);margin:0 0 6px}.checkpoint-ai-card p{font-size:13px;color:var(--muted);margin-bottom:11px}.checkpoint-ai-card .lesson-button{width:100%}
+
+/* GENERIC LESSON LIST / STATES, if present */
+.lesson-list,.lesson-selection,.lesson-cards{display:grid;gap:10px}.lesson-card,.lesson-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:var(--shadow-soft)}.lesson-card.current,.lesson-item.current{border-color:#9ec1ff;background:var(--blue-soft)}.lesson-card.completed,.lesson-item.completed{border-color:#b9e6c8;background:var(--green-soft)}.lesson-card.locked,.lesson-item.locked{opacity:.6;background:#f1f3f6}
+
+/* MOBILE */
+@media (max-width:600px){
+    .app{padding:11px}
+    .top-bar{grid-template-columns:42px 1fr 42px;min-height:50px;margin-bottom:10px}
+    .icon-btn{width:42px;height:42px;border-radius:13px}
+    .lesson-en{font-size:18px}.lesson-vi{font-size:12px}.lesson-number{font-size:11px}
+    .card,#readingScreen,#listeningScreen,.matching-screen,.finish-screen,.reading-lock,.reading-unlocked{border-radius:16px;padding:15px}
+    .progress-section{padding:9px 11px;margin-bottom:10px}
+    #word{font-size:34px}.meaning{font-size:20px}.ipa{font-size:14px}
+    .navigation{position:sticky;bottom:8px;z-index:4;background:rgba(245,247,251,.94);padding-top:6px}
+    .nav-btn{min-height:48px;padding:10px 9px;font-size:14px}
+    .matching-container{column-gap:7px;row-gap:7px}.matching-card{min-height:42px;padding:7px 5px;font-size:12px;border-radius:10px}
+    #readingHeading,#listeningHeading{font-size:19px}.reading-header{margin-bottom:8px;padding-bottom:8px}
+    #readingContent,#listeningContent{font-size:15px;line-height:1.65}
+    .mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{padding:11px;margin-bottom:7px}
+    .mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{font-size:14px}
+    .mcq-option,.tfn-option,.vocabulary-option{min-height:43px;padding:9px 10px;margin:5px 0;font-size:13px}
+    .preview-matching{gap:7px;padding:9px}.preview-matching ol{font-size:12px}
+    .lesson-result-title{font-size:23px;margin-bottom:12px}.lesson-score-row{padding:9px 0}.lesson-score-row.total .lesson-score-value{font-size:25px}
+    .lesson-button-group{grid-template-columns:1fr;gap:8px}.lesson-button{min-height:47px}
+    .lesson-attempt-card,.lesson-score-card,.lesson-review-card,.checkpoint-ai-card{padding:13px;border-radius:15px}
+    .lesson-score-label,.lesson-score-value{font-size:13px}.lesson-score-row.total .lesson-score-label{font-size:14px}
+    .summary-input{width:100%;margin:4px 0}
+}
+
+@media (min-width:601px){
+    .app{padding:22px}.lesson-result{padding-top:8px}
+}
+
+/* UI FIX 4.1 - title, reading alignment, compact answer spacing */
+.top-bar{position:relative;grid-template-columns:44px 1fr 44px}
+.lesson-title{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(100% - 110px);z-index:1;pointer-events:none}
+.lesson-number{font-size:13px}
+.lesson-en{font-size:40px;line-height:1.12}
+.lesson-vi{font-size:18px;line-height:1.25}
+#readingContent,#listeningContent{text-align:justify;text-justify:inter-word}
+.mcq-option,.tfn-option,.vocabulary-option{margin:2px 0}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3{margin-bottom:5px}
+.mcq-question,.tfn-question,.vocab-question,.summary-question{padding:11px;margin-bottom:6px}
+.summary{line-height:1.55}
+.summary-input{margin:2px 3px}
+
+@media (max-width:600px){
+    .lesson-title{width:calc(100% - 86px)}
+    .lesson-en{font-size:36px}
+    .lesson-vi{font-size:16px}
+    .lesson-number{font-size:11px}
+    #readingContent,#listeningContent{font-size:15px;line-height:1.65}
+    .mcq-option,.tfn-option,.vocabulary-option{min-height:42px;margin:2px 0;padding:8px 10px}
+    .mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3{margin-bottom:4px}
+}
+
+/* UI FIX 4.2 - final visual refinements */
+
+/* 1. Lesson title: always centered and kept on one line */
+.top-bar{position:relative;min-height:58px}
+#backBtn,#homeBtn{position:absolute;top:50%;transform:translateY(-50%);z-index:3}
+#backBtn{left:0}
+#homeBtn{right:0}
+#backBtn:active,#homeBtn:active{transform:translateY(-50%) scale(.96)}
 .lesson-title{
-    display:flex;
-    flex-direction:column;
+    position:absolute;
+    left:50%;top:50%;
+    transform:translate(-50%,-50%);
+    width:calc(100% - 100px);
+    z-index:2;
+    pointer-events:none;
+    white-space:nowrap;
+}
+.lesson-en{
+    font-size:clamp(20px,5.8vw,30px);
+    line-height:1.15;
+    white-space:nowrap;
+}
+.lesson-vi{font-size:16px;line-height:1.2;white-space:nowrap}
+
+/* 2. Vocabulary: clearer Synonyms / Word Family and stacked IPA */
+.box h2{font-size:15px;color:#52606d}
+.box:nth-of-type(1) h2{color:#0f766e}
+.box:nth-of-type(2) h2{color:#7c3aed}
+.box .item{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:2px;
+    align-items:start;
+    padding:10px 12px;
+}
+.box .item strong{font-size:15px;color:#1d4ed8;line-height:1.3}
+.box .item div:nth-child(2){font-size:13px;color:#7b8794;line-height:1.25}
+.box .item div:nth-child(3){font-size:12px;color:#b45309;font-weight:750;line-height:1.25}
+.box .item div:nth-child(4){font-size:14px;color:#344054;font-weight:750;line-height:1.35}
+.box:nth-of-type(1) .item div:nth-child(3){font-size:14px;color:#344054;font-weight:700}
+
+/* 3. Compact answer boxes everywhere */
+.mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{
+    padding:10px;
+    margin-bottom:5px;
+}
+.mcq-option,.tfn-option,.vocabulary-option{
+    min-height:36px;
+    margin:1px 0;
+    padding:7px 10px;
+    line-height:1.3;
+}
+.preview-question{padding:9px;margin-bottom:5px}
+.preview-question li{margin:1px 0}
+.preview-matching{gap:7px;padding:8px}
+
+/* Listening Question Preview headings */
+#listeningContent > h3,
+#readingContent > h3{
+    margin:9px 0 5px;
+    font-size:15px;
+    line-height:1.3;
+    color:#0f766e;
+}
+
+/* 4. Summary Completion: do not stretch spaces between words */
+.summary,
+.summary p,
+.summary-question{
+    text-align:left;
+    text-justify:auto;
+    word-spacing:normal;
+}
+.summary{line-height:1.5}
+
+/* 6. Stars: gold */
+#lessonRating,
+.lesson-score-row:last-child .lesson-score-value{
+    color:#f4b400;
+    letter-spacing:.06em;
+}
+
+/* Section headings: clearly different from the blue lesson name */
+#readingTitle,#listeningTitle{color:#0f766e}
+#readingHeading,#listeningHeading{color:#334155}
+.matching-screen > h2{color:#7c3aed}
+.box h2{color:#52606d}
+.mcq-question h3{color:#2563eb}
+.tfn-question h3{color:#d97706}
+.summary-question h3{color:#0f766e}
+.vocab-question h3{color:#7c3aed}
+.preview-question strong{color:#2563eb}
+.lesson-result-title{color:#334155}
+.lesson-score-card .lesson-score-label{color:#52606d}
+
+@media (max-width:600px){
+    .top-bar{min-height:56px}
+    .lesson-title{width:calc(100% - 88px)}
+    .lesson-en{font-size:clamp(18px,5.2vw,25px)}
+    .lesson-vi{font-size:14px}
+    .box .item{padding:9px 10px}
+    .box .item strong{font-size:14px}
+    .box .item div:nth-child(2){font-size:12px}
+    .box .item div:nth-child(3){font-size:11px}
+    .box .item div:nth-child(4){font-size:13px}
+    .mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{padding:9px;margin-bottom:4px}
+    .mcq-option,.tfn-option,.vocabulary-option{min-height:35px;margin:1px 0;padding:6px 9px;font-size:13px}
+    .preview-question li{margin:0}
+    #listeningContent > h3,#readingContent > h3{font-size:14px;margin:8px 0 4px}
+}
+
+/* UI FIX 4.3 - vocabulary layout, tighter questions, neutral navigation/headings */
+
+/* Vocabulary: English + Vietnamese on one row; IPA only below English */
+.box .item{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,auto);
+    grid-template-rows:auto auto;
+    column-gap:12px;
+    row-gap:1px;
     align-items:center;
-    justify-content:center;
-    text-align:center;
+    padding:8px 10px;
+}
+.box .item strong{
+    grid-column:1;
+    grid-row:1;
+    font-size:15px;
+    color:#2563eb;
+    line-height:1.25;
+    min-width:0;
+}
+.box .item div:nth-child(2){
+    grid-column:1;
+    grid-row:2;
+    font-size:12px;
+    color:#7b8794;
+    line-height:1.15;
+    min-width:0;
+}
+.box .item div:nth-child(3){
+    grid-column:2;
+    grid-row:1;
+    font-size:14px;
+    color:#344054;
+    font-weight:750;
+    line-height:1.25;
+    text-align:right;
+    min-width:0;
+}
+.box .item div:nth-child(4){
+    grid-column:2;
+    grid-row:2;
+    font-size:12px;
+    color:#667085;
+    font-weight:650;
+    line-height:1.15;
+    text-align:right;
+    min-width:0;
+}
+/* Synonyms have no POS: make meaning sit beside English and keep IPA under English */
+.box:nth-of-type(1) .item div:nth-child(3){
+    grid-column:2;
+    grid-row:1 / span 2;
+    align-self:center;
+    font-size:14px;
+    color:#344054;
+    font-weight:750;
+    line-height:1.3;
+    text-align:right;
+}
+
+/* Much tighter question cards and answer boxes */
+.mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{
+    padding:8px;
+    margin-bottom:2px;
+    border-radius:11px;
+}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{
+    margin-bottom:3px;
+    line-height:1.3;
+    color:#344054;
+}
+.mcq-option,.tfn-option,.vocabulary-option{
+    min-height:32px;
+    margin:0;
+    padding:5px 8px;
+    border-radius:9px;
+    line-height:1.2;
+}
+.mcq-question + .mcq-question,
+.tfn-question + .tfn-question,
+.vocab-question + .vocab-question,
+.summary-question + .summary-question,
+.preview-question + .preview-question{
+    margin-top:2px;
+}
+.preview-question{padding:7px;margin-bottom:2px}
+.preview-question ul,.preview-question ol{margin-top:3px}
+.preview-question li{margin:0}
+.preview-matching{gap:5px;padding:7px}
+
+/* Keep question type headings easy to read; do not use a different color for every type */
+#readingHeading,#listeningHeading,
+.matching-screen > h2,
+.box h2,
+.mcq-question h3,
+.tfn-question h3,
+.summary-question h3,
+.vocab-question h3,
+.preview-question strong,
+#readingTitle,#listeningTitle,
+.lesson-result-title{
+    color:#344054;
+}
+
+/* Back button: clean neutral style */
+#backBtn{
+    background:#ffffff;
+    color:#475467;
+    border:1px solid #d8e0ea;
+    box-shadow:0 2px 8px rgba(31,41,55,.06);
+}
+#backBtn:hover{background:#f8fafc;color:#344054;border-color:#cbd5e1}
+#backBtn:active{background:#f1f5f9;color:#1f2937}
+
+@media (max-width:600px){
+    .box .item{padding:7px 9px;column-gap:9px}
+    .box .item strong{font-size:14px}
+    .box .item div:nth-child(2){font-size:11px}
+    .box .item div:nth-child(3){font-size:13px}
+    .box .item div:nth-child(4){font-size:11px}
+    .box:nth-of-type(1) .item div:nth-child(3){font-size:13px}
+    .mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{padding:7px;margin-bottom:1px}
+    .mcq-option,.tfn-option,.vocabulary-option{min-height:30px;padding:4px 7px;font-size:12px}
+    .preview-question{padding:6px;margin-bottom:1px}
+    .preview-matching{gap:4px;padding:6px}
+}
+
+/* UI FIX 4.4 - vocabulary readability, slightly larger lesson text, tighter question layout, app-style back button */
+
+/* Vocabulary: English + Vietnamese on the first row; IPA + word type on the second row */
+.box .item{
+    grid-template-columns:minmax(0,1fr) minmax(0,auto);
+    grid-template-rows:auto auto;
+    column-gap:10px;
+    row-gap:2px;
+    padding:9px 10px;
+}
+.box .item strong{
+    grid-column:1;
+    grid-row:1;
+    font-size:16px;
+    line-height:1.25;
+}
+.box .item div:nth-child(2){
+    grid-column:1;
+    grid-row:2;
+    font-size:13px;
+    line-height:1.2;
+}
+.box .item div:nth-child(3){
+    grid-column:2;
+    grid-row:1;
+    font-size:14px;
+    line-height:1.3;
+    text-align:right;
+}
+.box .item div:nth-child(4){
+    grid-column:2;
+    grid-row:2;
+    font-size:13px;
+    line-height:1.2;
+    text-align:right;
+}
+.box:nth-of-type(1) .item div:nth-child(3){
+    grid-column:2;
+    grid-row:1;
+    grid-row-end:2;
+    align-self:center;
+    font-size:14px;
+    line-height:1.3;
+    text-align:right;
+}
+
+/* Slightly larger reading/listening/vocabulary text */
+#word{font-size:clamp(35px,9.5vw,48px)}
+.meaning{font-size:23px}
+#readingContent,#listeningContent{font-size:17px;line-height:1.72}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{font-size:15px}
+.mcq-option,.tfn-option,.vocabulary-option{font-size:14px}
+.summary p{font-size:16px}
+.preview-question ul,.preview-question ol{font-size:15px}
+
+/* Tighter question cards and answer boxes */
+.mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{
+    padding:7px;
+    margin-bottom:1px;
+}
+.mcq-option,.tfn-option,.vocabulary-option{
+    min-height:31px;
+    margin:0;
+    padding:5px 8px;
+    line-height:1.25;
+}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{
+    margin-bottom:2px;
+    line-height:1.3;
+}
+.mcq-question + .mcq-question,
+.tfn-question + .tfn-question,
+.vocab-question + .vocab-question,
+.summary-question + .summary-question,
+.preview-question + .preview-question{
+    margin-top:1px;
+}
+.preview-question{padding:6px;margin-bottom:1px}
+.preview-question ul,.preview-question ol{margin-top:2px}
+.preview-question li{margin:0}
+.preview-matching{gap:3px;padding:5px}
+.summary{padding:10px;line-height:1.45}
+.summary-input{margin:1px 2px;height:38px}
+
+/* App-style Back button */
+#backBtn{
+    width:42px;
+    height:42px;
+    border-radius:13px;
+    border:1px solid #dbe3ee;
+    background:#ffffff;
+    color:transparent;
+    box-shadow:0 3px 10px rgba(31,41,55,.08);
+    position:absolute;
+    display:grid;
+    place-items:center;
+}
+#backBtn::before{
+    content:"";
+    width:10px;
+    height:10px;
+    border-left:2.5px solid #344054;
+    border-bottom:2.5px solid #344054;
+    transform:rotate(45deg);
+    margin-left:4px;
+}
+#backBtn:hover{background:#f8fafc;border-color:#cbd5e1;box-shadow:0 4px 12px rgba(31,41,55,.10)}
+#backBtn:active{background:#f1f5f9;box-shadow:0 2px 6px rgba(31,41,55,.08)}
+
+@media (max-width:600px){
+    .box .item{padding:8px 9px;column-gap:8px}
+    .box .item strong{font-size:15px}
+    .box .item div:nth-child(2){font-size:12px}
+    .box .item div:nth-child(3){font-size:13px}
+    .box .item div:nth-child(4){font-size:12px}
+    .box:nth-of-type(1) .item div:nth-child(3){font-size:13px}
+    #readingContent,#listeningContent{font-size:16px;line-height:1.68}
+    .mcq-option,.tfn-option,.vocabulary-option{font-size:13.5px;min-height:30px;padding:5px 7px}
+    .summary p{font-size:15px}
+    .preview-question ul,.preview-question ol{font-size:14px}
+    #backBtn{width:40px;height:40px;border-radius:12px}
+}
+
+
+/* UI FIX 4.7 - final requested refinements */
+/* Word Family: English + Vietnamese on row 1; IPA + POS on row 2 */
+.word-family-items .item{
+    grid-template-columns:minmax(0,1fr) minmax(0,auto);
+    grid-template-rows:auto auto;
+    column-gap:10px;
+    row-gap:2px;
+    align-items:center;
+}
+.word-family-items .item strong{grid-column:1;grid-row:1;font-size:16px;line-height:1.2}
+.word-family-items .item div:nth-child(2){grid-column:1;grid-row:2;font-size:12px;line-height:1.15;text-align:left}
+.word-family-items .item div:nth-child(3){grid-column:2;grid-row:2;font-size:12px;line-height:1.15;text-align:right;color:#667085;font-weight:700}
+.word-family-items .item div:nth-child(4){grid-column:2;grid-row:1;font-size:14px;line-height:1.2;text-align:right;color:#344054;font-weight:750}
+
+/* Much tighter question groups and answer boxes */
+.mcq-question,.tfn-question,.vocab-question,.summary-question,.preview-question{
+    padding:6px;
+    margin-bottom:1px;
+    border-radius:10px;
+}
+.mcq-question h3,.tfn-question h3,.vocab-question h3,.summary-question h3,.preview-question strong{
+    margin-bottom:1px;
+    line-height:1.25;
+}
+.mcq-option,.tfn-option,.vocabulary-option{
+    min-height:28px;
+    margin:0;
+    padding:4px 7px;
+    border-radius:8px;
+    line-height:1.15;
+}
+.mcq-question + .mcq-question,.tfn-question + .tfn-question,.vocab-question + .vocab-question,.summary-question + .summary-question,.preview-question + .preview-question{margin-top:1px}
+.summary-input{margin:0 2px;height:34px}
+.preview-question{padding:5px;margin-bottom:0}
+.preview-question ul,.preview-question ol{margin-top:1px}
+.preview-question li{margin:0}
+
+/* App-style Back button with a visible arrow */
+#backBtn{
+    width:40px;
+    height:40px;
+    padding:0;
+    border:1px solid #d9e1eb;
+    border-radius:12px;
+    background:#fff;
+    color:transparent;
+    font-size:0;
+    line-height:0;
+    display:grid;
+    place-items:center;
+    box-shadow:0 3px 10px rgba(31,41,55,.08);
+}
+#backBtn::before{
+    content:'\2039';
+    display:block;
+    color:#344054;
+    font-family:Arial,sans-serif;
+    font-size:31px;
+    font-weight:500;
+    line-height:1;
+    transform:translate(-1px,-1px);
+}
+#backBtn:hover{background:#f8fafc;border-color:#cbd5e1}
+#backBtn:active{background:#f1f5f9;transform:translateY(-50%) scale(.95)}
+
+@media (max-width:600px){
+    .word-family-items .item{column-gap:8px;padding:8px 9px}
+    .word-family-items .item strong{font-size:15px}
+    .word-family-items .item div:nth-child(2),.word-family-items .item div:nth-child(3){font-size:11px}
+    .word-family-items .item div:nth-child(4){font-size:13px}
+    .mcq-question,.tfn-question,.vocab-question,.summary-question{padding:5px;margin-bottom:0}
+    .mcq-option,.tfn-option,.vocabulary-option{min-height:27px;padding:3px 6px;font-size:13px}
+    .preview-question{padding:4px}
+    #backBtn{width:38px;height:38px;border-radius:11px}
+    #backBtn::before{font-size:29px}
+}
+
+/* UI FIX 4.8 - compact question layout + simple app back arrow */
+
+/* Make every question block compact on small screens and larger screens. */
+.mcq-question,
+.tfn-question,
+.vocab-question,
+.summary-question,
+.preview-question{
+    padding:4px 5px;
+    margin:0;
+    border-radius:9px;
+}
+
+.mcq-question h3,
+.tfn-question h3,
+.vocab-question h3,
+.summary-question h3,
+.preview-question strong{
+    display:block;
+    margin:0 0 2px;
+    padding:0;
+    line-height:1.22;
+}
+
+.mcq-question p,
+.tfn-question p,
+.vocab-question p,
+.summary-question p,
+.preview-question p{
+    margin:0;
+}
+
+.mcq-option,
+.tfn-option,
+.vocabulary-option{
+    min-height:25px;
+    height:auto;
+    margin:0;
+    padding:3px 6px;
+    border-radius:7px;
+    line-height:1.12;
+}
+
+.mcq-question + .mcq-question,
+.tfn-question + .tfn-question,
+.vocab-question + .vocab-question,
+.summary-question + .summary-question,
+.preview-question + .preview-question{
+    margin-top:0;
+}
+
+.preview-question ul,
+.preview-question ol{
+    margin:1px 0 0;
+    padding-left:19px;
+}
+.preview-question li{
+    margin:0;
+    padding:0;
+    line-height:1.2;
+}
+
+.summary{
+    padding:7px;
+    line-height:1.38;
+}
+.summary-input{
+    margin:0 1px;
+    height:31px;
+}
+
+/* Back: simple arrow icon, no HTML-looking box. */
+#backBtn{
+    width:38px;
+    height:38px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    background:transparent;
+    color:transparent;
+    box-shadow:none;
+    display:grid;
+    place-items:center;
+}
+#backBtn::before{
+    content:"";
+    width:10px;
+    height:10px;
+    border-left:2.5px solid #344054;
+    border-bottom:2.5px solid #344054;
+    transform:rotate(45deg) translate(-1px,-1px);
+    margin-left:4px;
+    z-index:1;
+}
+#backBtn::after{
+    content:"";
+    position:absolute;
+    width:18px;
+    height:2.5px;
+    border-radius:2px;
+    background:#344054;
+    transform:translateX(2px);
+}
+#backBtn:hover{background:#eef4ff}
+#backBtn:active{background:#e4edff;transform:translateY(-50%) scale(.94)}
+
+@media (max-width:600px){
+    .mcq-question,
+    .tfn-question,
+    .vocab-question,
+    .summary-question,
+    .preview-question{
+        padding:3px 4px;
+    }
+    .mcq-question h3,
+    .tfn-question h3,
+    .vocab-question h3,
+    .summary-question h3,
+    .preview-question strong{
+        margin-bottom:1px;
+        line-height:1.18;
+    }
+    .mcq-option,
+    .tfn-option,
+    .vocabulary-option{
+        min-height:24px;
+        padding:2px 5px;
+        font-size:13px;
+    }
+    .preview-question ul,
+    .preview-question ol{
+        margin-top:0;
+        padding-left:18px;
+    }
+    .preview-question li{line-height:1.15}
+    .summary{padding:6px;line-height:1.32}
+    .summary-input{height:30px}
+    #backBtn{width:36px;height:36px}
+}
+
+/* UI FIX 4.10 - remove inherited template whitespace from ALL question/answer layouts */
+#readingContent,
+#listeningContent,
+#readingContent .mcq-question,
+#readingContent .tfn-question,
+#readingContent .vocab-question,
+#readingContent .summary-question,
+#readingContent .preview-question,
+#listeningContent .mcq-question,
+#listeningContent .tfn-question,
+#listeningContent .vocab-question,
+#listeningContent .summary-question,
+#listeningContent .preview-question,
+#listeningContent .preview-matching{
+    white-space:normal;
+}
+
+/* UI FIX 4.9 - remove inherited pre-line whitespace from Gap Fill question cards */
+.summary,
+.summary-question{
+    white-space:normal;
+}
+
+@media (max-width:600px){
+    .summary-question{
+        white-space:normal;
+    }
+}
+
+/* UI FIX 4.11 - responsive question area: balanced spacing and readable text
+   Keep question height content-driven; do not use fixed/min-height for cards. */
+#readingContent,
+#listeningContent{
+    text-align:left;
+    text-justify:auto;
+    width:100%;
+}
+
+/* Only reading/listening passages use justified text. Question UI stays left-aligned
+   so short mobile lines do not create large gaps between words. */
+#readingContent.reading-passage,
+#listeningContent.reading-passage{
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.mcq-question,
+.tfn-question,
+.vocab-question,
+.summary-question,
+.preview-question{
+    width:100%;
+    height:auto;
+    min-height:0;
+    padding:clamp(9px, 1.8vw, 12px);
+    margin:0 0 clamp(7px, 1.6vw, 10px);
+    border-radius:12px;
+}
+
+.mcq-question h3,
+.tfn-question h3,
+.vocab-question h3,
+.summary-question h3,
+.preview-question strong{
+    display:block;
+    margin:0 0 clamp(6px, 1.2vw, 8px);
+    padding:0;
+    font-size:clamp(14px, 2.4vw, 16px);
+    line-height:1.35;
+    text-align:left;
+    overflow-wrap:anywhere;
+}
+
+.mcq-question p,
+.tfn-question p,
+.vocab-question p,
+.summary-question p,
+.preview-question p{
+    margin:0;
+}
+
+.mcq-option,
+.tfn-option,
+.vocabulary-option{
+    width:100%;
+    min-height:40px;
+    height:auto;
+    margin:3px 0;
+    padding:8px 10px;
+    border-radius:9px;
+    line-height:1.3;
+    font-size:clamp(13px, 2.2vw, 15px);
+    text-align:left;
+    overflow-wrap:anywhere;
+}
+
+.mcq-question + .mcq-question,
+.tfn-question + .tfn-question,
+.vocab-question + .vocab-question,
+.summary-question + .summary-question,
+.preview-question + .preview-question{
+    margin-top:clamp(7px, 1.6vw, 10px);
+}
+
+/* Gap-fill / summary area: no inherited paragraph whitespace and no forced height. */
+.summary{
+    height:auto;
+    min-height:0;
+    padding:0;
+    line-height:1.5;
+    text-align:left;
+}
+.summary-question .summary-input{
+    display:block;
+    width:100%;
+    max-width:100%;
+    min-height:40px;
+    height:40px;
+    margin:6px 0 0;
+}
+
+.preview-question ul,
+.preview-question ol{
+    margin:5px 0 0;
+    padding-left:20px;
+}
+.preview-question li{
+    margin:2px 0;
     line-height:1.3;
 }
 
-.lesson-number{
-    font-size:18px;
-    font-weight:700;
-}
-
-.lesson-en{
-    font-size:18px;
-    font-weight:700;
-}
-
-.lesson-vi{
-    font-size:13px;
-    color:#666;
-}
-
-/* ==========================================================
-   PROGRESS
-========================================================== */
-
-.progress-section{
-    margin-bottom:20px;
-}
-
-.progress-top{
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:8px;
-    font-size:15px;
-    font-weight:600;
-}
-
-.progress-bar{
-    height:10px;
-    background:#ddd;
-    border-radius:20px;
-    overflow:hidden;
-}
-
-.progress-fill{
-    width:0%;
-    height:100%;
-    background:#27ae60;
-    transition:.3s;
-}
-
-/* ==========================================================
-   VOCABULARY
-========================================================== */
-
-.card{
-    background:#fff;
-    border-radius:20px;
-    padding:24px;
-    box-shadow:0 5px 20px rgba(0,0,0,.10);
-}
-
-.word-header{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:15px;
-    margin-bottom:18px;
-}
-
-.speaker{
-    width:54px;
-    height:54px;
-    border:none;
-    border-radius:50%;
-    background:#2d8cff;
-    color:#fff;
-    font-size:22px;
-    cursor:pointer;
-}
-
-#word{
-    font-size:40px;
-    color:#2d8cff;
-    text-align:center;
-}
-
-.ipa{
-    text-align:center;
-    color:#777;
-    font-size:20px;
-    margin-bottom:14px;
-}
-
-.meaning{
-    text-align:center;
-    color:#16a085;
-    font-size:28px;
-    font-weight:700;
-    margin-bottom:24px;
-}
-
-.box{
-    margin-top:18px;
-}
-
-.box h2{
-    margin-bottom:12px;
-}
-
-.items{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-}
-
-.item{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    padding:14px;
-    background:#f5f8fb;
-    border-radius:14px;
-    border:1px solid #e8edf3;
-}
-
-.item button{
-    width:38px;
-    height:38px;
-    border:none;
-    border-radius:50%;
-    background:#27ae60;
-    color:#fff;
-    cursor:pointer;
-}
-
-.item-content{
-    flex:1;
-}
-
-.item-word{
-    font-weight:700;
-}
-
-.item-ipa{
-    color:#777;
-    margin:4px 0;
-}
-
-.item-meaning{
-    color:#16a085;
-}
-
-/* ==========================================================
-   NAVIGATION
-========================================================== */
-
-.navigation{
-    display:flex;
-    justify-content:space-between;
-    margin-top:24px;
-}
-
-.nav-btn{
-    padding:14px 26px;
-    border:none;
-    border-radius:12px;
-    cursor:pointer;
-    background:#e0e0e0;
-    font-size:16px;
-}
-
-.primary{
-    background:#2d8cff;
-    color:#fff;
-}
-
-/* ==========================================================
-   FINISH
-========================================================== */
-
-.finish-screen{
-    text-align:center;
-    margin-top:30px;
-}
-
-.finish-icon{
-    font-size:70px;
-    margin-bottom:20px;
-}
-
-.start-btn{
-    margin-top:20px;
-    padding:16px 30px;
-    border:none;
-    border-radius:14px;
-    background:#27ae60;
-    color:#fff;
-    font-size:18px;
-    cursor:pointer;
-}
-
-.hidden{
-    display:none;
-}
-/* ==========================================================
-   MATCHING GAME
-========================================================== */
-
-.matching-screen{
-    margin-top:30px;
-}
-
-.matching-container{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    column-gap:22px;
-    row-gap:12px;
-    align-items:start;
-}
-
-.matching-column{
-    display:flex;
-    flex-direction:column;
-    gap:12px;
-}
-
-.matching-card{
-    width:94%;
-    margin:0 auto;
-    min-height:46px;
-    background:#fff;
-    border:2px solid #dfe7ef;
-    border-radius:14px;
-    padding:8px 10px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    font-size:15px;
-    font-weight:600;
-    cursor:pointer;
-    transition:.25s;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
-
-.matching-card:hover{
-    border-color:#2d8cff;
-    transform:translateY(-2px);
-}
-
-.matching-card.selected{
-    background:#eaf4ff;
-    border-color:#2d8cff;
-}
-
-.matching-card.matched{
-    background:#d8f8dd;
-    border-color:#27ae60;
-    opacity:.35;
-    pointer-events:none;
-}
-
-.matching-card.hidden{
-    visibility:hidden;
-}
-.matching-card.wrong{
-
-    background:#ffdddd;
-
-    border:2px solid #e53935;
-
-    color:#c62828;
-
-}
-.matching-message{
-    text-align:center;
-    margin:18px 0;
-    color:#d63031;
-    font-weight:700;
-}
-#matchingScore{
-
-    text-align:center;
-
-    font-size:18px;
-
-    font-weight:700;
-
-    margin:12px 0 20px;
-
-}
-.correct-count{
-    text-align:center;
-    margin-top:18px;
-    font-size:18px;
-    font-weight:700;
-}
-
-/* ==========================================================
-   REVIEW
-========================================================== */
-
-.review-screen{
-    margin-top:25px;
-}
-
-.review-card{
-    background:#fff;
-    border-radius:20px;
-    padding:22px;
-    box-shadow:0 5px 20px rgba(0,0,0,.10);
-}
-
-.review-word{
-    text-align:center;
-    font-size:34px;
-    color:#2d8cff;
-    font-weight:700;
-}
-
-.review-ipa{
-    text-align:center;
-    color:#777;
-    margin-top:8px;
-}
-
-.review-meaning{
-    text-align:center;
-    margin:16px 0;
-    color:#16a085;
-    font-size:24px;
-    font-weight:700;
-}
-
-.review-box{
-    margin-top:16px;
-    background:#f7f9fc;
-    border-radius:14px;
-    padding:14px;
-}
-
-.review-box h3{
-    margin-bottom:10px;
-    color:#2d8cff;
-}
-
-.continue-btn{
+.preview-matching{
     width:100%;
-    margin-top:20px;
-    padding:14px;
-    border:none;
-    border-radius:14px;
-    background:#2d8cff;
-    color:#fff;
-    font-size:17px;
-    font-weight:700;
-    cursor:pointer;
+    height:auto;
+    min-height:0;
 }
 
-.countdown{
-    text-align:center;
-    margin-top:12px;
-    color:#666;
+#continueReadingBtn,
+#continueListeningBtn{
+    width:100%;
+    margin-top:clamp(10px, 2vw, 14px);
 }
 
-/* ==========================================================
-   READING
-========================================================== */
-
-.reading-lock,
-.reading-unlocked{
-    text-align:center;
-    margin-top:30px;
-}
-
-.lock-icon,
-.unlock-icon{
-    font-size:70px;
-    margin-bottom:20px;
-}
-
-/* ==========================================================
-   RESPONSIVE
-========================================================== */
-
-@media (max-width:768px){
-
-    .matching-container{
-        grid-template-columns:1fr 1fr;
-        gap:10px;
+@media (max-width:600px){
+    #readingContent,
+    #listeningContent{
+        font-size:15px;
+        line-height:1.6;
     }
 
-    .matching-column{
-        gap:10px;
+    .mcq-question,
+    .tfn-question,
+    .vocab-question,
+    .summary-question,
+    .preview-question{
+        padding:9px;
+        margin-bottom:7px;
     }
 
-    .matching-card{
-         min-height:54px;
+    .mcq-question h3,
+    .tfn-question h3,
+    .vocab-question h3,
+    .summary-question h3,
+    .preview-question strong{
+        margin-bottom:6px;
         font-size:14px;
-        padding:8px;
+        line-height:1.35;
     }
 
-    #word{
-        font-size:34px;
+    .mcq-option,
+    .tfn-option,
+    .vocabulary-option{
+        min-height:40px;
+        margin:3px 0;
+        padding:8px 9px;
+        font-size:13px;
+        line-height:1.3;
     }
 
-    .meaning{
-        font-size:24px;
+    .mcq-question + .mcq-question,
+    .tfn-question + .tfn-question,
+    .vocab-question + .vocab-question,
+    .summary-question + .summary-question,
+    .preview-question + .preview-question{
+        margin-top:7px;
     }
 
-    .navigation{
-        gap:12px;
+    .summary-question .summary-input{
+        min-height:40px;
+        height:40px;
+        margin-top:6px;
     }
 
-    .nav-btn{
-        flex:1;
+    .preview-question ul,
+    .preview-question ol{
+        margin-top:4px;
+        padding-left:19px;
     }
 
-}
-/* ==========================================================
-   READING SCREEN
-========================================================== */
-
-.reading-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:20px;
-
-}
-
-#readingTitle{
-
-    font-size:22px;
-
-    font-weight:bold;
-
-    color:#2563eb;
-
+    .preview-question li{
+        margin:2px 0;
+        line-height:1.25;
+    }
 }
 
-#readingProgress{
+@media (min-width:601px){
+    .mcq-question,
+    .tfn-question,
+    .vocab-question,
+    .summary-question,
+    .preview-question{
+        padding:10px 11px;
+        margin-bottom:9px;
+    }
 
+    .mcq-option,
+    .tfn-option,
+    .vocabulary-option{
+        min-height:42px;
+    }
+}
+
+/* UI FIX 4.12 - flexible vocabulary columns + clearer section headings */
+.box h2{
     font-size:16px;
-
-    color:#666;
-
+    line-height:1.25;
+    margin-bottom:10px;
 }
 
-#readingHeading{
-
-    font-size:28px;
-
-    margin-bottom:20px;
-
-    color:#222;
-
+/* Let English/Vietnamese columns share available width and wrap naturally.
+   min-width:0 is important in CSS Grid so long meanings cannot force a track
+   wider than the card or get clipped into stray characters. */
+.box .item{
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    min-width:0;
+}
+.box .item > *{
+    min-width:0;
+    max-width:100%;
+    overflow-wrap:anywhere;
+    word-break:normal;
+}
+.box .item strong{
+    min-width:0;
+}
+.box .item div:nth-child(3),
+.box .item div:nth-child(4){
+    min-width:0;
+    white-space:normal;
+    overflow-wrap:anywhere;
+    word-break:normal;
 }
 
-#readingContent{
-
-    font-size:20px;
-
-    line-height:1.8;
-
-    color:#333;
-
-    white-space:pre-line;
-
-    margin-bottom:30px;
-
+.word-family-items .item{
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    min-width:0;
+}
+.word-family-items .item > *{
+    min-width:0;
+    max-width:100%;
+    overflow-wrap:anywhere;
+    word-break:normal;
+}
+.word-family-items .item div:nth-child(4){
+    white-space:normal;
+    overflow-wrap:anywhere;
+    word-break:normal;
 }
 
-#continueReadingBtn{
-
-    width:100%;
-
-    padding:16px;
-
-    font-size:20px;
-
-    border:none;
-
-    border-radius:10px;
-
-    cursor:pointer;
-
-}
-/* ==========================================================
-   READING TEST STATE
-========================================================== */
-
-.selected-test {
-
-    border: 2px solid #4CAF50 !important;
-
-}
-/* ==========================================================
-   MATCHING TABLE
-----------------------------------------------------------
-   Chức năng
-   - Hiển thị bảng Matching
-   - Hiển thị vòng tròn để chọn
-========================================================== */
-
-.matching-table{
-
-    width:100%;
-
-    border-collapse:collapse;
-
-    margin-top:20px;
-
+@media (max-width:600px){
+    .box h2{
+        font-size:16px;
+        margin-bottom:9px;
+    }
+    .box .item,
+    .word-family-items .item{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+        column-gap:8px;
+    }
+    .box .item div:nth-child(3),
+    .box .item div:nth-child(4),
+    .word-family-items .item div:nth-child(4){
+        overflow-wrap:anywhere;
+        word-break:normal;
+    }
 }
 
-.matching-table th,
-.matching-table td{
 
-    border:1px solid #d9d9d9;
-
-    text-align:center;
-
-    padding:12px;
-
-}
-
-.matching-table th{
-
-    background:#f4f8ff;
-
-    font-weight:700;
-
-}
-
-.matching-table td:first-child{
-
+/* UI FIX 4.13 - consistent Listening Preview section headings + highlighted 2-minute timer */
+#listeningContent > h3.preview-section-heading{
+    margin:9px 0 5px;
+    padding:0;
+    font-size:15px;
+    line-height:1.3;
+    font-weight:800;
+    color:#0f766e;
     text-align:left;
-
-    font-weight:600;
-
 }
 
-.matching-option{
-
-    cursor:pointer;
-
+#listeningContent .preview-matching > div > strong{
+    font-size:15px;
+    line-height:1.3;
 }
 
-.matching-circle{
-
-    width:22px;
-
-    height:22px;
-
-    margin:auto;
-
-    border:2px solid #999;
-
-    border-radius:50%;
-
-    background:#fff;
-
-}
-/* ==========================================================
-   MATCHING SELECTED
-----------------------------------------------------------
-   Chức năng
-   - Hiển thị vòng tròn đã chọn
-========================================================== */
-
-.matching-circle.selected-test{
-
-    background:#4CAF50;
-
-    border-color:#4CAF50;
-
-    position:relative;
-
+#listeningContent .preview-matching ol{
+    font-size:15px;
+    line-height:1.3;
 }
 
-.matching-circle.selected-test::after{
+#listeningContent .preview-matching li{
+    line-height:1.3;
+}
 
-    content:"";
+#listeningPreviewTimer{
+    border:2px solid #f97316;
+    background:#fff7ed;
+    color:#c2410c;
+    font-size:27px;
+    font-weight:900;
+    box-shadow:0 4px 12px rgba(249,115,22,.20);
+}
 
-    position:absolute;
+@media (max-width:600px){
+    #listeningContent > h3.preview-section-heading{
+        margin:8px 0 4px;
+        font-size:14px;
+        line-height:1.3;
+    }
 
-    width:8px;
+    #listeningContent .preview-matching > div > strong{
+        font-size:14px;
+    }
 
-    height:8px;
+    #listeningContent .preview-matching ol{
+        font-size:14px;
+    }
 
-    background:#fff;
+    #listeningPreviewTimer{
+        min-width:145px;
+        min-height:58px;
+        font-size:27px;
+    }
+}
 
-    border-radius:50%;
+/* UI FIX 4.12 - Lesson Result final visual polish
+   - Make Copy to AI clearly actionable while remaining secondary.
+   - Reduce Total Score size slightly for better card balance.
+   - Increase lesson name by ~10-15%.
+   - Establish clear score-color hierarchy: skill < total, percentage < total, rating gold.
+*/
 
-    top:50%;
+/* Lesson title: slightly larger without changing the overall header layout. */
+.lesson-en{
+    font-size:clamp(22px, 5.8vw, 33px);
+}
 
-    left:50%;
+/* Lesson Result score hierarchy. */
+.lesson-score-row:not(.total) .lesson-score-value{
+    font-size:15px;
+    font-weight:800;
+    color:#2563eb;
+}
 
-    transform:translate(-50%,-50%);
+.lesson-score-row.total .lesson-score-value{
+    font-size:24px;
+    font-weight:850;
+    color:#1d4ed8;
+}
 
+.lesson-score-row.total .lesson-score-label{
+    color:#2563eb;
+}
+
+.lesson-score-row #lessonPercentage{
+    font-size:15px;
+    font-weight:850;
+    color:#2563eb;
+}
+
+#lessonRating,
+.lesson-score-row:last-child .lesson-score-value{
+    color:#f4b400;
+    font-size:15px;
+}
+
+/* Copy to AI: active secondary action, visually distinct from disabled controls. */
+.lesson-button.secondary{
+    background:#edf4ff;
+    color:#1d4ed8;
+    border:1px solid #b8cffb;
+    box-shadow:0 2px 8px rgba(37,99,235,.08);
+}
+.lesson-button.secondary:hover{
+    background:#e4efff;
+    border-color:#9fbcf5;
+    box-shadow:0 4px 12px rgba(37,99,235,.12);
+}
+.lesson-button.secondary:active{
+    background:#dbeafe;
+    border-color:#8eb0ef;
+}
+
+@media (max-width:600px){
+    .lesson-en{
+        font-size:clamp(20px, 5.8vw, 28px);
+    }
+
+    .lesson-score-row:not(.total) .lesson-score-value{
+        font-size:14px;
+    }
+
+    .lesson-score-row.total .lesson-score-value{
+        font-size:22px;
+    }
+
+    .lesson-score-row #lessonPercentage{
+        font-size:14px;
+    }
+
+    #lessonRating,
+    .lesson-score-row:last-child .lesson-score-value{
+        font-size:14px;
+    }
 }
