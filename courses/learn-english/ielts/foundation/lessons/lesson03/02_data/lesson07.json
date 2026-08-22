@@ -1,0 +1,656 @@
+{
+  "vocabulary": [
+    {
+      "word": "Education",
+      "ipa": "/ˌedʒuˈkeɪʃən/",
+      "meaning": "giáo dục",
+      "synonyms": [
+        {
+          "word": "schooling",
+          "ipa": "/ˈskuːlɪŋ/",
+          "meaning": "việc học ở trường"
+        },
+        {
+          "word": "instruction",
+          "ipa": "/ɪnˈstrʌkʃən/",
+          "meaning": "sự giảng dạy"
+        }
+      ],
+      "family": [
+        {
+          "word": "educate",
+          "ipa": "/ˈedʒukeɪt/",
+          "pos": "v",
+          "meaning": "giáo dục"
+        },
+        {
+          "word": "educational",
+          "ipa": "/ˌedʒuˈkeɪʃənl/",
+          "pos": "adj",
+          "meaning": "mang tính giáo dục"
+        }
+      ]
+    },
+    {
+      "word": "Student",
+      "ipa": "/ˈstjuːdnt/",
+      "meaning": "học sinh, sinh viên",
+      "synonyms": [
+        {
+          "word": "learner",
+          "ipa": "/ˈlɜːnə(r)/",
+          "meaning": "người học"
+        },
+        {
+          "word": "pupil",
+          "ipa": "/ˈpjuːpl/",
+          "meaning": "học sinh"
+        }
+      ],
+      "family": [
+        {
+          "word": "study",
+          "ipa": "/ˈstʌdi/",
+          "pos": "v",
+          "meaning": "học tập"
+        },
+        {
+          "word": "studious",
+          "ipa": "/ˈstjuːdiəs/",
+          "pos": "adj",
+          "meaning": "chăm học"
+        }
+      ]
+    },
+    {
+      "word": "Teacher",
+      "ipa": "/ˈtiːtʃə(r)/",
+      "meaning": "giáo viên",
+      "synonyms": [
+        {
+          "word": "educator",
+          "ipa": "/ˈedʒukeɪtə(r)/",
+          "meaning": "nhà giáo"
+        },
+        {
+          "word": "instructor",
+          "ipa": "/ɪnˈstrʌktə(r)/",
+          "meaning": "người hướng dẫn"
+        }
+      ],
+      "family": [
+        {
+          "word": "teach",
+          "ipa": "/tiːtʃ/",
+          "pos": "v",
+          "meaning": "dạy"
+        },
+        {
+          "word": "teaching",
+          "ipa": "/ˈtiːtʃɪŋ/",
+          "pos": "n",
+          "meaning": "việc giảng dạy"
+        }
+      ]
+    },
+    {
+      "word": "Curriculum",
+      "ipa": "/kəˈrɪkjələm/",
+      "meaning": "chương trình học",
+      "synonyms": [
+        {
+          "word": "syllabus",
+          "ipa": "/ˈsɪləbəs/",
+          "meaning": "đề cương môn học"
+        },
+        {
+          "word": "course content",
+          "ipa": "/kɔːs ˈkɒntent/",
+          "meaning": "nội dung khóa học"
+        }
+      ],
+      "family": [
+        {
+          "word": "curricular",
+          "ipa": "/kəˈrɪkjələ(r)/",
+          "pos": "adj",
+          "meaning": "thuộc chương trình học"
+        },
+        {
+          "word": "curriculum development",
+          "ipa": "/kəˈrɪkjələm dɪˈveləpmənt/",
+          "pos": "n",
+          "meaning": "phát triển chương trình học"
+        }
+      ]
+    },
+    {
+      "word": "Skill",
+      "ipa": "/skɪl/",
+      "meaning": "kỹ năng",
+      "synonyms": [
+        {
+          "word": "ability",
+          "ipa": "/əˈbɪləti/",
+          "meaning": "khả năng"
+        },
+        {
+          "word": "competence",
+          "ipa": "/ˈkɒmpɪtəns/",
+          "meaning": "năng lực"
+        }
+      ],
+      "family": [
+        {
+          "word": "skilled",
+          "ipa": "/skɪld/",
+          "pos": "adj",
+          "meaning": "có kỹ năng"
+        },
+        {
+          "word": "skilful",
+          "ipa": "/ˈskɪlfl/",
+          "pos": "adj",
+          "meaning": "khéo léo"
+        }
+      ]
+    },
+    {
+      "word": "Learn",
+      "ipa": "/lɜːn/",
+      "meaning": "học",
+      "synonyms": [
+        {
+          "word": "acquire",
+          "ipa": "/əˈkwaɪə(r)/",
+          "meaning": "tiếp thu"
+        },
+        {
+          "word": "master",
+          "ipa": "/ˈmɑːstə(r)/",
+          "meaning": "thành thạo"
+        }
+      ],
+      "family": [
+        {
+          "word": "learner",
+          "ipa": "/ˈlɜːnə(r)/",
+          "pos": "n",
+          "meaning": "người học"
+        },
+        {
+          "word": "learning",
+          "ipa": "/ˈlɜːnɪŋ/",
+          "pos": "n",
+          "meaning": "việc học"
+        }
+      ]
+    },
+    {
+      "word": "Study",
+      "ipa": "/ˈstʌdi/",
+      "meaning": "học tập, nghiên cứu",
+      "synonyms": [
+        {
+          "word": "learn",
+          "ipa": "/lɜːn/",
+          "meaning": "học"
+        },
+        {
+          "word": "examine",
+          "ipa": "/ɪɡˈzæmɪn/",
+          "meaning": "nghiên cứu"
+        }
+      ],
+      "family": [
+        {
+          "word": "student",
+          "ipa": "/ˈstjuːdnt/",
+          "pos": "n",
+          "meaning": "học sinh"
+        },
+        {
+          "word": "studious",
+          "ipa": "/ˈstjuːdiəs/",
+          "pos": "adj",
+          "meaning": "chăm học"
+        }
+      ]
+    },
+    {
+      "word": "Course",
+      "ipa": "/kɔːs/",
+      "meaning": "khóa học",
+      "synonyms": [
+        {
+          "word": "programme",
+          "ipa": "/ˈprəʊɡræm/",
+          "meaning": "chương trình"
+        },
+        {
+          "word": "class",
+          "ipa": "/klɑːs/",
+          "meaning": "lớp học"
+        }
+      ],
+      "family": [
+        {
+          "word": "coursework",
+          "ipa": "/ˈkɔːswɜːk/",
+          "pos": "n",
+          "meaning": "bài tập khóa học"
+        },
+        {
+          "word": "coursebook",
+          "ipa": "/ˈkɔːsbʊk/",
+          "pos": "n",
+          "meaning": "giáo trình"
+        }
+      ]
+    },
+    {
+      "word": "Examination",
+      "ipa": "/ɪɡˌzæmɪˈneɪʃən/",
+      "meaning": "kỳ thi",
+      "synonyms": [
+        {
+          "word": "test",
+          "ipa": "/test/",
+          "meaning": "bài kiểm tra"
+        },
+        {
+          "word": "assessment",
+          "ipa": "/əˈsesmənt/",
+          "meaning": "đánh giá"
+        }
+      ],
+      "family": [
+        {
+          "word": "examine",
+          "ipa": "/ɪɡˈzæmɪn/",
+          "pos": "v",
+          "meaning": "kiểm tra"
+        },
+        {
+          "word": "examiner",
+          "ipa": "/ɪɡˈzæmɪnə(r)/",
+          "pos": "n",
+          "meaning": "giám khảo"
+        }
+      ]
+    },
+    {
+      "word": "Degree",
+      "ipa": "/dɪˈɡriː/",
+      "meaning": "bằng cấp",
+      "synonyms": [
+        {
+          "word": "qualification",
+          "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+          "meaning": "trình độ"
+        },
+        {
+          "word": "diploma",
+          "ipa": "/dɪˈpləʊmə/",
+          "meaning": "bằng tốt nghiệp"
+        }
+      ],
+      "family": [
+        {
+          "word": "graduate",
+          "ipa": "/ˈɡrædʒuət/",
+          "pos": "v",
+          "meaning": "tốt nghiệp"
+        },
+        {
+          "word": "graduation",
+          "ipa": "/ˌɡrædʒuˈeɪʃn/",
+          "pos": "n",
+          "meaning": "lễ tốt nghiệp"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "The Importance of Education",
+      "text": "Education is an important part of life. It helps people develop knowledge and useful skills for the future. Children usually begin their schooling at a young age, while older students may continue their education at college or university.\n\nA student spends a lot of time learning new things. Students may study different subjects such as science, history, languages, and mathematics. A good teacher can help students understand difficult ideas and encourage them to keep learning.\n\nSchools usually follow a curriculum. The curriculum includes the subjects and activities that students need to study. Each subject may have a different course content, and students often use books and other learning materials in class.\n\nStudents can also choose a course based on their interests and future plans. During a course, they can develop new abilities and become more skilled in a particular area.\n\nAt the end of a course or school year, students may take an examination. An examination helps teachers assess what students have learned. Some students may feel nervous before a test, but regular study and preparation can help them feel more confident.\n\nAfter completing higher education, a student may receive a degree. A degree can be useful when a person looks for a job or continues studying.\n\nGood education does not only prepare students for examinations. It also helps them learn, develop skills, and become more independent."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can education help people develop?",
+          "options": [
+            "Only physical strength",
+            "Knowledge and useful skills",
+            "Only examination results",
+            "Free time"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does a curriculum include?",
+          "options": [
+            "Only examination dates",
+            "Subjects and activities students need to study",
+            "Students' personal hobbies",
+            "Teachers' holidays"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Children usually begin their schooling when they are young.",
+          "answer": "True"
+        },
+        {
+          "statement": "Students only study languages at school.",
+          "answer": "False"
+        },
+        {
+          "statement": "Regular study can help students feel more confident before an examination.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Education helps people develop knowledge and useful (6) ______. Students study different subjects with the help of a (7) ______. Schools usually follow a (8) ______ that includes subjects and activities. At the end of a course, students may take an (9) ______. After completing higher education, a student may receive a (10) ______.",
+        "answers": [
+          "skills",
+          "teacher",
+          "curriculum",
+          "examination",
+          "degree"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “schooling” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "education at school",
+            "university graduation",
+            "examination results",
+            "job training"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “skilled” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "having an ability to do something well",
+            "feeling nervous",
+            "being unable to learn",
+            "being new to a subject"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “assess” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "teach",
+            "evaluate",
+            "study",
+            "graduate"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Student",
+          "Teacher",
+          "Learn",
+          "Examination"
+        ],
+        "right": [
+          "Educator",
+          "Learner",
+          "Acquire",
+          "Test"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Education and Future Opportunities",
+      "text": "Education plays an important role in preparing people for their future. From basic schooling to higher education, students have many opportunities to develop knowledge, practical skills, and personal abilities. A good education can help learners become more confident and prepare them for further study or employment.\n\nAt school, each student follows a curriculum designed to provide a range of subjects and learning activities. The curriculum may include languages, science, mathematics, history, and other areas. Curriculum development is important because schools need to make sure that course content is suitable for students and useful for their future.\n\nTeachers have an important role in this process. A teacher, or educator, does more than give information. Teachers explain ideas, answer questions, and encourage students to think carefully. Good instruction can help a learner understand a difficult topic and become more independent.\n\nStudents also need to take responsibility for their own learning. They should study regularly and try to learn from both their successes and mistakes. Some students may find it easy to acquire new skills, while others need more time and practice. With regular learning, students can gradually improve their abilities and become more skilled.\n\nMany students choose a course according to their interests or career goals. A course may include classroom lessons, practical activities, and coursework. Students are expected to complete different tasks and understand the course content before taking a final examination.\n\nExaminations are one form of assessment. They can help schools and teachers examine what students have learned. However, a test is not the only way to measure ability. Coursework, classroom activities, and practical tasks can also show a student's progress.\n\nAfter completing a university programme, a student may receive a degree or another qualification. Graduation can be an important step because it shows that a student has completed a particular level of education. A degree may also provide opportunities for further study or employment.\n\nEducation, therefore, is not simply about passing examinations. It is a long process in which learners acquire knowledge, develop skills, and prepare themselves for future opportunities."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why is curriculum development important according to the passage?",
+          "options": [
+            "It helps schools choose students.",
+            "It makes sure course content is suitable and useful.",
+            "It removes examinations from schools.",
+            "It gives students more holidays."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does the passage say about examinations?",
+          "options": [
+            "They are the only way to measure ability.",
+            "They are not useful for students.",
+            "They are one form of assessment.",
+            "They are only used at primary school."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Teachers can encourage students to think carefully.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every student learns new skills at exactly the same speed.",
+          "answer": "False"
+        },
+        {
+          "statement": "A degree can provide opportunities for further study or employment.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Students follow a (6) ______ that includes different subjects and learning activities. Teachers provide useful (7) ______ and help students understand difficult ideas. Students should also (8) ______ regularly and take responsibility for their learning. At the end of a course, students may take an (9) ______. After completing university, a student may receive a (10) ______.",
+        "answers": [
+          "curriculum",
+          "instruction",
+          "study",
+          "examination",
+          "degree"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “acquire” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "lose",
+            "obtain",
+            "examine",
+            "teach"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “qualification” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "a formal achievement or certificate",
+            "a school subject",
+            "a classroom activity",
+            "an examination question"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “progress” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "improvement over time",
+            "examination failure",
+            "classroom instruction",
+            "university graduation"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Education",
+          "Course",
+          "Skill",
+          "Degree"
+        ],
+        "right": [
+          "Programme",
+          "Schooling",
+          "Ability",
+          "Qualification"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Learning at School",
+      "audio": "",
+      "transcript": "Today, I want to talk about education and the experience of being a student.\n\nEducation helps people develop knowledge and useful skills. At school, students learn many different subjects. A good teacher can explain difficult ideas and help learners understand new information.\n\nSchools usually have a curriculum. It tells students what they need to learn during a particular period. Students may also choose a course that is suitable for their interests or future plans.\n\nTo make good progress, students should study regularly. They need to learn new information and practise their skills. Some students may learn quickly, while others need more time. Regular practice can help students become more confident and skilled.\n\nStudents often take an examination after studying a subject or course. An examination is one way to check what they have learned. Students can prepare by reviewing their lessons and completing their coursework.\n\nAfter several years of higher education, a student may receive a degree. This can be an important step toward a future job or further education.\n\nEducation is therefore a long process. It helps students learn, develop skills, and prepare for their future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can education help people develop?",
+          "options": [
+            "Knowledge and skills",
+            "Only physical strength",
+            "Only examination techniques",
+            "Free time"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why do students take examinations?",
+          "options": [
+            "To choose their teachers",
+            "To check what they have learned",
+            "To change the curriculum",
+            "To avoid studying"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "A good teacher can help students understand difficult ideas.",
+          "answer": "True"
+        },
+        {
+          "statement": "Students should never study regularly.",
+          "answer": "False"
+        },
+        {
+          "statement": "A degree can be an important step toward a future job or further education.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Education helps people develop knowledge and useful ______.",
+          "answer": "skills"
+        },
+        {
+          "question": "A good ______ can explain difficult ideas.",
+          "answer": "teacher"
+        },
+        {
+          "question": "Schools usually have a ______.",
+          "answer": "curriculum"
+        },
+        {
+          "question": "Students often take an ______ after studying a subject or course.",
+          "answer": "examination"
+        },
+        {
+          "question": "After higher education, a student may receive a ______.",
+          "answer": "degree"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “learners” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "people who learn",
+            "people who teach",
+            "people who examine",
+            "people who graduate"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “regular” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "happening often and consistently",
+            "happening only once",
+            "happening unexpectedly",
+            "happening at graduation"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “prepare” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "get ready",
+            "forget",
+            "examine",
+            "graduate"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Student",
+          "Teacher",
+          "Course",
+          "Degree"
+        ],
+        "right": [
+          "A person who teaches",
+          "A person who learns",
+          "A programme of study",
+          "A qualification from higher education"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson07",
+    "number": 7,
+    "title": "Education",
+    "titleVi": "Giáo dục"
+  }
+}

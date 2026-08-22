@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson19",
+    "number": 19,
+    "title": "Agriculture & Food",
+    "titleVi": "Nông nghiệp & Thực phẩm"
+  },
+  "vocabulary": [
+    {
+      "word": "Agriculture",
+      "ipa": "/ˈæɡrɪkʌltʃə(r)/",
+      "meaning": "nông nghiệp",
+      "synonyms": [
+        {
+          "word": "Farming",
+          "ipa": "/ˈfɑːmɪŋ/",
+          "meaning": "nghề nông"
+        },
+        {
+          "word": "Cultivation",
+          "ipa": "/ˌkʌltɪˈveɪʃən/",
+          "meaning": "canh tác"
+        }
+      ],
+      "family": [
+        {
+          "word": "Agricultural",
+          "ipa": "/ˌæɡrɪˈkʌltʃərəl/",
+          "pos": "",
+          "meaning": "thuộc nông nghiệp"
+        },
+        {
+          "word": "Agriculturist",
+          "ipa": "/ˌæɡrɪˈkʌltʃərɪst/",
+          "pos": "",
+          "meaning": "nhà nông học"
+        }
+      ]
+    },
+    {
+      "word": "Farmer",
+      "ipa": "/ˈfɑːmə(r)/",
+      "meaning": "nông dân",
+      "synonyms": [
+        {
+          "word": "Grower",
+          "ipa": "/ˈɡrəʊə(r)/",
+          "meaning": "người trồng trọt"
+        },
+        {
+          "word": "Producer",
+          "ipa": "/prəˈdjuːsə(r)/",
+          "meaning": "nhà sản xuất"
+        }
+      ],
+      "family": [
+        {
+          "word": "Farm",
+          "ipa": "/fɑːm/",
+          "pos": "",
+          "meaning": "trang trại"
+        },
+        {
+          "word": "Farming",
+          "ipa": "/ˈfɑːmɪŋ/",
+          "pos": "",
+          "meaning": "nghề nông"
+        }
+      ]
+    },
+    {
+      "word": "Crop",
+      "ipa": "/krɒp/",
+      "meaning": "cây trồng",
+      "synonyms": [
+        {
+          "word": "Produce",
+          "ipa": "/ˈprɒdjuːs/",
+          "meaning": "nông sản"
+        },
+        {
+          "word": "Harvest",
+          "ipa": "/ˈhɑːvɪst/",
+          "meaning": "vụ thu hoạch"
+        }
+      ],
+      "family": [
+        {
+          "word": "Cropping",
+          "ipa": "/ˈkrɒpɪŋ/",
+          "pos": "",
+          "meaning": "việc canh tác"
+        },
+        {
+          "word": "Cropper",
+          "ipa": "/ˈkrɒpə(r)/",
+          "pos": "",
+          "meaning": "người trồng trọt"
+        }
+      ]
+    },
+    {
+      "word": "Harvest",
+      "ipa": "/ˈhɑːvɪst/",
+      "meaning": "thu hoạch",
+      "synonyms": [
+        {
+          "word": "Gather",
+          "ipa": "/ˈɡæðə(r)/",
+          "meaning": "thu gom"
+        },
+        {
+          "word": "Collect",
+          "ipa": "/kəˈlekt/",
+          "meaning": "thu thập"
+        }
+      ],
+      "family": [
+        {
+          "word": "Harvesting",
+          "ipa": "/ˈhɑːvɪstɪŋ/",
+          "pos": "",
+          "meaning": "việc thu hoạch"
+        },
+        {
+          "word": "Harvester",
+          "ipa": "/ˈhɑːvɪstə(r)/",
+          "pos": "",
+          "meaning": "máy/người thu hoạch"
+        }
+      ]
+    },
+    {
+      "word": "Soil",
+      "ipa": "/sɔɪl/",
+      "meaning": "đất",
+      "synonyms": [
+        {
+          "word": "Land",
+          "ipa": "/lænd/",
+          "meaning": "đất đai"
+        },
+        {
+          "word": "Earth",
+          "ipa": "/ɜːθ/",
+          "meaning": "đất"
+        }
+      ],
+      "family": [
+        {
+          "word": "Soilless",
+          "ipa": "/ˈsɔɪlləs/",
+          "pos": "",
+          "meaning": "không dùng đất"
+        },
+        {
+          "word": "Topsoil",
+          "ipa": "/ˈtɒpsɔɪl/",
+          "pos": "",
+          "meaning": "đất mặt"
+        }
+      ]
+    },
+    {
+      "word": "Fertilizer",
+      "ipa": "/ˈfɜːtəlaɪzə(r)/",
+      "meaning": "phân bón",
+      "synonyms": [
+        {
+          "word": "Manure",
+          "ipa": "/məˈnjʊə(r)/",
+          "meaning": "phân chuồng"
+        },
+        {
+          "word": "Compost",
+          "ipa": "/ˈkɒmpɒst/",
+          "meaning": "phân ủ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Fertilize",
+          "ipa": "/ˈfɜːtəlaɪz/",
+          "pos": "",
+          "meaning": "bón phân"
+        },
+        {
+          "word": "Fertilization",
+          "ipa": "/ˌfɜːtəlaɪˈzeɪʃən/",
+          "pos": "",
+          "meaning": "sự bón phân"
+        }
+      ]
+    },
+    {
+      "word": "Pesticide",
+      "ipa": "/ˈpestɪsaɪd/",
+      "meaning": "thuốc trừ sâu",
+      "synonyms": [
+        {
+          "word": "Insecticide",
+          "ipa": "/ɪnˈsektɪsaɪd/",
+          "meaning": "thuốc diệt côn trùng"
+        },
+        {
+          "word": "Chemical",
+          "ipa": "/ˈkemɪkl/",
+          "meaning": "hóa chất"
+        }
+      ],
+      "family": [
+        {
+          "word": "Pest",
+          "ipa": "/pest/",
+          "pos": "",
+          "meaning": "sâu bệnh"
+        },
+        {
+          "word": "Pest control",
+          "ipa": "/pest kənˈtrəʊl/",
+          "pos": "",
+          "meaning": "kiểm soát sâu bệnh"
+        }
+      ]
+    },
+    {
+      "word": "Organic",
+      "ipa": "/ɔːˈɡænɪk/",
+      "meaning": "hữu cơ",
+      "synonyms": [
+        {
+          "word": "Natural",
+          "ipa": "/ˈnætʃrəl/",
+          "meaning": "tự nhiên"
+        },
+        {
+          "word": "Eco-friendly",
+          "ipa": "/ˌiːkəʊ ˈfrendli/",
+          "meaning": "thân thiện môi trường"
+        }
+      ],
+      "family": [
+        {
+          "word": "Organically",
+          "ipa": "/ɔːˈɡænɪkli/",
+          "pos": "",
+          "meaning": "theo phương pháp hữu cơ"
+        },
+        {
+          "word": "Organism",
+          "ipa": "/ˈɔːɡənɪzəm/",
+          "pos": "",
+          "meaning": "sinh vật"
+        }
+      ]
+    },
+    {
+      "word": "Nutrition",
+      "ipa": "/njuˈtrɪʃən/",
+      "meaning": "dinh dưỡng",
+      "synonyms": [
+        {
+          "word": "Nourishment",
+          "ipa": "/ˈnʌrɪʃmənt/",
+          "meaning": "sự nuôi dưỡng"
+        },
+        {
+          "word": "Dietetics",
+          "ipa": "/ˌdaɪəˈtetɪks/",
+          "meaning": "dinh dưỡng học"
+        }
+      ],
+      "family": [
+        {
+          "word": "Nutritious",
+          "ipa": "/njuˈtrɪʃəs/",
+          "pos": "",
+          "meaning": "giàu dinh dưỡng"
+        },
+        {
+          "word": "Nutrient",
+          "ipa": "/ˈnjuːtriənt/",
+          "pos": "",
+          "meaning": "chất dinh dưỡng"
+        }
+      ]
+    },
+    {
+      "word": "Livestock",
+      "ipa": "/ˈlaɪvstɒk/",
+      "meaning": "gia súc",
+      "synonyms": [
+        {
+          "word": "Farm animals",
+          "ipa": "/fɑːm ˈænɪməlz/",
+          "meaning": "vật nuôi"
+        },
+        {
+          "word": "Cattle",
+          "ipa": "/ˈkætl/",
+          "meaning": "gia súc"
+        }
+      ],
+      "family": [
+        {
+          "word": "Stockbreeding",
+          "ipa": "/ˈstɒkˌbriːdɪŋ/",
+          "pos": "",
+          "meaning": "chăn nuôi"
+        },
+        {
+          "word": "Stockman",
+          "ipa": "/ˈstɒkmən/",
+          "pos": "",
+          "meaning": "người chăn nuôi"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Modern Agriculture",
+      "text": "Agriculture is an important part of life in many countries. Farmers grow crops and raise livestock to provide food for people. Some farmers work on small farms, while others work on large farms with modern machines.\n\nBefore farmers grow a crop, they need to prepare the soil. Good soil helps plants grow well. Farmers may use fertilizer to give crops important nutrients. However, they need to use fertilizer carefully because too much can damage the land.\n\nFarmers also need to protect crops from insects and other pests. Some use pesticides to control pests. Others prefer organic farming, which uses more natural methods. Organic farming can reduce the use of some chemicals, although it may require more work.\n\nWhen crops are ready, farmers begin the harvest. They collect fruits, vegetables, grains, and other produce. A good harvest can provide enough food for families and communities.\n\nNutrition is also important when people choose food. Fresh crops can provide vitamins, minerals, and other nutrients. Therefore, agriculture is not only about producing food. It is also about producing healthy food for people.\n\nModern agriculture continues to change. Farmers use new technology and better methods to produce food more efficiently. At the same time, many farmers are trying to protect the soil and environment for the future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one main purpose of agriculture?",
+          "options": [
+            "To build large cities",
+            "To provide food for people",
+            "To produce machines",
+            "To teach farmers English"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why do farmers prepare the soil?",
+          "options": [
+            "To help crops grow well",
+            "To make the harvest smaller",
+            "To remove all animals",
+            "To build new farms"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "All farmers work on large farms.",
+          "answer": "False"
+        },
+        {
+          "statement": "Fertilizer can provide important nutrients for crops.",
+          "answer": "True"
+        },
+        {
+          "statement": "Organic farming always produces more food than other farming methods.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with NO MORE THAN TWO WORDS from the passage.",
+        "text": "Farmers grow 6. ________ and raise livestock to provide food. Good 7. ________ helps plants grow well. Farmers may use fertilizer to give crops important 8. ________. They also use pesticides to control 9. ________. When crops are ready, farmers begin the 10. ________.",
+        "answers": [
+          "crops",
+          "soil",
+          "nutrients",
+          "pests",
+          "harvest"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “produce” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "farm products",
+            "machines",
+            "chemicals",
+            "animals"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “damage” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "improve",
+            "harm",
+            "clean",
+            "protect"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “efficiently” in the final paragraph is closest in meaning to:",
+          "options": [
+            "slowly",
+            "effectively",
+            "carelessly",
+            "traditionally"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "agriculture",
+          "livestock",
+          "harvest",
+          "nutrition"
+        ],
+        "right": [
+          "animals kept on a farm",
+          "farming",
+          "gathering crops",
+          "food value needed for health"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Farming for the Future",
+      "text": "Agriculture plays an important role in feeding a growing population. Farmers need to produce enough food while also taking care of the land. For this reason, many farming communities are looking for methods that can improve production without causing serious damage to natural resources.\n\nOne important part of farming is the condition of the soil. Healthy soil contains nutrients that crops need for growth. Farmers can improve soil quality by adding fertilizer, using compost, and changing the types of crops they grow. Good soil management can help farms remain productive for a longer period.\n\nCrop protection is another important issue. Farmers may use pesticides to control insects and other pests that can destroy crops. However, excessive use of chemicals may have negative effects on the environment. Some farmers therefore use organic methods. Organic farming often depends on natural materials and methods instead of relying heavily on chemical products.\n\nThe harvest is a particularly important period for farmers. During this time, crops are collected and prepared for sale or storage. A successful harvest can provide income for farmers and food for local communities. Poor weather, pests, or weak soil conditions can reduce the amount of produce that farmers collect.\n\nLivestock is another important part of agriculture. Farmers may raise cattle and other farm animals for meat, milk, and other products. Livestock can also provide manure, which can be used as a natural fertilizer for crops.\n\nAgriculture is closely connected with nutrition. The quality of food depends partly on how it is produced and handled. Crops such as vegetables, grains, and fruits can provide important nutrients for a healthy diet.\n\nIn the future, farmers may need to combine traditional knowledge with new technology. Better farming methods can increase production while protecting soil and other natural resources. The goal is not simply to produce more food, but to develop agriculture that can continue to support people for many years."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one major challenge for modern agriculture?",
+          "options": [
+            "Producing less food",
+            "Producing food while protecting the land",
+            "Stopping all farming",
+            "Replacing all farmers with machines"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can farmers use to improve soil quality?",
+          "options": [
+            "Plastic",
+            "Compost",
+            "Petrol",
+            "Metal"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Excessive use of chemicals can negatively affect the environment.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every farmer uses organic farming methods.",
+          "answer": "False"
+        },
+        {
+          "statement": "Livestock can provide manure for crops.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with NO MORE THAN TWO WORDS from the passage.",
+        "text": "Healthy soil contains 6. ________ needed for crop growth. Farmers can improve the soil by using fertilizer and 7. ________. Pesticides can control insects and other 8. ________. During the 9. ________, crops are collected for sale or storage. Farmers also raise 10. ________ for products such as meat and milk.",
+        "answers": [
+          "nutrients",
+          "compost",
+          "pests",
+          "harvest",
+          "livestock"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “excessive” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "too much",
+            "very useful",
+            "natural",
+            "necessary"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “productive” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "able to produce",
+            "difficult to use",
+            "empty",
+            "damaged"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “combine” in the final paragraph is closest in meaning to:",
+          "options": [
+            "separate",
+            "join",
+            "remove",
+            "reduce"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "cultivation",
+          "produce",
+          "livestock",
+          "nutrition"
+        ],
+        "right": [
+          "food grown or made for sale",
+          "farming or growing crops",
+          "farm animals",
+          "nourishment needed for health"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "A Small Farm and Its Daily Work",
+      "audio": "",
+      "transcript": "Today, I want to talk about a small family farm. The farm is managed by a farmer named David. He grows several types of crops, including vegetables and corn.\n\nEvery morning, David checks the soil before he starts his work. He wants to make sure that the soil has enough nutrients for the crops. When necessary, he adds fertilizer or natural compost.\n\nDavid tries to use fewer chemicals on his farm. He prefers some organic farming methods because he wants to protect the land. However, he sometimes has problems with insects and other pests. In these situations, he carefully chooses a safe way to protect his crops.\n\nThe busiest time of the year is the harvest. David and his family collect the crops and prepare the produce for local markets. Some vegetables are sold immediately, while other food is stored for later.\n\nDavid also keeps some livestock, including chickens and cattle. The animals provide food for his family and can also provide manure for the farm.\n\nDavid believes that good farming is connected to good nutrition. He wants people to have fresh food with useful nutrients. He knows that farming can be difficult, but he enjoys his work.\n\nFor David, agriculture is not only about making money. It is also about producing healthy food and taking care of the land for the future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does David grow?",
+          "options": [
+            "Only flowers",
+            "Vegetables and corn",
+            "Only fruit",
+            "Rice and wheat"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Where does David sell some of his produce?",
+          "options": [
+            "International airports",
+            "Local markets",
+            "Large factories",
+            "Schools"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "David checks the soil every morning.",
+          "answer": "True"
+        },
+        {
+          "statement": "David wants to use more chemicals on his farm.",
+          "answer": "False"
+        },
+        {
+          "statement": "David keeps chickens and cattle.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "David grows several types of ________.",
+          "answer": "crops"
+        },
+        {
+          "question": "He sometimes adds fertilizer or natural ________.",
+          "answer": "compost"
+        },
+        {
+          "question": "David sometimes has problems with insects and other ________.",
+          "answer": "pests"
+        },
+        {
+          "question": "The busiest time of the year is the ________.",
+          "answer": "harvest"
+        },
+        {
+          "question": "Some vegetables are stored for ________.",
+          "answer": "later"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "“managed” in the listening is closest in meaning to:",
+          "options": [
+            "controlled",
+            "destroyed",
+            "forgotten",
+            "sold"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“immediately” is closest in meaning to:",
+          "options": [
+            "much later",
+            "at once",
+            "tomorrow",
+            "slowly"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "“fresh food” means food that is:",
+          "options": [
+            "old and damaged",
+            "recently produced",
+            "heavily processed",
+            "frozen for years"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Soil",
+          "Pests",
+          "Livestock",
+          "Nutrition"
+        ],
+        "right": [
+          "provides food and manure",
+          "provides nutrients for crops",
+          "can damage crops",
+          "is connected with healthy food"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

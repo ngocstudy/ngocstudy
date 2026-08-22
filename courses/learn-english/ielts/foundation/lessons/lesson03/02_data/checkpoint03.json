@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "id": "checkpoint3",
+    "number": "3",
+    "title": "PEOPLE, WORK & SOCIETY",
+    "titleVi": "People, Work & Society",
+    "scope": "Bài 11 → Bài 15"
+  },
+  "vocabulary": [
+    {
+      "word": "Government",
+      "ipa": "/ˈɡʌvənmənt/",
+      "meaning": "chính phủ",
+      "synonyms": [
+        {
+          "word": "Authority",
+          "ipa": "/ɔːˈθɒrəti/",
+          "meaning": "chính quyền"
+        },
+        {
+          "word": "Administration",
+          "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+          "meaning": "chính quyền, cơ quan hành chính"
+        }
+      ],
+      "family": [
+        {
+          "word": "Govern",
+          "ipa": "/ˈɡʌvən/",
+          "pos": "",
+          "meaning": "cai trị"
+        },
+        {
+          "word": "Governmental",
+          "ipa": "/ˌɡʌvənˈmentl/",
+          "pos": "",
+          "meaning": "thuộc chính phủ"
+        }
+      ]
+    },
+    {
+      "word": "Responsibility",
+      "ipa": "/rɪˌspɒnsəˈbɪləti/",
+      "meaning": "trách nhiệm",
+      "synonyms": [
+        {
+          "word": "Duty",
+          "ipa": "/ˈdjuːti/",
+          "meaning": "nghĩa vụ"
+        },
+        {
+          "word": "Obligation",
+          "ipa": "/ˌɒblɪˈɡeɪʃn/",
+          "meaning": "trách nhiệm, nghĩa vụ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Responsible",
+          "ipa": "/rɪˈspɒnsəbl/",
+          "pos": "",
+          "meaning": "có trách nhiệm"
+        },
+        {
+          "word": "Responsibly",
+          "ipa": "/rɪˈspɒnsəbli/",
+          "pos": "",
+          "meaning": "một cách có trách nhiệm"
+        }
+      ]
+    },
+    {
+      "word": "Employment",
+      "ipa": "/ɪmˈplɔɪmənt/",
+      "meaning": "việc làm",
+      "synonyms": [
+        {
+          "word": "Work",
+          "ipa": "/wɜːk/",
+          "meaning": "công việc"
+        },
+        {
+          "word": "Occupation",
+          "ipa": "/ˌɒkjuˈpeɪʃn/",
+          "meaning": "nghề nghiệp"
+        }
+      ],
+      "family": [
+        {
+          "word": "Employ",
+          "ipa": "/ɪmˈplɔɪ/",
+          "pos": "",
+          "meaning": "tuyển dụng"
+        },
+        {
+          "word": "Employee",
+          "ipa": "/ɪmˈplɔɪiː/",
+          "pos": "",
+          "meaning": "nhân viên"
+        },
+        {
+          "word": "Employer",
+          "ipa": "/ɪmˈplɔɪə(r)/",
+          "pos": "",
+          "meaning": "người sử dụng lao động"
+        }
+      ]
+    },
+    {
+      "word": "Experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "meaning": "kinh nghiệm",
+      "synonyms": [
+        {
+          "word": "Expertise",
+          "ipa": "/ˌekspɜːˈtiːz/",
+          "meaning": "chuyên môn"
+        },
+        {
+          "word": "Skill",
+          "ipa": "/skɪl/",
+          "meaning": "kỹ năng"
+        }
+      ],
+      "family": [
+        {
+          "word": "Experienced",
+          "ipa": "/ɪkˈspɪəriənst/",
+          "pos": "",
+          "meaning": "có kinh nghiệm"
+        },
+        {
+          "word": "Inexperienced",
+          "ipa": "/ˌɪnɪkˈspɪəriənst/",
+          "pos": "",
+          "meaning": "thiếu kinh nghiệm"
+        }
+      ]
+    },
+    {
+      "word": "Science",
+      "ipa": "/ˈsaɪəns/",
+      "meaning": "khoa học",
+      "synonyms": [
+        {
+          "word": "Discipline",
+          "ipa": "/ˈdɪsəplɪn/",
+          "meaning": "lĩnh vực nghiên cứu"
+        },
+        {
+          "word": "Knowledge",
+          "ipa": "/ˈnɒlɪdʒ/",
+          "meaning": "kiến thức"
+        }
+      ],
+      "family": [
+        {
+          "word": "Scientific",
+          "ipa": "/ˌsaɪənˈtɪfɪk/",
+          "pos": "",
+          "meaning": "thuộc khoa học"
+        },
+        {
+          "word": "Scientifically",
+          "ipa": "/ˌsaɪənˈtɪfɪkli/",
+          "pos": "",
+          "meaning": "một cách khoa học"
+        }
+      ]
+    },
+    {
+      "word": "Discovery",
+      "ipa": "/dɪˈskʌvəri/",
+      "meaning": "sự khám phá, phát hiện",
+      "synonyms": [
+        {
+          "word": "Finding",
+          "ipa": "/ˈfaɪndɪŋ/",
+          "meaning": "phát hiện"
+        },
+        {
+          "word": "Breakthrough",
+          "ipa": "/ˈbreɪkθruː/",
+          "meaning": "bước đột phá"
+        }
+      ],
+      "family": [
+        {
+          "word": "Discover",
+          "ipa": "/dɪˈskʌvə(r)/",
+          "pos": "",
+          "meaning": "khám phá"
+        },
+        {
+          "word": "Discovered",
+          "ipa": "/dɪˈskʌvəd/",
+          "pos": "",
+          "meaning": "được phát hiện"
+        }
+      ]
+    },
+    {
+      "word": "Tourist",
+      "ipa": "/ˈtʊərɪst/",
+      "meaning": "khách du lịch",
+      "synonyms": [
+        {
+          "word": "Visitor",
+          "ipa": "/ˈvɪzɪtə(r)/",
+          "meaning": "du khách"
+        },
+        {
+          "word": "Traveller",
+          "ipa": "/ˈtrævələ(r)/",
+          "meaning": "người đi du lịch"
+        }
+      ],
+      "family": [
+        {
+          "word": "Tourism",
+          "ipa": "/ˈtʊərɪzəm/",
+          "pos": "",
+          "meaning": "ngành du lịch"
+        },
+        {
+          "word": "Tour",
+          "ipa": "/tʊə(r)/",
+          "pos": "",
+          "meaning": "chuyến tham quan"
+        }
+      ]
+    },
+    {
+      "word": "Culture",
+      "ipa": "/ˈkʌltʃə(r)/",
+      "meaning": "văn hóa",
+      "synonyms": [
+        {
+          "word": "Tradition",
+          "ipa": "/trəˈdɪʃn/",
+          "meaning": "truyền thống"
+        },
+        {
+          "word": "Heritage",
+          "ipa": "/ˈherɪtɪdʒ/",
+          "meaning": "di sản"
+        }
+      ],
+      "family": [
+        {
+          "word": "Cultural",
+          "ipa": "/ˈkʌltʃərəl/",
+          "pos": "",
+          "meaning": "thuộc văn hóa"
+        },
+        {
+          "word": "Culturally",
+          "ipa": "/ˈkʌltʃərəli/",
+          "pos": "",
+          "meaning": "về mặt văn hóa"
+        }
+      ]
+    },
+    {
+      "word": "Infrastructure",
+      "ipa": "/ˈɪnfrəˌstrʌktʃə(r)/",
+      "meaning": "cơ sở hạ tầng",
+      "synonyms": [
+        {
+          "word": "Facilities",
+          "ipa": "/fəˈsɪlətiz/",
+          "meaning": "cơ sở vật chất"
+        },
+        {
+          "word": "Public works",
+          "ipa": "/ˌpʌblɪk ˈwɜːks/",
+          "meaning": "công trình công cộng"
+        }
+      ],
+      "family": [
+        {
+          "word": "Infrastructural",
+          "ipa": "/ˌɪnfrəˈstrʌktʃərəl/",
+          "pos": "",
+          "meaning": "thuộc cơ sở hạ tầng"
+        },
+        {
+          "word": "Infrastructure development",
+          "ipa": "/dɪˈveləpmənt/",
+          "pos": "",
+          "meaning": "phát triển hạ tầng"
+        }
+      ]
+    },
+    {
+      "word": "Congestion",
+      "ipa": "/kənˈdʒestʃən/",
+      "meaning": "sự ùn tắc",
+      "synonyms": [
+        {
+          "word": "Traffic jam",
+          "ipa": "/ˈtræfɪk dʒæm/",
+          "meaning": "tắc đường"
+        },
+        {
+          "word": "Overcrowding",
+          "ipa": "/ˌəʊvəˈkraʊdɪŋ/",
+          "meaning": "tình trạng quá đông"
+        }
+      ],
+      "family": [
+        {
+          "word": "Congest",
+          "ipa": "/kənˈdʒest/",
+          "pos": "",
+          "meaning": "làm tắc nghẽn"
+        },
+        {
+          "word": "Congested",
+          "ipa": "/kənˈdʒestɪd/",
+          "pos": "",
+          "meaning": "bị ùn tắc"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": "Modern cities are changing quickly. The government has an important role in making cities safe and comfortable for their citizens. It must provide good services, improve public transport and develop better infrastructure. Roads, schools, hospitals and public transport are all important parts of city life.\n\nThe government also has a responsibility to support people who need help. One important area is employment. People need jobs to earn money and support their families. However, finding a good job is not always easy. A person with more experience may have more opportunities, but young people also need chances to enter the workforce.\n\nModern cities are also places where people can learn about science and new ideas. Scientific discovery can improve daily life. For example, new technology can make transport faster and communication easier. Governments and universities can support research and encourage young people to study science.\n\nAnother important part of city life is culture. Many cities attract tourists because of their history, food, buildings and festivals. Tourism can create jobs and bring money to local businesses. However, too many visitors can sometimes create problems.\n\nOne common problem is congestion. When there are too many cars and buses on the roads, people may spend a long time travelling. Better public transport and improved infrastructure can help reduce this problem.\n\nA successful city therefore needs cooperation between the government, workers, businesses and citizens. Each group has a responsibility to help create a better place to live.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one important responsibility of the government?",
+          "options": [
+            "To stop people from working",
+            "To improve public services and infrastructure",
+            "To reduce the number of tourists",
+            "To prevent scientific research"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why can tourism be useful for cities?",
+          "options": [
+            "It can create jobs and support local businesses.",
+            "It always reduces congestion.",
+            "It stops scientific discovery.",
+            "It removes the need for infrastructure."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Governments can help make cities safer and more comfortable.",
+          "answer": "True"
+        },
+        {
+          "statement": "People with more experience always get better jobs than young people.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "The passage says that every tourist visits a city for its festivals.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern cities need good 6. ________ to provide services for their citizens. Governments also have a 7. ________ to support people. People need 8. ________ to earn money and support their families. Scientific 9. ________ can improve daily life. However, too many cars can cause 10. ________.",
+        "answers": [
+          "infrastructure",
+          "responsibility",
+          "employment",
+          "discovery",
+          "congestion"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “responsibility” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "duty",
+            "holiday",
+            "problem",
+            "journey"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “discovery” in paragraph 3 refers to:",
+          "options": [
+            "a new finding",
+            "a public road",
+            "a tourist attraction",
+            "a job interview"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “congestion” in paragraph 5 means:",
+          "options": [
+            "heavy traffic",
+            "scientific research",
+            "cultural activity",
+            "employment"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their synonyms in Column B.",
+        "left": [
+          "Government",
+          "Experience",
+          "Tourist",
+          "Congestion"
+        ],
+        "right": [
+          "Expertise",
+          "Visitor",
+          "Authority",
+          "Traffic jam"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": "Cities are becoming larger and more connected, and this creates both opportunities and challenges. A modern city needs effective government and good planning if it wants to provide a high quality of life for its residents. Government decisions can influence employment, transport, education, scientific research and cultural activities.\n\nOne major responsibility of government is to develop suitable infrastructure. As the population of a city grows, roads, public transport, schools and other facilities must also improve. Without proper planning, cities may experience serious congestion, especially during the morning and evening rush hours. Long journeys can waste time and may also increase air pollution.\n\nPublic transport is one possible solution. If buses and trains are reliable, affordable and comfortable, more people may choose them instead of private cars. This can reduce the number of vehicles on the roads. However, transport improvements require investment, careful planning and cooperation between different organizations.\n\nAnother important issue is employment. A growing city can provide many new jobs, but workers need suitable skills and experience. Education and training can help people become more professional and adapt to changes in the labour market. Young workers may have less experience, but training programmes can give them a useful opportunity to develop their abilities.\n\nCities can also benefit from science and technological discovery. Universities and research centres can develop new solutions for transport, energy and public services. Scientific research can therefore contribute to both economic development and everyday life.\n\nAt the same time, cities should not forget their culture. Historic buildings, traditional food, festivals and local customs can attract tourists and create income for local communities. Tourism, however, must be managed carefully. A large number of visitors can put pressure on transport systems, public spaces and local services.\n\nThe future of a city depends on balance. Governments need to improve infrastructure while protecting cultural identity. Businesses need workers with useful skills, and citizens need to take responsibility for their communities. If these groups cooperate, cities can become more efficient, attractive and comfortable places to live.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can happen when city infrastructure does not develop with population growth?",
+          "options": [
+            "Congestion may become a serious problem.",
+            "Tourism will completely disappear.",
+            "Workers will have more experience.",
+            "Scientific research will stop."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "How can training programmes help young workers?",
+          "options": [
+            "By reducing the number of tourists",
+            "By helping them develop useful abilities",
+            "By replacing public transport",
+            "By protecting historic buildings"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Reliable public transport may encourage people to use fewer private cars.",
+          "answer": "True"
+        },
+        {
+          "statement": "All young workers have less ability than experienced workers.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "The passage states that tourism is the most important source of income for cities.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A successful modern city needs effective 6. ________ and careful planning. Good 7. ________ is necessary as the population grows. Public transport can help reduce 8. ________. Education and training can help workers develop useful 9. ________. Finally, tourism can support local communities, but the city must also protect its 10. ________.",
+        "answers": [
+          "government",
+          "infrastructure",
+          "congestion",
+          "skills",
+          "culture"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “facilities” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "public buildings and services",
+            "scientific discoveries",
+            "cultural traditions",
+            "employment opportunities"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "dependable",
+            "expensive",
+            "crowded",
+            "traditional"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The phrase “cultural identity” in the final paragraph refers to:",
+          "options": [
+            "the traditions and characteristics of a place",
+            "the number of workers in a city",
+            "the quality of public transport",
+            "the amount of traffic on roads"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word with its closest meaning in Column B.",
+        "left": [
+          "Responsibility",
+          "Infrastructure",
+          "Experience",
+          "Tourist"
+        ],
+        "right": [
+          "Expertise",
+          "Duty",
+          "Public facilities",
+          "Visitor"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": "Many cities are growing quickly, and this creates new challenges for both the government and citizens. The government has an important responsibility to make sure that people have good public services and safe places to live.\n\nOne important area is infrastructure. Roads, buses and other public facilities must be improved when the population grows. Without good planning, cities can have serious congestion. People may spend a lot of time travelling to work or school.\n\nAnother issue is employment. A growing city can create new jobs, but workers need useful skills and experience. Young people can improve their chances of finding work through education and training.\n\nScience also has an important role in modern cities. A new scientific discovery may provide better solutions for transport, energy or communication. Universities and research centres can help cities develop new ideas.\n\nCities also need to protect their culture. Historic buildings, traditional food and local festivals can attract tourists. Visitors can support local shops, hotels and restaurants. However, too many tourists may put pressure on transport and public services.\n\nFor this reason, a successful city needs cooperation. The government must plan carefully, businesses must provide employment, and citizens must share responsibility for their communities. With good planning, cities can become cleaner, safer and more comfortable places to live.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can happen when city infrastructure is not improved?",
+          "options": [
+            "Congestion can become serious.",
+            "Tourism completely stops.",
+            "Workers lose all their skills.",
+            "Scientific research disappears."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "How can tourists help local communities?",
+          "options": [
+            "By reducing public transport",
+            "By supporting local businesses",
+            "By building roads",
+            "By creating scientific discoveries"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The government has a responsibility to provide good public services.",
+          "answer": "True"
+        },
+        {
+          "statement": "Young people cannot improve their chances of finding employment.",
+          "answer": "False"
+        },
+        {
+          "statement": "Too many tourists may put pressure on public services.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the sentences with ONE WORD ONLY.",
+        "text": "The government has an important ________ to provide good public services.\nRoads and buses are part of city ________.\nYoung people can improve their chances of finding ________ through education and training.\nA scientific ________ may provide new solutions for cities.\nHistoric buildings and festivals can attract ________.",
+        "answers": [
+          "responsibility",
+          "infrastructure",
+          "employment",
+          "discovery",
+          "tourists"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "“Infrastructure” in the listening refers mainly to:",
+          "options": [
+            "roads, buses and public facilities",
+            "tourists and restaurants",
+            "jobs and workers",
+            "scientific discoveries"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“Employment” is closest in meaning to:",
+          "options": [
+            "work or jobs",
+            "travel",
+            "culture",
+            "transport"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“Responsibility” is closest in meaning to:",
+          "options": [
+            "duty",
+            "discovery",
+            "experience",
+            "tourism"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct meaning.",
+        "left": [
+          "Government",
+          "Science",
+          "Tourist",
+          "Congestion"
+        ],
+        "right": [
+          "People who visit a place",
+          "The process of finding new knowledge",
+          "The organization that manages a country or area",
+          "A situation with too much traffic"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "B",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

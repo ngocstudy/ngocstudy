@@ -1,0 +1,662 @@
+{
+  "meta": {
+    "id": "checkpoint01",
+    "number": 1,
+    "title": "Modern Life and Human Progress",
+    "titleVi": "Sự phát triển của cuộc sống hiện đại, công nghệ, khoa học, giải pháp và sức khỏe.",
+    "scope": "Bài 1 → Bài 5"
+  },
+  "vocabulary": [
+    {
+      "word": "increase",
+      "ipa": "/ɪnˈkriːs/",
+      "pos": "verb (v)",
+      "meaning": "tăng lên",
+      "synonyms": [
+        {
+          "word": "rise",
+          "ipa": "/raɪz/",
+          "meaning": "tăng lên"
+        },
+        {
+          "word": "grow",
+          "ipa": "/ɡrəʊ/",
+          "meaning": "phát triển, tăng"
+        }
+      ],
+      "family": [
+        {
+          "word": "increased",
+          "ipa": "/ɪnˈkriːst/",
+          "meaning": "đã tăng, được tăng",
+          "pos": "adj"
+        },
+        {
+          "word": "increasing",
+          "ipa": "/ɪnˈkriːsɪŋ/",
+          "meaning": "đang tăng, ngày càng tăng",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "solution",
+      "ipa": "/səˈluːʃən/",
+      "pos": "noun (n)",
+      "meaning": "giải pháp",
+      "synonyms": [
+        {
+          "word": "answer",
+          "ipa": "/ˈɑːnsə(r)/",
+          "meaning": "câu trả lời, giải pháp"
+        },
+        {
+          "word": "remedy",
+          "ipa": "/ˈremədi/",
+          "meaning": "biện pháp khắc phục"
+        }
+      ],
+      "family": [
+        {
+          "word": "solve",
+          "ipa": "/sɒlv/",
+          "meaning": "giải quyết",
+          "pos": "v"
+        },
+        {
+          "word": "solvable",
+          "ipa": "/ˈsɒlvəbl/",
+          "meaning": "có thể giải quyết được",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "pos": "noun (n)",
+      "meaning": "lợi ích",
+      "synonyms": [
+        {
+          "word": "advantage",
+          "ipa": "/ədˈvɑːntɪdʒ/",
+          "meaning": "lợi thế, ưu điểm"
+        },
+        {
+          "word": "gain",
+          "ipa": "/ɡeɪn/",
+          "meaning": "lợi ích, thu được"
+        }
+      ],
+      "family": [
+        {
+          "word": "beneficial",
+          "ipa": "/ˌbenɪˈfɪʃl/",
+          "meaning": "có lợi",
+          "pos": "adj"
+        },
+        {
+          "word": "beneficiary",
+          "ipa": "/ˌbenɪˈfɪʃəri/",
+          "meaning": "người thụ hưởng",
+          "pos": "n"
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "ipa": "/rɪˈsɜːtʃ/",
+      "pos": "noun (n), verb (v)",
+      "meaning": "nghiên cứu",
+      "synonyms": [
+        {
+          "word": "study",
+          "ipa": "/ˈstʌdi/",
+          "meaning": "nghiên cứu"
+        },
+        {
+          "word": "investigation",
+          "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+          "meaning": "sự nghiên cứu, điều tra"
+        }
+      ],
+      "family": [
+        {
+          "word": "researcher",
+          "ipa": "/rɪˈsɜːtʃə(r)/",
+          "meaning": "nhà nghiên cứu",
+          "pos": "n"
+        },
+        {
+          "word": "researchable",
+          "ipa": "/rɪˈsɜːtʃəbl/",
+          "meaning": "có thể nghiên cứu",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "technology",
+      "ipa": "/tekˈnɒlədʒi/",
+      "pos": "noun (n)",
+      "meaning": "công nghệ",
+      "synonyms": [
+        {
+          "word": "innovation",
+          "ipa": "/ˌɪnəˈveɪʃn/",
+          "meaning": "sự đổi mới"
+        },
+        {
+          "word": "advancement",
+          "ipa": "/ədˈvɑːnsmənt/",
+          "meaning": "sự tiến bộ"
+        }
+      ],
+      "family": [
+        {
+          "word": "technological",
+          "ipa": "/ˌteknəˈlɒdʒɪkl/",
+          "meaning": "thuộc về công nghệ",
+          "pos": "adj"
+        },
+        {
+          "word": "technologically",
+          "ipa": "/ˌteknəˈlɒdʒɪkli/",
+          "meaning": "về mặt công nghệ",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "word": "device",
+      "ipa": "/dɪˈvaɪs/",
+      "pos": "noun (n)",
+      "meaning": "thiết bị",
+      "synonyms": [
+        {
+          "word": "gadget",
+          "ipa": "/ˈɡædʒɪt/",
+          "meaning": "thiết bị công nghệ"
+        },
+        {
+          "word": "equipment",
+          "ipa": "/ɪˈkwɪpmənt/",
+          "meaning": "thiết bị"
+        }
+      ],
+      "family": [
+        {
+          "word": "devise",
+          "ipa": "/dɪˈvaɪz/",
+          "meaning": "nghĩ ra, phát minh",
+          "pos": "v"
+        },
+        {
+          "word": "device-related",
+          "ipa": "/dɪˈvaɪs rɪˈleɪtɪd/",
+          "meaning": "liên quan đến thiết bị",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb (v)",
+      "meaning": "cải thiện",
+      "synonyms": [
+        {
+          "word": "enhance",
+          "ipa": "/ɪnˈhɑːns/",
+          "meaning": "nâng cao"
+        },
+        {
+          "word": "upgrade",
+          "ipa": "/ˌʌpˈɡreɪd/",
+          "meaning": "nâng cấp"
+        }
+      ],
+      "family": [
+        {
+          "word": "improvement",
+          "ipa": "/ɪmˈpruːvmənt/",
+          "meaning": "sự cải thiện",
+          "pos": "n"
+        },
+        {
+          "word": "improved",
+          "ipa": "/ɪmˈpruːvd/",
+          "meaning": "được cải thiện",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "health",
+      "ipa": "/helθ/",
+      "pos": "noun (n)",
+      "meaning": "sức khỏe",
+      "synonyms": [
+        {
+          "word": "well-being",
+          "ipa": "/ˌwel ˈbiːɪŋ/",
+          "meaning": "sức khỏe, hạnh phúc"
+        }
+      ],
+      "family": [
+        {
+          "word": "healthy",
+          "ipa": "/ˈhelθi/",
+          "meaning": "khỏe mạnh",
+          "pos": "adj"
+        },
+        {
+          "word": "healthily",
+          "ipa": "/ˈhelθɪli/",
+          "meaning": "một cách lành mạnh",
+          "pos": "adv"
+        }
+      ]
+    },
+    {
+      "word": "treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "pos": "noun (n)",
+      "meaning": "sự điều trị",
+      "synonyms": [
+        {
+          "word": "therapy",
+          "ipa": "/ˈθerəpi/",
+          "meaning": "liệu pháp"
+        },
+        {
+          "word": "cure",
+          "ipa": "/kjʊə(r)/",
+          "meaning": "phương pháp chữa trị"
+        }
+      ],
+      "family": [
+        {
+          "word": "treat",
+          "ipa": "/triːt/",
+          "meaning": "điều trị",
+          "pos": "v"
+        },
+        {
+          "word": "treatable",
+          "ipa": "/ˈtriːtəbl/",
+          "meaning": "có thể điều trị",
+          "pos": "adj"
+        }
+      ]
+    },
+    {
+      "word": "support",
+      "ipa": "/səˈpɔːt/",
+      "pos": "noun (n), verb (v)",
+      "meaning": "hỗ trợ, ủng hộ",
+      "synonyms": [
+        {
+          "word": "assist",
+          "ipa": "/əˈsɪst/",
+          "meaning": "hỗ trợ"
+        },
+        {
+          "word": "help",
+          "ipa": "/help/",
+          "meaning": "giúp đỡ"
+        }
+      ],
+      "family": [
+        {
+          "word": "supportive",
+          "ipa": "/səˈpɔːtɪv/",
+          "meaning": "hay hỗ trợ",
+          "pos": "adj"
+        },
+        {
+          "word": "supporter",
+          "ipa": "/səˈpɔːtə(r)/",
+          "meaning": "người ủng hộ",
+          "pos": "n"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Technology and Better Health",
+      "text": "Technology is becoming an important part of modern life. It is also changing the way people look after their health. In the past, people often had to visit a hospital to receive basic health information. Today, many people can use a small device to check their health at home.\n\nFor example, a smart watch can record a person's heart rate and daily activity. Some devices can also remind people to exercise or take medicine. These simple functions can support people who want to develop healthier habits.\n\nTechnology can also improve medical treatment. Doctors can use computers and other equipment to collect information about patients. This information can help doctors understand a health problem and choose a suitable treatment. In some cases, new research has helped scientists develop better medical methods.\n\nThere are many benefits to these technological changes. People can receive information more quickly, and some health problems can be found earlier. Technology may also help older people and people who live far from hospitals.\n\nHowever, technology is not a complete solution to every health problem. People still need good food, regular exercise and enough sleep. They should also ask a doctor for help when they have a serious health problem.\n\nTechnology can support better health, but people must use it in a sensible way. When technology and good health habits work together, they can provide useful benefits for modern society."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one benefit of using health devices at home?",
+          "options": [
+            "They replace all doctors.",
+            "They can provide useful health information.",
+            "They make people sleep less.",
+            "They remove the need for exercise."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "How can technology help doctors?",
+          "options": [
+            "By giving patients free food.",
+            "By replacing hospitals.",
+            "By helping them collect and understand information.",
+            "By stopping all diseases."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People in the past often had to visit hospitals to get basic health information.",
+          "answer": "True"
+        },
+        {
+          "statement": "All smart watches can diagnose serious diseases.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "Technology is useful for people who live far from hospitals.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Technology is changing the way people look after their 6. ________. Some small devices can record a person's heart rate and daily 7. ________. Technology can also help doctors collect information and choose suitable 8. ________. One important benefit is that some health problems may be found 9. ________. However, technology is not a complete 10. ________ to every health problem.",
+        "answers": [
+          "health",
+          "activity",
+          "treatment",
+          "earlier",
+          "solution"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “support” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "help",
+            "stop",
+            "change",
+            "remove"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “benefits” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "problems",
+            "advantages",
+            "diseases",
+            "devices"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “improve” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "make better",
+            "make smaller",
+            "make slower",
+            "make difficult"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their synonyms in Column B.",
+        "left": [
+          "technology",
+          "device",
+          "treatment",
+          "support"
+        ],
+        "right": [
+          "treatment",
+          "help",
+          "equipment",
+          "innovation"
+        ],
+        "answers": {
+          "0": "D",
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Research, Technology and the Future of Health",
+      "text": "Modern technology has changed many areas of human life, and health care is one of the most important examples. In recent years, researchers have used new technology to study diseases, develop treatments and provide better support for patients. These changes may offer important benefits, but they also create new challenges.\n\nOne major development is the use of digital devices to collect health information. Smart watches and other devices can record information such as heart rate, physical activity and sleep. This information can help people understand their health and encourage them to make healthier choices. For example, a person who sees a decrease in daily physical activity may decide to exercise more.\n\nTechnology is also useful in medical research. Scientists can use computers to study large amounts of data. This can help researchers identify patterns that may be difficult to find by using traditional methods. Research into new treatments can therefore become faster and more effective. Some technological advancements may even help doctors discover health problems at an earlier stage.\n\nAnother important benefit is better access to medical support. People who live far from large hospitals can sometimes communicate with doctors through digital services. This can be especially useful for people who have difficulty travelling. In addition, online information can provide patients with basic knowledge about their health and treatment.\n\nHowever, there are some disadvantages. Not all health information found online is reliable. Some people may also depend too much on devices and ignore advice from medical professionals. Technology can support health care, but it should not completely replace doctors.\n\nFor this reason, the best solution is to combine technology with professional medical support. New devices and research can improve health care, but people still need responsible decisions and healthy lifestyles. If technology is used carefully, its benefits can increase while its disadvantages can be reduced."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why can digital devices be useful for people?",
+          "options": [
+            "They can completely replace doctors.",
+            "They can collect information about health.",
+            "They can prevent every disease.",
+            "They can provide free treatment."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is one disadvantage of using online health information?",
+          "options": [
+            "It is always too expensive.",
+            "It cannot be accessed at home.",
+            "Some information may not be reliable.",
+            "Doctors cannot use technology."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Researchers can use computers to study large amounts of data.",
+          "answer": "True"
+        },
+        {
+          "statement": "People who live far from large hospitals may benefit from digital medical services.",
+          "answer": "True"
+        },
+        {
+          "statement": "Most people prefer digital medical services to visiting doctors.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern technology is changing 6. ________ care in several ways. Digital devices can collect information about people's physical activity and 7. ________. Computers can help scientists study large amounts of 8. ________. Technology may also improve access to medical 9. ________ for people who live far from hospitals. However, the best 10. ________ is to combine technology with professional medical support.",
+        "answers": [
+          "health",
+          "sleep",
+          "data",
+          "support",
+          "solution"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “advancements” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "problems",
+            "developments",
+            "diseases",
+            "decisions"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “reliable” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "trustworthy",
+            "expensive",
+            "modern",
+            "simple"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reduce” in the final paragraph is closest in meaning to:",
+          "options": [
+            "increase",
+            "discover",
+            "decrease",
+            "provide"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their synonyms in Column B.",
+        "left": [
+          "research",
+          "benefit",
+          "support",
+          "improve"
+        ],
+        "right": [
+          "advantage",
+          "help",
+          "study",
+          "enhance"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Technology and Health in Everyday Life",
+      "audio": "",
+      "transcript": "Technology is becoming more useful in everyday health care. Many people now use a small device, such as a smart watch, to check their health. These devices can record heart rate, physical activity and sleep. This information can support people who want to improve their health.\n\nThere are several benefits to using technology in this way. First, people can see changes in their daily activity. If their activity decreases, they may decide to exercise more. Second, some devices can remind people to take medicine or follow a healthy routine.\n\nTechnology is also helping doctors and researchers. New research can use information from digital devices to study health problems. Scientists can use this information to develop better treatment. In some cases, technology can help doctors find a problem earlier.\n\nHowever, technology is not a complete solution. A device cannot replace a doctor. People still need professional support when they have a serious health problem. They also need healthy food, exercise and enough sleep.\n\nThe main idea is simple. Technology can provide useful information and improve health care, but people should use it carefully. When technology, research and medical support work together, they can provide important benefits for people's health."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can a smart watch record?",
+          "options": [
+            "Only body temperature",
+            "Heart rate, activity and sleep",
+            "The user's medical treatment",
+            "Hospital information"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why can technology be useful to researchers?",
+          "options": [
+            "It can help them study health information.",
+            "It can replace all doctors.",
+            "It can stop people from exercising.",
+            "It can provide free medicine."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Some devices can remind people to take medicine.",
+          "answer": "True"
+        },
+        {
+          "statement": "Technology can completely replace doctors.",
+          "answer": "False"
+        },
+        {
+          "statement": "People still need exercise and healthy food.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Some devices can record a person's heart rate, physical activity and ________.",
+          "answer": "sleep"
+        },
+        {
+          "question": "If people's daily activity ________, they may decide to exercise more.",
+          "answer": "decreases"
+        },
+        {
+          "question": "Technology can help scientists develop better ________.",
+          "answer": "treatment"
+        },
+        {
+          "question": "Technology may help doctors find a health ________ earlier.",
+          "answer": "problem"
+        },
+        {
+          "question": "People need professional ________ when they have a serious health problem.",
+          "answer": "support"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "In the listening, “benefits” means:",
+          "options": [
+            "advantages",
+            "diseases",
+            "problems",
+            "treatments"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In the listening, “improve” means:",
+          "options": [
+            "make worse",
+            "make better",
+            "make smaller",
+            "make slower"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "In the listening, “support” means:",
+          "options": [
+            "help",
+            "remove",
+            "replace",
+            "discover"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item in Column A with the correct information in Column B.",
+        "left": [
+          "Smart watch",
+          "Research",
+          "Professional support",
+          "Exercise"
+        ],
+        "right": [
+          "helps people receive medical help",
+          "records health information",
+          "helps scientists study health",
+          "helps people improve their health"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

@@ -320,11 +320,11 @@ function renderFamily(list) {
 
                 <strong>${item.word}</strong>
 
-                <div>${item.ipa}</div>
+                <div>${item.ipa || ""}</div>
 
-                <div>${item.pos}</div>
+                <div>${item.pos || ""}</div>
 
-                <div>${item.meaning}</div>
+                <div>${item.meaning || ""}</div>
 
             </div>
         `;

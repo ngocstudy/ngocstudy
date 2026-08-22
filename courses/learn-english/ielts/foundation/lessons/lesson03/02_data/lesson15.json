@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson15",
+    "number": 15,
+    "title": "City & Urban Life",
+    "titleVi": "Thành phố & Đô thị"
+  },
+  "vocabulary": [
+    {
+      "word": "Urban",
+      "ipa": "/ˈɜːbən/",
+      "meaning": "thuộc đô thị",
+      "synonyms": [
+        {
+          "word": "metropolitan",
+          "ipa": "/ˌmetrəˈpɒlɪtən/",
+          "meaning": "thuộc đô thị lớn"
+        },
+        {
+          "word": "municipal",
+          "ipa": "/mjuːˈnɪsɪpl/",
+          "meaning": "thuộc thành phố"
+        }
+      ],
+      "family": [
+        {
+          "word": "urbanize",
+          "ipa": "/ˈɜːbənaɪz/",
+          "pos": "",
+          "meaning": "đô thị hóa"
+        },
+        {
+          "word": "urbanization",
+          "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+          "pos": "",
+          "meaning": "sự đô thị hóa"
+        }
+      ]
+    },
+    {
+      "word": "Rural",
+      "ipa": "/ˈrʊərəl/",
+      "meaning": "thuộc nông thôn",
+      "synonyms": [
+        {
+          "word": "countryside",
+          "ipa": "/ˈkʌntrisaɪd/",
+          "meaning": "vùng nông thôn"
+        },
+        {
+          "word": "provincial",
+          "ipa": "/prəˈvɪnʃl/",
+          "meaning": "thuộc địa phương"
+        }
+      ],
+      "family": [
+        {
+          "word": "rurality",
+          "ipa": "/rʊəˈræləti/",
+          "pos": "",
+          "meaning": "tính chất nông thôn"
+        },
+        {
+          "word": "rurally",
+          "ipa": "/ˈrʊərəli/",
+          "pos": "",
+          "meaning": "theo cách nông thôn"
+        }
+      ]
+    },
+    {
+      "word": "Infrastructure",
+      "ipa": "/ˈɪnfrəˌstrʌktʃə(r)/",
+      "meaning": "cơ sở hạ tầng",
+      "synonyms": [
+        {
+          "word": "facilities",
+          "ipa": "/fəˈsɪlətiz/",
+          "meaning": "cơ sở vật chất"
+        },
+        {
+          "word": "public works",
+          "ipa": "/ˌpʌblɪk ˈwɜːks/",
+          "meaning": "công trình công cộng"
+        }
+      ],
+      "family": [
+        {
+          "word": "infrastructural",
+          "ipa": "/ˌɪnfrəˈstrʌktʃərəl/",
+          "pos": "",
+          "meaning": "thuộc cơ sở hạ tầng"
+        },
+        {
+          "word": "infrastructure development",
+          "ipa": "/dɪˈveləpmənt/",
+          "pos": "",
+          "meaning": "phát triển hạ tầng"
+        }
+      ]
+    },
+    {
+      "word": "Housing",
+      "ipa": "/ˈhaʊzɪŋ/",
+      "meaning": "nhà ở",
+      "synonyms": [
+        {
+          "word": "accommodation",
+          "ipa": "/əˌkɒməˈdeɪʃən/",
+          "meaning": "chỗ ở"
+        },
+        {
+          "word": "residence",
+          "ipa": "/ˈrezɪdəns/",
+          "meaning": "nơi cư trú"
+        }
+      ],
+      "family": [
+        {
+          "word": "house",
+          "ipa": "/haʊs/",
+          "pos": "",
+          "meaning": "nhà"
+        },
+        {
+          "word": "household",
+          "ipa": "/ˈhaʊshəʊld/",
+          "pos": "",
+          "meaning": "hộ gia đình"
+        }
+      ]
+    },
+    {
+      "word": "Resident",
+      "ipa": "/ˈrezɪdənt/",
+      "meaning": "cư dân",
+      "synonyms": [
+        {
+          "word": "inhabitant",
+          "ipa": "/ɪnˈhæbɪtənt/",
+          "meaning": "cư dân"
+        },
+        {
+          "word": "local",
+          "ipa": "/ˈləʊkl/",
+          "meaning": "người địa phương"
+        }
+      ],
+      "family": [
+        {
+          "word": "reside",
+          "ipa": "/rɪˈzaɪd/",
+          "pos": "",
+          "meaning": "cư trú"
+        },
+        {
+          "word": "residence",
+          "ipa": "/ˈrezɪdəns/",
+          "pos": "",
+          "meaning": "nơi cư trú"
+        }
+      ]
+    },
+    {
+      "word": "Suburb",
+      "ipa": "/ˈsʌbɜːb/",
+      "meaning": "vùng ngoại ô",
+      "synonyms": [
+        {
+          "word": "outskirts",
+          "ipa": "/ˈaʊtskɜːts/",
+          "meaning": "vùng ven"
+        },
+        {
+          "word": "residential area",
+          "ipa": "/ˌrezɪˈdenʃl ˈeəriə/",
+          "meaning": "khu dân cư"
+        }
+      ],
+      "family": [
+        {
+          "word": "suburban",
+          "ipa": "/səˈbɜːbən/",
+          "pos": "",
+          "meaning": "thuộc ngoại ô"
+        },
+        {
+          "word": "suburbia",
+          "ipa": "/səˈbɜːbiə/",
+          "pos": "",
+          "meaning": "khu ngoại ô"
+        }
+      ]
+    },
+    {
+      "word": "Skyscraper",
+      "ipa": "/ˈskaɪˌskreɪpə(r)/",
+      "meaning": "tòa nhà chọc trời",
+      "synonyms": [
+        {
+          "word": "high-rise",
+          "ipa": "/ˈhaɪ raɪz/",
+          "meaning": "nhà cao tầng"
+        },
+        {
+          "word": "tower",
+          "ipa": "/ˈtaʊə(r)/",
+          "meaning": "tòa tháp"
+        }
+      ],
+      "family": [
+        {
+          "word": "skyscraping",
+          "ipa": "/ˈskaɪskreɪpɪŋ/",
+          "pos": "",
+          "meaning": "vươn cao"
+        },
+        {
+          "word": "high-rise",
+          "ipa": "/ˈhaɪ raɪz/",
+          "pos": "",
+          "meaning": "cao tầng"
+        }
+      ]
+    },
+    {
+      "word": "Congestion",
+      "ipa": "/kənˈdʒestʃən/",
+      "meaning": "sự ùn tắc",
+      "synonyms": [
+        {
+          "word": "traffic jam",
+          "ipa": "/ˈtræfɪk dʒæm/",
+          "meaning": "tắc đường"
+        },
+        {
+          "word": "overcrowding",
+          "ipa": "/ˌəʊvəˈkraʊdɪŋ/",
+          "meaning": "quá đông"
+        }
+      ],
+      "family": [
+        {
+          "word": "congest",
+          "ipa": "/kənˈdʒest/",
+          "pos": "",
+          "meaning": "làm tắc nghẽn"
+        },
+        {
+          "word": "congested",
+          "ipa": "/kənˈdʒestɪd/",
+          "pos": "",
+          "meaning": "bị ùn tắc"
+        }
+      ]
+    },
+    {
+      "word": "Pedestrian",
+      "ipa": "/pəˈdestriən/",
+      "meaning": "người đi bộ",
+      "synonyms": [
+        {
+          "word": "walker",
+          "ipa": "/ˈwɔːkə(r)/",
+          "meaning": "người đi bộ"
+        },
+        {
+          "word": "passer-by",
+          "ipa": "/ˌpɑːsəˈbaɪ/",
+          "meaning": "người qua đường"
+        }
+      ],
+      "family": [
+        {
+          "word": "pedestrianize",
+          "ipa": "/pəˈdestriənaɪz/",
+          "pos": "",
+          "meaning": "biến thành phố đi bộ"
+        },
+        {
+          "word": "pedestrianization",
+          "ipa": "/pəˌdestriənaɪˈzeɪʃn/",
+          "pos": "",
+          "meaning": "sự xây dựng phố đi bộ"
+        }
+      ]
+    },
+    {
+      "word": "Megacity",
+      "ipa": "/ˈmeɡəsɪti/",
+      "meaning": "siêu đô thị",
+      "synonyms": [
+        {
+          "word": "metropolis",
+          "ipa": "/məˈtrɒpəlɪs/",
+          "meaning": "đô thị lớn"
+        },
+        {
+          "word": "urban centre",
+          "ipa": "/ˈɜːbən ˈsentə(r)/",
+          "meaning": "trung tâm đô thị"
+        }
+      ],
+      "family": [
+        {
+          "word": "metropolitan",
+          "ipa": "/ˌmetrəˈpɒlɪtən/",
+          "pos": "",
+          "meaning": "thuộc đô thị lớn"
+        },
+        {
+          "word": "metropolis",
+          "ipa": "/məˈtrɒpəlɪs/",
+          "pos": "",
+          "meaning": "đô thị lớn"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Life in a Growing City",
+      "text": "Cities are becoming larger as more people move from rural areas to urban areas. An urban area usually has many buildings, businesses, schools, and public services. In contrast, a rural area has more open land, farms, and smaller communities. As cities grow, good infrastructure becomes increasingly important. Roads, public transport, hospitals, schools, and other facilities help people live and work comfortably. Without enough infrastructure, a city may have problems providing basic services to its growing population. Housing is another important issue in large cities. Many people want to live near their workplaces, schools, and shopping areas. However, housing in central areas can be expensive. Some people therefore choose to live in a suburb, where homes may be more affordable and the environment can be quieter. Large cities often have many tall buildings. A skyscraper can provide offices or homes for a large number of people in a limited area. However, the growing population can also create congestion, especially during busy hours. To reduce congestion, some cities are creating safer areas for pedestrians. Wider sidewalks and pedestrian streets can encourage people to walk instead of using cars. A large city can offer many opportunities, but it also needs careful planning. Good infrastructure, suitable housing, and better transport can help create a more comfortable urban environment."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is usually found in an urban area?",
+          "options": [
+            "Many buildings and public services",
+            "Only farms and open land",
+            "Very few people",
+            "Only residential houses"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why can some people choose to live in a suburb?",
+          "options": [
+            "It may have more skyscrapers.",
+            "Housing may be more affordable and the area quieter.",
+            "There are no roads there.",
+            "It is always in the city center."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Rural areas generally have more open land than urban areas.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every city has enough infrastructure for its population.",
+          "answer": "False"
+        },
+        {
+          "statement": "Some cities create pedestrian areas to help reduce congestion.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "As cities grow, good (6) ______ becomes increasingly important. Many people also need suitable (7) ______ near their workplaces and schools. Some people choose to live in a (8) ______ because it may be quieter. Tall buildings such as a (9) ______ can provide homes or offices. Cities may also create safer areas for (10) ______.",
+        "answers": [
+          "infrastructure",
+          "housing",
+          "suburb",
+          "skyscraper",
+          "pedestrians"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “increasingly” is closest in meaning to:",
+          "options": [
+            "more and more",
+            "less and less",
+            "suddenly",
+            "rarely"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “affordable” is closest in meaning to:",
+          "options": [
+            "reasonably priced",
+            "extremely large",
+            "difficult to find",
+            "very modern"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “encourage” is closest in meaning to:",
+          "options": [
+            "persuade or support",
+            "prevent",
+            "replace",
+            "remove"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Urban",
+          "Rural",
+          "Infrastructure",
+          "Pedestrian"
+        ],
+        "right": [
+          "Countryside",
+          "Metropolitan",
+          "Facilities",
+          "Walker"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "The Challenges of a Megacity",
+      "text": "Modern cities continue to attract people because they provide employment, education, healthcare, and other opportunities. As populations increase, some cities develop into very large urban centres known as megacities. Managing these places requires careful planning and long-term investment. One of the main differences between urban and rural areas is population density. Urban areas usually contain more people and buildings in a smaller space, while rural areas tend to have more open land. As people move from the countryside to cities, the demand for housing increases. Providing enough housing can be difficult. In many cities, the cost of homes in central areas is high. Some residents move to the suburb, where residential areas may offer more space. However, living farther from the city centre can increase travel time. Good infrastructure is essential for a growing city. Roads, public transport, water systems, hospitals, schools, and other public facilities must be developed to meet the needs of residents. If infrastructure does not grow at the same speed as the population, services can become overcrowded. Another major problem is congestion. Large numbers of cars and other vehicles can make roads extremely busy, especially during peak hours. This can increase travel time and create air pollution. One possible solution is to make cities more friendly to pedestrians. Safe sidewalks, pedestrian streets, and crossings can encourage people to walk. Better public transport can also reduce the number of private vehicles on the roads. Tall buildings, including skyscrapers, are another common feature of modern cities. They allow businesses and residents to use limited land efficiently. However, very high buildings also require strong infrastructure and careful planning. A successful megacity must balance economic development with the quality of life of its residents. Urban planners need to consider housing, transport, infrastructure, public spaces, and environmental conditions together. Although city life can be challenging, well-planned urban development can make cities more convenient, efficient, and comfortable places to live."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why do modern cities attract many people?",
+          "options": [
+            "They provide opportunities such as employment and education.",
+            "They always have cheaper housing.",
+            "They have fewer residents than rural areas.",
+            "They do not need infrastructure."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What can happen if infrastructure does not grow as quickly as the population?",
+          "options": [
+            "Services can become overcrowded.",
+            "Housing becomes free.",
+            "Traffic disappears.",
+            "People stop moving to cities."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Rural areas generally have more open land than urban areas.",
+          "answer": "True"
+        },
+        {
+          "statement": "Living in a suburb always reduces travel time.",
+          "answer": "False"
+        },
+        {
+          "statement": "Pedestrian-friendly areas can encourage people to walk.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Large cities need careful planning because their populations continue to increase. The demand for (6) ______ can rise as people move from rural areas to cities. Good (7) ______ is necessary to provide public services. One major urban problem is (8) ______, caused partly by large numbers of vehicles. Cities can create safer areas for (9) ______ and improve public transport. Tall buildings such as (10) ______ can help cities use limited land efficiently.",
+        "answers": [
+          "housing",
+          "infrastructure",
+          "congestion",
+          "pedestrians",
+          "skyscrapers"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “density” is closest in meaning to:",
+          "options": [
+            "the number of people in a particular area",
+            "the height of a building",
+            "the cost of transportation",
+            "the amount of rainfall"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “essential” is closest in meaning to:",
+          "options": [
+            "necessary",
+            "unusual",
+            "optional",
+            "temporary"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “efficiently” is closest in meaning to:",
+          "options": [
+            "effectively and without waste",
+            "slowly and carefully",
+            "unexpectedly",
+            "independently"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Housing",
+          "Resident",
+          "Congestion",
+          "Megacity"
+        ],
+        "right": [
+          "Accommodation",
+          "Inhabitant",
+          "Traffic jam",
+          "Metropolis"
+        ],
+        "answers": {
+          "0": "A",
+          "1": "B",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Living in a Growing City",
+      "audio": "",
+      "transcript": "Today, I want to talk about life in a growing city. An urban area usually has many buildings, businesses, schools, and public services. A rural area, on the other hand, usually has more open land and fewer buildings. When more people move to cities, the need for good infrastructure increases. Cities need roads, public transport, hospitals, schools, and other facilities. Another important issue is housing. Homes in city centres can be expensive, so some people choose to live in a suburb. Suburbs can provide more space and a quieter environment. Large cities often have tall buildings called skyscrapers. These buildings can provide homes and offices without using too much land. However, large populations can also cause congestion. Roads may become very busy when many people travel to work or school. One way to improve city life is to create safer areas for pedestrians. Wider sidewalks and pedestrian streets can encourage people to walk. Some very large cities are called megacities. These cities need careful planning because they have large populations and many different needs. With good planning and suitable infrastructure, cities can become more comfortable places for residents to live and work."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What usually exists in an urban area?",
+          "options": [
+            "Many buildings and public services",
+            "Only farms",
+            "Very few people",
+            "Only open land"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why do some people choose to live in a suburb?",
+          "options": [
+            "It can provide more space and a quieter environment.",
+            "It always has more skyscrapers.",
+            "It has no residents.",
+            "It is always in the city centre."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Rural areas usually have more open land than urban areas.",
+          "answer": "True"
+        },
+        {
+          "statement": "Skyscrapers can provide homes and offices.",
+          "answer": "True"
+        },
+        {
+          "statement": "Congestion occurs when roads become very busy.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "An ______ area usually has many buildings and public services.",
+          "answer": "urban"
+        },
+        {
+          "question": "Growing cities need good ______.",
+          "answer": "infrastructure"
+        },
+        {
+          "question": "Some people choose to live in a ______.",
+          "answer": "suburb"
+        },
+        {
+          "question": "Large cities often have tall buildings called ______.",
+          "answer": "skyscrapers"
+        },
+        {
+          "question": "Safer areas can encourage ______ to walk.",
+          "answer": "pedestrians"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “open” in “open land” is closest in meaning to:",
+          "options": [
+            "undeveloped or spacious",
+            "crowded",
+            "expensive",
+            "dangerous"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “suitable” is closest in meaning to:",
+          "options": [
+            "appropriate",
+            "crowded",
+            "modern",
+            "expensive"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “residents” is closest in meaning to:",
+          "options": [
+            "people who live in a place",
+            "people who visit temporarily",
+            "people who build roads",
+            "people who travel abroad"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "Urban",
+          "Infrastructure",
+          "Resident",
+          "Megacity"
+        ],
+        "right": [
+          "A person who lives in a place",
+          "Related to a city",
+          "Basic systems and facilities of a place",
+          "A very large city"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

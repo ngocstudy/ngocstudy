@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "id": "lesson21",
+    "number": 21,
+    "title": "Psychology & Emotions",
+    "titleVi": "Tâm lý & Cảm xúc"
+  },
+  "vocabulary": [
+    {
+      "word": "Emotion",
+      "ipa": "/ɪˈməʊʃən/",
+      "meaning": "cảm xúc",
+      "synonyms": [
+        {
+          "word": "feeling",
+          "ipa": "/ˈfiːlɪŋ/",
+          "meaning": "cảm xúc"
+        },
+        {
+          "word": "sentiment",
+          "ipa": "/ˈsentɪmənt/",
+          "meaning": "cảm nghĩ"
+        }
+      ],
+      "family": [
+        {
+          "word": "emotional",
+          "ipa": "/ɪˈməʊʃənl/",
+          "meaning": "giàu cảm xúc",
+          "pos": "adj"
+        },
+        {
+          "word": "emotionally",
+          "ipa": "/ɪˈməʊʃənəli/",
+          "meaning": "về mặt cảm xúc",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Behaviour",
+      "ipa": "/bɪˈheɪvjə(r)/",
+      "meaning": "hành vi",
+      "synonyms": [
+        {
+          "word": "conduct",
+          "ipa": "/ˈkɒndʌkt/",
+          "meaning": "cách cư xử"
+        },
+        {
+          "word": "action",
+          "ipa": "/ˈækʃən/",
+          "meaning": "hành động"
+        }
+      ],
+      "family": [
+        {
+          "word": "behave",
+          "ipa": "/bɪˈheɪv/",
+          "meaning": "cư xử",
+          "pos": "v"
+        },
+        {
+          "word": "behavioural",
+          "ipa": "/bɪˈheɪvjərəl/",
+          "meaning": "thuộc hành vi",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Personality",
+      "ipa": "/ˌpɜːsəˈnæləti/",
+      "meaning": "tính cách",
+      "synonyms": [
+        {
+          "word": "character",
+          "ipa": "/ˈkærəktə(r)/",
+          "meaning": "tính cách"
+        },
+        {
+          "word": "nature",
+          "ipa": "/ˈneɪtʃə(r)/",
+          "meaning": "bản chất"
+        }
+      ],
+      "family": [
+        {
+          "word": "personal",
+          "ipa": "/ˈpɜːsənl/",
+          "meaning": "cá nhân",
+          "pos": "adj"
+        },
+        {
+          "word": "personally",
+          "ipa": "/ˈpɜːsənəli/",
+          "meaning": "về mặt cá nhân",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Confidence",
+      "ipa": "/ˈkɒnfɪdəns/",
+      "meaning": "sự tự tin",
+      "synonyms": [
+        {
+          "word": "self-confidence",
+          "ipa": "/ˌself ˈkɒnfɪdəns/",
+          "meaning": "sự tự tin"
+        },
+        {
+          "word": "assurance",
+          "ipa": "/əˈʃʊərəns/",
+          "meaning": "sự tự tin"
+        }
+      ],
+      "family": [
+        {
+          "word": "confident",
+          "ipa": "/ˈkɒnfɪdənt/",
+          "meaning": "tự tin",
+          "pos": "adj"
+        },
+        {
+          "word": "confidently",
+          "ipa": "/ˈkɒnfɪdəntli/",
+          "meaning": "một cách tự tin",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Stress",
+      "ipa": "/stres/",
+      "meaning": "căng thẳng",
+      "synonyms": [
+        {
+          "word": "pressure",
+          "ipa": "/ˈpreʃə(r)/",
+          "meaning": "áp lực"
+        },
+        {
+          "word": "strain",
+          "ipa": "/streɪn/",
+          "meaning": "sự căng thẳng"
+        }
+      ],
+      "family": [
+        {
+          "word": "stressful",
+          "ipa": "/ˈstresfl/",
+          "meaning": "gây căng thẳng",
+          "pos": "adj"
+        },
+        {
+          "word": "stressed",
+          "ipa": "/strest/",
+          "meaning": "bị căng thẳng",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Motivation",
+      "ipa": "/ˌməʊtɪˈveɪʃən/",
+      "meaning": "động lực",
+      "synonyms": [
+        {
+          "word": "incentive",
+          "ipa": "/ɪnˈsentɪv/",
+          "meaning": "động lực"
+        },
+        {
+          "word": "drive",
+          "ipa": "/draɪv/",
+          "meaning": "động lực"
+        }
+      ],
+      "family": [
+        {
+          "word": "motivate",
+          "ipa": "/ˈməʊtɪveɪt/",
+          "meaning": "tạo động lực",
+          "pos": "v"
+        },
+        {
+          "word": "motivated",
+          "ipa": "/ˈməʊtɪveɪtɪd/",
+          "meaning": "có động lực",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Attitude",
+      "ipa": "/ˈætɪtjuːd/",
+      "meaning": "thái độ",
+      "synonyms": [
+        {
+          "word": "approach",
+          "ipa": "/əˈprəʊtʃ/",
+          "meaning": "cách tiếp cận"
+        },
+        {
+          "word": "mindset",
+          "ipa": "/ˈmaɪndset/",
+          "meaning": "tư duy"
+        }
+      ],
+      "family": [
+        {
+          "word": "attitudinal",
+          "ipa": "/ˌætɪˈtjuːdɪnl/",
+          "meaning": "thuộc thái độ",
+          "pos": "adj"
+        },
+        {
+          "word": "attitudinally",
+          "ipa": "/ˌætɪˈtjuːdɪnəli/",
+          "meaning": "về mặt thái độ",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Memory",
+      "ipa": "/ˈmeməri/",
+      "meaning": "trí nhớ",
+      "synonyms": [
+        {
+          "word": "recall",
+          "ipa": "/rɪˈkɔːl/",
+          "meaning": "sự nhớ lại"
+        },
+        {
+          "word": "remembrance",
+          "ipa": "/rɪˈmembrəns/",
+          "meaning": "sự ghi nhớ"
+        }
+      ],
+      "family": [
+        {
+          "word": "memorable",
+          "ipa": "/ˈmemərəbl/",
+          "meaning": "đáng nhớ",
+          "pos": "adj"
+        },
+        {
+          "word": "memorize",
+          "ipa": "/ˈmeməraɪz/",
+          "meaning": "ghi nhớ",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Intelligence",
+      "ipa": "/ɪnˈtelɪdʒəns/",
+      "meaning": "trí thông minh",
+      "synonyms": [
+        {
+          "word": "intellect",
+          "ipa": "/ˈɪntəlekt/",
+          "meaning": "trí tuệ"
+        },
+        {
+          "word": "wisdom",
+          "ipa": "/ˈwɪzdəm/",
+          "meaning": "sự thông thái"
+        }
+      ],
+      "family": [
+        {
+          "word": "intelligent",
+          "ipa": "/ɪnˈtelɪdʒənt/",
+          "meaning": "thông minh",
+          "pos": "adj"
+        },
+        {
+          "word": "intelligently",
+          "ipa": "/ɪnˈtelɪdʒəntli/",
+          "meaning": "một cách thông minh",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Concentration",
+      "ipa": "/ˌkɒnsnˈtreɪʃən/",
+      "meaning": "sự tập trung",
+      "synonyms": [
+        {
+          "word": "focus",
+          "ipa": "/ˈfəʊkəs/",
+          "meaning": "sự tập trung"
+        },
+        {
+          "word": "attention",
+          "ipa": "/əˈtenʃən/",
+          "meaning": "sự chú ý"
+        }
+      ],
+      "family": [
+        {
+          "word": "concentrate",
+          "ipa": "/ˈkɒnsntreɪt/",
+          "meaning": "tập trung",
+          "pos": "v"
+        },
+        {
+          "word": "concentrated",
+          "ipa": "/ˈkɒnsntreɪtɪd/",
+          "meaning": "tập trung cao",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "How Our Feelings Affect Learning",
+      "text": "People experience many kinds of emotion every day. Happiness, fear, excitement and sadness can all affect the way people learn and work. When people feel positive, they may have more motivation to complete difficult tasks. They may also have more confidence in their ability to succeed.\n\nHowever, too much stress can make learning more difficult. Students who feel strong pressure may find it hard to remember information. They may also have problems with concentration. For this reason, a calm learning environment can be very helpful.\n\nA person's attitude is also important. Students with a positive attitude may be more willing to try again when they make mistakes. They may see mistakes as a normal part of learning rather than as a failure.\n\nBehaviour can also influence learning. A student who listens carefully, takes notes and studies regularly may make better progress. In contrast, a student who often stops studying may find it difficult to reach their goals.\n\nFinally, memory plays an important role. People need to remember new information before they can use it confidently. Good sleep, regular practice and enough attention may help people remember what they have learned.\n\nLearning is therefore connected to many parts of psychology. Emotion, motivation, confidence, stress, attitude, behaviour, memory and concentration can all influence the learning process."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "Students should study all day.",
+            "Psychological factors can affect learning.",
+            "Memory is the only important part of learning.",
+            "Stress always improves performance."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can too much stress cause?",
+          "options": [
+            "Better concentration",
+            "Stronger memory",
+            "Difficulty with learning",
+            "More confidence"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Positive emotions may increase motivation.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that all stress is harmful.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "Regular study can influence learning behaviour.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the sentences with NO MORE THAN TWO WORDS.",
+        "text": "People experience different (6) ______ every day. Positive feelings can increase (7) ______ and confidence. Too much stress can make (8) ______ difficult. A positive (9) ______ can help students continue after making mistakes. Good sleep and regular practice may improve (10) ______.",
+        "answers": [
+          "emotions",
+          "motivation",
+          "learning",
+          "attitude",
+          "memory"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “pressure” is closest in meaning to:",
+          "options": [
+            "stress",
+            "happiness",
+            "memory",
+            "attention"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “calm” is closest in meaning to:",
+          "options": [
+            "noisy",
+            "peaceful",
+            "difficult",
+            "exciting"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “progress” is closest in meaning to:",
+          "options": [
+            "improvement",
+            "failure",
+            "pressure",
+            "emotion"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words with their closest meaning.",
+        "left": [
+          "confidence",
+          "motivation",
+          "concentration",
+          "emotion"
+        ],
+        "right": [
+          "focus",
+          "feeling",
+          "self-belief",
+          "drive"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Psychology, Personality and Everyday Performance",
+      "text": "Psychology helps explain why people think, feel and behave differently. Two people may face the same situation but respond to it in very different ways. Their personality, previous experiences, emotions and attitudes can all influence their responses.\n\nOne important factor is confidence. People with strong self-confidence are often more willing to take part in activities, communicate with others and deal with challenges. Confidence does not mean that a person never feels nervous. Instead, a confident person may believe that they can manage a difficult situation even when they feel uncertain.\n\nAnother important factor is motivation. People are more likely to work towards a goal when they have a clear reason for doing so. Some people are motivated by personal interests, while others may be encouraged by rewards or recognition. Motivation can change over time, so people may need new goals or incentives when their interest becomes weaker.\n\nStress can also influence behaviour and performance. A small amount of pressure may encourage people to prepare carefully, but high levels of stress can make concentration more difficult. Long periods of stress may also affect people's emotions and everyday behaviour.\n\nMemory and intelligence are related to learning, but they are not exactly the same. Memory allows people to store and recall information, while intelligence involves the ability to understand, reason and solve problems. A person may have good memory but still need practice to develop certain skills.\n\nFinally, attitude can influence how people respond to success and failure. Someone with a positive attitude may treat a mistake as an opportunity to learn. A negative attitude, on the other hand, may cause a person to avoid difficult tasks.\n\nUnderstanding these psychological factors can help people become more aware of themselves. By improving concentration, developing confidence and maintaining motivation, people may become better able to manage challenges in education, work and everyday life."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "According to the passage, why can two people respond differently to the same situation?",
+          "options": [
+            "They always have different intelligence.",
+            "Their personality, experiences and attitudes may differ.",
+            "They have different memories only.",
+            "They receive different rewards."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does confidence NOT mean?",
+          "options": [
+            "Believing that you can manage challenges",
+            "Being willing to participate",
+            "Never feeling nervous",
+            "Having self-belief"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Motivation can change over time.",
+          "answer": "True"
+        },
+        {
+          "statement": "High levels of stress can make concentration more difficult.",
+          "answer": "True"
+        },
+        {
+          "statement": "Intelligence and memory are exactly the same ability.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the sentences with NO MORE THAN TWO WORDS.",
+        "text": "People's (6) ______ and previous experiences can influence their responses. Strong (7) ______ may help people deal with challenges. People may also need new goals when their (8) ______ becomes weaker. High levels of (9) ______ can affect concentration and behaviour. A positive (10) ______ can help people learn from mistakes.",
+        "answers": [
+          "personality",
+          "confidence",
+          "motivation",
+          "stress",
+          "attitude"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “recognition” is closest in meaning to:",
+          "options": [
+            "acknowledgement",
+            "pressure",
+            "memory",
+            "concentration"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “recall” is closest in meaning to:",
+          "options": [
+            "forget",
+            "remember",
+            "explain",
+            "change"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “manage” is closest in meaning to:",
+          "options": [
+            "avoid",
+            "control or deal with",
+            "forget",
+            "increase"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words with their closest meaning.",
+        "left": [
+          "personality",
+          "motivation",
+          "stress",
+          "intelligence"
+        ],
+        "right": [
+          "pressure",
+          "character",
+          "drive",
+          "intellect"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Psychology and Everyday Life",
+      "audio": "",
+      "transcript": "Psychology is an important part of everyday life because it helps us understand how people think, feel and behave. One important area is emotion. People can experience happiness, sadness, fear or excitement, and these emotions may influence their decisions and actions.\n\nAnother important factor is personality. People have different personalities, so they may behave differently in the same situation. Some people are quiet and careful, while others are more active and confident.\n\nConfidence can affect the way people deal with challenges. A person with good confidence may be willing to try something new. However, too much stress can make a person feel tired and worried. It can also make concentration more difficult.\n\nMotivation is another key factor. Students often study better when they have a clear reason to learn. Their attitude is also important. A positive attitude can help them continue when a task is difficult.\n\nFinally, memory and intelligence help people learn and solve problems. Good memory allows people to recall information, while intelligence helps them understand ideas and make decisions. By understanding these factors, people can become more aware of their own behaviour and improve the way they learn and work."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does psychology help us understand?",
+          "options": [
+            "How people think, feel and behave",
+            "Only people's emotions",
+            "Only people's intelligence",
+            "How people travel"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can too much stress make more difficult?",
+          "options": [
+            "Concentration",
+            "Personality",
+            "Motivation",
+            "Memory"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People can have different personalities.",
+          "answer": "True"
+        },
+        {
+          "statement": "Confidence always means that a person never feels worried.",
+          "answer": "False"
+        },
+        {
+          "statement": "A positive attitude can help students continue with difficult tasks.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Happiness, sadness, fear and excitement are types of ______.",
+          "answer": "emotions"
+        },
+        {
+          "question": "People may behave differently because they have different ______.",
+          "answer": "personalities"
+        },
+        {
+          "question": "Good ______ can help a person try something new.",
+          "answer": "confidence"
+        },
+        {
+          "question": "A clear reason for learning can increase ______.",
+          "answer": "motivation"
+        },
+        {
+          "question": "Good ______ allows people to recall information.",
+          "answer": "memory"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "In the listening, “deal with” is closest in meaning to:",
+          "options": [
+            "manage",
+            "forget",
+            "avoid",
+            "create"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“Recall” means:",
+          "options": [
+            "understand",
+            "remember",
+            "change",
+            "explain"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "“Aware” is closest in meaning to:",
+          "options": [
+            "conscious",
+            "nervous",
+            "tired",
+            "confident"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each factor with the correct information.",
+        "left": [
+          "Emotion",
+          "Personality",
+          "Motivation",
+          "Intelligence"
+        ],
+        "right": [
+          "helps people understand ideas",
+          "can influence decisions and actions",
+          "makes people different in how they behave",
+          "can help people study better"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "D",
+          "3": "A"
+        }
+      }
+    }
+  }
+}

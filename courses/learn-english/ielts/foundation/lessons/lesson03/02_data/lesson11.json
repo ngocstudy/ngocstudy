@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson11",
+    "number": 11,
+    "title": "Government & Society",
+    "titleVi": "Chính phủ & Xã hội"
+  },
+  "vocabulary": [
+    {
+      "word": "Government",
+      "ipa": "/ˈɡʌvənmənt/",
+      "meaning": "chính phủ",
+      "synonyms": [
+        {
+          "word": "authority",
+          "ipa": "/ɔːˈθɒrəti/",
+          "meaning": "chính quyền"
+        },
+        {
+          "word": "administration",
+          "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+          "meaning": "chính quyền, cơ quan hành chính"
+        }
+      ],
+      "family": [
+        {
+          "word": "govern",
+          "ipa": "/ˈɡʌvn/",
+          "pos": "",
+          "meaning": "cai trị"
+        },
+        {
+          "word": "governmental",
+          "ipa": "/ˌɡʌvənˈmentl/",
+          "pos": "",
+          "meaning": "thuộc chính phủ"
+        }
+      ]
+    },
+    {
+      "word": "Policy",
+      "ipa": "/ˈpɒləsi/",
+      "meaning": "chính sách",
+      "synonyms": [
+        {
+          "word": "strategy",
+          "ipa": "/ˈstrætədʒi/",
+          "meaning": "chiến lược"
+        },
+        {
+          "word": "guideline",
+          "ipa": "/ˈɡaɪdlaɪn/",
+          "meaning": "hướng dẫn"
+        }
+      ],
+      "family": [
+        {
+          "word": "political",
+          "ipa": "/pəˈlɪtɪkl/",
+          "pos": "",
+          "meaning": "thuộc chính trị"
+        },
+        {
+          "word": "policymaker",
+          "ipa": "/ˈpɒlisiˌmeɪkə(r)/",
+          "pos": "",
+          "meaning": "nhà hoạch định chính sách"
+        }
+      ]
+    },
+    {
+      "word": "Law",
+      "ipa": "/lɔː/",
+      "meaning": "luật pháp",
+      "synonyms": [
+        {
+          "word": "legislation",
+          "ipa": "/ˌledʒɪˈsleɪʃn/",
+          "meaning": "luật pháp"
+        },
+        {
+          "word": "regulation",
+          "ipa": "/ˌreɡjuˈleɪʃn/",
+          "meaning": "quy định"
+        }
+      ],
+      "family": [
+        {
+          "word": "legal",
+          "ipa": "/ˈliːɡl/",
+          "pos": "",
+          "meaning": "hợp pháp"
+        },
+        {
+          "word": "legally",
+          "ipa": "/ˈliːɡəli/",
+          "pos": "",
+          "meaning": "một cách hợp pháp"
+        }
+      ]
+    },
+    {
+      "word": "Society",
+      "ipa": "/səˈsaɪəti/",
+      "meaning": "xã hội",
+      "synonyms": [
+        {
+          "word": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "meaning": "cộng đồng"
+        },
+        {
+          "word": "public",
+          "ipa": "/ˈpʌblɪk/",
+          "meaning": "công chúng"
+        }
+      ],
+      "family": [
+        {
+          "word": "social",
+          "ipa": "/ˈsəʊʃl/",
+          "pos": "",
+          "meaning": "thuộc xã hội"
+        },
+        {
+          "word": "socially",
+          "ipa": "/ˈsəʊʃəli/",
+          "pos": "",
+          "meaning": "về mặt xã hội"
+        }
+      ]
+    },
+    {
+      "word": "Community",
+      "ipa": "/kəˈmjuːnəti/",
+      "meaning": "cộng đồng",
+      "synonyms": [
+        {
+          "word": "society",
+          "ipa": "/səˈsaɪəti/",
+          "meaning": "xã hội"
+        },
+        {
+          "word": "neighbourhood",
+          "ipa": "/ˈneɪbəhʊd/",
+          "meaning": "khu dân cư"
+        }
+      ],
+      "family": [
+        {
+          "word": "communal",
+          "ipa": "/ˈkɒmjənl/",
+          "pos": "",
+          "meaning": "thuộc cộng đồng"
+        },
+        {
+          "word": "communicate",
+          "ipa": "/kəˈmjuːnɪkeɪt/",
+          "pos": "",
+          "meaning": "giao tiếp"
+        }
+      ]
+    },
+    {
+      "word": "Citizen",
+      "ipa": "/ˈsɪtɪzn/",
+      "meaning": "công dân",
+      "synonyms": [
+        {
+          "word": "resident",
+          "ipa": "/ˈrezɪdənt/",
+          "meaning": "cư dân"
+        },
+        {
+          "word": "inhabitant",
+          "ipa": "/ɪnˈhæbɪtənt/",
+          "meaning": "người sinh sống"
+        }
+      ],
+      "family": [
+        {
+          "word": "citizenship",
+          "ipa": "/ˈsɪtɪzənʃɪp/",
+          "pos": "",
+          "meaning": "quyền công dân"
+        },
+        {
+          "word": "civic",
+          "ipa": "/ˈsɪvɪk/",
+          "pos": "",
+          "meaning": "thuộc công dân"
+        }
+      ]
+    },
+    {
+      "word": "Public",
+      "ipa": "/ˈpʌblɪk/",
+      "meaning": "công cộng; công chúng",
+      "synonyms": [
+        {
+          "word": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "meaning": "cộng đồng"
+        },
+        {
+          "word": "society",
+          "ipa": "/səˈsaɪəti/",
+          "meaning": "xã hội"
+        }
+      ],
+      "family": [
+        {
+          "word": "publicly",
+          "ipa": "/ˈpʌblɪkli/",
+          "pos": "",
+          "meaning": "công khai"
+        },
+        {
+          "word": "publication",
+          "ipa": "/ˌpʌblɪˈkeɪʃn/",
+          "pos": "",
+          "meaning": "sự xuất bản"
+        }
+      ]
+    },
+    {
+      "word": "Right",
+      "ipa": "/raɪt/",
+      "meaning": "quyền",
+      "synonyms": [
+        {
+          "word": "entitlement",
+          "ipa": "/ɪnˈtaɪtlmənt/",
+          "meaning": "quyền được hưởng"
+        },
+        {
+          "word": "privilege",
+          "ipa": "/ˈprɪvəlɪdʒ/",
+          "meaning": "đặc quyền"
+        }
+      ],
+      "family": [
+        {
+          "word": "rightful",
+          "ipa": "/ˈraɪtfl/",
+          "pos": "",
+          "meaning": "chính đáng"
+        },
+        {
+          "word": "rightly",
+          "ipa": "/ˈraɪtli/",
+          "pos": "",
+          "meaning": "đúng đắn"
+        }
+      ]
+    },
+    {
+      "word": "Responsibility",
+      "ipa": "/rɪˌspɒnsəˈbɪləti/",
+      "meaning": "trách nhiệm",
+      "synonyms": [
+        {
+          "word": "duty",
+          "ipa": "/ˈdjuːti/",
+          "meaning": "nghĩa vụ"
+        },
+        {
+          "word": "obligation",
+          "ipa": "/ˌɒblɪˈɡeɪʃn/",
+          "meaning": "trách nhiệm, nghĩa vụ"
+        }
+      ],
+      "family": [
+        {
+          "word": "responsible",
+          "ipa": "/rɪˈspɒnsəbl/",
+          "pos": "",
+          "meaning": "có trách nhiệm"
+        },
+        {
+          "word": "responsibly",
+          "ipa": "/rɪˈspɒnsəbli/",
+          "pos": "",
+          "meaning": "một cách có trách nhiệm"
+        }
+      ]
+    },
+    {
+      "word": "Equality",
+      "ipa": "/ɪˈkwɒləti/",
+      "meaning": "sự bình đẳng",
+      "synonyms": [
+        {
+          "word": "fairness",
+          "ipa": "/ˈfeənəs/",
+          "meaning": "sự công bằng"
+        },
+        {
+          "word": "equity",
+          "ipa": "/ˈekwəti/",
+          "meaning": "công bằng"
+        }
+      ],
+      "family": [
+        {
+          "word": "equal",
+          "ipa": "/ˈiːkwəl/",
+          "pos": "",
+          "meaning": "bình đẳng"
+        },
+        {
+          "word": "equally",
+          "ipa": "/ˈiːkwəli/",
+          "pos": "",
+          "meaning": "một cách bình đẳng"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Government and Society",
+      "text": "A government plays an important role in organizing a country and providing services for its people. Governments create policies and make decisions that affect different parts of society. They may develop policies related to education, healthcare, transportation, employment, and public safety. Law is another important part of society. Laws establish rules that people are expected to follow. They help maintain order and protect the rights of individuals. People are generally expected to respect the law and behave responsibly. A society is made up of many people and groups. These groups can include families, schools, workplaces, and local communities. People who live in the same area may work together to improve their neighbourhood and solve common problems. A citizen has both rights and responsibilities. Citizens may have the right to receive public services and participate in community life. At the same time, they have responsibilities such as following laws and contributing positively to society. The public can also play an important role in society. People can communicate their opinions, participate in community activities, and work with local authorities. Cooperation between citizens and government can help communities develop. One important goal of modern societies is equality. Equality means that people should be treated fairly and have equal opportunities. Fair policies and laws can help create a society where people are respected and have the opportunity to participate. Government, citizens, communities, and laws are therefore closely connected. When people understand both their rights and responsibilities, they can contribute to a stronger and more cooperative society."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What do governments create?",
+          "options": [
+            "Only schools",
+            "Policies and decisions",
+            "Only businesses",
+            "Private communities"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can laws help do?",
+          "options": [
+            "Maintain order and protect people's rights",
+            "Remove all responsibilities",
+            "Stop people from communicating",
+            "Create private companies"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Governments may develop policies related to education and healthcare.",
+          "answer": "True"
+        },
+        {
+          "statement": "Citizens only have rights and no responsibilities.",
+          "answer": "False"
+        },
+        {
+          "statement": "Equality means that people should be treated fairly and have equal opportunities.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A (6) ______ helps organize a country and provide services. Governments create (7) ______ that affect different parts of society. (8) ______ establish rules that people are expected to follow. A (9) ______ has both rights and responsibilities. One important goal of modern societies is (10) ______.",
+        "answers": [
+          "government",
+          "policies",
+          "laws",
+          "citizen",
+          "equality"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “policies” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "official plans or guidelines",
+            "private businesses",
+            "individual rights",
+            "community members"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “rights” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "freedoms or entitlements",
+            "responsibilities",
+            "laws",
+            "strategies"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “contributing” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "helping or giving something useful",
+            "refusing to participate",
+            "making a law",
+            "receiving a service"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Government",
+          "Policy",
+          "Society",
+          "Citizen"
+        ],
+        "right": [
+          "Community",
+          "Authority",
+          "Strategy",
+          "Resident"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Rights, Responsibilities, and Community Participation",
+      "text": "A stable society depends on cooperation between governments, citizens, and communities. Governments are responsible for creating laws and developing policies that guide public life. These policies can influence education, healthcare, employment, transportation, and other important areas. Law provides a framework for how people and organizations should behave. Regulations can help protect public safety and ensure that individuals and businesses follow common standards. A legal system can also protect the rights of citizens. Citizens are an important part of society. A citizen may have certain rights, but citizenship also involves responsibility. People are expected to obey laws, respect other members of society, and contribute to their communities. Community participation can take many forms. People may attend local meetings, volunteer, communicate with neighbours, or participate in activities that improve their local area. These actions can strengthen relationships between people and create a stronger sense of community. The public can also influence government decisions. Citizens may express their views about proposed policies and discuss issues that affect their lives. Governments can use public feedback to understand the needs of different groups. An important principle in many societies is equality. Equality means that people should have fair treatment and equal opportunities. However, creating equality may require governments and communities to identify unfair conditions and develop appropriate policies. A good relationship between government and citizens requires communication. Governments need to explain policies clearly, while citizens need opportunities to express their opinions. Open communication can make public decisions easier to understand and can encourage people to participate. Rights and responsibilities are closely connected. People may expect their rights to be protected, but they also have duties toward other people and society. Respecting laws and taking responsibility for one's actions can contribute to a peaceful and cooperative community. Government and society therefore work best when citizens participate actively and public institutions respond to the needs of the people. Cooperation, responsibility, and equality can help create stronger communities."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can laws and regulations help protect?",
+          "options": [
+            "Public safety and citizens' rights",
+            "Only businesses",
+            "Only private property",
+            "Personal hobbies"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What can public feedback help governments understand?",
+          "options": [
+            "The needs of different groups",
+            "The price of private products",
+            "The number of schools only",
+            "The history of every citizen"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Citizenship involves both rights and responsibilities.",
+          "answer": "True"
+        },
+        {
+          "statement": "Community participation only involves attending local meetings.",
+          "answer": "False"
+        },
+        {
+          "statement": "Open communication can encourage people to participate in public life.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Governments create laws and develop (6) ______ that guide public life. A legal system can protect the (7) ______ of citizens. Citizenship also involves (8) ______ toward society. The (9) ______ can express opinions about government decisions. One important principle is (10) ______, which means fair treatment and equal opportunities.",
+        "answers": [
+          "policies",
+          "rights",
+          "responsibility",
+          "public",
+          "equality"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “framework” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "basic structure or system",
+            "public opinion",
+            "individual responsibility",
+            "local meeting"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “volunteer” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "offer to help without being forced",
+            "create a law",
+            "receive a public service",
+            "avoid community activities"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “feedback” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "opinions or responses",
+            "legal punishment",
+            "government authority",
+            "public transportation"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Law",
+          "Community",
+          "Responsibility",
+          "Equality"
+        ],
+        "right": [
+          "Obligation",
+          "Legislation",
+          "Neighbourhood",
+          "Fairness"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Citizens and Their Communities",
+      "audio": "",
+      "transcript": "Today, I want to talk about government and society. A government helps organize a country and provides public services. It also creates policies and laws that affect people's daily lives. Law is important because it provides rules for society. People are expected to follow laws and respect the rights of other citizens. A citizen has both rights and responsibilities. Citizens should follow the law, respect other people, and contribute to their community. The public can also participate in society. People may communicate their opinions, join community activities, or work with local authorities to solve problems. Another important idea is equality. Equality means that people should be treated fairly and have equal opportunities. Government and citizens need to communicate with each other. When people understand their rights and responsibilities and governments listen to public concerns, communities can become stronger."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does a government create?",
+          "options": [
+            "Policies and laws",
+            "Only businesses",
+            "Only schools",
+            "Private communities"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What should citizens respect?",
+          "options": [
+            "Only public buildings",
+            "The rights of other citizens",
+            "Only government policies",
+            "Private companies"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Citizens have both rights and responsibilities.",
+          "answer": "True"
+        },
+        {
+          "statement": "The public cannot participate in community activities.",
+          "answer": "False"
+        },
+        {
+          "statement": "Equality means that people should be treated fairly.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "A ______ helps organize a country and provides public services.",
+          "answer": "government"
+        },
+        {
+          "question": "Governments create policies and ______ that affect people's daily lives.",
+          "answer": "laws"
+        },
+        {
+          "question": "A citizen has both rights and ______.",
+          "answer": "responsibilities"
+        },
+        {
+          "question": "Citizens can contribute to their ______.",
+          "answer": "community"
+        },
+        {
+          "question": "______ means that people should be treated fairly and have equal opportunities.",
+          "answer": "equality"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “public” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "relating to ordinary people or the community",
+            "relating only to government workers",
+            "relating to private companies",
+            "relating only to families"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “concerns” in the final paragraph is closest in meaning to:",
+          "options": [
+            "worries or issues",
+            "laws",
+            "responsibilities",
+            "rights"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “stronger” in the final paragraph is closest in meaning to:",
+          "options": [
+            "more stable and effective",
+            "more expensive",
+            "more private",
+            "more crowded"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "Government",
+          "Citizen",
+          "Community",
+          "Equality"
+        ],
+        "right": [
+          "A person who legally belongs to a country",
+          "A group of people living or working together",
+          "The authority that manages a country",
+          "Fair treatment and equal opportunities"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

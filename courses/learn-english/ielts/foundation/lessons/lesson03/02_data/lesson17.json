@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson17",
+    "number": 17,
+    "title": "Health & Medicine",
+    "titleVi": "Sức khỏe & Y học"
+  },
+  "vocabulary": [
+    {
+      "word": "Health",
+      "ipa": "/helθ/",
+      "meaning": "sức khỏe",
+      "synonyms": [
+        {
+          "word": "well-being",
+          "ipa": "/ˌwel ˈbiːɪŋ/",
+          "meaning": "sức khỏe, hạnh phúc"
+        },
+        {
+          "word": "fitness",
+          "ipa": "/ˈfɪtnəs/",
+          "meaning": "thể chất khỏe mạnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "healthy",
+          "ipa": "/ˈhelθi/",
+          "pos": "",
+          "meaning": "khỏe mạnh"
+        },
+        {
+          "word": "healthily",
+          "ipa": "/ˈhelθɪli/",
+          "pos": "",
+          "meaning": "một cách lành mạnh"
+        }
+      ]
+    },
+    {
+      "word": "Disease",
+      "ipa": "/dɪˈziːz/",
+      "meaning": "bệnh tật",
+      "synonyms": [
+        {
+          "word": "illness",
+          "ipa": "/ˈɪlnəs/",
+          "meaning": "bệnh tật"
+        },
+        {
+          "word": "disorder",
+          "ipa": "/dɪˈsɔːdə(r)/",
+          "meaning": "rối loạn"
+        }
+      ],
+      "family": [
+        {
+          "word": "diseased",
+          "ipa": "/dɪˈziːzd/",
+          "pos": "",
+          "meaning": "bị bệnh"
+        },
+        {
+          "word": "disease-free",
+          "ipa": "/dɪˈziːz friː/",
+          "pos": "",
+          "meaning": "không có bệnh"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "meaning": "phương pháp điều trị",
+      "synonyms": [
+        {
+          "word": "therapy",
+          "ipa": "/ˈθerəpi/",
+          "meaning": "liệu pháp"
+        },
+        {
+          "word": "care",
+          "ipa": "/keə(r)/",
+          "meaning": "sự chăm sóc điều trị"
+        }
+      ],
+      "family": [
+        {
+          "word": "treat",
+          "ipa": "/triːt/",
+          "pos": "",
+          "meaning": "điều trị"
+        },
+        {
+          "word": "treatable",
+          "ipa": "/ˈtriːtəbl/",
+          "pos": "",
+          "meaning": "có thể chữa được"
+        }
+      ]
+    },
+    {
+      "word": "Patient",
+      "ipa": "/ˈpeɪʃnt/",
+      "meaning": "bệnh nhân",
+      "synonyms": [
+        {
+          "word": "sufferer",
+          "ipa": "/ˈsʌfərə(r)/",
+          "meaning": "người mắc bệnh"
+        },
+        {
+          "word": "case",
+          "ipa": "/keɪs/",
+          "meaning": "ca bệnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "patience",
+          "ipa": "/ˈpeɪʃns/",
+          "pos": "",
+          "meaning": "sự kiên nhẫn"
+        },
+        {
+          "word": "patiently",
+          "ipa": "/ˈpeɪʃntli/",
+          "pos": "",
+          "meaning": "một cách kiên nhẫn"
+        }
+      ]
+    },
+    {
+      "word": "Medicine",
+      "ipa": "/ˈmedsn/",
+      "meaning": "thuốc; y học",
+      "synonyms": [
+        {
+          "word": "medication",
+          "ipa": "/ˌmedɪˈkeɪʃn/",
+          "meaning": "thuốc"
+        },
+        {
+          "word": "drug",
+          "ipa": "/drʌɡ/",
+          "meaning": "thuốc"
+        }
+      ],
+      "family": [
+        {
+          "word": "medical",
+          "ipa": "/ˈmedɪkl/",
+          "pos": "",
+          "meaning": "thuộc y học"
+        },
+        {
+          "word": "medically",
+          "ipa": "/ˈmedɪkli/",
+          "pos": "",
+          "meaning": "về mặt y học"
+        }
+      ]
+    },
+    {
+      "word": "Hospital",
+      "ipa": "/ˈhɒspɪtl/",
+      "meaning": "bệnh viện",
+      "synonyms": [
+        {
+          "word": "medical centre",
+          "ipa": "/ˈmedɪkl ˈsentə(r)/",
+          "meaning": "trung tâm y tế"
+        },
+        {
+          "word": "clinic",
+          "ipa": "/ˈklɪnɪk/",
+          "meaning": "phòng khám"
+        }
+      ],
+      "family": [
+        {
+          "word": "hospitalization",
+          "ipa": "/ˌhɒspɪtəlaɪˈzeɪʃn/",
+          "pos": "",
+          "meaning": "sự nhập viện"
+        },
+        {
+          "word": "hospitalize",
+          "ipa": "/ˈhɒspɪtəlaɪz/",
+          "pos": "",
+          "meaning": "đưa vào bệnh viện"
+        }
+      ]
+    },
+    {
+      "word": "Symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "meaning": "triệu chứng",
+      "synonyms": [
+        {
+          "word": "sign",
+          "ipa": "/saɪn/",
+          "meaning": "dấu hiệu"
+        },
+        {
+          "word": "indication",
+          "ipa": "/ˌɪndɪˈkeɪʃn/",
+          "meaning": "dấu hiệu"
+        }
+      ],
+      "family": [
+        {
+          "word": "symptomatic",
+          "ipa": "/ˌsɪmptəˈmætɪk/",
+          "pos": "",
+          "meaning": "có triệu chứng"
+        },
+        {
+          "word": "symptomless",
+          "ipa": "/ˈsɪmptəmləs/",
+          "pos": "",
+          "meaning": "không có triệu chứng"
+        }
+      ]
+    },
+    {
+      "word": "Prevent",
+      "ipa": "/prɪˈvent/",
+      "meaning": "phòng ngừa",
+      "synonyms": [
+        {
+          "word": "avoid",
+          "ipa": "/əˈvɔɪd/",
+          "meaning": "tránh"
+        },
+        {
+          "word": "stop",
+          "ipa": "/stɒp/",
+          "meaning": "ngăn chặn"
+        }
+      ],
+      "family": [
+        {
+          "word": "prevention",
+          "ipa": "/prɪˈvenʃn/",
+          "pos": "",
+          "meaning": "sự phòng ngừa"
+        },
+        {
+          "word": "preventive",
+          "ipa": "/prɪˈventɪv/",
+          "pos": "",
+          "meaning": "phòng ngừa"
+        }
+      ]
+    },
+    {
+      "word": "Recover",
+      "ipa": "/rɪˈkʌvə(r)/",
+      "meaning": "hồi phục",
+      "synonyms": [
+        {
+          "word": "heal",
+          "ipa": "/hiːl/",
+          "meaning": "chữa lành"
+        },
+        {
+          "word": "recuperate",
+          "ipa": "/rɪˈkuːpəreɪt/",
+          "meaning": "bình phục"
+        }
+      ],
+      "family": [
+        {
+          "word": "recovery",
+          "ipa": "/rɪˈkʌvəri/",
+          "pos": "",
+          "meaning": "sự hồi phục"
+        },
+        {
+          "word": "recoverable",
+          "ipa": "/rɪˈkʌvərəbl/",
+          "pos": "",
+          "meaning": "có thể phục hồi"
+        }
+      ]
+    },
+    {
+      "word": "Vaccine",
+      "ipa": "/ˈvæksiːn/",
+      "meaning": "vắc xin",
+      "synonyms": [
+        {
+          "word": "immunization",
+          "ipa": "/ˌɪmjənaɪˈzeɪʃn/",
+          "meaning": "sự tiêm chủng"
+        },
+        {
+          "word": "inoculation",
+          "ipa": "/ɪˌnɒkjuˈleɪʃn/",
+          "meaning": "sự chủng ngừa"
+        }
+      ],
+      "family": [
+        {
+          "word": "vaccinate",
+          "ipa": "/ˈvæksɪneɪt/",
+          "pos": "",
+          "meaning": "tiêm chủng"
+        },
+        {
+          "word": "vaccination",
+          "ipa": "/ˌvæksɪˈneɪʃn/",
+          "pos": "",
+          "meaning": "sự tiêm chủng"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Staying Healthy",
+      "text": "Health is important for everyone. People need good health to study, work, and enjoy daily life. A healthy lifestyle can help people avoid disease and feel better.\n\nOne important part of a healthy lifestyle is regular exercise. Walking, swimming, cycling, or doing simple exercises can help people stay fit. A healthy diet is also important. People should eat enough fruit and vegetables and avoid eating too much unhealthy food.\n\nSometimes, people become ill even when they have healthy habits. A disease may cause different symptoms, such as a fever, a cough, or pain. When a patient has serious symptoms, they may need to visit a hospital. A doctor can examine the patient and choose the right treatment.\n\nMedicine can help patients recover from some diseases. However, people should not take medicine without proper advice. Different diseases need different treatments.\n\nPrevention is also important. Vaccines can protect people from some serious diseases. Good hygiene, healthy food, regular exercise, and vaccination can all help prevent illness.\n\nGood health does not mean that people never become sick. It means taking care of the body and getting suitable treatment when necessary."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one benefit of regular exercise?",
+          "options": [
+            "It always cures disease.",
+            "It helps people stay fit.",
+            "It replaces medicine.",
+            "It prevents all symptoms."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can vaccines help people do?",
+          "options": [
+            "Avoid all hospital visits.",
+            "Recover immediately from disease.",
+            "Prevent some serious diseases.",
+            "Exercise more easily."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People need good health to study and work.",
+          "answer": "True"
+        },
+        {
+          "statement": "Everyone who exercises regularly will never become ill.",
+          "answer": "False"
+        },
+        {
+          "statement": "Different diseases may require different treatments.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with ONE WORD from the passage.",
+        "text": "A healthy lifestyle includes regular 6. ________ and a healthy diet. When people become ill, they may have different 7. ________. A person with a serious illness may need to visit a 8. ________. Doctors can choose suitable 9. ________ for patients. Vaccines can help with disease 10. ________.",
+        "answers": [
+          "exercise",
+          "symptoms",
+          "hospital",
+          "treatment",
+          "prevention"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “disease” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "illness",
+            "exercise",
+            "treatment",
+            "health"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “symptoms” in paragraph 3 refers to:",
+          "options": [
+            "healthy habits",
+            "signs of illness",
+            "types of medicine",
+            "hospital workers"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “recover” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "become ill",
+            "become healthy again",
+            "prevent disease",
+            "examine a patient"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "health",
+          "disease",
+          "treatment",
+          "recover"
+        ],
+        "right": [
+          "medical care",
+          "get better",
+          "illness",
+          "physical well-being"
+        ],
+        "answers": {
+          "0": "D",
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Preventing Illness and Improving Health",
+      "text": "Modern medicine has helped people live longer and deal with many serious diseases. However, medicine is not the only way to protect health. Prevention is becoming increasingly important because many health problems can be reduced through healthy habits.\n\nOne major part of prevention is regular physical activity. Exercise helps people maintain a healthy body and can improve their fitness. People do not always need difficult training. Walking, cycling, swimming, or other simple activities can be useful when they are done regularly.\n\nDiet is another important factor. A balanced diet gives the body the energy and nutrients it needs. Eating a variety of vegetables, fruit, and other healthy foods can support good health. In contrast, an unhealthy diet may increase the risk of some diseases.\n\nVaccination is also an important form of prevention. A vaccine helps the body prepare to fight a particular disease. Vaccination does not mean that a person will never become ill, but it can reduce the risk of some serious infections.\n\nWhen people develop symptoms, they should pay attention to them. Some symptoms may be mild and disappear quickly, while others may require medical care. A patient with serious or unusual symptoms should seek advice from a qualified health professional. The doctor may examine the patient and recommend medicine or another treatment.\n\nHospitals are important when patients need more serious medical care. However, many health problems can be managed before they become serious. Early attention can make treatment easier and may help patients recover more quickly.\n\nGood health therefore depends on several factors. Exercise, a balanced diet, vaccination, prevention, and suitable medical treatment can work together. People cannot control every disease, but they can make choices that support their health and reduce some risks."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "Hospitals are the most important part of medicine.",
+            "Prevention and healthy habits can help protect health.",
+            "Exercise can completely prevent disease.",
+            "Medicine is no longer necessary."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "According to the passage, what can vaccination do?",
+          "options": [
+            "Guarantee that people never become ill.",
+            "Cure every disease.",
+            "Reduce the risk of some serious infections.",
+            "Replace a healthy diet."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People always need difficult training to improve their fitness.",
+          "answer": "False"
+        },
+        {
+          "statement": "An unhealthy diet may increase the risk of some diseases.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every patient with symptoms must go to hospital immediately.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with ONE WORD from the passage.",
+        "text": "Regular 6. ________ can help people maintain a healthy body. A balanced 7. ________ provides energy and nutrients. Another important method of prevention is 8. ________. When people have unusual 9. ________, they should seek medical advice. Suitable medical care may help patients 10. ________ more quickly.",
+        "answers": [
+          "exercise",
+          "diet",
+          "vaccination",
+          "symptoms",
+          "recover"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “prevention” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "stopping illness before it happens",
+            "treating a serious injury",
+            "studying medicine",
+            "staying in hospital"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “maintain” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "lose",
+            "keep",
+            "change",
+            "remove"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “qualified” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "trained and suitable",
+            "sick and weak",
+            "young and healthy",
+            "expensive"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "prevent",
+          "symptom",
+          "treatment",
+          "recover"
+        ],
+        "right": [
+          "sign",
+          "medicine",
+          "stop something from happening",
+          "become healthy again"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "A Short Talk About Healthy Living",
+      "audio": "",
+      "transcript": "Hello everyone. Today I want to talk about some simple ways to protect our health.\n\nFirst, regular exercise is very useful. You do not need to spend hours in a gym. A short walk every day can improve your fitness and help you feel better. Swimming and cycling are also good forms of exercise.\n\nSecond, think about your diet. Try to eat fresh food, vegetables, and fruit. A balanced diet gives your body the energy it needs. Drinking enough water is also important.\n\nThird, prevention can reduce the risk of disease. Vaccination is one useful method of prevention. It helps the body prepare to fight certain diseases.\n\nHowever, people can still become sick. If you have unusual symptoms, you should pay attention to them. For example, a high fever or strong pain may require medical advice. A patient may need to visit a hospital or speak to a doctor.\n\nThe doctor can examine the patient and recommend suitable medicine or another treatment. Following medical advice can help the patient recover.\n\nFinally, remember that health is a long-term responsibility. Exercise, a good diet, prevention, and suitable treatment all play a part in keeping us healthy."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does the speaker say can improve fitness?",
+          "options": [
+            "Watching television",
+            "A short daily walk",
+            "Sleeping all day",
+            "Taking medicine every day"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is one purpose of vaccination?",
+          "options": [
+            "To replace exercise",
+            "To improve a patient's diet",
+            "To help prevent certain diseases",
+            "To cure every illness"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The speaker says people must spend hours in a gym to stay healthy.",
+          "answer": "False"
+        },
+        {
+          "statement": "The speaker recommends eating vegetables and fruit.",
+          "answer": "True"
+        },
+        {
+          "statement": "The speaker says unusual symptoms should always be ignored.",
+          "answer": "False"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "A short walk every day can improve your ________.",
+          "answer": "fitness"
+        },
+        {
+          "question": "A balanced ________ gives the body energy.",
+          "answer": "diet"
+        },
+        {
+          "question": "Vaccination is one useful method of ________.",
+          "answer": "prevention"
+        },
+        {
+          "question": "A patient with unusual symptoms may need to visit a ________.",
+          "answer": "hospital"
+        },
+        {
+          "question": "Suitable treatment can help a patient ________.",
+          "answer": "recover"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "What does “balanced diet” mean in the talk?",
+          "options": [
+            "A diet with a suitable variety of food",
+            "A diet without water",
+            "A diet containing only medicine",
+            "A diet with only fruit"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What does “symptoms” mean in the talk?",
+          "options": [
+            "Signs of illness",
+            "Types of exercise",
+            "Healthy foods",
+            "Medical buildings"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What does “recover” mean in the talk?",
+          "options": [
+            "Become sick",
+            "Become healthy again",
+            "Visit a hospital",
+            "Take a vaccine"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Exercise",
+          "Diet",
+          "Vaccination",
+          "Treatment"
+        ],
+        "right": [
+          "helps the body prepare to fight disease",
+          "can help a person become healthy again",
+          "can improve fitness",
+          "provides the body with energy"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  }
+}

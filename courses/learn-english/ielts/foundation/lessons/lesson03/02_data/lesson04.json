@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson04",
+    "number": 4,
+    "title": "Technology",
+    "titleVi": "Công nghệ"
+  },
+  "vocabulary": [
+    {
+      "word": "Technology",
+      "ipa": "/tekˈnɒlədʒi/",
+      "meaning": "công nghệ",
+      "synonyms": [
+        {
+          "word": "innovation",
+          "ipa": "/ˌɪnəˈveɪʃn/",
+          "meaning": "sự đổi mới"
+        },
+        {
+          "word": "advancement",
+          "ipa": "/ədˈvɑːnsmənt/",
+          "meaning": "sự tiến bộ"
+        }
+      ],
+      "family": [
+        {
+          "word": "technological",
+          "ipa": "/ˌteknəˈlɒdʒɪkl/",
+          "pos": "adj",
+          "meaning": "thuộc về công nghệ"
+        },
+        {
+          "word": "technologically",
+          "ipa": "/ˌteknəˈlɒdʒɪkli/",
+          "pos": "adv",
+          "meaning": "về mặt công nghệ"
+        }
+      ]
+    },
+    {
+      "word": "Device",
+      "ipa": "/dɪˈvaɪs/",
+      "meaning": "thiết bị",
+      "synonyms": [
+        {
+          "word": "gadget",
+          "ipa": "/ˈɡædʒɪt/",
+          "meaning": "thiết bị công nghệ"
+        },
+        {
+          "word": "equipment",
+          "ipa": "/ɪˈkwɪpmənt/",
+          "meaning": "thiết bị"
+        }
+      ],
+      "family": [
+        {
+          "word": "devise",
+          "ipa": "/dɪˈvaɪz/",
+          "pos": "v",
+          "meaning": "nghĩ ra, phát minh"
+        },
+        {
+          "word": "device-related",
+          "ipa": "/dɪˈvaɪs rɪˈleɪtɪd/",
+          "pos": "adj",
+          "meaning": "liên quan đến thiết bị"
+        }
+      ]
+    },
+    {
+      "word": "Digital",
+      "ipa": "/ˈdɪdʒɪtl/",
+      "meaning": "kỹ thuật số",
+      "synonyms": [
+        {
+          "word": "electronic",
+          "ipa": "/ɪˌlekˈtrɒnɪk/",
+          "meaning": "điện tử"
+        },
+        {
+          "word": "virtual",
+          "ipa": "/ˈvɜːtʃuəl/",
+          "meaning": "ảo"
+        }
+      ],
+      "family": [
+        {
+          "word": "digitize",
+          "ipa": "/ˈdɪdʒɪtaɪz/",
+          "pos": "v",
+          "meaning": "số hóa"
+        },
+        {
+          "word": "digitization",
+          "ipa": "/ˌdɪdʒɪtaɪˈzeɪʃn/",
+          "pos": "n",
+          "meaning": "sự số hóa"
+        }
+      ]
+    },
+    {
+      "word": "Innovation",
+      "ipa": "/ˌɪnəˈveɪʃn/",
+      "meaning": "sự đổi mới",
+      "synonyms": [
+        {
+          "word": "invention",
+          "ipa": "/ɪnˈvenʃn/",
+          "meaning": "phát minh"
+        },
+        {
+          "word": "breakthrough",
+          "ipa": "/ˈbreɪkθruː/",
+          "meaning": "bước đột phá"
+        }
+      ],
+      "family": [
+        {
+          "word": "innovate",
+          "ipa": "/ˈɪnəveɪt/",
+          "pos": "v",
+          "meaning": "đổi mới"
+        },
+        {
+          "word": "innovative",
+          "ipa": "/ˈɪnəvətɪv/",
+          "pos": "adj",
+          "meaning": "sáng tạo"
+        }
+      ]
+    },
+    {
+      "word": "Artificial intelligence",
+      "ipa": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+      "meaning": "trí tuệ nhân tạo",
+      "synonyms": [
+        {
+          "word": "machine intelligence",
+          "ipa": "/məˈʃiːn ɪnˈtelɪdʒəns/",
+          "meaning": "trí tuệ máy"
+        },
+        {
+          "word": "intelligent system",
+          "ipa": "/ɪnˈtelɪdʒənt ˈsɪstəm/",
+          "meaning": "hệ thống thông minh"
+        }
+      ],
+      "family": [
+        {
+          "word": "artificial",
+          "ipa": "/ˌɑːtɪˈfɪʃl/",
+          "pos": "adj",
+          "meaning": "nhân tạo"
+        },
+        {
+          "word": "intelligence",
+          "ipa": "/ɪnˈtelɪdʒəns/",
+          "pos": "n",
+          "meaning": "trí tuệ"
+        }
+      ]
+    },
+    {
+      "word": "Software",
+      "ipa": "/ˈsɒftweə(r)/",
+      "meaning": "phần mềm",
+      "synonyms": [
+        {
+          "word": "application",
+          "ipa": "/ˌæplɪˈkeɪʃn/",
+          "meaning": "ứng dụng"
+        },
+        {
+          "word": "program",
+          "ipa": "/ˈprəʊɡræm/",
+          "meaning": "chương trình"
+        }
+      ],
+      "family": [
+        {
+          "word": "programmer",
+          "ipa": "/ˈprəʊɡræmə(r)/",
+          "pos": "n",
+          "meaning": "lập trình viên"
+        },
+        {
+          "word": "program",
+          "ipa": "/ˈprəʊɡræm/",
+          "pos": "v",
+          "meaning": "lập trình"
+        }
+      ]
+    },
+    {
+      "word": "Network",
+      "ipa": "/ˈnetwɜːk/",
+      "meaning": "mạng lưới",
+      "synonyms": [
+        {
+          "word": "system",
+          "ipa": "/ˈsɪstəm/",
+          "meaning": "hệ thống"
+        },
+        {
+          "word": "connection",
+          "ipa": "/kəˈnekʃn/",
+          "meaning": "kết nối"
+        }
+      ],
+      "family": [
+        {
+          "word": "networking",
+          "ipa": "/ˈnetwɜːkɪŋ/",
+          "pos": "n",
+          "meaning": "kết nối mạng"
+        },
+        {
+          "word": "networked",
+          "ipa": "/ˈnetwɜːkt/",
+          "pos": "adj",
+          "meaning": "được kết nối"
+        }
+      ]
+    },
+    {
+      "word": "Automate",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "meaning": "tự động hóa",
+      "synonyms": [
+        {
+          "word": "mechanize",
+          "ipa": "/ˈmekənaɪz/",
+          "meaning": "cơ giới hóa"
+        },
+        {
+          "word": "computerize",
+          "ipa": "/kəmˈpjuːtəraɪz/",
+          "meaning": "tin học hóa"
+        }
+      ],
+      "family": [
+        {
+          "word": "automation",
+          "ipa": "/ˌɔːtəˈmeɪʃn/",
+          "pos": "n",
+          "meaning": "sự tự động hóa"
+        },
+        {
+          "word": "automated",
+          "ipa": "/ˈɔːtəmeɪtɪd/",
+          "pos": "adj",
+          "meaning": "tự động"
+        }
+      ]
+    },
+    {
+      "word": "Access",
+      "ipa": "/ˈækses/",
+      "meaning": "truy cập",
+      "synonyms": [
+        {
+          "word": "obtain",
+          "ipa": "/əbˈteɪn/",
+          "meaning": "có được"
+        },
+        {
+          "word": "reach",
+          "ipa": "/riːtʃ/",
+          "meaning": "tiếp cận"
+        }
+      ],
+      "family": [
+        {
+          "word": "accessible",
+          "ipa": "/əkˈsesəbl/",
+          "pos": "adj",
+          "meaning": "có thể tiếp cận"
+        },
+        {
+          "word": "accessibility",
+          "ipa": "/əkˌsesəˈbɪləti/",
+          "pos": "n",
+          "meaning": "khả năng tiếp cận"
+        }
+      ]
+    },
+    {
+      "word": "Cybersecurity",
+      "ipa": "/ˌsaɪbə sɪˈkjʊərəti/",
+      "meaning": "an ninh mạng",
+      "synonyms": [
+        {
+          "word": "information security",
+          "ipa": "/ˌɪnfəˈmeɪʃn sɪˈkjʊərəti/",
+          "meaning": "bảo mật thông tin"
+        },
+        {
+          "word": "online security",
+          "ipa": "/ˌɒnlaɪn ˈsɪkjʊərəti/",
+          "meaning": "bảo mật trực tuyến"
+        }
+      ],
+      "family": [
+        {
+          "word": "secure",
+          "ipa": "/sɪˈkjʊə(r)/",
+          "pos": "adj",
+          "meaning": "an toàn"
+        },
+        {
+          "word": "security",
+          "ipa": "/sɪˈkjʊərəti/",
+          "pos": "n",
+          "meaning": "sự an toàn, bảo mật"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Technology in Everyday Life",
+      "text": "Technology is now an important part of everyday life. People use different devices such as smartphones, computers, and tablets to study, work, and communicate. These devices make many activities faster and easier.\n\nOne important part of modern technology is digital information. Students can use digital books, videos, and websites to learn new things. They can also access information from many places without visiting a library. This makes education more convenient and accessible.\n\nAnother important innovation is artificial intelligence (AI). AI can help people find information, translate languages, and complete simple tasks. Some software programs use AI to give users useful suggestions. In schools, these programs can support students when they need help with their studies.\n\nTechnology can also connect people through a network. For example, students can communicate with teachers and classmates through an online network. Some companies use technology to automate simple tasks, which can save time.\n\nHowever, technology also creates new problems. People need to think about cybersecurity when they use online services. Personal information may not always be safe. Therefore, users should choose secure passwords and be careful when sharing information online.\n\nTechnology has many benefits, but people should use it carefully. New innovations can improve our lives, but safe and responsible use is also important."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one use of digital information mentioned in the passage?",
+          "options": [
+            "Building houses",
+            "Learning new things",
+            "Cooking food",
+            "Driving cars"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can artificial intelligence help people do?",
+          "options": [
+            "Translate languages",
+            "Repair all devices",
+            "Build libraries",
+            "Protect every password automatically"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People use devices for studying, working, and communicating.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that students must visit a library to access digital information.",
+          "answer": "False"
+        },
+        {
+          "statement": "All companies use technology to automate their tasks.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern (6) ______ is an important part of daily life. Students can use (7) ______ information to learn. They can also (8) ______ information from many places. Artificial intelligence can help people complete simple (9) ______. People should also think about (10) ______ when using online services.",
+        "answers": [
+          "technology",
+          "digital",
+          "access",
+          "tasks",
+          "cybersecurity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word \"access\" in paragraph 3 is closest in meaning to:",
+          "options": [
+            "reach or obtain",
+            "remove",
+            "repair",
+            "change"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"automate\" in paragraph 5 is closest in meaning to:",
+          "options": [
+            "make something manual",
+            "make something automatic",
+            "make something slower",
+            "make something expensive"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word \"secure\" in paragraph 6 is closest in meaning to:",
+          "options": [
+            "unsafe",
+            "difficult",
+            "safe and protected",
+            "expensive"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "technology",
+          "device",
+          "software",
+          "network"
+        ],
+        "right": [
+          "application",
+          "innovation",
+          "gadget",
+          "system or connection"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Technology and the Future of Work",
+      "text": "Technology is changing the way people work and communicate. In the past, many activities required people to complete every step themselves. Today, digital devices, software, and online networks allow people to work more quickly and communicate across long distances.\n\nOne major innovation is artificial intelligence. AI systems can process information and perform some tasks that previously required human workers. For example, an intelligent system can organize large amounts of information, answer simple questions, or help a company communicate with customers. These developments show how technological progress can change the workplace.\n\nAnother important development is the ability to automate routine tasks. Automation can save time and allow workers to focus on activities that require human skills, such as communication and creative thinking. However, automation may also create concerns. Some workers may need to learn new skills because certain jobs can change or become less common.\n\nDigital technology also gives people greater access to information. A worker can attend a virtual meeting, read online documents, or use software from almost anywhere. This accessibility can be useful for people who live far from large cities. However, easy access also means that people must understand cybersecurity. Personal and company information needs to remain secure.\n\nSoftware is another important part of technological development. A useful application can help workers organize their schedules, communicate with colleagues, or manage information. As software becomes more advanced, programmers and other technology workers are required to create and improve these programs.\n\nDespite these advantages, technology does not solve every problem. A new device may be useful, but it can be expensive. An advanced system may save time, but workers may need training before they can use it effectively. Therefore, technological advancement should be considered carefully.\n\nThe future will probably include even more digital tools and intelligent systems. The most useful approach is not simply to accept every new invention. Instead, individuals and organizations should consider how an innovation can provide real benefits, improve productivity, and keep information secure. Technology can be powerful, but its value depends on how people use it."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one possible benefit of automation?",
+          "options": [
+            "It can save time.",
+            "It removes the need for all workers.",
+            "It makes information less accessible.",
+            "It stops technological development."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why may some workers need to learn new skills?",
+          "options": [
+            "Because devices are becoming smaller.",
+            "Because some jobs can change because of automation.",
+            "Because networks are becoming slower.",
+            "Because virtual meetings are impossible."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Digital technology allows people to work across long distances.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that artificial intelligence can perform every task better than humans.",
+          "answer": "False"
+        },
+        {
+          "statement": "Some people who live far from large cities can benefit from digital accessibility.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern (6) ______ allows people to work and communicate more quickly. One important (7) ______ is artificial intelligence. Automation can save (8) ______ and allow workers to focus on human skills. Digital technology also gives people greater (9) ______ to information. However, users must understand (10) ______ to keep personal and company information safe.",
+        "answers": [
+          "technology",
+          "innovation",
+          "time",
+          "access",
+          "cybersecurity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word \"advancement\" in paragraph 6 is closest in meaning to:",
+          "options": [
+            "progress",
+            "problem",
+            "weakness",
+            "equipment"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"routine\" in paragraph 3 is closest in meaning to:",
+          "options": [
+            "unusual and difficult",
+            "regular and repeated",
+            "dangerous",
+            "creative"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word \"productivity\" in paragraph 7 is closest in meaning to:",
+          "options": [
+            "the amount of useful work produced",
+            "the cost of a device",
+            "the number of online users",
+            "the safety of information"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "innovation",
+          "access",
+          "digital",
+          "automate"
+        ],
+        "right": [
+          "obtain",
+          "electronic",
+          "invention",
+          "computerize"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Technology at School",
+      "audio": "",
+      "transcript": "Today, I would like to talk about technology in schools. Many students now use a device, such as a tablet or laptop, to study. These devices give students access to digital books, videos, and other learning materials.\n\nOne useful innovation is artificial intelligence. An AI system can help students find information or practise a language. For example, some software programs can give students simple feedback on their work.\n\nTechnology can also connect students through a school network. Students can share information with teachers and classmates without being in the same room. In some schools, technology is also used to automate simple activities, such as recording attendance.\n\nThere are several benefits to using technology at school. Students can access learning materials at different times, and teachers can provide information more quickly. However, there are also some risks. One important issue is cybersecurity. Students should use strong passwords and avoid sharing personal information with strangers online.\n\nTechnology is developing quickly, so schools need to think carefully about how they use it. New tools can be useful, but students and teachers should learn how to use them safely. With good planning, technology can support learning and make education more accessible."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What devices are mentioned in the listening?",
+          "options": [
+            "Tablets and laptops",
+            "Cameras and televisions",
+            "Radios and phones",
+            "Printers and cameras"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What can some software programs do?",
+          "options": [
+            "Build school networks",
+            "Give students simple feedback",
+            "Replace all teachers",
+            "Repair laptops"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Students can use digital books at school.",
+          "answer": "True"
+        },
+        {
+          "statement": "Technology cannot connect students with their teachers.",
+          "answer": "False"
+        },
+        {
+          "statement": "Cybersecurity is an important issue when students use technology.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Many students use a ______ to study.",
+          "answer": "device"
+        },
+        {
+          "question": "Students can use ______ books and videos.",
+          "answer": "digital"
+        },
+        {
+          "question": "An AI system can help students find ______.",
+          "answer": "information"
+        },
+        {
+          "question": "Technology can connect students through a school ______.",
+          "answer": "network"
+        },
+        {
+          "question": "Students should use strong ______ to protect their accounts.",
+          "answer": "passwords"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word \"innovation\" is closest in meaning to:",
+          "options": [
+            "invention or new idea",
+            "problem",
+            "connection",
+            "password"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"automate\" is closest in meaning to:",
+          "options": [
+            "make something automatic",
+            "make something personal",
+            "make something difficult",
+            "make something virtual"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"accessible\" is closest in meaning to:",
+          "options": [
+            "difficult to reach",
+            "easy to reach or use",
+            "expensive to buy",
+            "unsafe to use"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "device",
+          "software",
+          "network",
+          "cybersecurity"
+        ],
+        "right": [
+          "a program used on a computer",
+          "a piece of equipment",
+          "a way of connecting computers or people",
+          "protection of computers and online information"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

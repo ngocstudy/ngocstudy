@@ -1,0 +1,639 @@
+{
+  "vocabulary": [
+    {
+      "word": "Health",
+      "ipa": "/helθ/",
+      "meaning": "sức khỏe",
+      "synonyms": [
+        {
+          "word": "Well-being",
+          "ipa": "/ˌwel ˈbiːɪŋ/",
+          "meaning": "sức khỏe, hạnh phúc"
+        }
+      ],
+      "family": [
+        {
+          "word": "Healthy",
+          "ipa": "/ˈhelθi/",
+          "pos": "adj",
+          "meaning": "khỏe mạnh"
+        },
+        {
+          "word": "Healthily",
+          "ipa": "/ˈhelθɪli/",
+          "pos": "adv",
+          "meaning": "một cách lành mạnh"
+        }
+      ]
+    },
+    {
+      "word": "Healthy",
+      "ipa": "/ˈhelθi/",
+      "meaning": "khỏe mạnh",
+      "synonyms": [
+        {
+          "word": "Fit",
+          "ipa": "/fɪt/",
+          "meaning": "khỏe mạnh"
+        },
+        {
+          "word": "Well",
+          "ipa": "/wel/",
+          "meaning": "khỏe mạnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Health",
+          "ipa": "/helθ/",
+          "pos": "n",
+          "meaning": "sức khỏe"
+        },
+        {
+          "word": "Healthily",
+          "ipa": "/ˈhelθɪli/",
+          "pos": "adv",
+          "meaning": "một cách lành mạnh"
+        }
+      ]
+    },
+    {
+      "word": "Disease",
+      "ipa": "/dɪˈziːz/",
+      "meaning": "bệnh tật",
+      "synonyms": [
+        {
+          "word": "Illness",
+          "ipa": "/ˈɪlnəs/",
+          "meaning": "bệnh tật"
+        },
+        {
+          "word": "Sickness",
+          "ipa": "/ˈsɪknəs/",
+          "meaning": "bệnh tật"
+        }
+      ],
+      "family": [
+        {
+          "word": "Diseased",
+          "ipa": "/dɪˈziːzd/",
+          "pos": "adj",
+          "meaning": "bị bệnh"
+        }
+      ]
+    },
+    {
+      "word": "Medicine",
+      "ipa": "/ˈmedsn/",
+      "meaning": "thuốc; y học",
+      "synonyms": [
+        {
+          "word": "Drug",
+          "ipa": "/drʌɡ/",
+          "meaning": "thuốc"
+        },
+        {
+          "word": "Medication",
+          "ipa": "/ˌmedɪˈkeɪʃn/",
+          "meaning": "thuốc điều trị"
+        }
+      ],
+      "family": [
+        {
+          "word": "Medical",
+          "ipa": "/ˈmedɪkl/",
+          "pos": "adj",
+          "meaning": "thuộc y học"
+        },
+        {
+          "word": "Medically",
+          "ipa": "/ˈmedɪkli/",
+          "pos": "adv",
+          "meaning": "về mặt y học"
+        }
+      ]
+    },
+    {
+      "word": "Patient",
+      "ipa": "/ˈpeɪʃənt/",
+      "meaning": "bệnh nhân",
+      "synonyms": [
+        {
+          "word": "Sufferer",
+          "ipa": "/ˈsʌfərə(r)/",
+          "meaning": "người mắc bệnh"
+        },
+        {
+          "word": "Case",
+          "ipa": "/keɪs/",
+          "meaning": "ca bệnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Patience",
+          "ipa": "/ˈpeɪʃns/",
+          "pos": "n",
+          "meaning": "sự kiên nhẫn"
+        },
+        {
+          "word": "Patient",
+          "ipa": "/ˈpeɪʃənt/",
+          "pos": "adj",
+          "meaning": "kiên nhẫn"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "meaning": "sự điều trị",
+      "synonyms": [
+        {
+          "word": "Therapy",
+          "ipa": "/ˈθerəpi/",
+          "meaning": "liệu pháp"
+        },
+        {
+          "word": "Cure",
+          "ipa": "/kjʊə(r)/",
+          "meaning": "phương pháp chữa trị"
+        }
+      ],
+      "family": [
+        {
+          "word": "Treat",
+          "ipa": "/triːt/",
+          "pos": "v",
+          "meaning": "điều trị"
+        },
+        {
+          "word": "Treatable",
+          "ipa": "/ˈtriːtəbl/",
+          "pos": "adj",
+          "meaning": "có thể điều trị"
+        }
+      ]
+    },
+    {
+      "word": "Exercise",
+      "ipa": "/ˈeksəsaɪz/",
+      "meaning": "tập thể dục",
+      "synonyms": [
+        {
+          "word": "Workout",
+          "ipa": "/ˈwɜːkaʊt/",
+          "meaning": "buổi tập"
+        },
+        {
+          "word": "Training",
+          "ipa": "/ˈtreɪnɪŋ/",
+          "meaning": "luyện tập"
+        }
+      ],
+      "family": [
+        {
+          "word": "Exercise",
+          "ipa": "/ˈeksəsaɪz/",
+          "pos": "v",
+          "meaning": "tập luyện"
+        },
+        {
+          "word": "Exerciser",
+          "ipa": "/ˈeksəsaɪzə(r)/",
+          "pos": "n",
+          "meaning": "người tập luyện"
+        }
+      ]
+    },
+    {
+      "word": "Diet",
+      "ipa": "/ˈdaɪət/",
+      "meaning": "chế độ ăn",
+      "synonyms": [
+        {
+          "word": "Nutrition",
+          "ipa": "/njuˈtrɪʃn/",
+          "meaning": "dinh dưỡng"
+        },
+        {
+          "word": "Eating habits",
+          "ipa": "/ˈiːtɪŋ ˈhæbɪts/",
+          "meaning": "thói quen ăn uống"
+        }
+      ],
+      "family": [
+        {
+          "word": "Dietary",
+          "ipa": "/ˈdaɪətri/",
+          "pos": "adj",
+          "meaning": "thuộc chế độ ăn"
+        }
+      ]
+    },
+    {
+      "word": "Hospital",
+      "ipa": "/ˈhɒspɪtl/",
+      "meaning": "bệnh viện",
+      "synonyms": [
+        {
+          "word": "Clinic",
+          "ipa": "/ˈklɪnɪk/",
+          "meaning": "phòng khám"
+        },
+        {
+          "word": "Medical center",
+          "ipa": "/ˈmedɪkl ˈsentə(r)/",
+          "meaning": "trung tâm y tế"
+        }
+      ],
+      "family": [
+        {
+          "word": "Hospitalize",
+          "ipa": "/ˈhɒspɪtəlaɪz/",
+          "pos": "v",
+          "meaning": "nhập viện"
+        },
+        {
+          "word": "Hospitalization",
+          "ipa": "/ˌhɒspɪtəlaɪˈzeɪʃn/",
+          "pos": "n",
+          "meaning": "sự nhập viện"
+        }
+      ]
+    },
+    {
+      "word": "Recover",
+      "ipa": "/rɪˈkʌvə(r)/",
+      "meaning": "hồi phục",
+      "synonyms": [
+        {
+          "word": "Heal",
+          "ipa": "/hiːl/",
+          "meaning": "chữa lành"
+        },
+        {
+          "word": "Recuperate",
+          "ipa": "/rɪˈkuːpəreɪt/",
+          "meaning": "hồi phục sức khỏe"
+        }
+      ],
+      "family": [
+        {
+          "word": "Recovery",
+          "ipa": "/rɪˈkʌvəri/",
+          "pos": "n",
+          "meaning": "sự hồi phục"
+        },
+        {
+          "word": "Recovered",
+          "ipa": "/rɪˈkʌvəd/",
+          "pos": "adj",
+          "meaning": "đã hồi phục"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "A Healthy Life",
+      "text": "Good health is important for everyone. People who are healthy often have more energy for work, study, and daily activities. To stay healthy, people need good eating habits, enough sleep, and regular exercise.\n\nA healthy diet can help the body stay strong. People should eat different kinds of food, including vegetables, fruit, and other healthy foods. They should also avoid eating too much unhealthy food. Good nutrition is an important part of a healthy lifestyle.\n\nExercise is also important. A simple workout, such as walking, cycling, or swimming, can help people stay fit. People do not always need to do difficult training. Even a short exercise session every day can be useful.\n\nSometimes, however, people become sick. A disease can affect a person's daily life. When a person has an illness, they may need to visit a hospital or clinic. A doctor may give the patient some medicine and suggest a suitable treatment.\n\nSome diseases can be treated successfully. After receiving the right treatment and following medical advice, many patients can recover. Recovery may take a short time or a long time, depending on the disease.\n\nFor this reason, people should take care of their health every day. A good diet, regular exercise, and healthy habits can help people live a better life."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one important way to stay healthy according to the passage?",
+          "options": [
+            "Eating only one kind of food",
+            "Getting regular exercise",
+            "Avoiding all physical activity",
+            "Staying in hospital every week"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What may a doctor give a patient when the patient is sick?",
+          "options": [
+            "A new diet only",
+            "A workout",
+            "Medicine and treatment",
+            "Training at home"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Good health can give people more energy for daily activities.",
+          "answer": "True"
+        },
+        {
+          "statement": "People must do difficult training every day to stay healthy.",
+          "answer": "False"
+        },
+        {
+          "statement": "All diseases can be treated in a short time.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A healthy lifestyle includes good eating habits, enough sleep, and regular (6) ______. A healthy (7) ______ can help the body stay strong. People can also do simple activities such as walking, cycling, or swimming to stay (8) ______. When people become sick, they may need to visit a (9) ______. After receiving the right treatment, many patients can (10) ______.",
+        "answers": [
+          "exercise",
+          "diet",
+          "fit",
+          "hospital",
+          "recover"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “fit” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "healthy and physically strong",
+            "sick and tired",
+            "very old",
+            "unable to exercise"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “patient” in paragraph 4 refers to:",
+          "options": [
+            "a doctor",
+            "a person receiving medical care",
+            "a person who gives training",
+            "a healthy athlete"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “recover” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "become sick",
+            "go to a hospital",
+            "become healthy again",
+            "change a diet"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Health",
+          "Disease",
+          "Medicine",
+          "Exercise"
+        ],
+        "right": [
+          "Medicine",
+          "Exercise",
+          "Well-being",
+          "Illness"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Health and Modern Life",
+      "text": "People today often have busy lives. They may spend many hours studying or working, and they sometimes have little time to think about their health. However, taking care of the body is important because good well-being can help people work, study, and enjoy their daily lives.\n\nOne of the most important parts of a healthy lifestyle is a balanced diet. Healthy eating habits provide the body with the nutrition it needs. A dietary plan does not always have to be difficult. People can start by eating more vegetables and fruit and reducing the amount of unhealthy food they eat. Good nutrition can support a healthy lifestyle.\n\nRegular exercise is another important habit. Some people enjoy a daily workout, while others prefer walking or cycling. Regular training can help people stay fit and may also give them more energy. People who are not used to exercise can begin with simple activities and slowly increase their training.\n\nEven with healthy habits, people can still develop a disease or other illness. When this happens, they may need medical help. A patient may visit a hospital, clinic, or medical center to see a doctor. Depending on the condition, the doctor may recommend medicine or another form of treatment.\n\nMedical treatment can be different for different patients. Some conditions need only a short period of treatment, while others require longer care. A doctor may also advise a patient to change their diet, exercise more carefully, or take medication regularly.\n\nRecovery is often a gradual process. A patient may need time to recover, or heal, after an illness. In some cases, hospitalization may be necessary before the patient can return home. With suitable treatment and good care, many patients eventually make a recovery.\n\nGood health therefore depends on daily choices as well as proper medical care. Healthy eating, regular exercise, and attention to early health problems can help people protect their well-being. When disease occurs, getting suitable treatment and following medical advice can support a better recovery."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one purpose of a balanced diet mentioned in the passage?",
+          "options": [
+            "To make people avoid all exercise",
+            "To provide the body with needed nutrition",
+            "To replace medical treatment",
+            "To prevent people from working"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does the passage suggest for people who are not used to exercise?",
+          "options": [
+            "They should stop exercising completely.",
+            "They should begin with simple activities.",
+            "They should exercise for many hours immediately.",
+            "They should only exercise in a hospital."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Busy people may sometimes have little time to think about their health.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every patient needs exactly the same medical treatment.",
+          "answer": "False"
+        },
+        {
+          "statement": "Hospitalization is necessary for every person who becomes sick.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A healthy lifestyle includes a balanced (6) ______ and regular exercise. Good nutrition supports a (7) ______ lifestyle. People can do a daily workout or simple activities such as walking and cycling to stay (8) ______. When people develop a disease, a (9) ______ may need medical help and suitable treatment. After an illness, the patient may need time to (10) ______.",
+        "answers": [
+          "diet",
+          "healthy",
+          "fit",
+          "patient",
+          "recover"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “well-being” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "physical and general health",
+            "medical treatment",
+            "hospital equipment",
+            "physical exercise"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “medication” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "training",
+            "medicine",
+            "nutrition",
+            "recovery"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “gradual” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "happening slowly over time",
+            "happening immediately",
+            "happening only in hospitals",
+            "happening without treatment"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Healthy",
+          "Disease",
+          "Treatment",
+          "Recover"
+        ],
+        "right": [
+          "Therapy",
+          "Fit",
+          "Illness",
+          "Heal"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Taking Care of Your Health",
+      "audio": "",
+      "transcript": "Hello, today I want to talk about some simple ways to protect your health.\n\nFirst, it is important to have a healthy diet. Good eating habits can give your body the nutrition it needs. Try to eat more fruit and vegetables and avoid too much unhealthy food.\n\nSecond, regular exercise is useful. You do not need a difficult workout. Walking, cycling, or another simple activity can help you stay healthy and fit. If you exercise regularly, you may also have more energy during the day.\n\nHowever, healthy habits cannot prevent every disease. Sometimes people become sick and need medical care. A patient may go to a hospital or clinic to see a doctor. The doctor may give the patient medicine and recommend a suitable treatment.\n\nAfter treatment, the patient may need some time to recover. Recovery can be different for each person. Some people get better quickly, while others need more time and care.\n\nSo, remember that good health is not only about avoiding disease. It is also about making healthy choices every day. A good diet, regular exercise, and proper medical care can all support a healthier life."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does the speaker recommend for a healthy diet?",
+          "options": [
+            "Eating more fruit and vegetables",
+            "Eating more unhealthy food",
+            "Avoiding all food",
+            "Taking medicine every day"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What can regular exercise help people do?",
+          "options": [
+            "Avoid all diseases",
+            "Stay healthy and fit",
+            "Avoid hospitals completely",
+            "Recover immediately from illness"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The speaker says that people need difficult workouts to stay healthy.",
+          "answer": "False"
+        },
+        {
+          "statement": "A patient may go to a hospital or clinic for medical care.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every person recovers from illness at the same speed.",
+          "answer": "False"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Good eating habits can give the body the ______ it needs.",
+          "answer": "nutrition"
+        },
+        {
+          "question": "Walking and cycling are examples of simple ______.",
+          "answer": "exercise"
+        },
+        {
+          "question": "A patient may go to a hospital or ______ to see a doctor.",
+          "answer": "clinic"
+        },
+        {
+          "question": "The doctor may give the patient ______.",
+          "answer": "medicine"
+        },
+        {
+          "question": "After treatment, the patient may need time to ______.",
+          "answer": "recover"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “protect” in the first paragraph is closest in meaning to:",
+          "options": [
+            "take care of",
+            "damage",
+            "forget",
+            "change"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “care” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "attention and help",
+            "exercise",
+            "food",
+            "training"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “proper” in the final paragraph is closest in meaning to:",
+          "options": [
+            "suitable and correct",
+            "difficult",
+            "expensive",
+            "unnecessary"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Diet",
+          "Patient",
+          "Treatment",
+          "Recover"
+        ],
+        "right": [
+          "A person receiving medical care",
+          "A way of eating",
+          "Medical care for an illness",
+          "Become healthy again"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson05",
+    "number": 5,
+    "title": "Health",
+    "titleVi": "Sức khỏe"
+  }
+}

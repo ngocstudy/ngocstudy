@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson18",
+    "number": 18,
+    "title": "Media",
+    "titleVi": "Truyền thông"
+  },
+  "vocabulary": [
+    {
+      "word": "Media",
+      "ipa": "/ˈmiːdiə/",
+      "meaning": "truyền thông",
+      "synonyms": [
+        {
+          "word": "press",
+          "ipa": "/pres/",
+          "meaning": "báo chí"
+        },
+        {
+          "word": "mass communication",
+          "ipa": "/ˌmæs kəˌmjuːnɪˈkeɪʃən/",
+          "meaning": "truyền thông đại chúng"
+        }
+      ],
+      "family": [
+        {
+          "word": "media-related",
+          "ipa": "/ˈmiːdiə rɪˈleɪtɪd/",
+          "pos": "",
+          "meaning": "thuộc truyền thông"
+        },
+        {
+          "word": "multimedia",
+          "ipa": "/ˌmʌltiˈmiːdiə/",
+          "pos": "",
+          "meaning": "đa phương tiện"
+        }
+      ]
+    },
+    {
+      "word": "News",
+      "ipa": "/njuːz/",
+      "meaning": "tin tức",
+      "synonyms": [
+        {
+          "word": "report",
+          "ipa": "/rɪˈpɔːt/",
+          "meaning": "bản tin"
+        },
+        {
+          "word": "coverage",
+          "ipa": "/ˈkʌvərɪdʒ/",
+          "meaning": "sự đưa tin"
+        }
+      ],
+      "family": [
+        {
+          "word": "newsworthy",
+          "ipa": "/ˈnjuːzwɜːði/",
+          "pos": "",
+          "meaning": "đáng đưa tin"
+        },
+        {
+          "word": "newsletter",
+          "ipa": "/ˈnjuːzletə(r)/",
+          "pos": "",
+          "meaning": "bản tin"
+        }
+      ]
+    },
+    {
+      "word": "Newspaper",
+      "ipa": "/ˈnjuːzpeɪpə(r)/",
+      "meaning": "báo",
+      "synonyms": [
+        {
+          "word": "daily",
+          "ipa": "/ˈdeɪli/",
+          "meaning": "báo hằng ngày"
+        },
+        {
+          "word": "press",
+          "ipa": "/pres/",
+          "meaning": "báo chí"
+        }
+      ],
+      "family": [
+        {
+          "word": "newspapering",
+          "ipa": "/ˈnjuːzˌpeɪpərɪŋ/",
+          "pos": "",
+          "meaning": "nghề làm báo"
+        },
+        {
+          "word": "newspaperman",
+          "ipa": "/ˈnjuːzˌpeɪpəmæn/",
+          "pos": "",
+          "meaning": "nhà báo"
+        }
+      ]
+    },
+    {
+      "word": "Television",
+      "ipa": "/ˈtelɪvɪʒn/",
+      "meaning": "truyền hình",
+      "synonyms": [
+        {
+          "word": "TV",
+          "ipa": "/ˌtiːˈviː/",
+          "meaning": "ti vi"
+        },
+        {
+          "word": "broadcasting",
+          "ipa": "/ˈbrɔːdkɑːstɪŋ/",
+          "meaning": "phát sóng"
+        }
+      ],
+      "family": [
+        {
+          "word": "televise",
+          "ipa": "/ˈtelɪvaɪz/",
+          "pos": "",
+          "meaning": "truyền hình trực tiếp"
+        },
+        {
+          "word": "televised",
+          "ipa": "/ˈtelɪvaɪzd/",
+          "pos": "",
+          "meaning": "được phát trên truyền hình"
+        }
+      ]
+    },
+    {
+      "word": "Journalist",
+      "ipa": "/ˈdʒɜːnəlɪst/",
+      "meaning": "nhà báo",
+      "synonyms": [
+        {
+          "word": "reporter",
+          "ipa": "/rɪˈpɔːtə(r)/",
+          "meaning": "phóng viên"
+        },
+        {
+          "word": "correspondent",
+          "ipa": "/ˌkɒrəˈspɒndənt/",
+          "meaning": "phóng viên thường trú"
+        }
+      ],
+      "family": [
+        {
+          "word": "journalism",
+          "ipa": "/ˈdʒɜːnəlɪzəm/",
+          "pos": "",
+          "meaning": "nghề báo"
+        },
+        {
+          "word": "journal",
+          "ipa": "/ˈdʒɜːnl/",
+          "pos": "",
+          "meaning": "tạp chí"
+        }
+      ]
+    },
+    {
+      "word": "Article",
+      "ipa": "/ˈɑːtɪkl/",
+      "meaning": "bài báo",
+      "synonyms": [
+        {
+          "word": "report",
+          "ipa": "/rɪˈpɔːt/",
+          "meaning": "bài tường thuật"
+        },
+        {
+          "word": "feature",
+          "ipa": "/ˈfiːtʃə(r)/",
+          "meaning": "bài viết chuyên đề"
+        }
+      ],
+      "family": [
+        {
+          "word": "editorial",
+          "ipa": "/ˌedɪˈtɔːriəl/",
+          "pos": "",
+          "meaning": "bài xã luận"
+        },
+        {
+          "word": "editor",
+          "ipa": "/ˈedɪtə(r)/",
+          "pos": "",
+          "meaning": "biên tập viên"
+        }
+      ]
+    },
+    {
+      "word": "Advertisement",
+      "ipa": "/ədˈvɜːtɪsmənt/",
+      "meaning": "quảng cáo",
+      "synonyms": [
+        {
+          "word": "commercial",
+          "ipa": "/kəˈmɜːʃl/",
+          "meaning": "quảng cáo truyền hình"
+        },
+        {
+          "word": "promotion",
+          "ipa": "/prəˈməʊʃn/",
+          "meaning": "quảng bá"
+        }
+      ],
+      "family": [
+        {
+          "word": "advertise",
+          "ipa": "/ˈædvətaɪz/",
+          "pos": "",
+          "meaning": "quảng cáo"
+        },
+        {
+          "word": "advertising",
+          "ipa": "/ˈædvətaɪzɪŋ/",
+          "pos": "",
+          "meaning": "ngành quảng cáo"
+        }
+      ]
+    },
+    {
+      "word": "Communication",
+      "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning": "giao tiếp; truyền thông",
+      "synonyms": [
+        {
+          "word": "interaction",
+          "ipa": "/ˌɪntərˈækʃn/",
+          "meaning": "sự tương tác"
+        },
+        {
+          "word": "conversation",
+          "ipa": "/ˌkɒnvəˈseɪʃn/",
+          "meaning": "cuộc trò chuyện"
+        }
+      ],
+      "family": [
+        {
+          "word": "communicate",
+          "ipa": "/kəˈmjuːnɪkeɪt/",
+          "pos": "",
+          "meaning": "giao tiếp"
+        },
+        {
+          "word": "communicator",
+          "ipa": "/kəˈmjuːnɪkeɪtə(r)/",
+          "pos": "",
+          "meaning": "người giao tiếp"
+        }
+      ]
+    },
+    {
+      "word": "Broadcast",
+      "ipa": "/ˈbrɔːdkɑːst/",
+      "meaning": "phát sóng",
+      "synonyms": [
+        {
+          "word": "transmit",
+          "ipa": "/trænzˈmɪt/",
+          "meaning": "truyền phát"
+        },
+        {
+          "word": "air",
+          "ipa": "/eə(r)/",
+          "meaning": "phát sóng"
+        }
+      ],
+      "family": [
+        {
+          "word": "broadcaster",
+          "ipa": "/ˈbrɔːdkɑːstə(r)/",
+          "pos": "",
+          "meaning": "đài phát thanh/truyền hình"
+        },
+        {
+          "word": "broadcasting",
+          "ipa": "/ˈbrɔːdkɑːstɪŋ/",
+          "pos": "",
+          "meaning": "hoạt động phát sóng"
+        }
+      ]
+    },
+    {
+      "word": "Publish",
+      "ipa": "/ˈpʌblɪʃ/",
+      "meaning": "xuất bản",
+      "synonyms": [
+        {
+          "word": "issue",
+          "ipa": "/ˈɪʃuː/",
+          "meaning": "phát hành"
+        },
+        {
+          "word": "release",
+          "ipa": "/rɪˈliːs/",
+          "meaning": "công bố"
+        }
+      ],
+      "family": [
+        {
+          "word": "publisher",
+          "ipa": "/ˈpʌblɪʃə(r)/",
+          "pos": "",
+          "meaning": "nhà xuất bản"
+        },
+        {
+          "word": "publication",
+          "ipa": "/ˌpʌblɪˈkeɪʃn/",
+          "pos": "",
+          "meaning": "ấn phẩm"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "The Role of Media in Daily Life",
+      "text": "Media is an important part of modern life. People use different forms of media to receive news, learn new information, and communicate with others. Newspapers, television, and online media can provide information about events in a local area or around the world.\n\nA newspaper may publish an article about politics, education, health, or other important topics. A journalist usually collects information and writes a report for readers. Good journalists try to check information before they publish it.\n\nTelevision is another popular form of media. A television station can broadcast news, interviews, sports, and entertainment programmes. Many people watch television to understand what is happening in their country and in other parts of the world.\n\nAdvertisements are also common in the media. Companies use advertisements to introduce products and services to customers. An advertisement may appear in a newspaper, on television, or on another media platform.\n\nCommunication has changed greatly because of modern media. People can receive news very quickly, and information can be published and shared with a large number of people. However, people should think carefully about information before accepting it as true.\n\nMedia can therefore be useful for education, communication, and entertainment. It helps people stay informed and connected with the world."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one main purpose of media mentioned in the passage?",
+          "options": [
+            "To replace schools",
+            "To provide information and communication",
+            "To stop advertisements",
+            "To sell newspapers only"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does a journalist usually do?",
+          "options": [
+            "Repairs televisions",
+            "Produces products",
+            "Collects information and writes reports",
+            "Designs buildings"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Newspapers can publish articles about different topics.",
+          "answer": "True"
+        },
+        {
+          "statement": "Television only broadcasts news programmes.",
+          "answer": "False"
+        },
+        {
+          "statement": "People should accept all information in the media as true.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with ONE WORD from the passage.",
+        "text": "People use media to receive 6. ________, learn information, and communicate. A newspaper can publish an 7. ________ about many topics. A 8. ________ collects information and writes reports. Television can 9. ________ news and entertainment programmes. Companies use 10. ________ to introduce products and services.",
+        "answers": [
+          "news",
+          "article",
+          "journalist",
+          "broadcast",
+          "advertisements"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “publish” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "make information available",
+            "hide information",
+            "collect products",
+            "watch television"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “broadcast” is closest in meaning to:",
+          "options": [
+            "receive",
+            "transmit",
+            "write",
+            "read"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “informed” in the final paragraph is closest in meaning to:",
+          "options": [
+            "confused",
+            "aware of information",
+            "unemployed",
+            "entertained"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "news",
+          "journalist",
+          "advertisement",
+          "communication"
+        ],
+        "right": [
+          "newspaper writer",
+          "information about recent events",
+          "interaction",
+          "commercial message"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "D",
+          "3": "C"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Media and Information in the Modern World",
+      "text": "The media plays an important role in modern society because it allows people to receive and share information quickly. In the past, newspapers and television were major sources of news. Today, people can also use digital media to read articles, watch broadcasts, and communicate with others.\n\nNewspapers continue to provide information about politics, business, health, education, and social issues. A journalist may interview people, collect information, and write an article for publication. Before publishing a report, responsible journalists should check important facts carefully. This can help readers understand events more accurately.\n\nTelevision remains another important form of media. News programmes can broadcast information about events as they happen. Television can also provide interviews, documentaries, and entertainment. Because many people watch television every day, it can have a strong influence on public communication.\n\nAdvertising is another major part of the media. Companies use advertisements to promote products and services. An advertisement may be designed to attract attention and encourage people to buy something. Although advertising can provide useful information about products, consumers should consider information carefully before making decisions.\n\nModern media has also changed communication. People can communicate with others almost immediately through different media platforms. News can be published and shared very quickly. However, speed can sometimes create problems. Information may be incomplete, incorrect, or presented without enough context.\n\nFor this reason, media users need to think critically. They should consider where information comes from and whether it is reliable. Reading different reports can also help people develop a clearer understanding of an event.\n\nOverall, media has many benefits. It supports communication, provides news, and offers education and entertainment. At the same time, responsible journalists, publishers, broadcasters, and media users all have an important role in making communication more useful and reliable."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is the main idea of the passage?",
+          "options": [
+            "Newspapers are better than television.",
+            "Modern media provides many benefits but requires careful use.",
+            "Advertising is the most important form of communication.",
+            "People should stop using traditional media."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why should people consider where information comes from?",
+          "options": [
+            "To find entertainment programmes",
+            "To decide whether information is reliable",
+            "To buy more products",
+            "To become journalists"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Newspapers are no longer a source of news.",
+          "answer": "False"
+        },
+        {
+          "statement": "Responsible journalists should check important facts before publishing reports.",
+          "answer": "True"
+        },
+        {
+          "statement": "All advertisements provide false information.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary with ONE WORD from the passage.",
+        "text": "Newspapers can provide information about many social issues, while journalists collect information and write 6. ________. Television can 7. ________ news and other programmes. Companies use advertisements to 8. ________ their products and services. Modern media allows people to 9. ________ information quickly. However, media users should think 10. ________ about information before accepting it.",
+        "answers": [
+          "articles",
+          "broadcast",
+          "promote",
+          "share",
+          "critically"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “reliable” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "trustworthy",
+            "expensive",
+            "entertaining",
+            "popular"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “promote” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "hide",
+            "advertise",
+            "examine",
+            "prevent"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “context” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "surrounding information",
+            "newspaper",
+            "advertisement",
+            "television programme"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "article",
+          "broadcast",
+          "publish",
+          "communication"
+        ],
+        "right": [
+          "send out",
+          "written report",
+          "conversation or exchange",
+          "make information public"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "D",
+          "3": "C"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "A Short Talk About Media",
+      "audio": "",
+      "transcript": "Hello everyone. Today I want to talk about the role of media in our daily lives.\n\nEvery day, people use media to get news and information. Some people read a newspaper or an online article. Others watch television or listen to a broadcast.\n\nA journalist usually collects information and writes a report or article. Before they publish the article, they should check important information carefully. This can help readers understand the news.\n\nTelevision is also an important form of media. It can broadcast news, interviews, and entertainment programmes. People can learn about events in their country and around the world.\n\nAnother common part of media is advertising. Companies use advertisements to promote their products. You may see an advertisement on television, in a newspaper, or online.\n\nMedia also helps communication. People can share information quickly with family, friends, and other people. However, not all information is necessarily correct. Sometimes a report may contain incomplete or incorrect information.\n\nFor this reason, media users should think carefully about what they read or watch. They should consider the source and compare information when possible.\n\nMedia can be very useful. It provides news, supports communication, and gives people opportunities to learn and enjoy entertainment."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can people use media to get?",
+          "options": [
+            "Only advertisements",
+            "News and information",
+            "Only entertainment",
+            "Medical treatment"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What should a journalist do before publishing an article?",
+          "options": [
+            "Buy a product",
+            "Watch a film",
+            "Check important information",
+            "Travel abroad"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The speaker says people can only get news from newspapers.",
+          "answer": "False"
+        },
+        {
+          "statement": "Television can broadcast interviews.",
+          "answer": "True"
+        },
+        {
+          "statement": "The speaker says all information in the media is correct.",
+          "answer": "False"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "People use media to get news and ________.",
+          "answer": "information"
+        },
+        {
+          "question": "A ________ usually collects information and writes reports.",
+          "answer": "journalist"
+        },
+        {
+          "question": "Television can ________ news and entertainment programmes.",
+          "answer": "broadcast"
+        },
+        {
+          "question": "Companies use advertisements to ________ their products.",
+          "answer": "promote"
+        },
+        {
+          "question": "Media also helps ________ between people.",
+          "answer": "communication"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "What does “broadcast” mean in the talk?",
+          "options": [
+            "Send programmes or information to the public",
+            "Write a newspaper",
+            "Buy a product",
+            "Read an article"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What does “source” mean when talking about information?",
+          "options": [
+            "The place or person information comes from",
+            "A television programme",
+            "An advertisement",
+            "A newspaper reader"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What does “publish” mean in the talk?",
+          "options": [
+            "Make an article available to the public",
+            "Delete an article",
+            "Watch an article",
+            "Translate an article"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Newspaper",
+          "Journalist",
+          "Television",
+          "Advertisement"
+        ],
+        "right": [
+          "sends programmes to the public",
+          "provides written news",
+          "collects information and writes reports",
+          "promotes a product"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson13",
+    "number": 13,
+    "title": "Science",
+    "titleVi": "Khoa học"
+  },
+  "vocabulary": [
+    {
+      "word": "science",
+      "ipa": "/ˈsaɪəns/",
+      "meaning": "khoa học",
+      "synonyms": [
+        {
+          "word": "discipline",
+          "ipa": "/ˈdɪsəplɪn/",
+          "meaning": "lĩnh vực nghiên cứu"
+        },
+        {
+          "word": "knowledge",
+          "ipa": "/ˈnɒlɪdʒ/",
+          "meaning": "kiến thức"
+        }
+      ],
+      "family": [
+        {
+          "word": "scientific",
+          "ipa": "/ˌsaɪənˈtɪfɪk/",
+          "pos": "",
+          "meaning": "thuộc khoa học"
+        },
+        {
+          "word": "scientifically",
+          "ipa": "/ˌsaɪənˈtɪfɪkli/",
+          "pos": "",
+          "meaning": "một cách khoa học"
+        }
+      ]
+    },
+    {
+      "word": "discovery",
+      "ipa": "/dɪˈskʌvəri/",
+      "meaning": "sự khám phá, phát hiện",
+      "synonyms": [
+        {
+          "word": "finding",
+          "ipa": "/ˈfaɪndɪŋ/",
+          "meaning": "phát hiện"
+        },
+        {
+          "word": "breakthrough",
+          "ipa": "/ˈbreɪkθruː/",
+          "meaning": "bước đột phá"
+        }
+      ],
+      "family": [
+        {
+          "word": "discover",
+          "ipa": "/dɪˈskʌvə(r)/",
+          "pos": "",
+          "meaning": "khám phá"
+        },
+        {
+          "word": "discovered",
+          "ipa": "/dɪˈskʌvəd/",
+          "pos": "",
+          "meaning": "được phát hiện"
+        }
+      ]
+    },
+    {
+      "word": "laboratory",
+      "ipa": "/ləˈbɒrətri/",
+      "meaning": "phòng thí nghiệm",
+      "synonyms": [
+        {
+          "word": "lab",
+          "ipa": "/læb/",
+          "meaning": "phòng thí nghiệm"
+        },
+        {
+          "word": "research centre",
+          "ipa": "/rɪˈsɜːtʃ ˈsentə(r)/",
+          "meaning": "trung tâm nghiên cứu"
+        }
+      ],
+      "family": [
+        {
+          "word": "laboratory-based",
+          "ipa": "/ləˈbɒrətri beɪst/",
+          "pos": "",
+          "meaning": "thuộc phòng thí nghiệm"
+        },
+        {
+          "word": "laboratorian",
+          "ipa": "/ˌlæbrəˈtɔːriən/",
+          "pos": "",
+          "meaning": "nhân viên phòng thí nghiệm"
+        }
+      ]
+    },
+    {
+      "word": "analysis",
+      "ipa": "/əˈnæləsɪs/",
+      "meaning": "sự phân tích",
+      "synonyms": [
+        {
+          "word": "examination",
+          "ipa": "/ɪɡˌzæmɪˈneɪʃən/",
+          "meaning": "sự xem xét"
+        },
+        {
+          "word": "evaluation",
+          "ipa": "/ɪˌvæljuˈeɪʃən/",
+          "meaning": "sự đánh giá"
+        }
+      ],
+      "family": [
+        {
+          "word": "analyse",
+          "ipa": "/ˈænəlaɪz/",
+          "pos": "",
+          "meaning": "phân tích"
+        },
+        {
+          "word": "analytical",
+          "ipa": "/ˌænəˈlɪtɪkl/",
+          "pos": "",
+          "meaning": "mang tính phân tích"
+        }
+      ]
+    },
+    {
+      "word": "measurement",
+      "ipa": "/ˈmeʒəmənt/",
+      "meaning": "sự đo lường",
+      "synonyms": [
+        {
+          "word": "calculation",
+          "ipa": "/ˌkælkjuˈleɪʃən/",
+          "meaning": "sự tính toán"
+        },
+        {
+          "word": "assessment",
+          "ipa": "/əˈsesmənt/",
+          "meaning": "sự đánh giá"
+        }
+      ],
+      "family": [
+        {
+          "word": "measure",
+          "ipa": "/ˈmeʒə(r)/",
+          "pos": "",
+          "meaning": "đo lường"
+        },
+        {
+          "word": "measurable",
+          "ipa": "/ˈmeʒərəbl/",
+          "pos": "",
+          "meaning": "có thể đo lường"
+        }
+      ]
+    },
+    {
+      "word": "observe",
+      "ipa": "/əbˈzɜːv/",
+      "meaning": "quan sát",
+      "synonyms": [
+        {
+          "word": "monitor",
+          "ipa": "/ˈmɒnɪtə(r)/",
+          "meaning": "theo dõi"
+        },
+        {
+          "word": "examine",
+          "ipa": "/ɪɡˈzæmɪn/",
+          "meaning": "kiểm tra"
+        }
+      ],
+      "family": [
+        {
+          "word": "observation",
+          "ipa": "/ˌɒbzəˈveɪʃən/",
+          "pos": "",
+          "meaning": "sự quan sát"
+        },
+        {
+          "word": "observer",
+          "ipa": "/əbˈzɜːvə(r)/",
+          "pos": "",
+          "meaning": "người quan sát"
+        }
+      ]
+    },
+    {
+      "word": "observation",
+      "ipa": "/ˌɒbzəˈveɪʃən/",
+      "meaning": "sự quan sát",
+      "synonyms": [
+        {
+          "word": "monitoring",
+          "ipa": "/ˈmɒnɪtərɪŋ/",
+          "meaning": "sự theo dõi"
+        },
+        {
+          "word": "inspection",
+          "ipa": "/ɪnˈspekʃən/",
+          "meaning": "sự kiểm tra"
+        }
+      ],
+      "family": [
+        {
+          "word": "observe",
+          "ipa": "/əbˈzɜːv/",
+          "pos": "",
+          "meaning": "quan sát"
+        },
+        {
+          "word": "observational",
+          "ipa": "/ˌɒbzəˈveɪʃənl/",
+          "pos": "",
+          "meaning": "mang tính quan sát"
+        }
+      ]
+    },
+    {
+      "word": "phenomenon",
+      "ipa": "/fəˈnɒmɪnən/",
+      "meaning": "hiện tượng",
+      "synonyms": [
+        {
+          "word": "event",
+          "ipa": "/ɪˈvent/",
+          "meaning": "sự kiện"
+        },
+        {
+          "word": "occurrence",
+          "ipa": "/əˈkʌrəns/",
+          "meaning": "sự xảy ra"
+        }
+      ],
+      "family": [
+        {
+          "word": "phenomena",
+          "ipa": "/fəˈnɒmɪnə/",
+          "pos": "",
+          "meaning": "các hiện tượng"
+        },
+        {
+          "word": "phenomenal",
+          "ipa": "/fəˈnɒmɪnl/",
+          "pos": "",
+          "meaning": "phi thường"
+        }
+      ]
+    },
+    {
+      "word": "variable",
+      "ipa": "/ˈveəriəbl/",
+      "meaning": "biến số",
+      "synonyms": [
+        {
+          "word": "factor",
+          "ipa": "/ˈfæktə(r)/",
+          "meaning": "yếu tố"
+        },
+        {
+          "word": "element",
+          "ipa": "/ˈelɪmənt/",
+          "meaning": "thành phần"
+        }
+      ],
+      "family": [
+        {
+          "word": "vary",
+          "ipa": "/ˈveəri/",
+          "pos": "",
+          "meaning": "thay đổi"
+        },
+        {
+          "word": "variation",
+          "ipa": "/ˌveəriˈeɪʃən/",
+          "pos": "",
+          "meaning": "sự biến đổi"
+        }
+      ]
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθəsɪs/",
+      "meaning": "giả thuyết",
+      "synonyms": [
+        {
+          "word": "assumption",
+          "ipa": "/əˈsʌmpʃən/",
+          "meaning": "giả định"
+        },
+        {
+          "word": "proposition",
+          "ipa": "/ˌprɒpəˈzɪʃən/",
+          "meaning": "mệnh đề"
+        }
+      ],
+      "family": [
+        {
+          "word": "hypothetical",
+          "ipa": "/ˌhaɪpəˈθetɪkl/",
+          "pos": "",
+          "meaning": "mang tính giả thuyết"
+        },
+        {
+          "word": "hypothetically",
+          "ipa": "/ˌhaɪpəˈθetɪkli/",
+          "pos": "",
+          "meaning": "theo giả thuyết"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "The Role of Science in Everyday Life",
+      "text": "Science helps people understand the world around them. Scientists study different areas of nature and try to explain how things work. Scientific knowledge can be developed through careful research, observation, and testing. One important part of science is discovery. Scientists may discover new information by studying a problem or examining something that is not yet fully understood. A new discovery can sometimes lead to a breakthrough, which may change the way people understand a particular subject. Scientists often work in a laboratory. In a laboratory, they can carry out experiments in a controlled environment. They may use special equipment to collect information and make accurate measurement. Observation is also important in scientific research. Scientists observe objects, animals, plants, or other events carefully. They record what they see and use the information to understand a particular phenomenon. Scientists often use analysis to study the information they collect. They may compare results, identify patterns, and look for relationships between different factors. During an experiment, a variable is something that can change and may affect the result. Before conducting research, scientists may develop a hypothesis. A hypothesis is a possible explanation that can be tested. Scientists then collect evidence to see whether the hypothesis is supported. Science therefore depends on careful observation, accurate measurement, and logical analysis. These methods help scientists develop reliable knowledge and make new discoveries."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can scientists use to develop scientific knowledge?",
+          "options": [
+            "Observation, research, and testing",
+            "Advertising and marketing",
+            "Travel and tourism",
+            "Business and trade"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Where do scientists often carry out experiments?",
+          "options": [
+            "In a laboratory",
+            "In a marketplace",
+            "In a classroom only",
+            "In a factory"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Scientists study different areas of nature to understand how things work.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every scientific discovery leads to a breakthrough.",
+          "answer": "False"
+        },
+        {
+          "statement": "Scientists may use measurement to collect accurate information.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Science helps people understand the (6) ______ around them. Scientists may make a (7) ______ when they discover new information. They often work in a (8) ______ to carry out experiments. Scientists use (9) ______ to study information they collect. Before research, they may develop a (10) ______ that can be tested.",
+        "answers": [
+          "world",
+          "discovery",
+          "laboratory",
+          "analysis",
+          "hypothesis"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “breakthrough” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "an important discovery or advance",
+            "a laboratory experiment",
+            "a measurement",
+            "a small mistake"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “accurate” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "correct and precise",
+            "difficult and expensive",
+            "unusual and dangerous",
+            "simple and traditional"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “supported” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "shown to be correct or likely",
+            "completely ignored",
+            "changed immediately",
+            "carefully measured"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Science",
+          "Discovery",
+          "Laboratory",
+          "Analysis"
+        ],
+        "right": [
+          "Finding",
+          "Discipline",
+          "Research centre",
+          "Examination"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "How Scientists Test Ideas",
+      "text": "Scientific research is a process that allows people to develop knowledge about the natural world. Scientists do not simply accept an idea because it sounds reasonable. Instead, they collect evidence, make careful observations, and use analysis to decide whether an explanation is supported by the evidence. Research often begins with a question. A scientist may notice an interesting phenomenon and want to understand why it happens. For example, a scientist might observe that plants grow differently under different conditions. This observation can lead to a research question. The scientist may then develop a hypothesis. A hypothesis is a possible explanation for an observation. It should be clear enough to be tested. The scientist can design an experiment to determine whether the evidence supports the hypothesis. Experiments are often carried out in a laboratory, although scientific research can also take place outdoors or in other environments. During an experiment, scientists try to control important conditions so that they can understand the effect of each variable. Measurement is an important part of this process. Scientists may measure temperature, weight, distance, time, or other characteristics. Accurate measurements allow researchers to compare results and identify changes. Scientists also use observation throughout an experiment. They carefully record what happens and may repeat the experiment several times. Repeated observations can make the results more reliable. After collecting information, scientists carry out analysis. They examine the results and look for patterns or relationships. If the evidence supports their hypothesis, they may continue developing the explanation. If the evidence does not support it, they may change the hypothesis and conduct further research. Scientific discovery can happen at any stage of this process. Sometimes researchers find something completely unexpected. An unexpected finding may become an important discovery and, in some cases, a scientific breakthrough. Science is therefore not simply about memorizing facts. It is a systematic way of asking questions, testing ideas, collecting evidence, and developing knowledge. Careful observation, measurement, and analysis help scientists understand complex phenomena and improve our understanding of the world."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What may lead a scientist to a research question?",
+          "options": [
+            "Observing an interesting phenomenon",
+            "Reading an advertisement",
+            "Choosing a career",
+            "Buying laboratory equipment"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why are accurate measurements important?",
+          "options": [
+            "They allow researchers to compare results and identify changes.",
+            "They make every experiment successful.",
+            "They remove all variables.",
+            "They replace scientific analysis."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Scientists may change a hypothesis if the evidence does not support it.",
+          "answer": "True"
+        },
+        {
+          "statement": "All scientific experiments must take place inside a laboratory.",
+          "answer": "False"
+        },
+        {
+          "statement": "Scientists may repeat experiments to make their results more reliable.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Scientific research often begins with a question about a (6) ______. Scientists may develop a (7) ______ as a possible explanation. They then carry out an experiment and control important (8) ______. (9) ______ helps scientists compare results and identify changes. After collecting information, scientists use (10) ______ to examine the results.",
+        "answers": [
+          "phenomenon",
+          "hypothesis",
+          "variables",
+          "measurement",
+          "analysis"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “evidence” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "information showing whether something is true",
+            "a scientific laboratory",
+            "a research question",
+            "a possible variable"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "dependable",
+            "unexpected",
+            "theoretical",
+            "unusual"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “systematic” in the final paragraph is closest in meaning to:",
+          "options": [
+            "organized and methodical",
+            "random and uncontrolled",
+            "simple and informal",
+            "unusual and unexpected"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Measurement",
+          "Observe",
+          "Phenomenon",
+          "Hypothesis"
+        ],
+        "right": [
+          "Calculation",
+          "Monitor",
+          "Occurrence",
+          "Assumption"
+        ],
+        "answers": {
+          "0": "A",
+          "1": "B",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "A Simple Scientific Experiment",
+      "audio": "",
+      "transcript": "Today, I want to talk about how scientists conduct research. Science helps us understand the world around us. Scientists often begin with an observation. They may notice a phenomenon and ask why it happens. After making an observation, a scientist may develop a hypothesis. This is a possible explanation that can be tested. The scientist can then carry out an experiment, often in a laboratory. During the experiment, different variables may be controlled or changed. Scientists also use measurement to collect accurate information. They may measure temperature, time, weight, or other conditions. After collecting the information, scientists use analysis to study the results. They compare the results and decide whether the evidence supports the hypothesis. Sometimes the research leads to a new discovery. An important discovery can even become a scientific breakthrough. Scientific research requires careful observation, accurate measurement, and logical analysis. These methods help scientists develop reliable knowledge."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What may scientists notice before developing a hypothesis?",
+          "options": [
+            "A phenomenon",
+            "A salary",
+            "A business",
+            "A journey"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Where may scientists carry out an experiment?",
+          "options": [
+            "In a laboratory",
+            "In a market",
+            "On a highway",
+            "In an office only"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "A hypothesis is a possible explanation that can be tested.",
+          "answer": "True"
+        },
+        {
+          "statement": "Scientists never use measurement during experiments.",
+          "answer": "False"
+        },
+        {
+          "statement": "A scientific discovery can sometimes become a breakthrough.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "______ helps us understand the world around us.",
+          "answer": "Science"
+        },
+        {
+          "question": "Scientists may notice a ______ and ask why it happens.",
+          "answer": "phenomenon"
+        },
+        {
+          "question": "A possible explanation that can be tested is called a ______.",
+          "answer": "hypothesis"
+        },
+        {
+          "question": "Scientists use ______ to collect accurate information.",
+          "answer": "measurement"
+        },
+        {
+          "question": "Scientists use ______ to study the results.",
+          "answer": "analysis"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “conduct” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "carry out",
+            "avoid",
+            "explain",
+            "change"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “accurate” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "correct and precise",
+            "unexpected",
+            "theoretical",
+            "complicated"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in the final paragraph is closest in meaning to:",
+          "options": [
+            "dependable",
+            "unusual",
+            "temporary",
+            "experimental"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "Discovery",
+          "Laboratory",
+          "Hypothesis",
+          "Observation"
+        ],
+        "right": [
+          "A possible explanation",
+          "A place for scientific experiments",
+          "A new finding",
+          "Careful watching of something"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "B",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

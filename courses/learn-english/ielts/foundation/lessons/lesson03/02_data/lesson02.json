@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson02",
+    "number": 2,
+    "title": "Solutions and Benefits",
+    "titleVi": "Giải pháp và lợi ích"
+  },
+  "vocabulary": [
+    {
+      "word": "Solution",
+      "ipa": "/səˈluːʃən/",
+      "meaning": "giải pháp",
+      "synonyms": [
+        {
+          "word": "answer",
+          "ipa": "/ˈɑːnsə(r)/",
+          "meaning": "câu trả lời, giải pháp"
+        },
+        {
+          "word": "remedy",
+          "ipa": "/ˈremədi/",
+          "meaning": "biện pháp khắc phục"
+        }
+      ],
+      "family": [
+        {
+          "word": "solve",
+          "ipa": "/sɒlv/",
+          "pos": "v",
+          "meaning": "giải quyết"
+        },
+        {
+          "word": "solvable",
+          "ipa": "/ˈsɒlvəbl/",
+          "pos": "adj",
+          "meaning": "có thể giải quyết được"
+        }
+      ]
+    },
+    {
+      "word": "Benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "meaning": "lợi ích",
+      "synonyms": [
+        {
+          "word": "advantage",
+          "ipa": "/ədˈvɑːntɪdʒ/",
+          "meaning": "lợi thế, ưu điểm"
+        },
+        {
+          "word": "gain",
+          "ipa": "/ɡeɪn/",
+          "meaning": "lợi ích, thu được"
+        }
+      ],
+      "family": [
+        {
+          "word": "beneficial",
+          "ipa": "/ˌbenɪˈfɪʃl/",
+          "pos": "adj",
+          "meaning": "có lợi"
+        },
+        {
+          "word": "beneficiary",
+          "ipa": "/ˌbenɪˈfɪʃəri/",
+          "pos": "n",
+          "meaning": "người thụ hưởng"
+        }
+      ]
+    },
+    {
+      "word": "Advantage",
+      "ipa": "/ədˈvɑːntɪdʒ/",
+      "meaning": "lợi thế, ưu điểm",
+      "synonyms": [
+        {
+          "word": "benefit",
+          "ipa": "/ˈbenɪfɪt/",
+          "meaning": "lợi ích"
+        },
+        {
+          "word": "strength",
+          "ipa": "/streŋθ/",
+          "meaning": "điểm mạnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "advantageous",
+          "ipa": "/ˌædvənˈteɪdʒəs/",
+          "pos": "adj",
+          "meaning": "có lợi"
+        },
+        {
+          "word": "disadvantage",
+          "ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+          "pos": "n",
+          "meaning": "nhược điểm"
+        }
+      ]
+    },
+    {
+      "word": "Disadvantage",
+      "ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+      "meaning": "nhược điểm",
+      "synonyms": [
+        {
+          "word": "drawback",
+          "ipa": "/ˈdrɔːbæk/",
+          "meaning": "hạn chế, nhược điểm"
+        },
+        {
+          "word": "weakness",
+          "ipa": "/ˈwiːknəs/",
+          "meaning": "điểm yếu"
+        }
+      ],
+      "family": [
+        {
+          "word": "disadvantageous",
+          "ipa": "/ˌdɪsədvənˈteɪdʒəs/",
+          "pos": "adj",
+          "meaning": "bất lợi"
+        },
+        {
+          "word": "advantage",
+          "ipa": "/ədˈvɑːntɪdʒ/",
+          "pos": "n",
+          "meaning": "ưu điểm"
+        }
+      ]
+    },
+    {
+      "word": "Effect",
+      "ipa": "/ɪˈfekt/",
+      "meaning": "tác động, ảnh hưởng (danh từ)",
+      "synonyms": [
+        {
+          "word": "impact",
+          "ipa": "/ˈɪmpækt/",
+          "meaning": "tác động"
+        },
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "meaning": "kết quả"
+        }
+      ],
+      "family": [
+        {
+          "word": "effective",
+          "ipa": "/ɪˈfektɪv/",
+          "pos": "adj",
+          "meaning": "hiệu quả"
+        },
+        {
+          "word": "effectively",
+          "ipa": "/ɪˈfektɪvli/",
+          "pos": "adv",
+          "meaning": "một cách hiệu quả"
+        }
+      ]
+    },
+    {
+      "word": "Cause",
+      "ipa": "/kɔːz/",
+      "meaning": "nguyên nhân; gây ra",
+      "synonyms": [
+        {
+          "word": "reason",
+          "ipa": "/ˈriːzn/",
+          "meaning": "lý do, nguyên nhân"
+        },
+        {
+          "word": "lead to",
+          "ipa": "/liːd tuː/",
+          "meaning": "dẫn đến"
+        }
+      ],
+      "family": [
+        {
+          "word": "causal",
+          "ipa": "/ˈkɔːzl/",
+          "pos": "adj",
+          "meaning": "thuộc nguyên nhân"
+        },
+        {
+          "word": "causation",
+          "ipa": "/kɔːˈzeɪʃn/",
+          "pos": "n",
+          "meaning": "mối quan hệ nhân quả"
+        }
+      ]
+    },
+    {
+      "word": "Influence",
+      "ipa": "/ˈɪnfluəns/",
+      "meaning": "ảnh hưởng",
+      "synonyms": [
+        {
+          "word": "impact",
+          "ipa": "/ˈɪmpækt/",
+          "meaning": "tác động"
+        },
+        {
+          "word": "affect",
+          "ipa": "/əˈfekt/",
+          "meaning": "ảnh hưởng (v)"
+        }
+      ],
+      "family": [
+        {
+          "word": "influential",
+          "ipa": "/ˌɪnfluˈenʃl/",
+          "pos": "adj",
+          "meaning": "có ảnh hưởng"
+        },
+        {
+          "word": "influenced",
+          "ipa": "/ˈɪnfluənst/",
+          "pos": "adj",
+          "meaning": "bị ảnh hưởng"
+        }
+      ]
+    },
+    {
+      "word": "Support",
+      "ipa": "/səˈpɔːt/",
+      "meaning": "hỗ trợ, ủng hộ",
+      "synonyms": [
+        {
+          "word": "assist",
+          "ipa": "/əˈsɪst/",
+          "meaning": "hỗ trợ"
+        },
+        {
+          "word": "help",
+          "ipa": "/help/",
+          "meaning": "giúp đỡ"
+        }
+      ],
+      "family": [
+        {
+          "word": "supportive",
+          "ipa": "/səˈpɔːtɪv/",
+          "pos": "adj",
+          "meaning": "hay hỗ trợ"
+        },
+        {
+          "word": "supporter",
+          "ipa": "/səˈpɔːtə(r)/",
+          "pos": "n",
+          "meaning": "người ủng hộ"
+        }
+      ]
+    },
+    {
+      "word": "Provide",
+      "ipa": "/prəˈvaɪd/",
+      "meaning": "cung cấp",
+      "synonyms": [
+        {
+          "word": "supply",
+          "ipa": "/səˈplaɪ/",
+          "meaning": "cung cấp"
+        },
+        {
+          "word": "offer",
+          "ipa": "/ˈɒfə(r)/",
+          "meaning": "cung cấp, đề nghị"
+        }
+      ],
+      "family": [
+        {
+          "word": "provision",
+          "ipa": "/prəˈvɪʒn/",
+          "pos": "n",
+          "meaning": "sự cung cấp"
+        },
+        {
+          "word": "provider",
+          "ipa": "/prəˈvaɪdə(r)/",
+          "pos": "n",
+          "meaning": "nhà cung cấp"
+        }
+      ]
+    },
+    {
+      "word": "Require",
+      "ipa": "/rɪˈkwaɪə(r)/",
+      "meaning": "yêu cầu, đòi hỏi",
+      "synonyms": [
+        {
+          "word": "need",
+          "ipa": "/niːd/",
+          "meaning": "cần"
+        },
+        {
+          "word": "demand",
+          "ipa": "/dɪˈmɑːnd/",
+          "meaning": "đòi hỏi"
+        }
+      ],
+      "family": [
+        {
+          "word": "requirement",
+          "ipa": "/rɪˈkwaɪəmənt/",
+          "pos": "n",
+          "meaning": "yêu cầu"
+        },
+        {
+          "word": "required",
+          "ipa": "/rɪˈkwaɪəd/",
+          "pos": "adj",
+          "meaning": "bắt buộc, được yêu cầu"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Solutions for a Better School Life",
+      "text": "Students sometimes face problems at school. They may have too much homework, feel tired, or find it difficult to study at home. These problems can have a negative effect on their learning. However, there are simple solutions that can help students.\n\nOne useful solution is to make a study plan. A good plan can provide students with enough time for homework, rest, and other activities. It can also support students when they feel worried about their work. Another solution is to study with a friend. Friends can help each other and share useful ideas. This support can have a positive influence on students' study habits.\n\nThere are several benefits to having a study plan. One important advantage is that students can use their time more effectively. They may also feel less stressed because they know what they need to do. However, a study plan can have a disadvantage if it is too strict. Students may feel unhappy when they cannot follow it.\n\nThe main cause of poor study habits is not always a lack of time. Sometimes students simply do not know how to organize their work. A simple plan can help solve this problem. It does not require special equipment or a lot of money. It only requires some time and regular practice. With the right support, many study problems are solvable."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one solution suggested in the passage?",
+          "options": [
+            "Studying all night",
+            "Making a study plan",
+            "Buying new equipment",
+            "Doing more homework"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is one advantage of having a study plan?",
+          "options": [
+            "Students have more homework.",
+            "Students never feel tired.",
+            "Students can use their time more effectively.",
+            "Students do not need support."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Students can sometimes have problems because they have too much homework.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that every student should study alone.",
+          "answer": "False"
+        },
+        {
+          "statement": "A study plan always makes students happy.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A study plan can (6) ______ students with enough time for different activities. It can also (7) ______ students when they feel worried. Studying with a friend can have a positive (8) ______ on study habits. One important (9) ______ of a study plan is better use of time. A good plan does not (10) ______ special equipment.",
+        "answers": [
+          "provide",
+          "support",
+          "influence",
+          "advantage",
+          "require"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word \"effect\" in paragraph 1 is closest in meaning to:",
+          "options": [
+            "influence",
+            "equipment",
+            "plan",
+            "problem"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"strict\" in paragraph 3 is closest in meaning to:",
+          "options": [
+            "flexible",
+            "very controlled",
+            "useful",
+            "simple"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word \"solvable\" in paragraph 4 means:",
+          "options": [
+            "impossible to understand",
+            "expensive to solve",
+            "able to be solved",
+            "difficult to explain"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "solution",
+          "benefit",
+          "support",
+          "require"
+        ],
+        "right": [
+          "help",
+          "need",
+          "advantage",
+          "answer"
+        ],
+        "answers": {
+          "0": "D",
+          "1": "C",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Finding Effective Solutions to Everyday Problems",
+      "text": "People face different problems in their daily lives. Some problems are small, such as having little time to study, while others can be more serious. Finding a good solution is important because the right solution can reduce a problem and bring useful benefits.\n\nOne common problem for students is poor time management. A student may have classes, homework, exercise, and family activities. If these activities are not organized carefully, they can cause stress and tiredness. One possible solution is to create a weekly schedule. This can help students see how much time they have and decide which activities are most important.\n\nA weekly schedule has several advantages. It can provide students with a clear plan and support them when they have many tasks. It may also have a positive effect on their confidence because students can see their progress. In addition, good time management can influence other areas of life. For example, students may have more time for sleep or exercise.\n\nHowever, every solution has possible disadvantages. A schedule that is too full may become stressful. Students may also feel disappointed if they cannot complete every activity. Therefore, a useful plan should be flexible. It should require students to make an effort, but it should not demand that they work every minute of the day.\n\nAnother important part of solving problems is asking for support. Students can ask teachers, parents, or friends for advice. These people may offer a different answer or suggest a practical remedy. Asking for help is not a weakness. In many situations, it is an effective way to find a better solution.\n\nThe best solutions are usually simple and realistic. A student does not need to change everything at once. Small changes can bring a useful gain over time. When students understand the causes of their problems and choose a suitable solution, many difficulties become solvable. The most important point is to choose a solution that is both beneficial and possible to follow."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What problem is mainly discussed in the passage?",
+          "options": [
+            "Poor time management",
+            "Expensive school equipment",
+            "Difficult examinations",
+            "Lack of exercise"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why can a weekly schedule be useful?",
+          "options": [
+            "It removes every problem immediately.",
+            "It helps students organize their activities.",
+            "It requires students to work all day.",
+            "It makes every activity easier."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Poor organization can cause stress and tiredness.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage says that students should never change their weekly schedules.",
+          "answer": "False"
+        },
+        {
+          "statement": "Teachers are the only people who can provide support to students.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Poor time management can (6) ______ stress and tiredness. A weekly schedule can (7) ______ students with a clear plan. Good time management may also have a positive (8) ______ on confidence. However, a schedule that is too full can have (9) ______. Students can also ask other people for (10) ______ when they have problems.",
+        "answers": [
+          "cause",
+          "provide",
+          "effect",
+          "disadvantages",
+          "support"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word \"realistic\" in paragraph 7 is closest in meaning to:",
+          "options": [
+            "possible and practical",
+            "expensive",
+            "complicated",
+            "unusual"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"remedy\" in paragraph 6 is closest in meaning to:",
+          "options": [
+            "problem",
+            "solution",
+            "disadvantage",
+            "requirement"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word \"gain\" in paragraph 7 is closest in meaning to:",
+          "options": [
+            "loss",
+            "benefit",
+            "cause",
+            "weakness"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "disadvantage",
+          "influence",
+          "support",
+          "provide"
+        ],
+        "right": [
+          "assist",
+          "drawback",
+          "impact",
+          "supply"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "A Simple Solution for Students",
+      "audio": "",
+      "transcript": "Today, I want to talk about a common problem for students: having too many things to do. Students may have classes, homework, exercise, and family activities. When they cannot organize their time, this can cause stress and tiredness.\n\nOne simple solution is to make a weekly plan. The plan can provide students with a clear idea of what they need to do each day. It can also support them when they have many tasks.\n\nThere are several benefits to using a plan. One advantage is that students can see which activities are most important. Another benefit is that good planning can have a positive effect on their sleep because they may finish their homework earlier.\n\nHowever, a plan can also have a disadvantage. If students put too many activities into one day, the plan may become difficult to follow. Therefore, students should make a simple and flexible plan. They should also understand that one problem can have more than one cause.\n\nTeachers and parents can also support students. They can offer advice and provide useful ideas. Sometimes, students only require a little help to find a good answer to a problem.\n\nGood planning can have a strong influence on a student's daily life. It may not solve every problem, but it can make many problems easier to manage. With regular practice, students can find a solvable way to deal with their difficulties."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What common problem does the speaker discuss?",
+          "options": [
+            "Students have too many things to do.",
+            "Students have no teachers.",
+            "Students do not exercise.",
+            "Students have expensive books."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is one advantage of making a weekly plan?",
+          "options": [
+            "Students can avoid all homework.",
+            "Students can see which activities are important.",
+            "Students never feel tired.",
+            "Students do not need support."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Poor time organization can cause stress.",
+          "answer": "True"
+        },
+        {
+          "statement": "The speaker says that a plan should contain as many activities as possible.",
+          "answer": "False"
+        },
+        {
+          "statement": "Teachers and parents can support students.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "One simple ______ is to make a weekly plan.",
+          "answer": "solution"
+        },
+        {
+          "question": "The plan can ______ students with a clear idea of what to do.",
+          "answer": "provide"
+        },
+        {
+          "question": "One ______ of a plan is that students can see important activities.",
+          "answer": "advantage"
+        },
+        {
+          "question": "A plan that contains too many activities may have a ______.",
+          "answer": "disadvantage"
+        },
+        {
+          "question": "Students sometimes only ______ a little help.",
+          "answer": "require"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word \"cause\" in the listening is closest in meaning to:",
+          "options": [
+            "lead to",
+            "support",
+            "solve",
+            "provide"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word \"influence\" is closest in meaning to:",
+          "options": [
+            "requirement",
+            "effect",
+            "answer",
+            "weakness"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word \"require\" is closest in meaning to:",
+          "options": [
+            "need",
+            "offer",
+            "gain",
+            "cause"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "solution",
+          "benefit",
+          "support",
+          "disadvantage"
+        ],
+        "right": [
+          "help",
+          "disadvantage",
+          "answer to a problem",
+          "advantage or useful result"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  }
+}

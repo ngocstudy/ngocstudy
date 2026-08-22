@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson14",
+    "number": 14,
+    "title": "Travel",
+    "titleVi": "Du lịch"
+  },
+  "vocabulary": [
+    {
+      "word": "Tourist",
+      "ipa": "/ˈtʊərɪst/",
+      "meaning": "khách du lịch",
+      "synonyms": [
+        {
+          "word": "visitor",
+          "ipa": "/ˈvɪzɪtə(r)/",
+          "meaning": "du khách"
+        },
+        {
+          "word": "traveller",
+          "ipa": "/ˈtrævələ(r)/",
+          "meaning": "người đi du lịch"
+        }
+      ],
+      "family": [
+        {
+          "word": "tourism",
+          "ipa": "/ˈtʊərɪzəm/",
+          "pos": "",
+          "meaning": "ngành du lịch"
+        },
+        {
+          "word": "tour",
+          "ipa": "/tʊə(r)/",
+          "pos": "",
+          "meaning": "chuyến tham quan"
+        }
+      ]
+    },
+    {
+      "word": "Accommodation",
+      "ipa": "/əˌkɒməˈdeɪʃən/",
+      "meaning": "chỗ ở",
+      "synonyms": [
+        {
+          "word": "lodging",
+          "ipa": "/ˈlɒdʒɪŋ/",
+          "meaning": "nơi lưu trú"
+        },
+        {
+          "word": "housing",
+          "ipa": "/ˈhaʊzɪŋ/",
+          "meaning": "chỗ ở"
+        }
+      ],
+      "family": [
+        {
+          "word": "accommodate",
+          "ipa": "/əˈkɒmədeɪt/",
+          "pos": "",
+          "meaning": "cung cấp chỗ ở"
+        },
+        {
+          "word": "accommodating",
+          "ipa": "/əˈkɒmədeɪtɪŋ/",
+          "pos": "",
+          "meaning": "nhiệt tình, tạo điều kiện"
+        }
+      ]
+    },
+    {
+      "word": "Luggage",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "meaning": "hành lý",
+      "synonyms": [
+        {
+          "word": "baggage",
+          "ipa": "/ˈbæɡɪdʒ/",
+          "meaning": "hành lý"
+        },
+        {
+          "word": "suitcase",
+          "ipa": "/ˈsuːtkeɪs/",
+          "meaning": "va li"
+        }
+      ],
+      "family": [
+        {
+          "word": "bag",
+          "ipa": "/bæɡ/",
+          "pos": "",
+          "meaning": "túi"
+        },
+        {
+          "word": "baggage",
+          "ipa": "/ˈbæɡɪdʒ/",
+          "pos": "",
+          "meaning": "hành lý"
+        }
+      ]
+    },
+    {
+      "word": "Passport",
+      "ipa": "/ˈpɑːspɔːt/",
+      "meaning": "hộ chiếu",
+      "synonyms": [
+        {
+          "word": "travel document",
+          "ipa": "/ˈtrævl ˈdɒkjumənt/",
+          "meaning": "giấy tờ du lịch"
+        },
+        {
+          "word": "identification",
+          "ipa": "/aɪˌdentɪfɪˈkeɪʃn/",
+          "meaning": "giấy tờ nhận dạng"
+        }
+      ],
+      "family": [
+        {
+          "word": "passport holder",
+          "ipa": "/ˈpɑːspɔːt ˈhəʊldə(r)/",
+          "pos": "",
+          "meaning": "người sở hữu hộ chiếu"
+        },
+        {
+          "word": "passport renewal",
+          "ipa": "/rɪˈnjuːəl/",
+          "pos": "",
+          "meaning": "gia hạn hộ chiếu"
+        }
+      ]
+    },
+    {
+      "word": "Flight",
+      "ipa": "/flaɪt/",
+      "meaning": "chuyến bay",
+      "synonyms": [
+        {
+          "word": "air journey",
+          "ipa": "/eə ˈdʒɜːni/",
+          "meaning": "hành trình bằng máy bay"
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "meaning": "chuyến đi"
+        }
+      ],
+      "family": [
+        {
+          "word": "fly",
+          "ipa": "/flaɪ/",
+          "pos": "",
+          "meaning": "bay"
+        },
+        {
+          "word": "flying",
+          "ipa": "/ˈflaɪɪŋ/",
+          "pos": "",
+          "meaning": "việc bay"
+        }
+      ]
+    },
+    {
+      "word": "Culture",
+      "ipa": "/ˈkʌltʃə(r)/",
+      "meaning": "văn hóa",
+      "synonyms": [
+        {
+          "word": "tradition",
+          "ipa": "/trəˈdɪʃn/",
+          "meaning": "truyền thống"
+        },
+        {
+          "word": "heritage",
+          "ipa": "/ˈherɪtɪdʒ/",
+          "meaning": "di sản"
+        }
+      ],
+      "family": [
+        {
+          "word": "cultural",
+          "ipa": "/ˈkʌltʃərəl/",
+          "pos": "",
+          "meaning": "thuộc văn hóa"
+        },
+        {
+          "word": "culturally",
+          "ipa": "/ˈkʌltʃərəli/",
+          "pos": "",
+          "meaning": "về mặt văn hóa"
+        }
+      ]
+    },
+    {
+      "word": "Itinerary",
+      "ipa": "/aɪˈtɪnərəri/",
+      "meaning": "lịch trình",
+      "synonyms": [
+        {
+          "word": "schedule",
+          "ipa": "/ˈʃedjuːl/",
+          "meaning": "lịch trình"
+        },
+        {
+          "word": "plan",
+          "ipa": "/plæn/",
+          "meaning": "kế hoạch"
+        }
+      ],
+      "family": [
+        {
+          "word": "itinerary planning",
+          "ipa": "/ˈplænɪŋ/",
+          "pos": "",
+          "meaning": "lập lịch trình"
+        },
+        {
+          "word": "planned",
+          "ipa": "/plænd/",
+          "pos": "",
+          "meaning": "đã lên kế hoạch"
+        }
+      ]
+    },
+    {
+      "word": "Excursion",
+      "ipa": "/ɪkˈskɜːʃn/",
+      "meaning": "chuyến tham quan",
+      "synonyms": [
+        {
+          "word": "outing",
+          "ipa": "/ˈaʊtɪŋ/",
+          "meaning": "chuyến đi chơi"
+        },
+        {
+          "word": "expedition",
+          "ipa": "/ˌekspəˈdɪʃn/",
+          "meaning": "chuyến thám hiểm"
+        }
+      ],
+      "family": [
+        {
+          "word": "excursionist",
+          "ipa": "/ɪkˈskɜːʃənɪst/",
+          "pos": "",
+          "meaning": "người đi tham quan"
+        },
+        {
+          "word": "excursionary",
+          "ipa": "/ɪkˈskɜːʃənəri/",
+          "pos": "",
+          "meaning": "thuộc chuyến tham quan"
+        }
+      ]
+    },
+    {
+      "word": "Sightseeing",
+      "ipa": "/ˈsaɪtsiːɪŋ/",
+      "meaning": "tham quan danh lam thắng cảnh",
+      "synonyms": [
+        {
+          "word": "touring",
+          "ipa": "/ˈtʊərɪŋ/",
+          "meaning": "đi tham quan"
+        },
+        {
+          "word": "visiting",
+          "ipa": "/ˈvɪzɪtɪŋ/",
+          "meaning": "đi thăm"
+        }
+      ],
+      "family": [
+        {
+          "word": "sightseer",
+          "ipa": "/ˈsaɪtsiːə(r)/",
+          "pos": "",
+          "meaning": "khách tham quan"
+        },
+        {
+          "word": "sightseeing tour",
+          "ipa": "/tʊə(r)/",
+          "pos": "",
+          "meaning": "tour tham quan"
+        }
+      ]
+    },
+    {
+      "word": "Souvenir",
+      "ipa": "/ˌsuːvəˈnɪə(r)/",
+      "meaning": "quà lưu niệm",
+      "synonyms": [
+        {
+          "word": "keepsake",
+          "ipa": "/ˈkiːpseɪk/",
+          "meaning": "vật kỷ niệm"
+        },
+        {
+          "word": "memento",
+          "ipa": "/məˈmentəʊ/",
+          "meaning": "kỷ vật"
+        }
+      ],
+      "family": [
+        {
+          "word": "souvenir shop",
+          "ipa": "/ʃɒp/",
+          "pos": "",
+          "meaning": "cửa hàng lưu niệm"
+        },
+        {
+          "word": "souvenir hunting",
+          "ipa": "/ˈhʌntɪŋ/",
+          "pos": "",
+          "meaning": "mua quà lưu niệm"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Preparing for a Trip",
+      "text": "Traveling to another place can be an exciting experience. Before a trip, a tourist usually needs to prepare several important things. Good preparation can make the journey easier and more comfortable. One of the first things to arrange is accommodation. Tourists can choose different types of accommodation, such as a hotel, guesthouse, or other lodging. The choice may depend on the length of the trip, location, and budget. Tourists also need to prepare their luggage. They should take enough clothes and personal items without carrying too much. Important documents should also be packed carefully. A passport is especially important when traveling to another country because it is an official travel document. For international travel, tourists may also need to book a flight. They should check the departure time, airport, and other information before leaving home. Having a clear itinerary can help travelers organize their activities and avoid confusion. During a trip, tourists often want to learn about the local culture. They may visit museums, historical places, markets, or cultural sites. Sightseeing allows visitors to see interesting places and learn more about the destination. Tourists may also join an excursion, such as a short trip to a nearby attraction. Before returning home, many travelers buy a souvenir as a reminder of their trip. With good preparation and an organized itinerary, travel can be enjoyable and provide people with new experiences."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why is good preparation important before a trip?",
+          "options": [
+            "It can make the journey easier and more comfortable.",
+            "It makes every trip free.",
+            "It removes the need for luggage.",
+            "It guarantees good weather."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is especially important when traveling to another country?",
+          "options": [
+            "A souvenir",
+            "A passport",
+            "An excursion",
+            "A sightseeing tour"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Tourists can choose different types of accommodation.",
+          "answer": "True"
+        },
+        {
+          "statement": "Tourists should always carry as much luggage as possible.",
+          "answer": "False"
+        },
+        {
+          "statement": "Sightseeing can help visitors learn about a destination.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Before traveling, tourists need to arrange (6) ______ and prepare their (7) ______. When traveling internationally, a (8) ______ is an important official document. Travelers can use an (9) ______ to organize their activities. Many tourists also buy a (10) ______ before returning home.",
+        "answers": [
+          "accommodation",
+          "luggage",
+          "passport",
+          "itinerary",
+          "souvenir"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “arrange” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "organize",
+            "cancel",
+            "carry",
+            "visit"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “destination” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "place a person is traveling to",
+            "travel document",
+            "piece of luggage",
+            "place where a person lives permanently"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reminder” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "something that helps someone remember",
+            "something used for transportation",
+            "a type of accommodation",
+            "a travel document"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Tourist",
+          "Accommodation",
+          "Luggage",
+          "Itinerary"
+        ],
+        "right": [
+          "Lodging",
+          "Visitor",
+          "Baggage",
+          "Schedule"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Exploring a New Culture",
+      "text": "Travel has become an important way for people to experience different places and cultures. A tourist may travel for relaxation, education, business, or simply to discover something new. Whatever the reason, careful planning can help make a trip more successful. One important decision is choosing suitable accommodation. Tourists may stay in hotels, guesthouses, or other types of lodging. Location is often an important factor because staying close to major attractions can make sightseeing easier. Travelers also need to prepare their luggage carefully. They should consider the length of the trip and the activities they plan to do. For international travel, a valid passport and other necessary documents are essential. Transportation is another important part of travel planning. Many tourists choose a flight when traveling long distances. Checking departure times and preparing for the journey in advance can reduce stress. An organized itinerary can help tourists make better use of their time. It may include visits to museums, historical sites, restaurants, and other attractions. However, travelers should not make their schedule too full because unexpected changes may occur. One of the most valuable parts of travel is learning about another culture. Tourists may discover different traditions, foods, languages, and ways of life. Respecting local customs is important because cultural practices may be different from those in the visitor's home country. Many travelers also join an excursion during their stay. An excursion is usually a short organized trip to a particular place of interest. It may involve visiting a natural attraction, historical site, or nearby town. At the end of a trip, tourists often look for a souvenir. A souvenir can be a small object that reminds a person of a particular place or experience. It can also be a meaningful gift for family or friends. Travel can therefore provide more than relaxation. It can help people understand other cultures, gain new experiences, and become more open to different ways of life. Good preparation, respect for local culture, and a flexible itinerary can make travel both enjoyable and educational."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why can the location of accommodation be important?",
+          "options": [
+            "It can make sightseeing easier.",
+            "It always makes travel cheaper.",
+            "It removes the need for a passport.",
+            "It guarantees good weather."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why should tourists avoid making their itinerary too full?",
+          "options": [
+            "Unexpected changes may occur.",
+            "Tourists cannot visit attractions.",
+            "Flights are always delayed.",
+            "Accommodation is always expensive."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People may travel for relaxation, education, or business.",
+          "answer": "True"
+        },
+        {
+          "statement": "Tourists should never change their itinerary.",
+          "answer": "False"
+        },
+        {
+          "statement": "Respecting local customs is important when visiting another culture.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Tourists should choose suitable (6) ______ and prepare their (7) ______ before traveling. International travelers need a valid (8) ______ and other necessary documents. An organized (9) ______ can help tourists use their time effectively. Many travelers join an (10) ______ to visit a particular place of interest.",
+        "answers": [
+          "accommodation",
+          "luggage",
+          "passport",
+          "itinerary",
+          "excursion"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “essential” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "necessary",
+            "expensive",
+            "optional",
+            "unusual"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “flexible” in the final paragraph is closest in meaning to:",
+          "options": [
+            "able to change when necessary",
+            "carefully fixed and impossible to change",
+            "very expensive",
+            "completely planned"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “meaningful” in paragraph 8 is closest in meaning to:",
+          "options": [
+            "having special importance",
+            "very expensive",
+            "easy to carry",
+            "difficult to find"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Passport",
+          "Flight",
+          "Excursion",
+          "Souvenir"
+        ],
+        "right": [
+          "Travel document",
+          "Air journey",
+          "Outing",
+          "Keepsake"
+        ],
+        "answers": {
+          "0": "A",
+          "1": "B",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Planning a Trip",
+      "audio": "",
+      "transcript": "Today, I want to talk about planning a trip. Before traveling, a tourist needs to think about several important things. First, they should choose suitable accommodation. This could be a hotel, guesthouse, or another place to stay. Tourists also need to prepare their luggage. For international travel, they must remember their passport and other important documents. If they are traveling a long distance, they may book a flight. Checking the departure time before leaving home is very important. A good itinerary can help tourists organize their activities. They may plan time for sightseeing, visiting cultural places, or joining an excursion. Traveling is also a good way to learn about another culture. Visitors should respect local traditions and customs. Finally, many tourists buy a souvenir before they go home. It can help them remember the places they visited. Good preparation can make a trip more comfortable, enjoyable, and memorable."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What should tourists choose before traveling?",
+          "options": [
+            "Suitable accommodation",
+            "A new job",
+            "A new school",
+            "A business"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may tourists book when traveling a long distance?",
+          "options": [
+            "A flight",
+            "A souvenir",
+            "An excursion",
+            "A passport"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "International tourists should remember their passport.",
+          "answer": "True"
+        },
+        {
+          "statement": "An itinerary can help tourists organize their activities.",
+          "answer": "True"
+        },
+        {
+          "statement": "Visitors do not need to respect local traditions.",
+          "answer": "False"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "A ______ needs to think about several important things before traveling.",
+          "answer": "tourist"
+        },
+        {
+          "question": "Tourists should choose suitable ______.",
+          "answer": "accommodation"
+        },
+        {
+          "question": "International travelers need their ______.",
+          "answer": "passport"
+        },
+        {
+          "question": "Tourists may plan time for ______ and cultural activities.",
+          "answer": "sightseeing"
+        },
+        {
+          "question": "Many tourists buy a ______ before going home.",
+          "answer": "souvenir"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “suitable” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "appropriate",
+            "expensive",
+            "unusual",
+            "temporary"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “departure” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "the time when a journey begins",
+            "the place where tourists stay",
+            "a cultural activity",
+            "a travel souvenir"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “memorable” in the final paragraph is closest in meaning to:",
+          "options": [
+            "worth remembering",
+            "difficult to organize",
+            "very expensive",
+            "impossible to change"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "Tourist",
+          "Accommodation",
+          "Itinerary",
+          "Souvenir"
+        ],
+        "right": [
+          "A place to stay",
+          "A person traveling for pleasure or other purposes",
+          "A plan of activities",
+          "An object kept to remember a place or experience"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

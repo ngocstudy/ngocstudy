@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson20",
+    "number": 20,
+    "title": "Culture & Tradition",
+    "titleVi": "Văn hóa & Truyền thống"
+  },
+  "vocabulary": [
+    {
+      "word": "Tradition",
+      "ipa": "/trəˈdɪʃən/",
+      "meaning": "truyền thống",
+      "synonyms": [
+        {
+          "word": "Custom",
+          "ipa": "/ˈkʌstəm/",
+          "meaning": "phong tục"
+        },
+        {
+          "word": "Convention",
+          "ipa": "/kənˈvenʃən/",
+          "meaning": "tập quán"
+        }
+      ],
+      "family": [
+        {
+          "word": "Traditional",
+          "ipa": "/trəˈdɪʃənl/",
+          "pos": "",
+          "meaning": "thuộc truyền thống"
+        },
+        {
+          "word": "Traditionally",
+          "ipa": "/trəˈdɪʃənəli/",
+          "pos": "",
+          "meaning": "theo truyền thống"
+        }
+      ]
+    },
+    {
+      "word": "Culture",
+      "ipa": "/ˈkʌltʃə(r)/",
+      "meaning": "văn hóa",
+      "synonyms": [
+        {
+          "word": "Civilisation",
+          "ipa": "/ˌsɪvəlaɪˈzeɪʃən/",
+          "meaning": "nền văn minh"
+        },
+        {
+          "word": "Society",
+          "ipa": "/səˈsaɪəti/",
+          "meaning": "xã hội"
+        }
+      ],
+      "family": [
+        {
+          "word": "Cultural",
+          "ipa": "/ˈkʌltʃərəl/",
+          "pos": "",
+          "meaning": "thuộc văn hóa"
+        },
+        {
+          "word": "Culturally",
+          "ipa": "/ˈkʌltʃərəli/",
+          "pos": "",
+          "meaning": "về mặt văn hóa"
+        }
+      ]
+    },
+    {
+      "word": "Custom",
+      "ipa": "/ˈkʌstəm/",
+      "meaning": "phong tục",
+      "synonyms": [
+        {
+          "word": "Tradition",
+          "ipa": "/trəˈdɪʃən/",
+          "meaning": "truyền thống"
+        },
+        {
+          "word": "Convention",
+          "ipa": "/kənˈvenʃən/",
+          "meaning": "tập quán"
+        }
+      ],
+      "family": [
+        {
+          "word": "Customary",
+          "ipa": "/ˈkʌstəməri/",
+          "pos": "",
+          "meaning": "theo phong tục"
+        },
+        {
+          "word": "Customize",
+          "ipa": "/ˈkʌstəmaɪz/",
+          "pos": "",
+          "meaning": "tùy chỉnh"
+        }
+      ]
+    },
+    {
+      "word": "Ceremony",
+      "ipa": "/ˈserəməni/",
+      "meaning": "nghi lễ",
+      "synonyms": [
+        {
+          "word": "Ritual",
+          "ipa": "/ˈrɪtʃuəl/",
+          "meaning": "nghi thức"
+        },
+        {
+          "word": "Celebration",
+          "ipa": "/ˌselɪˈbreɪʃən/",
+          "meaning": "lễ kỷ niệm"
+        }
+      ],
+      "family": [
+        {
+          "word": "Ceremonial",
+          "ipa": "/ˌserəˈməʊniəl/",
+          "pos": "",
+          "meaning": "thuộc nghi lễ"
+        },
+        {
+          "word": "Ceremoniously",
+          "ipa": "/ˌserəˈməʊniəsli/",
+          "pos": "",
+          "meaning": "một cách trang trọng"
+        }
+      ]
+    },
+    {
+      "word": "Festival",
+      "ipa": "/ˈfestɪvl/",
+      "meaning": "lễ hội",
+      "synonyms": [
+        {
+          "word": "Celebration",
+          "ipa": "/ˌselɪˈbreɪʃən/",
+          "meaning": "lễ kỷ niệm"
+        },
+        {
+          "word": "Event",
+          "ipa": "/ɪˈvent/",
+          "meaning": "sự kiện"
+        }
+      ],
+      "family": [
+        {
+          "word": "Festive",
+          "ipa": "/ˈfestɪv/",
+          "pos": "",
+          "meaning": "mang tính lễ hội"
+        },
+        {
+          "word": "Festivity",
+          "ipa": "/feˈstɪvəti/",
+          "pos": "",
+          "meaning": "lễ hội"
+        }
+      ]
+    },
+    {
+      "word": "Religion",
+      "ipa": "/rɪˈlɪdʒən/",
+      "meaning": "tôn giáo",
+      "synonyms": [
+        {
+          "word": "Faith",
+          "ipa": "/feɪθ/",
+          "meaning": "đức tin"
+        },
+        {
+          "word": "Belief",
+          "ipa": "/bɪˈliːf/",
+          "meaning": "niềm tin"
+        }
+      ],
+      "family": [
+        {
+          "word": "Religious",
+          "ipa": "/rɪˈlɪdʒəs/",
+          "pos": "",
+          "meaning": "thuộc tôn giáo"
+        },
+        {
+          "word": "Religiously",
+          "ipa": "/rɪˈlɪdʒəsli/",
+          "pos": "",
+          "meaning": "một cách sùng đạo"
+        }
+      ]
+    },
+    {
+      "word": "Belief",
+      "ipa": "/bɪˈliːf/",
+      "meaning": "niềm tin, tín ngưỡng",
+      "synonyms": [
+        {
+          "word": "Faith",
+          "ipa": "/feɪθ/",
+          "meaning": "đức tin"
+        },
+        {
+          "word": "View",
+          "ipa": "/vjuː/",
+          "meaning": "quan điểm"
+        }
+      ],
+      "family": [
+        {
+          "word": "Believe",
+          "ipa": "/bɪˈliːv/",
+          "pos": "",
+          "meaning": "tin tưởng"
+        },
+        {
+          "word": "Believable",
+          "ipa": "/bɪˈliːvəbl/",
+          "pos": "",
+          "meaning": "đáng tin"
+        }
+      ]
+    },
+    {
+      "word": "Heritage",
+      "ipa": "/ˈherɪtɪdʒ/",
+      "meaning": "di sản",
+      "synonyms": [
+        {
+          "word": "Legacy",
+          "ipa": "/ˈleɡəsi/",
+          "meaning": "di sản để lại"
+        },
+        {
+          "word": "Inheritance",
+          "ipa": "/ɪnˈherɪtəns/",
+          "meaning": "di sản thừa kế"
+        }
+      ],
+      "family": [
+        {
+          "word": "Heritable",
+          "ipa": "/ˈherɪtəbl/",
+          "pos": "",
+          "meaning": "có thể thừa hưởng"
+        },
+        {
+          "word": "Heritability",
+          "ipa": "/həˌrɪtəˈbɪləti/",
+          "pos": "",
+          "meaning": "tính di truyền"
+        }
+      ]
+    },
+    {
+      "word": "Identity",
+      "ipa": "/aɪˈdentəti/",
+      "meaning": "bản sắc",
+      "synonyms": [
+        {
+          "word": "Character",
+          "ipa": "/ˈkærəktə(r)/",
+          "meaning": "đặc điểm"
+        },
+        {
+          "word": "Profile",
+          "ipa": "/ˈprəʊfaɪl/",
+          "meaning": "hồ sơ, đặc điểm"
+        }
+      ],
+      "family": [
+        {
+          "word": "Identify",
+          "ipa": "/aɪˈdentɪfaɪ/",
+          "pos": "",
+          "meaning": "nhận diện"
+        },
+        {
+          "word": "Identification",
+          "ipa": "/aɪˌdentɪfɪˈkeɪʃən/",
+          "pos": "",
+          "meaning": "sự nhận diện"
+        }
+      ]
+    },
+    {
+      "word": "Diversity",
+      "ipa": "/daɪˈvɜːsəti/",
+      "meaning": "sự đa dạng",
+      "synonyms": [
+        {
+          "word": "Variety",
+          "ipa": "/vəˈraɪəti/",
+          "meaning": "sự phong phú"
+        },
+        {
+          "word": "Range",
+          "ipa": "/reɪndʒ/",
+          "meaning": "phạm vi, nhiều loại"
+        }
+      ],
+      "family": [
+        {
+          "word": "Diverse",
+          "ipa": "/daɪˈvɜːs/",
+          "pos": "",
+          "meaning": "đa dạng"
+        },
+        {
+          "word": "Diversify",
+          "ipa": "/daɪˈvɜːsɪfaɪ/",
+          "pos": "",
+          "meaning": "đa dạng hóa"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Traditional Culture in a Small Community",
+      "text": "Many communities have their own tradition and customs. These traditions can tell us a lot about the history and culture of a place. They are often passed from parents to children and can continue for many generations.\n\nOne important part of local culture is the festival. A festival is usually a special event where people meet, eat traditional food, listen to music, and enjoy different activities. Some festivals are connected with a religion, while others celebrate an important event in the history of the community.\n\nA ceremony is another important part of traditional life. For example, people may have a ceremony when they get married or when a young person becomes an adult. These ceremonies can be simple or very formal. They often follow a traditional pattern.\n\nPeople also have different beliefs. A belief is something that a person or group thinks is true or important. Religious beliefs can influence the way people celebrate festivals and ceremonies.\n\nTraditional buildings, clothing, music, food, and stories are also part of a community's heritage. Heritage connects people with their past. It can also help young people understand where they come from.\n\nToday, many communities are becoming more diverse. Diversity means that people with different backgrounds, ideas, and traditions live together. This does not necessarily mean that old traditions disappear. Instead, people can share their traditions with others.\n\nIn this way, culture can help people develop a strong sense of identity while also learning to respect other cultures."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one main purpose of tradition?",
+          "options": [
+            "To make communities smaller",
+            "To connect people with their history",
+            "To stop people from meeting",
+            "To remove cultural differences"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can festivals include?",
+          "options": [
+            "Only religious activities",
+            "Only traditional clothing",
+            "Food, music, and activities",
+            "School examinations"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Traditions can be passed from parents to children.",
+          "answer": "True"
+        },
+        {
+          "statement": "All festivals are connected with religion.",
+          "answer": "False"
+        },
+        {
+          "statement": "Traditional ceremonies are always very formal.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Traditions tell people about the history and 6. ______ of a place. A special 7. ______ can bring people together to enjoy food, music, and activities. A 8. ______ can be used for important events such as marriage. Traditional buildings, clothing, music, food, and stories are part of a community's 9. ______. Cultural 10. ______ means that people from different backgrounds live together.",
+        "answers": [
+          "culture",
+          "festival",
+          "ceremony",
+          "heritage",
+          "diversity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “heritage” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "future plans",
+            "cultural history",
+            "personal money",
+            "modern technology"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “diverse” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "different",
+            "traditional",
+            "religious",
+            "formal"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “identity” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "a person's or group's sense of who they are",
+            "a type of festival",
+            "a traditional building",
+            "a religious ceremony"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Tradition",
+          "Ceremony",
+          "Belief",
+          "Heritage"
+        ],
+        "right": [
+          "religious faith",
+          "inherited culture",
+          "established custom",
+          "formal event"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "How Traditional Culture Changes in a Modern World",
+      "text": "Culture is not something that stays exactly the same forever. As societies change, their traditions, customs, and ways of life can also change. However, many people still want to protect their cultural heritage and keep an important connection with the past.\n\nIn many countries, traditional festivals are an important part of community life. During these events, people may wear traditional clothes, prepare special food, perform music, or take part in a ceremony. Some festivals have a strong connection with religion, while others are based on historical events or local customs.\n\nTraditional beliefs can also influence everyday life. For example, some families have special beliefs about marriage, food, family relationships, or important stages of life. Younger generations may not follow every old belief, but they may still respect it because it is part of their family history.\n\nAnother important part of culture is language. Traditional stories, songs, and expressions can carry information from one generation to another. When a language disappears, some cultural knowledge may also be lost. For this reason, schools and community groups sometimes organize activities to help young people learn about their cultural background.\n\nModern technology has created new ways to protect and share culture. People can record traditional music, photograph old buildings, and publish stories online. Museums can also use digital technology to show important objects to people around the world.\n\nAt the same time, globalization has increased diversity in many cities. People from different countries may live, study, and work together. This can introduce new food, music, celebrations, and ideas. Some people worry that globalization may weaken local traditions. Others believe that cultural exchange can make communities stronger.\n\nA person's cultural identity does not have to be based on only one tradition. People can respect their own heritage while learning about other cultures. In fact, understanding different cultures may help people communicate better and reduce misunderstandings.\n\nThe challenge for modern communities is therefore not simply to keep every tradition unchanged. Instead, communities need to decide which traditions are important, how they can be passed to younger generations, and how they can exist alongside new cultural influences."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why do some communities organize cultural activities for young people?",
+          "options": [
+            "To stop them using technology",
+            "To help them learn about their cultural background",
+            "To make them leave the community",
+            "To replace traditional festivals"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is one possible benefit of cultural exchange?",
+          "options": [
+            "It can strengthen communication and understanding.",
+            "It always removes local traditions.",
+            "It stops people from learning languages.",
+            "It makes communities less diverse."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Culture always remains exactly the same over time.",
+          "answer": "False"
+        },
+        {
+          "statement": "Technology can help people record and share traditional culture.",
+          "answer": "True"
+        },
+        {
+          "statement": "All young people reject traditional beliefs.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Traditional 6. ______ can include clothing, food, music, and ceremonies. Some cultural 7. ______ are connected with religion or family life. Traditional stories and songs can pass information between 8. ______. Modern technology can help protect cultural 9. ______. Cultural 10. ______ allows people from different backgrounds to live and interact together.",
+        "answers": [
+          "traditions",
+          "beliefs",
+          "generations",
+          "heritage",
+          "diversity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “influences” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "effects",
+            "buildings",
+            "ceremonies",
+            "languages"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “weaken” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "make stronger",
+            "make less strong",
+            "celebrate",
+            "protect"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “exchange” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "sharing between people or groups",
+            "protecting old buildings",
+            "studying one religion",
+            "avoiding other cultures"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Custom",
+          "Heritage",
+          "Diversity",
+          "Identity"
+        ],
+        "right": [
+          "variety",
+          "inherited cultural history",
+          "traditional practice",
+          "sense of who someone is"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "B",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Traditional Culture in Modern Life",
+      "audio": "",
+      "transcript": "Today, I would like to talk about culture and traditions in modern communities.\n\nEvery community has its own culture. It can include food, music, clothing, stories, and ways of celebrating important events. Many of these things come from old traditions and customs.\n\nOne example is a local festival. During a festival, people may meet their family and friends, eat traditional food, listen to music, and join different activities. Some festivals are related to religion, while others celebrate an important historical event.\n\nAnother important part of culture is a ceremony. Weddings, for example, often include special customs. People may wear traditional clothes, use traditional objects, or follow a particular order of activities.\n\nPeople also have different beliefs. These beliefs can influence family life and religious activities. They may be different from one community to another.\n\nTraditional buildings, food, music, and stories are part of cultural heritage. Protecting this heritage is important because it helps younger people understand their history.\n\nHowever, modern communities are becoming more diverse. Diversity means that people with different backgrounds and traditions live together. This can introduce new ideas and new ways of life.\n\nYoung people can therefore learn about their own culture while also learning about other cultures. This can help them develop a strong cultural identity and respect people who are different from them."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can culture include?",
+          "options": [
+            "Only religion",
+            "Food, music, clothing, and stories",
+            "Only traditional buildings",
+            "Only family relationships"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can a festival celebrate?",
+          "options": [
+            "Only a person's birthday",
+            "Only modern technology",
+            "A religious or historical event",
+            "Only a school activity"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Festivals can include traditional food and music.",
+          "answer": "True"
+        },
+        {
+          "statement": "Weddings can include special customs.",
+          "answer": "True"
+        },
+        {
+          "statement": "Cultural heritage is not important for young people.",
+          "answer": "False"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Every community has its own ______.",
+          "answer": "culture"
+        },
+        {
+          "question": "A local ______ can bring family and friends together.",
+          "answer": "festival"
+        },
+        {
+          "question": "Weddings can be an example of a cultural ______.",
+          "answer": "ceremony"
+        },
+        {
+          "question": "Traditional buildings, food, music, and stories are part of cultural ______.",
+          "answer": "heritage"
+        },
+        {
+          "question": "Young people can develop a strong cultural ______.",
+          "answer": "identity"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “customs” is closest in meaning to:",
+          "options": [
+            "traditional practices",
+            "modern machines",
+            "personal problems",
+            "school subjects"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “heritage” is closest in meaning to:",
+          "options": [
+            "cultural history passed down through generations",
+            "a modern festival",
+            "a personal opinion",
+            "a type of ceremony"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “diversity” is closest in meaning to:",
+          "options": [
+            "the presence of different backgrounds and traditions",
+            "one traditional belief",
+            "an old ceremony",
+            "a religious festival"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Festival",
+          "Ceremony",
+          "Heritage",
+          "Diversity"
+        ],
+        "right": [
+          "helps people understand their history",
+          "can include special customs",
+          "can celebrate a religious or historical event",
+          "means people from different backgrounds live together"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "B",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

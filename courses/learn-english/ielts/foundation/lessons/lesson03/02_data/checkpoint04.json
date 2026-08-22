@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "id": "checkpoint4",
+    "number": "4",
+    "title": "SOCIETY AND QUALITY OF LIFE",
+    "titleVi": "Xã hội và chất lượng cuộc sống",
+    "scope": "Bài 16 → Bài 20"
+  },
+  "vocabulary": [
+    {
+      "word": "Crime",
+      "ipa": "/kraɪm/",
+      "meaning": "Tội phạm; tội ác",
+      "synonyms": [
+        {
+          "word": "Offence",
+          "ipa": "/əˈfens/",
+          "meaning": "hành vi phạm tội"
+        },
+        {
+          "word": "Wrongdoing",
+          "ipa": "/ˌrɒŋˈduːɪŋ/",
+          "meaning": "hành vi sai trái"
+        }
+      ],
+      "family": [
+        {
+          "word": "Criminal",
+          "ipa": "/ˈkrɪmɪnl/",
+          "pos": "",
+          "meaning": "tội phạm; thuộc hình sự"
+        },
+        {
+          "word": "Criminality",
+          "ipa": "/ˌkrɪmɪˈnæləti/",
+          "pos": "",
+          "meaning": "tính chất phạm tội"
+        }
+      ]
+    },
+    {
+      "word": "Safety",
+      "ipa": "/ˈseɪfti/",
+      "meaning": "Sự an toàn",
+      "synonyms": [
+        {
+          "word": "Protection",
+          "ipa": "/prəˈtekʃn/",
+          "meaning": "sự bảo vệ"
+        },
+        {
+          "word": "Security",
+          "ipa": "/sɪˈkjʊərəti/",
+          "meaning": "sự an toàn, an ninh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Safe",
+          "ipa": "/seɪf/",
+          "pos": "",
+          "meaning": "an toàn"
+        },
+        {
+          "word": "Safely",
+          "ipa": "/ˈseɪfli/",
+          "pos": "",
+          "meaning": "một cách an toàn"
+        }
+      ]
+    },
+    {
+      "word": "Health",
+      "ipa": "/helθ/",
+      "meaning": "Sức khỏe",
+      "synonyms": [
+        {
+          "word": "Well-being",
+          "ipa": "/ˌwel ˈbiːɪŋ/",
+          "meaning": "sức khỏe, hạnh phúc"
+        },
+        {
+          "word": "Fitness",
+          "ipa": "/ˈfɪtnəs/",
+          "meaning": "thể chất khỏe mạnh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Healthy",
+          "ipa": "/ˈhelθi/",
+          "pos": "",
+          "meaning": "khỏe mạnh"
+        },
+        {
+          "word": "Healthily",
+          "ipa": "/ˈhelθɪli/",
+          "pos": "",
+          "meaning": "một cách lành mạnh"
+        }
+      ]
+    },
+    {
+      "word": "Treatment",
+      "ipa": "/ˈtriːtmənt/",
+      "meaning": "Phương pháp điều trị",
+      "synonyms": [
+        {
+          "word": "Therapy",
+          "ipa": "/ˈθerəpi/",
+          "meaning": "liệu pháp"
+        },
+        {
+          "word": "Care",
+          "ipa": "/keə(r)/",
+          "meaning": "sự chăm sóc, điều trị"
+        }
+      ],
+      "family": [
+        {
+          "word": "Treat",
+          "ipa": "/triːt/",
+          "pos": "",
+          "meaning": "điều trị"
+        },
+        {
+          "word": "Treatable",
+          "ipa": "/ˈtriːtəbl/",
+          "pos": "",
+          "meaning": "có thể chữa được"
+        }
+      ]
+    },
+    {
+      "word": "Communication",
+      "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning": "Giao tiếp; truyền thông",
+      "synonyms": [
+        {
+          "word": "Interaction",
+          "ipa": "/ˌɪntərˈækʃn/",
+          "meaning": "sự tương tác"
+        },
+        {
+          "word": "Conversation",
+          "ipa": "/ˌkɒnvəˈseɪʃn/",
+          "meaning": "cuộc trò chuyện"
+        }
+      ],
+      "family": [
+        {
+          "word": "Communicate",
+          "ipa": "/kəˈmjuːnɪkeɪt/",
+          "pos": "",
+          "meaning": "giao tiếp"
+        },
+        {
+          "word": "Communicator",
+          "ipa": "/kəˈmjuːnɪkeɪtə(r)/",
+          "pos": "",
+          "meaning": "người giao tiếp"
+        }
+      ]
+    },
+    {
+      "word": "Nutrition",
+      "ipa": "/njuˈtrɪʃn/",
+      "meaning": "Dinh dưỡng",
+      "synonyms": [
+        {
+          "word": "Nourishment",
+          "ipa": "/ˈnʌrɪʃmənt/",
+          "meaning": "sự nuôi dưỡng"
+        },
+        {
+          "word": "Dietetics",
+          "ipa": "/ˌdaɪəˈtetɪks/",
+          "meaning": "dinh dưỡng học"
+        }
+      ],
+      "family": [
+        {
+          "word": "Nutritious",
+          "ipa": "/njuˈtrɪʃəs/",
+          "pos": "",
+          "meaning": "giàu dinh dưỡng"
+        },
+        {
+          "word": "Nutrient",
+          "ipa": "/ˈnjuːtriənt/",
+          "pos": "",
+          "meaning": "chất dinh dưỡng"
+        }
+      ]
+    },
+    {
+      "word": "Agriculture",
+      "ipa": "/ˈæɡrɪkʌltʃə(r)/",
+      "meaning": "Nông nghiệp",
+      "synonyms": [
+        {
+          "word": "Farming",
+          "ipa": "/ˈfɑːmɪŋ/",
+          "meaning": "nghề nông"
+        },
+        {
+          "word": "Cultivation",
+          "ipa": "/ˌkʌltɪˈveɪʃn/",
+          "meaning": "sự canh tác"
+        }
+      ],
+      "family": [
+        {
+          "word": "Agricultural",
+          "ipa": "/ˌæɡrɪˈkʌltʃərəl/",
+          "pos": "",
+          "meaning": "thuộc nông nghiệp"
+        },
+        {
+          "word": "Agriculturist",
+          "ipa": "/ˌæɡrɪˈkʌltʃərɪst/",
+          "pos": "",
+          "meaning": "nhà nông học"
+        }
+      ]
+    },
+    {
+      "word": "Tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "meaning": "Truyền thống",
+      "synonyms": [
+        {
+          "word": "Custom",
+          "ipa": "/ˈkʌstəm/",
+          "meaning": "phong tục"
+        },
+        {
+          "word": "Convention",
+          "ipa": "/kənˈvenʃn/",
+          "meaning": "tập quán"
+        }
+      ],
+      "family": [
+        {
+          "word": "Traditional",
+          "ipa": "/trəˈdɪʃənl/",
+          "pos": "",
+          "meaning": "thuộc truyền thống"
+        },
+        {
+          "word": "Traditionally",
+          "ipa": "/trəˈdɪʃənəli/",
+          "pos": "",
+          "meaning": "theo truyền thống"
+        }
+      ]
+    },
+    {
+      "word": "Diversity",
+      "ipa": "/daɪˈvɜːsəti/",
+      "meaning": "Sự đa dạng",
+      "synonyms": [
+        {
+          "word": "Variety",
+          "ipa": "/vəˈraɪəti/",
+          "meaning": "sự phong phú, đa dạng"
+        },
+        {
+          "word": "Range",
+          "ipa": "/reɪndʒ/",
+          "meaning": "phạm vi, nhiều loại"
+        }
+      ],
+      "family": [
+        {
+          "word": "Diverse",
+          "ipa": "/daɪˈvɜːs/",
+          "pos": "",
+          "meaning": "đa dạng"
+        },
+        {
+          "word": "Diversify",
+          "ipa": "/daɪˈvɜːsɪfaɪ/",
+          "pos": "",
+          "meaning": "đa dạng hóa"
+        }
+      ]
+    },
+    {
+      "word": "Community",
+      "ipa": "/kəˈmjuːnəti/",
+      "meaning": "Cộng đồng",
+      "synonyms": [
+        {
+          "word": "Society",
+          "ipa": "/səˈsaɪəti/",
+          "meaning": "xã hội"
+        },
+        {
+          "word": "Neighbourhood",
+          "ipa": "/ˈneɪbəhʊd/",
+          "meaning": "khu dân cư"
+        }
+      ],
+      "family": [
+        {
+          "word": "Communal",
+          "ipa": "/ˈkɒmjənl/",
+          "pos": "",
+          "meaning": "thuộc cộng đồng"
+        },
+        {
+          "word": "Communicate",
+          "ipa": "/kəˈmjuːnɪkeɪt/",
+          "pos": "",
+          "meaning": "giao tiếp"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": "A healthy community is not only a place where people can receive medical care. It is also a place where people feel safe, communicate with others, and have access to good food. These factors can have an important effect on people's health and quality of life.\n\nGood nutrition is one important part of a healthy life. People need different nutrients to keep their bodies strong. Local agriculture can help provide fresh vegetables, fruit and other food. In some communities, farmers sell their products directly to local families. This can make fresh food easier to obtain.\n\nSafety is also important. A community with good safety measures can help reduce crime. For example, good street lighting and safe public areas may make people feel more comfortable when they walk outside. People can also work together to report problems and protect their neighbourhood.\n\nHealth services are another important part of community life. When people become ill, they may need medical treatment. Hospitals and clinics can provide care and help patients recover. However, prevention is often better than waiting until a health problem becomes serious.\n\nFinally, strong communication can connect people. Communities may organize health activities, food programmes or cultural events. These activities can bring people together and create a stronger sense of belonging. Although communities may have different traditions and levels of diversity, cooperation can help improve life for everyone.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one important part of a healthy community?",
+          "options": [
+            "Having expensive cars",
+            "Having good nutrition",
+            "Having fewer cultural traditions",
+            "Having more factories"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "How can good street lighting help a community?",
+          "options": [
+            "It can increase farming.",
+            "It can provide medical treatment.",
+            "It can make people feel safer.",
+            "It can improve nutrition."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Local agriculture can provide fresh food for people in the community.",
+          "answer": "True"
+        },
+        {
+          "statement": "All communities have exactly the same traditions.",
+          "answer": "False"
+        },
+        {
+          "statement": "Hospitals are only useful for people with serious diseases.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A healthy community needs several important things. Good 6. ________ helps people receive the nutrients they need. Local 7. ________ can provide fresh food. Good 8. ________ measures may reduce crime and make people feel comfortable. People who become ill may need medical 9. ________. Strong 10. ________ also helps people connect with one another.",
+        "answers": [
+          "nutrition",
+          "agriculture",
+          "safety",
+          "treatment",
+          "communication"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "In the passage, “obtain” is closest in meaning to:",
+          "options": [
+            "lose",
+            "get",
+            "grow",
+            "cook"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "In the passage, “reduce” is closest in meaning to:",
+          "options": [
+            "increase",
+            "remove completely",
+            "make less",
+            "discover"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "In the passage, “belonging” is closest in meaning to:",
+          "options": [
+            "feeling connected to a group",
+            "living alone",
+            "receiving treatment",
+            "growing food"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "health",
+          "safety",
+          "communication",
+          "agriculture"
+        ],
+        "right": [
+          "conversation",
+          "farming",
+          "well-being",
+          "protection"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": "The quality of life in a community depends on more than economic development. A successful community should provide people with a safe environment, access to healthcare, nutritious food and opportunities for social interaction. It should also respect cultural differences and encourage people to take part in community activities.\n\nOne major concern is public health. People need access to appropriate treatment when they become ill, but healthcare should not focus only on treating disease. Prevention is equally important. Healthy eating, regular exercise and access to reliable health information can help people avoid some health problems. Good nutrition is especially important because the body needs a range of nutrients to remain healthy.\n\nLocal agriculture can contribute to this goal. Farmers produce food for local communities, while modern farming methods can improve food production. However, agriculture also needs to be managed carefully to protect natural resources. A balance between food production and environmental protection can benefit both farmers and local residents.\n\nAnother important issue is safety. Communities need effective measures to prevent crime and protect vulnerable people. Good lighting, responsible policing and cooperation between residents can make public places safer. People are more likely to use parks, streets and public facilities when they feel secure.\n\nCommunication is essential in creating this cooperation. People need to share information and discuss problems before they can find solutions. Community meetings, local media and social activities can provide opportunities for interaction.\n\nAt the same time, modern communities are becoming increasingly diverse. Different groups may have different traditions, beliefs and lifestyles. This diversity can create challenges, but it can also make communities more interesting and socially rich. Respect for different customs can help people live together peacefully.\n\nUltimately, a strong community is one in which people care about both individual and public well-being. Governments and organizations can provide services, but ordinary citizens also have an important role. By communicating, respecting others and making healthy and safe choices, people can help create better communities for the future.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "According to the passage, healthcare should focus on:",
+          "options": [
+            "treatment only",
+            "prevention only",
+            "both treatment and prevention",
+            "economic development only"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "What is one benefit of diversity?",
+          "options": [
+            "It can make communities socially richer.",
+            "It always reduces crime.",
+            "It removes the need for communication.",
+            "It makes agriculture more productive."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Local agriculture can contribute to public health by producing food.",
+          "answer": "True"
+        },
+        {
+          "statement": "Good lighting can make public places feel safer.",
+          "answer": "True"
+        },
+        {
+          "statement": "Most people prefer to attend community meetings rather than use local media.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A strong community needs good healthcare, nutritious food and a safe environment. Good 6. ________ is important because the body needs nutrients. Local 7. ________ can provide food but should also protect natural resources. Effective measures can reduce 8. ________ and protect people. Good 9. ________ helps residents cooperate and solve problems. Finally, respect for cultural 10. ________ can help different groups live together peacefully.",
+        "answers": [
+          "nutrition",
+          "agriculture",
+          "crime",
+          "communication",
+          "diversity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "In the passage, “vulnerable” is closest in meaning to:",
+          "options": [
+            "easily harmed",
+            "very wealthy",
+            "highly educated",
+            "physically active"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In the passage, “appropriate” is closest in meaning to:",
+          "options": [
+            "expensive",
+            "suitable",
+            "traditional",
+            "difficult"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "In the passage, “ultimately” is closest in meaning to:",
+          "options": [
+            "at first",
+            "suddenly",
+            "in the end",
+            "rarely"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word with its closest synonym.",
+        "left": [
+          "treatment",
+          "diversity",
+          "communication",
+          "safety"
+        ],
+        "right": [
+          "interaction",
+          "therapy",
+          "variety",
+          "security"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": "Today I want to talk about how a community can improve people's quality of life.\n\nFirst, health is very important. People need access to hospitals and suitable treatment when they are ill. However, prevention is also important. People should eat healthy food and learn about good nutrition. Local farmers can support this by providing fresh food through agriculture.\n\nSecond, safety is necessary for a good community. People want to feel safe when they walk in their neighbourhood. Communities can work with the police to reduce crime and protect public areas.\n\nAnother important point is communication. People need to talk to their neighbours and share information about local problems. Good communication can help residents work together instead of solving problems alone.\n\nCommunities are also often culturally diverse. People may have different traditions, foods and ways of celebrating important events. This diversity can make community life more interesting. People do not have to have the same traditions, but they should respect each other.\n\nFinally, every person has a role in building a strong community. Healthy choices, safe behaviour, cooperation and respect can all improve people's lives. A better community does not happen because of one person. It is created when many people work together.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one way local farmers can support community health?",
+          "options": [
+            "By building hospitals",
+            "By providing fresh food",
+            "By reducing communication",
+            "By protecting public areas"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Who can communities work with to reduce crime?",
+          "options": [
+            "Farmers",
+            "Teachers",
+            "Police",
+            "Tourists"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "People need suitable treatment when they are ill.",
+          "answer": "True"
+        },
+        {
+          "statement": "People in a community must have exactly the same traditions.",
+          "answer": "False"
+        },
+        {
+          "statement": "Good communication can help residents work together.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the sentences with ONE WORD ONLY.",
+        "text": "Good ________ is important for people's quality of life.\nPeople should learn about good ________.\nCommunities can work with the police to reduce ________.\nPeople need good ________ to share information about local problems.\nDifferent ________ can make community life more interesting.",
+        "answers": [
+          "health",
+          "nutrition",
+          "crime",
+          "communication",
+          "traditions"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "What does “suitable” mean in the listening?",
+          "options": [
+            "expensive",
+            "appropriate",
+            "traditional",
+            "dangerous"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does “residents” mean?",
+          "options": [
+            "people who live in a place",
+            "people who visit a place",
+            "people who work in hospitals",
+            "people who grow food"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What does “respect” mean in the listening?",
+          "options": [
+            "to ignore someone",
+            "to treat someone with consideration",
+            "to disagree with everyone",
+            "to control someone"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words with their closest meanings.",
+        "left": [
+          "health",
+          "agriculture",
+          "tradition",
+          "community"
+        ],
+        "right": [
+          "farming",
+          "well-being",
+          "custom",
+          "group of people living in an area"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

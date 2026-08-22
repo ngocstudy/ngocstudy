@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "id": "lesson22",
+    "number": 22,
+    "title": "Law & Human Rights",
+    "titleVi": "Pháp luật & Quyền con người"
+  },
+  "vocabulary": [
+    {
+      "word": "Legal",
+      "ipa": "/ˈliːɡl/",
+      "meaning": "hợp pháp",
+      "synonyms": [
+        {
+          "word": "lawful",
+          "ipa": "/ˈlɔːfl/",
+          "meaning": "hợp pháp"
+        },
+        {
+          "word": "legitimate",
+          "ipa": "/ləˈdʒɪtəmət/",
+          "meaning": "chính đáng, hợp pháp"
+        }
+      ],
+      "family": [
+        {
+          "word": "legally",
+          "ipa": "/ˈliːɡəli/",
+          "meaning": "một cách hợp pháp",
+          "pos": "adv"
+        },
+        {
+          "word": "illegal",
+          "ipa": "/ɪˈliːɡl/",
+          "meaning": "bất hợp pháp",
+          "pos": "adj"
+        }
+      ],
+      "pos": "adj"
+    },
+    {
+      "word": "Justice",
+      "ipa": "/ˈdʒʌstɪs/",
+      "meaning": "công lý",
+      "synonyms": [
+        {
+          "word": "fairness",
+          "ipa": "/ˈfeənəs/",
+          "meaning": "sự công bằng"
+        },
+        {
+          "word": "judgement",
+          "ipa": "/ˈdʒʌdʒmənt/",
+          "meaning": "sự xét xử"
+        }
+      ],
+      "family": [
+        {
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "meaning": "công bằng",
+          "pos": "adj"
+        },
+        {
+          "word": "justify",
+          "ipa": "/ˈdʒʌstɪfaɪ/",
+          "meaning": "biện minh",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Freedom",
+      "ipa": "/ˈfriːdəm/",
+      "meaning": "tự do",
+      "synonyms": [
+        {
+          "word": "liberty",
+          "ipa": "/ˈlɪbəti/",
+          "meaning": "quyền tự do"
+        },
+        {
+          "word": "independence",
+          "ipa": "/ˌɪndɪˈpendəns/",
+          "meaning": "sự độc lập"
+        }
+      ],
+      "family": [
+        {
+          "word": "free",
+          "ipa": "/friː/",
+          "meaning": "tự do",
+          "pos": "adj"
+        },
+        {
+          "word": "freely",
+          "ipa": "/ˈfriːli/",
+          "meaning": "một cách tự do",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Constitution",
+      "ipa": "/ˌkɒnstɪˈtjuːʃən/",
+      "meaning": "hiến pháp",
+      "synonyms": [
+        {
+          "word": "charter",
+          "ipa": "/ˈtʃɑːtə(r)/",
+          "meaning": "hiến chương"
+        },
+        {
+          "word": "fundamental law",
+          "ipa": "/ˌfʌndəˈmentl lɔː/",
+          "meaning": "luật cơ bản"
+        }
+      ],
+      "family": [
+        {
+          "word": "constitutional",
+          "ipa": "/ˌkɒnstɪˈtjuːʃənl/",
+          "meaning": "thuộc hiến pháp",
+          "pos": "adj"
+        },
+        {
+          "word": "constitutionally",
+          "ipa": "/ˌkɒnstɪˈtjuːʃənəli/",
+          "meaning": "theo hiến pháp",
+          "pos": "adv"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Legislation",
+      "ipa": "/ˌledʒɪsˈleɪʃən/",
+      "meaning": "pháp luật, bộ luật",
+      "synonyms": [
+        {
+          "word": "statute",
+          "ipa": "/ˈstætʃuːt/",
+          "meaning": "đạo luật"
+        },
+        {
+          "word": "act",
+          "ipa": "/ækt/",
+          "meaning": "đạo luật"
+        }
+      ],
+      "family": [
+        {
+          "word": "legislate",
+          "ipa": "/ˈledʒɪsleɪt/",
+          "meaning": "ban hành luật",
+          "pos": "v"
+        },
+        {
+          "word": "legislative",
+          "ipa": "/ˈledʒɪslətɪv/",
+          "meaning": "thuộc lập pháp",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Authority",
+      "ipa": "/ɔːˈθɒrəti/",
+      "meaning": "chính quyền; thẩm quyền",
+      "synonyms": [
+        {
+          "word": "power",
+          "ipa": "/ˈpaʊə(r)/",
+          "meaning": "quyền lực"
+        },
+        {
+          "word": "control",
+          "ipa": "/kənˈtrəʊl/",
+          "meaning": "sự kiểm soát"
+        }
+      ],
+      "family": [
+        {
+          "word": "authoritative",
+          "ipa": "/ɔːˈθɒrətətɪv/",
+          "meaning": "có thẩm quyền",
+          "pos": "adj"
+        },
+        {
+          "word": "authorize",
+          "ipa": "/ˈɔːθəraɪz/",
+          "meaning": "cho phép",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Democracy",
+      "ipa": "/dɪˈmɒkrəsi/",
+      "meaning": "nền dân chủ",
+      "synonyms": [
+        {
+          "word": "self-government",
+          "ipa": "/ˌself ˈɡʌvənmənt/",
+          "meaning": "tự trị"
+        },
+        {
+          "word": "representative government",
+          "ipa": "/ˌreprɪˈzentətɪv ˈɡʌvənmənt/",
+          "meaning": "chính quyền đại diện"
+        }
+      ],
+      "family": [
+        {
+          "word": "democratic",
+          "ipa": "/ˌdeməˈkrætɪk/",
+          "meaning": "dân chủ",
+          "pos": "adj"
+        },
+        {
+          "word": "democratize",
+          "ipa": "/dɪˈmɒkrətaɪz/",
+          "meaning": "dân chủ hóa",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Parliament",
+      "ipa": "/ˈpɑːləmənt/",
+      "meaning": "quốc hội",
+      "synonyms": [
+        {
+          "word": "legislature",
+          "ipa": "/ˈledʒɪsleɪtʃə(r)/",
+          "meaning": "cơ quan lập pháp"
+        },
+        {
+          "word": "assembly",
+          "ipa": "/əˈsembli/",
+          "meaning": "hội đồng"
+        }
+      ],
+      "family": [
+        {
+          "word": "parliamentary",
+          "ipa": "/ˌpɑːləˈmentri/",
+          "meaning": "thuộc quốc hội",
+          "pos": "adj"
+        },
+        {
+          "word": "parliamentarian",
+          "ipa": "/ˌpɑːləmenˈteəriən/",
+          "meaning": "nghị sĩ",
+          "pos": "n"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Regulation",
+      "ipa": "/ˌreɡjuˈleɪʃən/",
+      "meaning": "quy định",
+      "synonyms": [
+        {
+          "word": "rule",
+          "ipa": "/ruːl/",
+          "meaning": "quy tắc"
+        },
+        {
+          "word": "requirement",
+          "ipa": "/rɪˈkwaɪəmənt/",
+          "meaning": "yêu cầu"
+        }
+      ],
+      "family": [
+        {
+          "word": "regulate",
+          "ipa": "/ˈreɡjuleɪt/",
+          "meaning": "điều chỉnh",
+          "pos": "v"
+        },
+        {
+          "word": "regulatory",
+          "ipa": "/ˈreɡjələtəri/",
+          "meaning": "thuộc quản lý",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Human rights",
+      "ipa": "/ˌhjuːmən ˈraɪts/",
+      "meaning": "quyền con người",
+      "synonyms": [
+        {
+          "word": "civil rights",
+          "ipa": "/ˌsɪvl ˈraɪts/",
+          "meaning": "quyền công dân"
+        },
+        {
+          "word": "fundamental rights",
+          "ipa": "/ˌfʌndəˈmentl ˈraɪts/",
+          "meaning": "quyền cơ bản"
+        }
+      ],
+      "family": [
+        {
+          "word": "human",
+          "ipa": "/ˈhjuːmən/",
+          "meaning": "con người",
+          "pos": "adj"
+        },
+        {
+          "word": "humanity",
+          "ipa": "/hjuːˈmænəti/",
+          "meaning": "nhân loại",
+          "pos": "n"
+        }
+      ],
+      "pos": "n"
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "The Importance of Law and Human Rights",
+      "text": "Every society needs laws to protect people and create order. Legal rules tell people what they can and cannot do. When people follow the law, society can become safer and more stable. However, laws should also protect basic human rights and treat people fairly.\n\nOne important idea is justice. Justice means that people should receive fair treatment. Courts and other institutions try to make decisions based on evidence and the law. People who believe that they have been treated unfairly may ask an official authority to review their situation.\n\nAnother important value is freedom. People should have the freedom to express their opinions, make choices and live their lives without unnecessary control. Freedom is closely connected with independence, because people need some control over their own lives.\n\nMany countries have a constitution. A constitution is a fundamental set of rules that explains how a country is governed and what important rights people have. Governments and public institutions must normally operate within this legal framework.\n\nLegislation is another important part of a country's legal system. Parliaments create laws to deal with different areas of society. These laws may include regulations about education, employment, transport, health and public safety.\n\nIn a democracy, citizens usually have a role in choosing their representatives. A parliament discusses and creates legislation on behalf of the people. Democratic systems can be different from one country to another, but they generally aim to give citizens a voice in government.\n\nGood laws are not only about controlling behaviour. They should also protect human dignity, freedom and equality. When people understand their rights and responsibilities, they can participate more actively in society."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one main purpose of laws according to the passage?",
+          "options": [
+            "To make people work harder",
+            "To create order and protect people",
+            "To reduce the number of citizens",
+            "To control every personal choice"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does a constitution mainly explain?",
+          "options": [
+            "How businesses make money",
+            "How people travel",
+            "How a country is governed and important rights",
+            "How schools teach students"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Laws can help make society safer and more stable.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every country has exactly the same constitution.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "Parliaments create legislation on behalf of the people.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Laws are important because they create 6. ________ and protect people. Justice means that people should receive 7. ________ treatment. People also need 8. ________ to make choices and express their opinions. Many countries have a 9. ________ that explains how the country is governed. In a democracy, a 10. ________ discusses and creates legislation.",
+        "answers": [
+          "order",
+          "fair",
+          "freedom",
+          "constitution",
+          "parliament"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “authority” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "official power or institution",
+            "private company",
+            "family member",
+            "ordinary citizen"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “fundamental” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "unnecessary",
+            "basic and important",
+            "temporary",
+            "difficult"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “participate” in the final paragraph is closest in meaning to:",
+          "options": [
+            "take part",
+            "leave",
+            "refuse",
+            "control"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "justice",
+          "legislation",
+          "freedom",
+          "authority"
+        ],
+        "right": [
+          "freedom",
+          "fairness",
+          "laws made by a government",
+          "official power"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Democracy, Law and the Protection of Rights",
+      "text": "A modern society depends on a legal system that can protect individuals while also maintaining public order. Laws provide a framework for behaviour, but the quality of a legal system is not measured only by the number of rules it contains. It is also important to consider whether those rules are applied fairly and whether they protect the basic rights of citizens.\n\nOne important principle is justice. In a fair legal system, people should be treated equally before the law. Courts may examine evidence, hear different sides of a case and make a judgement based on legal principles. This process can help protect people from unfair decisions. Justice therefore involves both the application of laws and the protection of fairness.\n\nFreedom is another central principle. Citizens may need freedom of speech, freedom of movement and the freedom to make personal decisions. However, freedom does not always mean that people can do anything they want. Governments may introduce reasonable regulations to protect public safety or the rights of other people. The challenge is to create rules that protect society without placing unnecessary restrictions on individual freedom.\n\nA country's constitution can provide an important foundation for this balance. It may define the structure of government and establish fundamental rights. In many countries, legislation is created by a parliament or another legislative body. Such laws can regulate areas such as education, employment, public health and the use of public spaces.\n\nThe role of authority is also important. Governments and public institutions have the power to enforce laws, but that power should normally operate within legal limits. Officials may be required to justify their decisions, while citizens may have legal ways to challenge decisions that they believe are unfair or unlawful.\n\nDemocracy can provide another form of protection. In a democratic system, citizens generally have a role in choosing representatives and influencing public policy. Elections are one important part of democracy, but democratic participation can also include public discussion, community activities and peaceful disagreement.\n\nAt the centre of these ideas are human rights. Human rights belong to people because they are human. They include basic rights such as freedom, equality and protection from unfair treatment. Civil rights are also important because they help citizens participate in society and public life.\n\nProtecting rights does not mean that laws are unnecessary. Instead, effective laws can provide a system in which rights are recognised and protected. When legislation, government authority and democratic institutions work within clear legal principles, citizens may have greater confidence that their freedoms will be respected."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does the passage say about the quality of a legal system?",
+          "options": [
+            "It depends only on the number of laws.",
+            "It depends on whether laws are fairly applied and protect rights.",
+            "It depends on how powerful the government is.",
+            "It depends on how many courts exist."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why may governments introduce regulations?",
+          "options": [
+            "To remove all individual freedom",
+            "To increase elections",
+            "To protect public safety and other people's rights",
+            "To reduce the role of parliament"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Justice can involve examining evidence before making a judgement.",
+          "answer": "True"
+        },
+        {
+          "statement": "Democratic participation only means voting in elections.",
+          "answer": "False"
+        },
+        {
+          "statement": "Human rights belong to people because they are human.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A legal system should protect individuals while maintaining public 6. ________. Justice requires people to be treated 7. ________ before the law. Freedom is important, but governments can introduce reasonable 8. ________ when necessary. A country's 9. ________ may establish fundamental rights. In a democracy, citizens can choose their 10. ________ and participate in public life.",
+        "answers": [
+          "order",
+          "equally",
+          "regulations",
+          "constitution",
+          "representatives"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “framework” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "structure or system",
+            "punishment",
+            "election",
+            "argument"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “enforce” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "ignore",
+            "make people obey",
+            "remove",
+            "explain"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “respected” in the final paragraph is closest in meaning to:",
+          "options": [
+            "protected and treated properly",
+            "forgotten",
+            "questioned",
+            "changed"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words with their closest meanings.",
+        "left": [
+          "constitution",
+          "legislation",
+          "authority",
+          "liberty"
+        ],
+        "right": [
+          "official power",
+          "basic legal document",
+          "laws made by a legislative body",
+          "freedom"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Law and Human Rights in Everyday Life",
+      "audio": "",
+      "transcript": "Laws are an important part of everyday life. They help people understand what is legal and what is not legal. They also provide protection when people have problems or when their rights are threatened.\n\nOne important idea is justice. Justice means that people should be treated fairly. For example, if two people are involved in the same type of legal case, the court should consider the same legal principles when making a decision.\n\nAnother important idea is freedom. People should have the freedom to express their opinions and make personal choices. However, freedom has limits when one person's actions seriously harm other people. This is one reason why governments create regulations.\n\nIn many countries, the constitution provides a basic legal framework. It may explain how the government works and identify important rights. Legislation then provides more detailed laws for different areas of society.\n\nA parliament usually has an important role in creating legislation. Members discuss proposed laws and decide whether they should become part of the legal system. The government and other public authorities then have responsibilities for applying and enforcing these laws.\n\nDemocracy gives citizens an opportunity to participate in government. People can often choose representatives through elections. They may also discuss public issues and express different opinions.\n\nFinally, human rights are important because they protect the dignity and basic freedoms of every person. These rights can include freedom, equality and protection from unfair treatment. A strong legal system should help protect these rights while also maintaining public order."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one purpose of laws?",
+          "options": [
+            "To remove all freedom",
+            "To help people understand legal behaviour and protect rights",
+            "To stop people discussing public issues",
+            "To make every person work for the government"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does a parliament usually do?",
+          "options": [
+            "Creates legislation",
+            "Treats patients",
+            "Builds houses",
+            "Runs private companies"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Justice means that people should be treated fairly.",
+          "answer": "True"
+        },
+        {
+          "statement": "Freedom means that people can seriously harm others without consequences.",
+          "answer": "False"
+        },
+        {
+          "statement": "Democracy gives citizens opportunities to participate in government.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "The ________ may explain how the government works.",
+          "answer": "constitution"
+        },
+        {
+          "question": "Governments create ________ for different areas of society.",
+          "answer": "regulations"
+        },
+        {
+          "question": "Members of parliament discuss proposed ________.",
+          "answer": "laws"
+        },
+        {
+          "question": "Citizens can choose their representatives through ________.",
+          "answer": "elections"
+        },
+        {
+          "question": "Human rights protect the dignity and basic ________ of every person.",
+          "answer": "freedoms"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "In the listening, “threatened” is closest in meaning to:",
+          "options": [
+            "put in danger",
+            "rewarded",
+            "invited",
+            "protected"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“Applying” laws means:",
+          "options": [
+            "using or putting laws into practice",
+            "removing laws",
+            "writing a constitution",
+            "voting in an election"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "“Dignity” is closest in meaning to:",
+          "options": [
+            "a person's value and self-respect",
+            "political power",
+            "financial success",
+            "legal punishment"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Justice",
+          "Constitution",
+          "Democracy",
+          "Human rights"
+        ],
+        "right": [
+          "gives citizens opportunities to participate",
+          "protects fairness",
+          "provides a basic legal framework",
+          "protect basic freedoms and dignity"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "vocabulary": [
+    {
+      "word": "Species",
+      "ipa": "/ˈspiːʃiːz/",
+      "meaning": "loài",
+      "synonyms": [
+        {
+          "word": "Type",
+          "ipa": "/taɪp/",
+          "meaning": "loại"
+        },
+        {
+          "word": "Kind",
+          "ipa": "/kaɪnd/",
+          "meaning": "loại"
+        }
+      ],
+      "family": [
+        {
+          "word": "Speciation",
+          "ipa": "/ˌspiːʃiˈeɪʃn/",
+          "pos": "n",
+          "meaning": "sự hình thành loài"
+        },
+        {
+          "word": "Specific",
+          "ipa": "/spəˈsɪfɪk/",
+          "pos": "adj",
+          "meaning": "cụ thể"
+        }
+      ]
+    },
+    {
+      "word": "Animal",
+      "ipa": "/ˈænɪml/",
+      "meaning": "động vật",
+      "synonyms": [
+        {
+          "word": "Creature",
+          "ipa": "/ˈkriːtʃə(r)/",
+          "meaning": "sinh vật"
+        },
+        {
+          "word": "Wildlife",
+          "ipa": "/ˈwaɪldlaɪf/",
+          "meaning": "động vật hoang dã"
+        }
+      ],
+      "family": [
+        {
+          "word": "Animate",
+          "ipa": "/ˈænɪmeɪt/",
+          "pos": "v",
+          "meaning": "làm cho sống"
+        },
+        {
+          "word": "Animation",
+          "ipa": "/ˌænɪˈmeɪʃn/",
+          "pos": "n",
+          "meaning": "sự chuyển động"
+        }
+      ]
+    },
+    {
+      "word": "Plant",
+      "ipa": "/plɑːnt/",
+      "meaning": "thực vật",
+      "synonyms": [
+        {
+          "word": "Vegetation",
+          "ipa": "/ˌvedʒəˈteɪʃn/",
+          "meaning": "thảm thực vật"
+        },
+        {
+          "word": "Flora",
+          "ipa": "/ˈflɔːrə/",
+          "meaning": "hệ thực vật"
+        }
+      ],
+      "family": [
+        {
+          "word": "Plantation",
+          "ipa": "/plɑːnˈteɪʃn/",
+          "pos": "n",
+          "meaning": "đồn điền"
+        },
+        {
+          "word": "Planting",
+          "ipa": "/ˈplɑːntɪŋ/",
+          "pos": "n",
+          "meaning": "việc trồng cây"
+        }
+      ]
+    },
+    {
+      "word": "Habitat",
+      "ipa": "/ˈhæbɪtæt/",
+      "meaning": "môi trường sống",
+      "synonyms": [
+        {
+          "word": "Environment",
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "meaning": "môi trường"
+        },
+        {
+          "word": "Ecosystem",
+          "ipa": "/ˈiːkəʊˌsɪstəm/",
+          "meaning": "hệ sinh thái"
+        }
+      ],
+      "family": [
+        {
+          "word": "Inhabit",
+          "ipa": "/ɪnˈhæbɪt/",
+          "pos": "v",
+          "meaning": "cư trú"
+        },
+        {
+          "word": "Inhabitant",
+          "ipa": "/ɪnˈhæbɪtənt/",
+          "pos": "n",
+          "meaning": "cư dân"
+        }
+      ]
+    },
+    {
+      "word": "Survive",
+      "ipa": "/səˈvaɪv/",
+      "meaning": "sống sót",
+      "synonyms": [
+        {
+          "word": "Endure",
+          "ipa": "/ɪnˈdjʊə(r)/",
+          "meaning": "chịu đựng"
+        },
+        {
+          "word": "Remain alive",
+          "ipa": "/rɪˈmeɪn əˈlaɪv/",
+          "meaning": "tiếp tục sống"
+        }
+      ],
+      "family": [
+        {
+          "word": "Survival",
+          "ipa": "/səˈvaɪvl/",
+          "pos": "n",
+          "meaning": "sự sống sót"
+        },
+        {
+          "word": "Survivor",
+          "ipa": "/səˈvaɪvə(r)/",
+          "pos": "n",
+          "meaning": "người sống sót"
+        }
+      ]
+    },
+    {
+      "word": "Wildlife",
+      "ipa": "/ˈwaɪldlaɪf/",
+      "meaning": "động vật hoang dã",
+      "synonyms": [
+        {
+          "word": "Wild animals",
+          "ipa": "/ˌwaɪld ˈænɪmlz/",
+          "meaning": "động vật hoang dã"
+        },
+        {
+          "word": "Fauna",
+          "ipa": "/ˈfɔːnə/",
+          "meaning": "hệ động vật"
+        }
+      ],
+      "family": [
+        {
+          "word": "Wild",
+          "ipa": "/waɪld/",
+          "pos": "adj",
+          "meaning": "hoang dã"
+        },
+        {
+          "word": "Wilderness",
+          "ipa": "/ˈwɪldənəs/",
+          "pos": "n",
+          "meaning": "vùng hoang dã"
+        }
+      ]
+    },
+    {
+      "word": "Extinct",
+      "ipa": "/ɪkˈstɪŋkt/",
+      "meaning": "tuyệt chủng",
+      "synonyms": [
+        {
+          "word": "Disappeared",
+          "ipa": "/ˌdɪsəˈpɪəd/",
+          "meaning": "biến mất"
+        },
+        {
+          "word": "Died out",
+          "ipa": "/daɪd aʊt/",
+          "meaning": "tuyệt chủng"
+        }
+      ],
+      "family": [
+        {
+          "word": "Extinction",
+          "ipa": "/ɪkˈstɪŋkʃn/",
+          "pos": "n",
+          "meaning": "sự tuyệt chủng"
+        },
+        {
+          "word": "Extinctive",
+          "ipa": "/ɪkˈstɪŋktɪv/",
+          "pos": "adj",
+          "meaning": "gây tuyệt chủng"
+        }
+      ]
+    },
+    {
+      "word": "Population",
+      "ipa": "/ˌpɒpjuˈleɪʃn/",
+      "meaning": "quần thể; dân số",
+      "synonyms": [
+        {
+          "word": "Inhabitants",
+          "ipa": "/ɪnˈhæbɪtənts/",
+          "meaning": "cư dân"
+        },
+        {
+          "word": "Numbers",
+          "ipa": "/ˈnʌmbəz/",
+          "meaning": "số lượng"
+        }
+      ],
+      "family": [
+        {
+          "word": "Populate",
+          "ipa": "/ˈpɒpjuleɪt/",
+          "pos": "v",
+          "meaning": "sinh sống"
+        },
+        {
+          "word": "Populated",
+          "ipa": "/ˈpɒpjuleɪtɪd/",
+          "pos": "adj",
+          "meaning": "đông dân"
+        }
+      ]
+    },
+    {
+      "word": "Ecosystem",
+      "ipa": "/ˈiːkəʊˌsɪstəm/",
+      "meaning": "hệ sinh thái",
+      "synonyms": [
+        {
+          "word": "Ecological system",
+          "ipa": "/ˌiːkəˈlɒdʒɪkl ˈsɪstəm/",
+          "meaning": "hệ sinh thái"
+        },
+        {
+          "word": "Habitat",
+          "ipa": "/ˈhæbɪtæt/",
+          "meaning": "môi trường sống"
+        }
+      ],
+      "family": [
+        {
+          "word": "Ecological",
+          "ipa": "/ˌiːkəˈlɒdʒɪkl/",
+          "pos": "adj",
+          "meaning": "thuộc sinh thái"
+        },
+        {
+          "word": "Ecology",
+          "ipa": "/iˈkɒlədʒi/",
+          "pos": "n",
+          "meaning": "sinh thái học"
+        }
+      ]
+    },
+    {
+      "word": "Conservation",
+      "ipa": "/ˌkɒnsəˈveɪʃn/",
+      "meaning": "bảo tồn",
+      "synonyms": [
+        {
+          "word": "Preservation",
+          "ipa": "/ˌprezəˈveɪʃn/",
+          "meaning": "sự bảo tồn"
+        },
+        {
+          "word": "Protection",
+          "ipa": "/prəˈtekʃn/",
+          "meaning": "sự bảo vệ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Conserve",
+          "ipa": "/kənˈsɜːv/",
+          "pos": "v",
+          "meaning": "bảo tồn"
+        },
+        {
+          "word": "Conservationist",
+          "ipa": "/ˌkɒnsəˈveɪʃənɪst/",
+          "pos": "n",
+          "meaning": "nhà bảo tồn"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Animals and Their Habitats",
+      "audio": "",
+      "transcript": "There are many kinds of species in the natural world. Each species has its own characteristics and needs. Some animals live in forests, while others live in rivers, oceans, grasslands, or deserts. Plants are also important because they provide food and shelter for many living things.\n\nA habitat is the natural place where an animal or plant lives. A healthy habitat provides food, water, and a safe place to live. Animals need suitable habitats to survive. When their environment changes too quickly, some animals may have difficulty finding food or shelter.\n\nWildlife is an important part of nature. Wild animals live in different habitats and are part of larger ecosystems. An ecosystem includes animals, plants, water, soil, and other parts of the natural environment. All these parts can affect one another.\n\nOne problem is the reduction of animal populations. When forests are destroyed or habitats become polluted, the number of animals in an area may become smaller. If a species cannot survive for a long time, it may become extinct.\n\nConservation can help protect animals and plants. People can protect natural habitats and reduce damage to ecosystems. Conservation programs can also help maintain wildlife populations.\n\nProtecting nature is important because every species has a role in its ecosystem. By caring for habitats, plants, and wildlife, people can help many species survive in the future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does a healthy habitat provide?",
+          "options": [
+            "Only water",
+            "Food, water, and a safe place to live",
+            "Only shelter for humans",
+            "More pollution"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What may happen when forests are destroyed?",
+          "options": [
+            "Animal populations may become smaller.",
+            "All animals become stronger.",
+            "More species are created immediately.",
+            "Ecosystems disappear immediately."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Plants can provide food and shelter for many living things.",
+          "answer": "True"
+        },
+        {
+          "statement": "All animals live in forests.",
+          "answer": "False"
+        },
+        {
+          "statement": "Conservation programs can help maintain wildlife populations.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A (6) ______ is the natural place where an animal or plant lives. Animals need suitable habitats to (7) ______. Animals and plants are parts of larger (8) ______. When habitats are damaged, animal (9) ______ may become smaller. (10) ______ can help protect animals, plants, and natural habitats.",
+        "answers": [
+          "habitat",
+          "survive",
+          "ecosystems",
+          "populations",
+          "conservation"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “species” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "types of living things",
+            "natural places",
+            "animal populations",
+            "environmental problems"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “wildlife” in paragraph 3 refers to:",
+          "options": [
+            "animals living in natural areas",
+            "plants grown on farms",
+            "people living near forests",
+            "animals kept only in homes"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “extinct” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "very common",
+            "no longer existing",
+            "newly discovered",
+            "living in groups"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Animal",
+          "Habitat",
+          "Survive",
+          "Conservation"
+        ],
+        "right": [
+          "Preservation",
+          "Creature",
+          "Ecosystem",
+          "Remain alive"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "D",
+          "3": "A"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Protecting Species and Natural Ecosystems",
+      "audio": "",
+      "transcript": "The Earth contains a great variety of animal and plant species. Each species has a role in the natural world, and many species depend on one another for food, shelter, and other resources. A healthy natural environment can support a large number of living organisms, while changes to the environment may create serious problems for them.\n\nAn animal’s habitat is the place where it normally lives and finds the things it needs to survive. Forests, wetlands, grasslands, and oceans can all provide habitats for different species. Plants are also important parts of these environments because they provide food and shelter for animals.\n\nAnimals and plants live together in complex ecosystems. An ecosystem includes living organisms as well as water, soil, air, and other natural elements. When one part of an ecosystem changes, other parts may also be affected. For example, a reduction in plant life can reduce the amount of food available to some animals.\n\nOne major concern is the decline of wildlife populations. Human activities can change or destroy natural habitats. When forests are cleared, wetlands are damaged, or water becomes polluted, animals may lose places where they can feed and reproduce. Some species may adapt to these changes, but others may not be able to survive.\n\nIf the number of animals in a species continues to decrease, the species may eventually become extinct. Extinction is permanent, so it is difficult or impossible to restore a species once it has disappeared. For this reason, scientists and conservation groups often monitor wildlife populations and habitats.\n\nConservation focuses on protecting nature and maintaining biological diversity. A conservationist may work with local communities to protect forests, restore damaged habitats, or reduce threats to wildlife. These activities can help ecosystems remain healthy.\n\nSuccessful conservation does not always require protecting an entire area from human activity. In some places, people can use natural resources carefully while also protecting important habitats. The goal is to find ways for people and wildlife to live together without causing serious damage to ecosystems.\n\nProtecting species requires long-term effort. Governments, scientists, local communities, and individuals can all contribute. By understanding how species, habitats, populations, and ecosystems are connected, people can make better decisions about the natural world."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why are plants important to many animals?",
+          "options": [
+            "They provide food and shelter.",
+            "They destroy habitats.",
+            "They increase pollution.",
+            "They prevent animals from reproducing."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may happen when a species’ population continues to decrease?",
+          "options": [
+            "It may become extinct.",
+            "It will always become stronger.",
+            "It will move to every habitat.",
+            "It will create a new ecosystem."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Forests, wetlands, grasslands, and oceans can provide habitats for different species.",
+          "answer": "True"
+        },
+        {
+          "statement": "All species can easily adapt to changes in their habitats.",
+          "answer": "False"
+        },
+        {
+          "statement": "Conservation can involve restoring damaged habitats.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Animals need suitable (6) ______ to find food, shelter, and other resources. Animals and plants are part of complex (7) ______. Human activities can cause wildlife (8) ______ to decrease. If a species cannot (9) ______ environmental changes, it may eventually become extinct. (10) ______ aims to protect nature and maintain biological diversity.",
+        "answers": [
+          "habitats",
+          "ecosystems",
+          "populations",
+          "survive",
+          "conservation"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “decline” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "increase",
+            "decrease",
+            "movement",
+            "protection"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “adapt” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "change to deal with new conditions",
+            "disappear immediately",
+            "protect a forest",
+            "increase a population"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “biological diversity” in paragraph 6 refers to:",
+          "options": [
+            "the variety of living things",
+            "the size of one animal population",
+            "the number of forests",
+            "the amount of water in an ecosystem"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Species",
+          "Wildlife",
+          "Extinct",
+          "Conservation"
+        ],
+        "right": [
+          "Wild animals",
+          "Type of living organism",
+          "Died out",
+          "Protection of nature"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Wildlife and Natural Habitats",
+      "audio": "",
+      "transcript": "Today, I want to talk about wildlife and the importance of protecting natural habitats.\n\nThere are many different species of animals and plants in the world. Each species needs a suitable habitat where it can find food, water, and shelter. Forests, rivers, grasslands, and oceans are examples of natural habitats.\n\nAnimals need these places to survive. However, human activities can change or damage habitats. When forests are removed or water becomes polluted, animals may have fewer places to live.\n\nAs a result, the population of some animals can become smaller. If a species cannot survive these changes, it may become extinct. Extinction means that there are no living members of that species.\n\nAnimals and plants are also connected in an ecosystem. If one part of an ecosystem changes, other living things may be affected too.\n\nThis is why conservation is important. People can protect habitats, care for wildlife, and reduce damage to natural areas. Scientists and local communities can work together to support endangered species.\n\nSmall actions can make a difference. When people understand the importance of wildlife and healthy ecosystems, they can help protect nature for the future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What does a suitable habitat provide for animals?",
+          "options": [
+            "Food, water, and shelter",
+            "Only food",
+            "Only trees",
+            "More pollution"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may happen when an animal population becomes very small?",
+          "options": [
+            "The species may become extinct.",
+            "The species always becomes stronger.",
+            "The species creates a new habitat.",
+            "The population always increases."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Forests, rivers, grasslands, and oceans can be natural habitats.",
+          "answer": "True"
+        },
+        {
+          "statement": "Human activities can never damage animal habitats.",
+          "answer": "False"
+        },
+        {
+          "statement": "Conservation can involve protecting habitats and wildlife.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "There are many different ______ of animals and plants in the world.",
+          "answer": "species"
+        },
+        {
+          "question": "Animals need a suitable ______ to find food, water, and shelter.",
+          "answer": "habitat"
+        },
+        {
+          "question": "The ______ of some animals can become smaller when habitats are damaged.",
+          "answer": "population"
+        },
+        {
+          "question": "A species may become ______ if it cannot survive environmental changes.",
+          "answer": "extinct"
+        },
+        {
+          "question": "Animals and plants are connected in an ______.",
+          "answer": "ecosystem"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “shelter” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "a safe place to live",
+            "a type of food",
+            "a natural resource",
+            "a group of animals"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “endangered” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "at risk of disappearing",
+            "very common",
+            "completely protected",
+            "newly discovered"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “support” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "help",
+            "remove",
+            "study",
+            "replace"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Species",
+          "Habitat",
+          "Population",
+          "Conservation"
+        ],
+        "right": [
+          "A place where an animal or plant lives",
+          "A group of animals of the same species in an area",
+          "A type of living organism",
+          "Protection of nature"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson09",
+    "number": 9,
+    "title": "Animals & Biology",
+    "titleVi": "Động vật và Sinh học"
+  }
+}

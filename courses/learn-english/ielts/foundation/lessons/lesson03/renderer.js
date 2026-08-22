@@ -75,6 +75,11 @@ updateBackButton();
 
     setText(DOM.ipa, word.ipa);
 
+    const posEl = document.querySelector("#pos");
+    if (posEl) {
+        setText(posEl, word.pos || "");
+    }
+
 }
 
 /* ==========================================================

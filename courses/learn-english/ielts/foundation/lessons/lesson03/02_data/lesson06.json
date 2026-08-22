@@ -1,0 +1,656 @@
+{
+  "vocabulary": [
+    {
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "meaning": "môi trường",
+      "synonyms": [
+        {
+          "word": "surroundings",
+          "ipa": "/səˈraʊndɪŋz/",
+          "meaning": "môi trường xung quanh"
+        },
+        {
+          "word": "habitat",
+          "ipa": "/ˈhæbɪtæt/",
+          "meaning": "môi trường sống"
+        }
+      ],
+      "family": [
+        {
+          "word": "environmental",
+          "ipa": "/ɪnˌvaɪrənˈmentl/",
+          "pos": "adj",
+          "meaning": "thuộc về môi trường"
+        },
+        {
+          "word": "environmentalist",
+          "ipa": "/ɪnˌvaɪrənˈmentəlɪst/",
+          "pos": "n",
+          "meaning": "nhà bảo vệ môi trường"
+        }
+      ]
+    },
+    {
+      "word": "pollution",
+      "ipa": "/pəˈluːʃən/",
+      "meaning": "ô nhiễm",
+      "synonyms": [
+        {
+          "word": "contamination",
+          "ipa": "/kənˌtæmɪˈneɪʃn/",
+          "meaning": "sự nhiễm bẩn"
+        },
+        {
+          "word": "emission",
+          "ipa": "/ɪˈmɪʃn/",
+          "meaning": "khí thải"
+        }
+      ],
+      "family": [
+        {
+          "word": "pollute",
+          "ipa": "/pəˈluːt/",
+          "pos": "v",
+          "meaning": "gây ô nhiễm"
+        },
+        {
+          "word": "polluted",
+          "ipa": "/pəˈluːtɪd/",
+          "pos": "adj",
+          "meaning": "bị ô nhiễm"
+        }
+      ]
+    },
+    {
+      "word": "recycle",
+      "ipa": "/ˌriːˈsaɪkl/",
+      "meaning": "tái chế",
+      "synonyms": [
+        {
+          "word": "reuse",
+          "ipa": "/ˌriːˈjuːz/",
+          "meaning": "tái sử dụng"
+        },
+        {
+          "word": "process",
+          "ipa": "/ˈprəʊses/",
+          "meaning": "xử lý"
+        }
+      ],
+      "family": [
+        {
+          "word": "recycling",
+          "ipa": "/ˌriːˈsaɪklɪŋ/",
+          "pos": "n",
+          "meaning": "sự tái chế"
+        },
+        {
+          "word": "recyclable",
+          "ipa": "/ˌriːˈsaɪkləbl/",
+          "pos": "adj",
+          "meaning": "có thể tái chế"
+        }
+      ]
+    },
+    {
+      "word": "waste",
+      "ipa": "/weɪst/",
+      "meaning": "rác thải; lãng phí",
+      "synonyms": [
+        {
+          "word": "garbage",
+          "ipa": "/ˈɡɑːbɪdʒ/",
+          "meaning": "rác"
+        },
+        {
+          "word": "rubbish",
+          "ipa": "/ˈrʌbɪʃ/",
+          "meaning": "rác"
+        }
+      ],
+      "family": [
+        {
+          "word": "wasteful",
+          "ipa": "/ˈweɪstfl/",
+          "pos": "adj",
+          "meaning": "lãng phí"
+        },
+        {
+          "word": "wastage",
+          "ipa": "/ˈweɪstɪdʒ/",
+          "pos": "n",
+          "meaning": "sự lãng phí"
+        }
+      ]
+    },
+    {
+      "word": "energy",
+      "ipa": "/ˈenədʒi/",
+      "meaning": "năng lượng",
+      "synonyms": [
+        {
+          "word": "power",
+          "ipa": "/ˈpaʊə(r)/",
+          "meaning": "năng lượng"
+        },
+        {
+          "word": "electricity",
+          "ipa": "/ɪˌlekˈtrɪsəti/",
+          "meaning": "điện năng"
+        }
+      ],
+      "family": [
+        {
+          "word": "energetic",
+          "ipa": "/ˌenəˈdʒetɪk/",
+          "pos": "adj",
+          "meaning": "tràn đầy năng lượng"
+        },
+        {
+          "word": "energize",
+          "ipa": "/ˈenədʒaɪz/",
+          "pos": "v",
+          "meaning": "tiếp thêm năng lượng"
+        }
+      ]
+    },
+    {
+      "word": "climate",
+      "ipa": "/ˈklaɪmət/",
+      "meaning": "khí hậu",
+      "synonyms": [
+        {
+          "word": "weather",
+          "ipa": "/ˈweðə(r)/",
+          "meaning": "thời tiết"
+        },
+        {
+          "word": "atmosphere",
+          "ipa": "/ˈætməsfɪə(r)/",
+          "meaning": "bầu khí quyển"
+        }
+      ],
+      "family": [
+        {
+          "word": "climatic",
+          "ipa": "/klaɪˈmætɪk/",
+          "pos": "adj",
+          "meaning": "thuộc khí hậu"
+        },
+        {
+          "word": "climatology",
+          "ipa": "/ˌklaɪməˈtɒlədʒi/",
+          "pos": "n",
+          "meaning": "khí hậu học"
+        }
+      ]
+    },
+    {
+      "word": "temperature",
+      "ipa": "/ˈtemprətʃə(r)/",
+      "meaning": "nhiệt độ",
+      "synonyms": [
+        {
+          "word": "heat",
+          "ipa": "/hiːt/",
+          "meaning": "nhiệt"
+        },
+        {
+          "word": "warmth",
+          "ipa": "/wɔːmθ/",
+          "meaning": "sự ấm áp"
+        }
+      ],
+      "family": [
+        {
+          "word": "temperate",
+          "ipa": "/ˈtempərət/",
+          "pos": "adj",
+          "meaning": "ôn hòa"
+        },
+        {
+          "word": "thermometer",
+          "ipa": "/θəˈmɒmɪtə(r)/",
+          "pos": "n",
+          "meaning": "nhiệt kế"
+        }
+      ]
+    },
+    {
+      "word": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "meaning": "rừng",
+      "synonyms": [
+        {
+          "word": "woodland",
+          "ipa": "/ˈwʊdlənd/",
+          "meaning": "vùng rừng"
+        },
+        {
+          "word": "jungle",
+          "ipa": "/ˈdʒʌŋɡl/",
+          "meaning": "rừng rậm"
+        }
+      ],
+      "family": [
+        {
+          "word": "forestry",
+          "ipa": "/ˈfɒrɪstri/",
+          "pos": "n",
+          "meaning": "ngành lâm nghiệp"
+        },
+        {
+          "word": "forested",
+          "ipa": "/ˈfɒrɪstɪd/",
+          "pos": "adj",
+          "meaning": "có rừng bao phủ"
+        }
+      ]
+    },
+    {
+      "word": "resource",
+      "ipa": "/rɪˈzɔːs/",
+      "meaning": "tài nguyên",
+      "synonyms": [
+        {
+          "word": "supply",
+          "ipa": "/səˈplaɪ/",
+          "meaning": "nguồn cung"
+        },
+        {
+          "word": "reserve",
+          "ipa": "/rɪˈzɜːv/",
+          "meaning": "nguồn dự trữ"
+        }
+      ],
+      "family": [
+        {
+          "word": "resourceful",
+          "ipa": "/rɪˈzɔːsfl/",
+          "pos": "adj",
+          "meaning": "tháo vát"
+        },
+        {
+          "word": "resourcing",
+          "ipa": "/rɪˈzɔːsɪŋ/",
+          "pos": "n",
+          "meaning": "việc cung cấp nguồn lực"
+        }
+      ]
+    },
+    {
+      "word": "protect",
+      "ipa": "/prəˈtekt/",
+      "meaning": "bảo vệ",
+      "synonyms": [
+        {
+          "word": "preserve",
+          "ipa": "/prɪˈzɜːv/",
+          "meaning": "bảo tồn"
+        },
+        {
+          "word": "conserve",
+          "ipa": "/kənˈsɜːv/",
+          "meaning": "gìn giữ"
+        }
+      ],
+      "family": [
+        {
+          "word": "protection",
+          "ipa": "/prəˈtekʃn/",
+          "pos": "n",
+          "meaning": "sự bảo vệ"
+        },
+        {
+          "word": "protective",
+          "ipa": "/prəˈtektɪv/",
+          "pos": "adj",
+          "meaning": "mang tính bảo vệ"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Protecting Our Environment",
+      "text": "The environment is the world around us. It includes the air, water, land, plants, and animals. A clean environment is important because people and animals need a safe place to live. Our surroundings can affect our health and our daily lives.\n\nOne major problem is pollution. Air pollution can come from cars, factories, and other sources. Water can also become polluted when people put rubbish or chemicals into rivers and lakes. Too much waste is another problem. Garbage and rubbish can make towns and natural areas dirty.\n\nThere are simple ways to help the environment. People can recycle paper, glass, plastic, and other materials. They can also reuse some things instead of throwing them away. Recycling reduces the amount of waste that goes to landfills.\n\nSaving energy is also useful. People can turn off lights when they are not needed and use less electricity. These small actions can help save natural resources.\n\nThe climate is another important part of the environment. Changes in the climate can affect the temperature, weather, plants, and animals. Forests are especially important because they provide homes for many animals and help protect nature.\n\nEveryone can help protect the environment. By recycling, reducing waste, saving energy, and caring for forests, people can help create a cleaner and safer world."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one major environmental problem mentioned in the passage?",
+          "options": [
+            "Exercise",
+            "Pollution",
+            "Education",
+            "Tourism"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can people do to reduce waste?",
+          "options": [
+            "Throw everything away",
+            "Use more electricity",
+            "Recycle and reuse things",
+            "Cut down more forests"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The environment includes air, water, land, plants, and animals.",
+          "answer": "True"
+        },
+        {
+          "statement": "Only factories are responsible for pollution.",
+          "answer": "False"
+        },
+        {
+          "statement": "Forests provide homes for many animals.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Pollution and too much (6) ______ are important environmental problems. People can (7) ______ paper, glass, and plastic to reduce the amount of rubbish. They can also save (8) ______ by using less electricity. Changes in the (9) ______ can affect temperature, weather, plants, and animals. People should work together to (10) ______ the environment.",
+        "answers": [
+          "waste",
+          "recycle",
+          "energy",
+          "climate",
+          "protect"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “surroundings” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "the things around us",
+            "natural resources",
+            "environmental problems",
+            "weather conditions"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “resources” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "problems",
+            "useful supplies",
+            "rubbish",
+            "forests only"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “protect” in the final paragraph is closest in meaning to:",
+          "options": [
+            "damage",
+            "remove",
+            "keep safe",
+            "pollute"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Pollution",
+          "Recycle",
+          "Waste",
+          "Protect"
+        ],
+        "right": [
+          "Preserve",
+          "Garbage",
+          "Contamination",
+          "Reuse materials"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "B",
+          "3": "A"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Small Actions for a Better Environment",
+      "text": "The natural environment supports human life in many ways. People need clean air, clean water, food, and natural resources to live. However, modern life has created several environmental problems. Population growth, transportation, industry, and the increasing use of products can create more pollution and waste.\n\nAir pollution is a serious problem in many cities. Cars and factories can produce harmful emissions that enter the atmosphere. Water pollution can also damage rivers, lakes, and oceans. When water is contaminated, it may become unsafe for people and animals. For this reason, reducing pollution is an important part of environmental protection.\n\nOne useful solution is to recycle materials. Recycling means processing used materials so that they can be used again. Paper, glass, metal, and some types of plastic are recyclable. People can also reuse bags, bottles, and containers instead of buying new ones. These habits can reduce the amount of rubbish produced every day.\n\nAnother important issue is energy use. Most people use electricity every day for lighting, cooking, transportation, and many other activities. Using energy carefully can reduce waste and help conserve natural resources. Simple actions, such as turning off unused lights and choosing energy-saving equipment, can make a difference.\n\nThe climate is also changing in many parts of the world. Changes in climate can affect temperature, rainfall, and weather patterns. These changes may create difficulties for plants, animals, and people. Forests are particularly valuable because they provide habitats for wildlife and help maintain natural systems.\n\nProtecting the environment requires action from individuals, communities, and governments. An environmentalist may encourage people to reduce waste, recycle materials, and conserve natural resources. Governments can also develop environmental policies and support cleaner forms of energy.\n\nNo single action can solve every environmental problem. However, many small actions can create a positive result. If people make more responsible choices about waste, energy, and natural resources, they can help protect the environment for future generations."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can cars and factories produce according to the passage?",
+          "options": [
+            "Natural resources",
+            "Harmful emissions",
+            "Recyclable forests",
+            "Clean water"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why are forests particularly valuable?",
+          "options": [
+            "They produce electricity for cities.",
+            "They provide habitats for wildlife.",
+            "They increase the amount of waste.",
+            "They prevent people from using energy."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Modern life can create more pollution and waste.",
+          "answer": "True"
+        },
+        {
+          "statement": "All types of plastic can be recycled.",
+          "answer": "False"
+        },
+        {
+          "statement": "Only governments can protect the environment.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Air pollution can be caused by cars and factories, while contaminated water can be harmful to people and animals. One solution is to (6) ______ used materials. People can also (7) ______ bags, bottles, and containers. Using (8) ______ carefully can help conserve natural resources. Changes in the (9) ______ can affect temperature, rainfall, and weather patterns. Individuals, communities, and governments all have a role in (10) ______ the environment.",
+        "answers": [
+          "recycle",
+          "reuse",
+          "energy",
+          "climate",
+          "protecting"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “contaminated” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "polluted",
+            "protected",
+            "recycled",
+            "protected from waste"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “conserve” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "use carelessly",
+            "save and protect",
+            "destroy",
+            "replace"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “environmentalist” in paragraph 6 refers to:",
+          "options": [
+            "a person who studies only weather",
+            "a person who works to protect the environment",
+            "a person who produces electricity",
+            "a person who collects rubbish for factories"
+          ],
+          "answer": "B"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Environment",
+          "Energy",
+          "Climate",
+          "Protect"
+        ],
+        "right": [
+          "Power",
+          "Habitat / surroundings",
+          "Preserve",
+          "Long-term weather conditions"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "D",
+          "3": "C"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Simple Ways to Protect the Environment",
+      "audio": "",
+      "transcript": "Today, I want to talk about some simple ways to protect the environment.\n\nFirst, we should try to reduce pollution. Cars and factories can produce emissions that make the air less clean. We should also keep rivers and other areas free from rubbish and other forms of waste.\n\nOne easy way to reduce waste is to recycle. We can recycle paper, glass, metal, and some plastic products. We can also reuse bags and bottles instead of throwing them away.\n\nSaving energy is another useful action. For example, we can turn off lights when we leave a room. Using less electricity can help us save natural resources.\n\nWe should also care about the climate. Changes in climate can affect the temperature and weather in different places. These changes can be difficult for people and animals.\n\nFinally, we need to protect our forests. Forests are important because they provide a habitat for many animals and plants. They also help keep the natural environment healthy.\n\nProtecting the environment does not always require big actions. If many people recycle, reduce waste, save energy, and care for forests, these small actions can make a big difference."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one way to reduce waste?",
+          "options": [
+            "Throw away more bottles",
+            "Recycle materials",
+            "Use more electricity",
+            "Cut down forests"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why are forests important?",
+          "options": [
+            "They provide habitats for animals and plants.",
+            "They produce pollution.",
+            "They increase waste.",
+            "They make cities warmer."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Cars and factories can produce emissions.",
+          "answer": "True"
+        },
+        {
+          "statement": "The speaker says people should use more electricity.",
+          "answer": "False"
+        },
+        {
+          "statement": "Climate changes can affect temperature and weather.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Cars and factories can produce ______ that make the air less clean.",
+          "answer": "emissions"
+        },
+        {
+          "question": "One easy way to reduce waste is to ______.",
+          "answer": "recycle"
+        },
+        {
+          "question": "Using less ______ can help save natural resources.",
+          "answer": "electricity"
+        },
+        {
+          "question": "Changes in climate can affect the ______ and weather.",
+          "answer": "temperature"
+        },
+        {
+          "question": "Forests provide a ______ for many animals and plants.",
+          "answer": "habitat"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “reduce” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "make less",
+            "make more",
+            "remove completely",
+            "protect from weather"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “resources” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "natural supplies",
+            "harmful emissions",
+            "types of waste",
+            "weather patterns"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “habitat” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "a place where animals and plants live",
+            "a type of pollution",
+            "a source of electricity",
+            "a kind of weather"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Pollution",
+          "Recycle",
+          "Environment",
+          "Forest"
+        ],
+        "right": [
+          "The natural world around us",
+          "Harmful substances in the environment",
+          "Process materials so they can be used again",
+          "A large area covered mainly by trees"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson06",
+    "number": 6,
+    "title": "Environment",
+    "titleVi": "Môi trường"
+  }
+}

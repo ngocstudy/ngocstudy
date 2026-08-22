@@ -1,0 +1,658 @@
+{
+  "vocabulary": [
+    {
+      "word": "City",
+      "ipa": "/ˈsɪti/",
+      "meaning": "thành phố",
+      "synonyms": [
+        {
+          "word": "Urban area",
+          "ipa": "/ˈɜːbən ˈeəriə/",
+          "meaning": "khu đô thị"
+        },
+        {
+          "word": "Metropolis",
+          "ipa": "/məˈtrɒpəlɪs/",
+          "meaning": "đô thị lớn"
+        }
+      ],
+      "family": [
+        {
+          "word": "Urban",
+          "ipa": "/ˈɜːbən/",
+          "pos": "adj",
+          "meaning": "thuộc đô thị"
+        },
+        {
+          "word": "Urbanization",
+          "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+          "pos": "n",
+          "meaning": "sự đô thị hóa"
+        }
+      ]
+    },
+    {
+      "word": "Transport",
+      "ipa": "/ˈtrænspɔːt/",
+      "meaning": "giao thông; vận chuyển",
+      "synonyms": [
+        {
+          "word": "Transportation",
+          "ipa": "/ˌtrænspɔːˈteɪʃn/",
+          "meaning": "giao thông vận tải"
+        },
+        {
+          "word": "Transit",
+          "ipa": "/ˈtrænzɪt/",
+          "meaning": "sự vận chuyển"
+        }
+      ],
+      "family": [
+        {
+          "word": "Transportable",
+          "ipa": "/trænˈspɔːtəbl/",
+          "pos": "adj",
+          "meaning": "có thể vận chuyển"
+        },
+        {
+          "word": "Transportation",
+          "ipa": "/ˌtrænspɔːˈteɪʃn/",
+          "pos": "n",
+          "meaning": "sự vận chuyển"
+        }
+      ]
+    },
+    {
+      "word": "Traffic",
+      "ipa": "/ˈtræfɪk/",
+      "meaning": "giao thông",
+      "synonyms": [
+        {
+          "word": "Vehicles",
+          "ipa": "/ˈviːəklz/",
+          "meaning": "các phương tiện"
+        },
+        {
+          "word": "Congestion",
+          "ipa": "/kənˈdʒestʃən/",
+          "meaning": "tắc nghẽn giao thông"
+        }
+      ],
+      "family": [
+        {
+          "word": "Traffic jam",
+          "ipa": "/ˈtræfɪk dʒæm/",
+          "pos": "n",
+          "meaning": "tắc đường"
+        },
+        {
+          "word": "Trafficked",
+          "ipa": "/ˈtræfɪkt/",
+          "pos": "adj",
+          "meaning": "được vận chuyển"
+        }
+      ]
+    },
+    {
+      "word": "Vehicle",
+      "ipa": "/ˈviːəkl/",
+      "meaning": "phương tiện",
+      "synonyms": [
+        {
+          "word": "Automobile",
+          "ipa": "/ˈɔːtəməbiːl/",
+          "meaning": "ô tô"
+        },
+        {
+          "word": "Car",
+          "ipa": "/kɑː(r)/",
+          "meaning": "xe hơi"
+        }
+      ],
+      "family": [
+        {
+          "word": "Vehicular",
+          "ipa": "/vəˈhɪkjələ(r)/",
+          "pos": "adj",
+          "meaning": "thuộc phương tiện giao thông"
+        },
+        {
+          "word": "Vehicle-based",
+          "ipa": "/ˈviːəkl beɪst/",
+          "pos": "adj",
+          "meaning": "dựa trên phương tiện"
+        }
+      ]
+    },
+    {
+      "word": "Road",
+      "ipa": "/rəʊd/",
+      "meaning": "con đường",
+      "synonyms": [
+        {
+          "word": "Street",
+          "ipa": "/striːt/",
+          "meaning": "đường phố"
+        },
+        {
+          "word": "Highway",
+          "ipa": "/ˈhaɪweɪ/",
+          "meaning": "đường cao tốc"
+        }
+      ],
+      "family": [
+        {
+          "word": "Roadside",
+          "ipa": "/ˈrəʊdsaɪd/",
+          "pos": "n",
+          "meaning": "ven đường"
+        },
+        {
+          "word": "Roadway",
+          "ipa": "/ˈrəʊdweɪ/",
+          "pos": "n",
+          "meaning": "lòng đường"
+        }
+      ]
+    },
+    {
+      "word": "Bridge",
+      "ipa": "/brɪdʒ/",
+      "meaning": "cây cầu",
+      "synonyms": [
+        {
+          "word": "Overpass",
+          "ipa": "/ˈəʊvəpɑːs/",
+          "meaning": "cầu vượt"
+        },
+        {
+          "word": "Crossing",
+          "ipa": "/ˈkrɒsɪŋ/",
+          "meaning": "lối băng qua"
+        }
+      ],
+      "family": [
+        {
+          "word": "Bridging",
+          "ipa": "/ˈbrɪdʒɪŋ/",
+          "pos": "n",
+          "meaning": "sự kết nối"
+        },
+        {
+          "word": "Bridgehead",
+          "ipa": "/ˈbrɪdʒhed/",
+          "pos": "n",
+          "meaning": "đầu cầu"
+        }
+      ]
+    },
+    {
+      "word": "Accident",
+      "ipa": "/ˈæksɪdənt/",
+      "meaning": "tai nạn",
+      "synonyms": [
+        {
+          "word": "Crash",
+          "ipa": "/kræʃ/",
+          "meaning": "vụ va chạm"
+        },
+        {
+          "word": "Collision",
+          "ipa": "/kəˈlɪʒn/",
+          "meaning": "vụ đâm va"
+        }
+      ],
+      "family": [
+        {
+          "word": "Accidental",
+          "ipa": "/ˌæksɪˈdentl/",
+          "pos": "adj",
+          "meaning": "tình cờ, ngoài ý muốn"
+        },
+        {
+          "word": "Accidentally",
+          "ipa": "/ˌæksɪˈdentəli/",
+          "pos": "adv",
+          "meaning": "một cách tình cờ"
+        }
+      ]
+    },
+    {
+      "word": "Journey",
+      "ipa": "/ˈdʒɜːni/",
+      "meaning": "hành trình",
+      "synonyms": [
+        {
+          "word": "Trip",
+          "ipa": "/trɪp/",
+          "meaning": "chuyến đi"
+        },
+        {
+          "word": "Voyage",
+          "ipa": "/ˈvɔɪɪdʒ/",
+          "meaning": "chuyến hành trình"
+        }
+      ],
+      "family": [
+        {
+          "word": "Journeying",
+          "ipa": "/ˈdʒɜːniɪŋ/",
+          "pos": "n",
+          "meaning": "việc đi hành trình"
+        },
+        {
+          "word": "Journeyer",
+          "ipa": "/ˈdʒɜːniə(r)/",
+          "pos": "n",
+          "meaning": "người đi hành trình"
+        }
+      ]
+    },
+    {
+      "word": "Travel",
+      "ipa": "/ˈtrævl/",
+      "meaning": "đi lại; du lịch",
+      "synonyms": [
+        {
+          "word": "Tour",
+          "ipa": "/tʊə(r)/",
+          "meaning": "du lịch"
+        },
+        {
+          "word": "Journey",
+          "ipa": "/ˈdʒɜːni/",
+          "meaning": "hành trình"
+        }
+      ],
+      "family": [
+        {
+          "word": "Traveller",
+          "ipa": "/ˈtrævələ(r)/",
+          "pos": "n",
+          "meaning": "khách du lịch"
+        },
+        {
+          "word": "Travelling",
+          "ipa": "/ˈtrævəlɪŋ/",
+          "pos": "n",
+          "meaning": "việc đi lại"
+        }
+      ]
+    },
+    {
+      "word": "Destination",
+      "ipa": "/ˌdestɪˈneɪʃn/",
+      "meaning": "điểm đến",
+      "synonyms": [
+        {
+          "word": "Place",
+          "ipa": "/pleɪs/",
+          "meaning": "địa điểm"
+        },
+        {
+          "word": "Location",
+          "ipa": "/ləʊˈkeɪʃn/",
+          "meaning": "vị trí"
+        }
+      ],
+      "family": [
+        {
+          "word": "Destine",
+          "ipa": "/ˈdestɪn/",
+          "pos": "v",
+          "meaning": "định sẵn"
+        },
+        {
+          "word": "Destined",
+          "ipa": "/ˈdestɪnd/",
+          "pos": "adj",
+          "meaning": "được định sẵn"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Cities and Transportation",
+      "audio": "",
+      "transcript": "A city is a place where many people live and work. Modern cities can be very large, with busy roads, tall buildings, and many different services. As cities grow, urbanization can create new opportunities, but it can also cause problems with transport.\n\nPeople use different types of transportation to travel around a city. Cars, buses, motorcycles, and trains are common vehicles. Public transport can help many people travel without using their own cars. However, when too many vehicles use the same road at the same time, heavy traffic can develop.\n\nTraffic congestion is a common problem in large cities. During busy periods, people may spend a long time in traffic jams. This can make a daily journey stressful and increase travel time. Cities can improve transportation by building better roads, bridges, and public transport systems.\n\nA bridge can help vehicles cross a river or another difficult area. Good roads and bridges can make transportation faster and safer. However, accidents can still happen when drivers do not follow traffic rules.\n\nPeople also travel between cities for work, study, or holidays. A journey may take several hours, depending on the distance and the type of transport. The final place where a person wants to go is called a destination.\n\nGood transportation is important for modern cities. It allows people to travel to work, school, and other places more easily. Planning better transport systems can make cities more convenient and reduce traffic problems."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can happen when too many vehicles use the same road?",
+          "options": [
+            "Traffic can become heavy.",
+            "Roads become shorter.",
+            "People stop travelling.",
+            "Cities become smaller."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why can public transport be useful?",
+          "options": [
+            "It prevents all accidents.",
+            "It allows many people to travel without using their own cars.",
+            "It makes every journey longer.",
+            "It removes all roads."
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Cities can have many different types of vehicles.",
+          "answer": "True"
+        },
+        {
+          "statement": "Traffic congestion only happens in small villages.",
+          "answer": "False"
+        },
+        {
+          "statement": "A bridge can help vehicles cross a river.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern (6) ______ can be very large and busy. People use different types of (7) ______ to travel around cities. When too many vehicles use the same road, heavy (8) ______ can develop. A (9) ______ can help vehicles cross a river. The final place where a person wants to go is called a (10) ______.",
+        "answers": [
+          "Cities",
+          "Transport",
+          "Traffic",
+          "Bridge",
+          "Destination"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “urbanization” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "the growth of cities",
+            "the reduction of roads",
+            "the movement of animals",
+            "the development of farms"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “congestion” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "heavy traffic",
+            "safe travel",
+            "public transport",
+            "road construction"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “convenient” in the final paragraph is closest in meaning to:",
+          "options": [
+            "easy and useful",
+            "dangerous",
+            "expensive",
+            "difficult"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "City",
+          "Transport",
+          "Vehicle",
+          "Journey"
+        ],
+        "right": [
+          "Automobile",
+          "Metropolis",
+          "Transportation",
+          "Trip"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Transport Challenges in Growing Cities",
+      "audio": "",
+      "transcript": "Cities around the world are growing quickly. As more people move to urban areas, the need for effective transport systems becomes increasingly important. A growing population can create more jobs and services, but it can also put pressure on roads and public transportation.\n\nIn many cities, people depend on private vehicles such as cars and motorcycles. When large numbers of vehicles use the roads at the same time, traffic congestion can become a serious problem. During peak hours, commuters may spend a great deal of time in traffic jams. Long journeys can make people tired and reduce the amount of time they have for work, study, or family.\n\nOne way to reduce traffic problems is to improve public transportation. Buses and trains can carry many passengers at the same time. If public transport is reliable and affordable, more people may choose it instead of driving their own cars. This can reduce the number of vehicles on the road.\n\nRoad infrastructure is also important. Cities may need to build wider roads, improve intersections, or construct a bridge over a river. However, simply building more roads does not always solve congestion. If more people begin using private vehicles, traffic may become heavy again.\n\nRoad safety is another concern. A traffic accident can cause injuries, damage vehicles, and create delays for other travellers. Drivers need to follow traffic rules, and cities need safe roads and clear signs to reduce the risk of accidents.\n\nPeople also need transport for longer journeys. They may travel from one city to another for work, education, business, or holidays. The choice of transport often depends on the distance, cost, and destination. For short journeys, people may use buses or motorcycles, while longer journeys may require trains, cars, or other forms of transportation.\n\nModern cities need to plan carefully for future transport needs. Better public transport, safer roads, and good urban planning can help people move around more easily. A well-designed transport system can make a city more efficient and improve the quality of life for its residents."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can happen when many private vehicles use roads at the same time?",
+          "options": [
+            "Traffic congestion can become serious.",
+            "Public transport becomes unnecessary.",
+            "Journeys always become shorter.",
+            "Cities become less populated."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Why may people choose public transport instead of private vehicles?",
+          "options": [
+            "It can be reliable and affordable.",
+            "It always takes longer.",
+            "It is only available in small towns.",
+            "It prevents people from travelling."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "A growing population can put pressure on roads and public transportation.",
+          "answer": "True"
+        },
+        {
+          "statement": "Building more roads always completely solves traffic congestion.",
+          "answer": "False"
+        },
+        {
+          "statement": "Traffic accidents can cause delays for other travellers.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "As cities grow, the need for effective (6) ______ systems becomes more important. Large numbers of private (7) ______ can cause traffic congestion. Public transport can carry many passengers and may reduce the number of vehicles on the (8) ______. A traffic (9) ______ can cause injuries and delays. People choose different types of transport depending on distance, cost, and their (10) ______.",
+        "answers": [
+          "Transport",
+          "Vehicles",
+          "Road",
+          "Accident",
+          "Destination"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “residents” in the final paragraph is closest in meaning to:",
+          "options": [
+            "people who live in a place",
+            "people who visit a place",
+            "people who drive vehicles",
+            "people who build roads"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "dependable",
+            "dangerous",
+            "expensive",
+            "crowded"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “infrastructure” in paragraph 4 refers to:",
+          "options": [
+            "basic systems and structures such as roads",
+            "the number of passengers",
+            "traffic accidents",
+            "holiday destinations"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Traffic",
+          "Accident",
+          "Travel",
+          "Destination"
+        ],
+        "right": [
+          "Crash",
+          "Congestion",
+          "Trip",
+          "Location"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Getting Around the City",
+      "audio": "",
+      "transcript": "Today, I want to talk about cities and transport.\n\nModern cities have many people, and they need good transportation systems. People use different vehicles, including cars, buses, motorcycles, and trains, to travel around the city.\n\nOne common problem is traffic. When too many vehicles are on the road at the same time, traffic congestion can occur. During busy hours, people may spend a long time travelling to work or school.\n\nGood public transport can help reduce this problem. Buses and trains can carry many people at once. Cities can also improve roads and build a bridge to make travel easier.\n\nRoad safety is important too. A traffic accident can cause injuries and delays. Drivers should follow traffic rules and pay attention when they are on the road.\n\nPeople also travel between cities. They may make a long journey for work, study, or holidays. The place they want to go is their destination.\n\nBetter transport can make city life easier. If cities plan their transport systems carefully, people can spend less time in traffic and have safer and more comfortable journeys."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What do people use to travel around cities?",
+          "options": [
+            "Different vehicles",
+            "Only bridges",
+            "Only roads",
+            "Buildings"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What can buses and trains do?",
+          "options": [
+            "Carry many people at once",
+            "Stop all accidents",
+            "Remove all roads",
+            "Increase traffic jams"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Traffic congestion can happen when too many vehicles are on the road.",
+          "answer": "True"
+        },
+        {
+          "statement": "Road safety is not important in cities.",
+          "answer": "False"
+        },
+        {
+          "statement": "People may travel between cities for work, study, or holidays.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Modern ______ have many people and need good transportation systems.",
+          "answer": "cities"
+        },
+        {
+          "question": "People use different ______ to travel around cities.",
+          "answer": "vehicles"
+        },
+        {
+          "question": "Too many vehicles can cause ______ congestion.",
+          "answer": "traffic"
+        },
+        {
+          "question": "A traffic ______ can cause injuries and delays.",
+          "answer": "accident"
+        },
+        {
+          "question": "The place people want to go is their ______.",
+          "answer": "destination"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “reduce” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "make less",
+            "make larger",
+            "make faster",
+            "make longer"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “delays” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "situations in which something happens later than expected",
+            "fast journeys",
+            "road improvements",
+            "public transport"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “carefully” in the final paragraph is closest in meaning to:",
+          "options": [
+            "with attention",
+            "quickly",
+            "accidentally",
+            "rarely"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "City",
+          "Vehicle",
+          "Bridge",
+          "Destination"
+        ],
+        "right": [
+          "A road structure over a river or another area",
+          "A place someone wants to go",
+          "A large urban area",
+          "Something used for transportation"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson10",
+    "number": 10,
+    "title": "Cities & Transport",
+    "titleVi": "Thành phố và Giao thông"
+  }
+}

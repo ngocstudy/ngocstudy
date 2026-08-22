@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson16",
+    "number": 16,
+    "title": "Crime & Safety",
+    "titleVi": "Tội phạm & An toàn"
+  },
+  "vocabulary": [
+    {
+      "word": "Crime",
+      "ipa": "/kraɪm/",
+      "meaning": "tội phạm; tội ác",
+      "synonyms": [
+        {
+          "word": "offence",
+          "ipa": "/əˈfens/",
+          "meaning": "hành vi phạm tội"
+        },
+        {
+          "word": "wrongdoing",
+          "ipa": "/ˌrɒŋˈduːɪŋ/",
+          "meaning": "hành vi sai trái"
+        }
+      ],
+      "family": [
+        {
+          "word": "criminal",
+          "ipa": "/ˈkrɪmɪnl/",
+          "pos": "",
+          "meaning": "tội phạm; thuộc hình sự"
+        },
+        {
+          "word": "criminality",
+          "ipa": "/ˌkrɪmɪˈnæləti/",
+          "pos": "",
+          "meaning": "tính chất phạm tội"
+        }
+      ]
+    },
+    {
+      "word": "Criminal",
+      "ipa": "/ˈkrɪmɪnl/",
+      "meaning": "tội phạm",
+      "synonyms": [
+        {
+          "word": "offender",
+          "ipa": "/əˈfendə(r)/",
+          "meaning": "người phạm tội"
+        },
+        {
+          "word": "lawbreaker",
+          "ipa": "/ˈlɔːbreɪkə(r)/",
+          "meaning": "người vi phạm pháp luật"
+        }
+      ],
+      "family": [
+        {
+          "word": "crime",
+          "ipa": "/kraɪm/",
+          "pos": "",
+          "meaning": "tội phạm"
+        },
+        {
+          "word": "criminology",
+          "ipa": "/ˌkrɪmɪˈnɒlədʒi/",
+          "pos": "",
+          "meaning": "tội phạm học"
+        }
+      ]
+    },
+    {
+      "word": "Police",
+      "ipa": "/pəˈliːs/",
+      "meaning": "cảnh sát",
+      "synonyms": [
+        {
+          "word": "police officer",
+          "ipa": "/pəˈliːs ˈɒfɪsə(r)/",
+          "meaning": "sĩ quan cảnh sát"
+        },
+        {
+          "word": "law enforcement",
+          "ipa": "/lɔː ɪnˈfɔːsmənt/",
+          "meaning": "lực lượng thực thi pháp luật"
+        }
+      ],
+      "family": [
+        {
+          "word": "police officer",
+          "ipa": "/pəˈliːs ˈɒfɪsə(r)/",
+          "pos": "",
+          "meaning": "cảnh sát"
+        },
+        {
+          "word": "policing",
+          "ipa": "/pəˈliːsɪŋ/",
+          "pos": "",
+          "meaning": "hoạt động trị an"
+        }
+      ]
+    },
+    {
+      "word": "Arrest",
+      "ipa": "/əˈrest/",
+      "meaning": "bắt giữ",
+      "synonyms": [
+        {
+          "word": "detain",
+          "ipa": "/dɪˈteɪn/",
+          "meaning": "tạm giữ"
+        },
+        {
+          "word": "capture",
+          "ipa": "/ˈkæptʃə(r)/",
+          "meaning": "bắt giữ"
+        }
+      ],
+      "family": [
+        {
+          "word": "arrested",
+          "ipa": "/əˈrestɪd/",
+          "pos": "",
+          "meaning": "bị bắt"
+        },
+        {
+          "word": "arrest warrant",
+          "ipa": "/əˈrest ˈwɒrənt/",
+          "pos": "",
+          "meaning": "lệnh bắt giữ"
+        }
+      ]
+    },
+    {
+      "word": "Prison",
+      "ipa": "/ˈprɪzn/",
+      "meaning": "nhà tù",
+      "synonyms": [
+        {
+          "word": "jail",
+          "ipa": "/dʒeɪl/",
+          "meaning": "nhà giam"
+        },
+        {
+          "word": "correctional facility",
+          "ipa": "/kəˈrekʃənl fəˈsɪləti/",
+          "meaning": "trại cải tạo"
+        }
+      ],
+      "family": [
+        {
+          "word": "prisoner",
+          "ipa": "/ˈprɪznə(r)/",
+          "pos": "",
+          "meaning": "tù nhân"
+        },
+        {
+          "word": "imprison",
+          "ipa": "/ɪmˈprɪzn/",
+          "pos": "",
+          "meaning": "bỏ tù"
+        }
+      ]
+    },
+    {
+      "word": "Violence",
+      "ipa": "/ˈvaɪələns/",
+      "meaning": "bạo lực",
+      "synonyms": [
+        {
+          "word": "aggression",
+          "ipa": "/əˈɡreʃn/",
+          "meaning": "sự hung hăng"
+        },
+        {
+          "word": "abuse",
+          "ipa": "/əˈbjuːs/",
+          "meaning": "hành vi ngược đãi"
+        }
+      ],
+      "family": [
+        {
+          "word": "violent",
+          "ipa": "/ˈvaɪələnt/",
+          "pos": "",
+          "meaning": "bạo lực"
+        },
+        {
+          "word": "violently",
+          "ipa": "/ˈvaɪələntli/",
+          "pos": "",
+          "meaning": "một cách bạo lực"
+        }
+      ]
+    },
+    {
+      "word": "Victim",
+      "ipa": "/ˈvɪktɪm/",
+      "meaning": "nạn nhân",
+      "synonyms": [
+        {
+          "word": "casualty",
+          "ipa": "/ˈkæʒuəlti/",
+          "meaning": "nạn nhân"
+        },
+        {
+          "word": "sufferer",
+          "ipa": "/ˈsʌfərə(r)/",
+          "meaning": "người chịu đau khổ"
+        }
+      ],
+      "family": [
+        {
+          "word": "victimize",
+          "ipa": "/ˈvɪktɪmaɪz/",
+          "pos": "",
+          "meaning": "làm hại"
+        },
+        {
+          "word": "victimization",
+          "ipa": "/ˌvɪktɪmaɪˈzeɪʃn/",
+          "pos": "",
+          "meaning": "sự gây hại"
+        }
+      ]
+    },
+    {
+      "word": "Safety",
+      "ipa": "/ˈseɪfti/",
+      "meaning": "sự an toàn",
+      "synonyms": [
+        {
+          "word": "protection",
+          "ipa": "/prəˈtekʃn/",
+          "meaning": "sự bảo vệ"
+        },
+        {
+          "word": "security",
+          "ipa": "/sɪˈkjʊərəti/",
+          "meaning": "sự an toàn"
+        }
+      ],
+      "family": [
+        {
+          "word": "safe",
+          "ipa": "/seɪf/",
+          "pos": "",
+          "meaning": "an toàn"
+        },
+        {
+          "word": "safely",
+          "ipa": "/ˈseɪfli/",
+          "pos": "",
+          "meaning": "một cách an toàn"
+        }
+      ]
+    },
+    {
+      "word": "Security",
+      "ipa": "/sɪˈkjʊərəti/",
+      "meaning": "an ninh",
+      "synonyms": [
+        {
+          "word": "protection",
+          "ipa": "/prəˈtekʃn/",
+          "meaning": "sự bảo vệ"
+        },
+        {
+          "word": "defence",
+          "ipa": "/dɪˈfens/",
+          "meaning": "sự phòng vệ"
+        }
+      ],
+      "family": [
+        {
+          "word": "secure",
+          "ipa": "/sɪˈkjʊə(r)/",
+          "pos": "",
+          "meaning": "an toàn"
+        },
+        {
+          "word": "securely",
+          "ipa": "/sɪˈkjʊəli/",
+          "pos": "",
+          "meaning": "một cách an toàn"
+        }
+      ]
+    },
+    {
+      "word": "Justice",
+      "ipa": "/ˈdʒʌstɪs/",
+      "meaning": "công lý",
+      "synonyms": [
+        {
+          "word": "fairness",
+          "ipa": "/ˈfeənəs/",
+          "meaning": "sự công bằng"
+        },
+        {
+          "word": "legality",
+          "ipa": "/liˈɡæləti/",
+          "meaning": "tính hợp pháp"
+        }
+      ],
+      "family": [
+        {
+          "word": "just",
+          "ipa": "/dʒʌst/",
+          "pos": "",
+          "meaning": "công bằng"
+        },
+        {
+          "word": "justify",
+          "ipa": "/ˈdʒʌstɪfaɪ/",
+          "pos": "",
+          "meaning": "biện minh, chứng minh là đúng"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Crime and Safety in the Community",
+      "text": "Crime is an important issue in many communities. Crime can include different kinds of illegal activities, such as stealing or damaging property. A person who commits a crime may be called a criminal or an offender.\n\nThe police have an important role in keeping communities safe. Police officers work to prevent crime, investigate incidents, and protect people. When there is enough evidence, the police may arrest a person who is suspected of committing a crime.\n\nPeople who are arrested may have to go through a legal process. If a person is found guilty of a serious crime, they may be sent to prison. A prison is a place where people who have been legally sentenced are kept.\n\nSome crimes involve violence. Violent crime can seriously harm people and make communities feel unsafe. A person who suffers harm because of a crime is called a victim.\n\nFor this reason, safety is important in everyday life. People can take simple steps to improve their safety, such as being careful in unfamiliar places and reporting suspicious activities to the police.\n\nSecurity is also important in public places. Security systems, cameras, and trained staff can help protect people and property.\n\nThe legal system also has an important role. Justice means treating people fairly according to the law. A fair justice system should protect victims while also giving accused people a proper legal process."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one important role of the police?",
+          "options": [
+            "To prevent crime and protect people",
+            "To send everyone to prison",
+            "To create new businesses",
+            "To provide medical treatment"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Who is a victim?",
+          "options": [
+            "A person who suffers harm because of a crime",
+            "A person who works for the police",
+            "A person who works in a prison",
+            "A person who makes laws"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Crime can include stealing or damaging property.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every person who is arrested is sent to prison.",
+          "answer": "False"
+        },
+        {
+          "statement": "Security systems can help protect people and property.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "The (6) ______ work to prevent crime and protect people. A person suspected of committing a crime may be (7) ______. If someone is found guilty of a serious crime, they may be sent to (8) ______. People who suffer harm from crime are called (9) ______. In public places, (10) ______ systems can help protect people and property.",
+        "answers": [
+          "police",
+          "arrested",
+          "prison",
+          "victims",
+          "security"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “illegal” is closest in meaning to:",
+          "options": [
+            "against the law",
+            "very expensive",
+            "dangerous",
+            "unusual"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “suspicious” is closest in meaning to:",
+          "options": [
+            "causing people to think something may be wrong",
+            "completely safe",
+            "very friendly",
+            "officially approved"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “fairly” is closest in meaning to:",
+          "options": [
+            "in a just way",
+            "quickly",
+            "secretly",
+            "strongly"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Crime",
+          "Criminal",
+          "Police",
+          "Prison"
+        ],
+        "right": [
+          "Offender",
+          "Offence",
+          "Law enforcement",
+          "Jail"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Building Safer Communities",
+      "text": "Creating a safe community requires cooperation between individuals, the police, and the legal system. Although it is impossible to prevent every crime, communities can take steps to reduce criminal activity and improve public safety.\n\nThe police are responsible for maintaining public order and responding to reports of crime. When an incident occurs, officers may investigate the situation and collect evidence. If there is sufficient evidence that a person may have committed an offence, the police may arrest the suspect.\n\nAn arrested person is not automatically guilty. The legal system must examine the evidence before deciding whether the person committed a crime. This principle is important because justice requires a fair process for everyone.\n\nPeople who commit serious crimes may receive a prison sentence. Prison is intended not only to punish offenders but also to protect society. In some cases, prisoners may receive education, training, or other support to help them change their behaviour.\n\nOne serious concern is violence. Violent crimes can cause physical and emotional harm. The person who suffers because of a crime is known as a victim. Victims may need medical care, emotional support, and help from the authorities.\n\nModern communities also use different forms of security. Cameras, alarms, security staff, and good lighting can make public places safer. However, security measures should be used carefully and responsibly because people also have rights to privacy.\n\nCommunity cooperation can make a significant difference. Residents can report crimes, look after shared public spaces, and support safety programmes. Schools and local organisations can also teach young people about responsible behaviour and the consequences of crime.\n\nReducing crime is therefore not only the responsibility of the police. A safer community depends on cooperation, effective law enforcement, fair justice, and responsible citizens."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What happens after a person is arrested?",
+          "options": [
+            "The person is automatically guilty.",
+            "The legal system examines the evidence.",
+            "The person must immediately go to prison.",
+            "The police automatically release the person."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why can security measures be useful?",
+          "options": [
+            "They can help make public places safer.",
+            "They can remove all crime.",
+            "They can replace the police.",
+            "They can punish every criminal."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "It is possible to prevent every crime in a community.",
+          "answer": "False"
+        },
+        {
+          "statement": "Prisoners may receive education or training in some cases.",
+          "answer": "True"
+        },
+        {
+          "statement": "Security cameras completely remove privacy concerns.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "The police investigate crimes and may (6) ______ suspects when there is sufficient evidence. However, an arrested person is not automatically (7) ______. People who commit serious crimes may receive a (8) ______ sentence. A person harmed by a crime is called a (9) ______. Communities can also use cameras, alarms, and security staff to improve (10) ______.",
+        "answers": [
+          "arrest",
+          "guilty",
+          "prison",
+          "victim",
+          "security"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “sufficient” is closest in meaning to:",
+          "options": [
+            "enough",
+            "unusual",
+            "illegal",
+            "dangerous"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “consequences” is closest in meaning to:",
+          "options": [
+            "results",
+            "causes",
+            "rules",
+            "opportunities"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “responsible” is closest in meaning to:",
+          "options": [
+            "acting in a careful and proper way",
+            "acting violently",
+            "breaking the law",
+            "avoiding other people"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "Arrest",
+          "Violence",
+          "Victim",
+          "Security"
+        ],
+        "right": [
+          "Detain",
+          "Aggression",
+          "Sufferer",
+          "Protection"
+        ],
+        "answers": {
+          "0": "A",
+          "1": "B",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Staying Safe in the Community",
+      "audio": "",
+      "transcript": "Today, I want to talk about crime and safety in the community.\n\nCrime can happen in many different forms. A person who commits a crime may be called a criminal or an offender.\n\nThe police work to prevent crime and protect the public. When the police have enough evidence, they may arrest a person who is suspected of committing an offence.\n\nBeing arrested does not automatically mean that a person is guilty. The legal system must examine the evidence and make a fair decision.\n\nA person who is found guilty of a serious crime may be sent to prison. Prison is used to punish offenders and protect society.\n\nSome crimes involve violence. These crimes can seriously hurt people. A person who is harmed by a crime is called a victim.\n\nPeople can improve their personal safety by being careful and reporting suspicious activities. Public security can also be improved through cameras, alarms, lighting, and security staff.\n\nFinally, justice is important. Everyone should receive a fair legal process, including victims and people who are accused of crimes.\n\nA safe community is not created by the police alone. Residents also have an important role. By following the law, reporting crimes, and looking after one another, people can help create safer communities."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What do the police do?",
+          "options": [
+            "Prevent crime and protect the public",
+            "Provide housing",
+            "Teach all prisoners",
+            "Build public roads"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may happen to a person found guilty of a serious crime?",
+          "options": [
+            "They may be sent to prison.",
+            "They automatically become a police officer.",
+            "They receive a passport.",
+            "They become a victim."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Being arrested automatically means that a person is guilty.",
+          "answer": "False"
+        },
+        {
+          "statement": "Violence can seriously hurt people.",
+          "answer": "True"
+        },
+        {
+          "statement": "Residents can help create safer communities.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "A person who commits a crime may be called a ______.",
+          "answer": "criminal"
+        },
+        {
+          "question": "The police may ______ a person who is suspected of committing an offence.",
+          "answer": "arrest"
+        },
+        {
+          "question": "A person found guilty of a serious crime may be sent to ______.",
+          "answer": "prison"
+        },
+        {
+          "question": "A person harmed by a crime is called a ______.",
+          "answer": "victim"
+        },
+        {
+          "question": "Cameras and alarms can improve public ______.",
+          "answer": "security"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “suspected” is closest in meaning to:",
+          "options": [
+            "believed possibly to have done something wrong",
+            "known to be innocent",
+            "officially employed",
+            "completely protected"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “accused” is closest in meaning to:",
+          "options": [
+            "said to have committed a crime",
+            "protected by the police",
+            "working in a prison",
+            "harmed by an accident"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “residents” is closest in meaning to:",
+          "options": [
+            "people who live in a place",
+            "police officers",
+            "prison workers",
+            "visitors"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each item with the correct information.",
+        "left": [
+          "Crime",
+          "Police",
+          "Victim",
+          "Justice"
+        ],
+        "right": [
+          "A person who suffers harm",
+          "Illegal activity",
+          "Law enforcement officers",
+          "Fair treatment under the legal system"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

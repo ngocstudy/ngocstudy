@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "id": "checkpoint2",
+    "number": "2",
+    "title": "MODERN SOCIETY AND SUSTAINABLE DEVELOPMENT",
+    "titleVi": "Xã hội hiện đại và phát triển bền vững",
+    "scope": "Bài 6 → Bài 10"
+  },
+  "vocabulary": [
+    {
+      "word": "Environment",
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "meaning": "môi trường",
+      "synonyms": [
+        {
+          "word": "Surroundings",
+          "ipa": "/səˈraʊndɪŋz/",
+          "meaning": "môi trường xung quanh"
+        },
+        {
+          "word": "Habitat",
+          "ipa": "/ˈhæbɪtæt/",
+          "meaning": "môi trường sống"
+        }
+      ],
+      "family": [
+        {
+          "word": "Environmental",
+          "ipa": "/ɪnˌvaɪrənˈmentl/",
+          "pos": "",
+          "meaning": "thuộc về môi trường"
+        },
+        {
+          "word": "Environmentalist",
+          "ipa": "/ɪnˌvaɪrənˈmentəlɪst/",
+          "pos": "",
+          "meaning": "nhà bảo vệ môi trường"
+        }
+      ]
+    },
+    {
+      "word": "Pollution",
+      "ipa": "/pəˈluːʃən/",
+      "meaning": "ô nhiễm",
+      "synonyms": [
+        {
+          "word": "Contamination",
+          "ipa": "/kənˌtæmɪˈneɪʃn/",
+          "meaning": "sự nhiễm bẩn"
+        },
+        {
+          "word": "Emission",
+          "ipa": "/ɪˈmɪʃn/",
+          "meaning": "khí thải"
+        }
+      ],
+      "family": [
+        {
+          "word": "Pollute",
+          "ipa": "/pəˈluːt/",
+          "pos": "",
+          "meaning": "gây ô nhiễm"
+        },
+        {
+          "word": "Polluted",
+          "ipa": "/pəˈluːtɪd/",
+          "pos": "",
+          "meaning": "bị ô nhiễm"
+        }
+      ]
+    },
+    {
+      "word": "Recycle",
+      "ipa": "/ˌriːˈsaɪkl/",
+      "meaning": "tái chế",
+      "synonyms": [
+        {
+          "word": "Reuse",
+          "ipa": "/ˌriːˈjuːz/",
+          "meaning": "tái sử dụng"
+        },
+        {
+          "word": "Process",
+          "ipa": "/ˈprəʊses/",
+          "meaning": "xử lý"
+        }
+      ],
+      "family": [
+        {
+          "word": "Recycling",
+          "ipa": "/ˌriːˈsaɪklɪŋ/",
+          "pos": "",
+          "meaning": "sự tái chế"
+        },
+        {
+          "word": "Recyclable",
+          "ipa": "/ˌriːˈsaɪkləbl/",
+          "pos": "",
+          "meaning": "có thể tái chế"
+        }
+      ]
+    },
+    {
+      "word": "Education",
+      "ipa": "/ˌedʒuˈkeɪʃən/",
+      "meaning": "giáo dục",
+      "synonyms": [
+        {
+          "word": "Schooling",
+          "ipa": "/ˈskuːlɪŋ/",
+          "meaning": "việc học ở trường"
+        },
+        {
+          "word": "Instruction",
+          "ipa": "/ɪnˈstrʌkʃən/",
+          "meaning": "sự giảng dạy"
+        }
+      ],
+      "family": [
+        {
+          "word": "Educate",
+          "ipa": "/ˈedʒukeɪt/",
+          "pos": "",
+          "meaning": "giáo dục"
+        },
+        {
+          "word": "Educational",
+          "ipa": "/ˌedʒuˈkeɪʃənl/",
+          "pos": "",
+          "meaning": "mang tính giáo dục"
+        }
+      ]
+    },
+    {
+      "word": "Skill",
+      "ipa": "/skɪl/",
+      "meaning": "kỹ năng",
+      "synonyms": [
+        {
+          "word": "Ability",
+          "ipa": "/əˈbɪləti/",
+          "meaning": "khả năng"
+        },
+        {
+          "word": "Competence",
+          "ipa": "/ˈkɒmpɪtəns/",
+          "meaning": "năng lực"
+        }
+      ],
+      "family": [
+        {
+          "word": "Skilled",
+          "ipa": "/skɪld/",
+          "pos": "",
+          "meaning": "có kỹ năng"
+        },
+        {
+          "word": "Skilful",
+          "ipa": "/ˈskɪlfl/",
+          "pos": "",
+          "meaning": "khéo léo"
+        }
+      ]
+    },
+    {
+      "word": "Economy",
+      "ipa": "/ɪˈkɒnəmi/",
+      "meaning": "nền kinh tế",
+      "synonyms": [
+        {
+          "word": "Finance",
+          "ipa": "/ˈfaɪnæns/",
+          "meaning": "tài chính"
+        },
+        {
+          "word": "Commerce",
+          "ipa": "/ˈkɒmɜːs/",
+          "meaning": "thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "Economic",
+          "ipa": "/ˌiːkəˈnɒmɪk/",
+          "pos": "",
+          "meaning": "thuộc về kinh tế"
+        },
+        {
+          "word": "Economically",
+          "ipa": "/ˌiːkəˈnɒmɪkli/",
+          "pos": "",
+          "meaning": "về mặt kinh tế"
+        }
+      ]
+    },
+    {
+      "word": "Market",
+      "ipa": "/ˈmɑːkɪt/",
+      "meaning": "thị trường",
+      "synonyms": [
+        {
+          "word": "Marketplace",
+          "ipa": "/ˈmɑːkɪtpleɪs/",
+          "meaning": "thị trường"
+        },
+        {
+          "word": "Trade",
+          "ipa": "/treɪd/",
+          "meaning": "thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "Marketing",
+          "ipa": "/ˈmɑːkɪtɪŋ/",
+          "pos": "",
+          "meaning": "tiếp thị"
+        },
+        {
+          "word": "Marketer",
+          "ipa": "/ˈmɑːkɪtə(r)/",
+          "pos": "",
+          "meaning": "người làm marketing"
+        }
+      ]
+    },
+    {
+      "word": "Habitat",
+      "ipa": "/ˈhæbɪtæt/",
+      "meaning": "môi trường sống",
+      "synonyms": [
+        {
+          "word": "Environment",
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "meaning": "môi trường"
+        },
+        {
+          "word": "Ecosystem",
+          "ipa": "/ˈiːkəʊˌsɪstəm/",
+          "meaning": "hệ sinh thái"
+        }
+      ],
+      "family": [
+        {
+          "word": "Inhabit",
+          "ipa": "/ɪnˈhæbɪt/",
+          "pos": "",
+          "meaning": "cư trú"
+        },
+        {
+          "word": "Inhabitant",
+          "ipa": "/ɪnˈhæbɪtənt/",
+          "pos": "",
+          "meaning": "cư dân"
+        }
+      ]
+    },
+    {
+      "word": "Conservation",
+      "ipa": "/ˌkɒnsəˈveɪʃn/",
+      "meaning": "sự bảo tồn",
+      "synonyms": [
+        {
+          "word": "Preservation",
+          "ipa": "/ˌprezəˈveɪʃn/",
+          "meaning": "sự bảo tồn"
+        },
+        {
+          "word": "Protection",
+          "ipa": "/prəˈtekʃn/",
+          "meaning": "sự bảo vệ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Conserve",
+          "ipa": "/kənˈsɜːv/",
+          "pos": "",
+          "meaning": "bảo tồn"
+        },
+        {
+          "word": "Conservationist",
+          "ipa": "/ˌkɒnsəˈveɪʃənɪst/",
+          "pos": "",
+          "meaning": "nhà bảo tồn"
+        }
+      ]
+    },
+    {
+      "word": "Transport",
+      "ipa": "/ˈtrænspɔːt/",
+      "meaning": "giao thông; vận chuyển",
+      "synonyms": [
+        {
+          "word": "Transportation",
+          "ipa": "/ˌtrænspɔːˈteɪʃn/",
+          "meaning": "giao thông vận tải"
+        },
+        {
+          "word": "Transit",
+          "ipa": "/ˈtrænzɪt/",
+          "meaning": "sự vận chuyển"
+        }
+      ],
+      "family": [
+        {
+          "word": "Transportable",
+          "ipa": "/trænˈspɔːtəbl/",
+          "pos": "",
+          "meaning": "có thể vận chuyển"
+        },
+        {
+          "word": "Transportation",
+          "ipa": "/ˌtrænspɔːˈteɪʃn/",
+          "pos": "",
+          "meaning": "sự vận chuyển"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": "Modern cities are growing quickly. More people move to cities because they want better jobs, education and services. However, fast growth can create problems for the environment.\n\nOne important problem is pollution. Cars, factories and other activities can make the air less clean. Heavy traffic can also make city life uncomfortable. For this reason, many cities are trying to improve public transport. Buses, trains and other forms of public transportation can help people travel without using a private car every day.\n\nCities can also reduce waste. People can recycle paper, plastic, glass and metal instead of throwing everything away. Recycling can reduce the amount of rubbish that goes to landfills. Some cities also encourage people to reuse bags, bottles and other products.\n\nEducation is another important part of a better city. Good education can help young people develop useful skills. These skills may help them find jobs and take part in the local economy. A strong economy can provide more opportunities for families.\n\nCities also need green spaces. Parks can provide a healthy environment for people and can protect small animal habitats. In some areas, local governments work with communities on conservation projects. These projects may protect trees, rivers and animals.\n\nA successful city does not only need new buildings. It also needs clean air, useful transport, good education and careful use of natural resources. Small changes by individuals, businesses and governments can make cities healthier and more comfortable places to live.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one major environmental problem mentioned in the passage?",
+          "options": [
+            "Lack of schools",
+            "Air pollution",
+            "High education costs",
+            "Lack of parks"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why can good education be important for the economy?",
+          "options": [
+            "It makes cities smaller.",
+            "It reduces the number of parks.",
+            "It helps people develop useful skills.",
+            "It increases traffic."
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "More people are moving to cities because they want better opportunities and services.",
+          "answer": "True"
+        },
+        {
+          "statement": "All cities have completely stopped using private cars.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "Recycling can reduce the amount of rubbish sent to landfills.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Modern cities face several challenges. One important problem is (6) ______, which can be caused by cars and factories. Cities can improve public (7) ______ to help people travel more easily. People can also (8) ______ materials such as paper and plastic. Good (9) ______ helps young people develop useful skills. Finally, conservation projects can protect trees, rivers and animal (10) ______.",
+        "answers": [
+          "pollution",
+          "transport",
+          "recycle",
+          "education",
+          "habitats"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “reduce” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "increase",
+            "make less",
+            "create",
+            "collect"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “opportunities” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "chances",
+            "problems",
+            "buildings",
+            "rules"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “protect” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "damage",
+            "destroy",
+            "keep safe",
+            "replace"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "pollution",
+          "transport",
+          "education",
+          "economy"
+        ],
+        "right": [
+          "skills",
+          "market",
+          "contamination",
+          "transportation"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": "Many countries are changing rapidly as cities become larger and economies become more connected. This development can bring better jobs, improved education and new services. However, it can also put pressure on the environment and natural resources. For this reason, governments and communities are looking for ways to create more sustainable places to live.\n\nOne major concern is pollution. Growing numbers of cars can produce harmful emissions, while factories may also affect air and water quality. Better transport systems can help reduce some of these problems. Public buses, trains and cycling facilities can give people alternatives to private vehicles. If public transportation is convenient and affordable, more people may choose to use it.\n\nWaste management is another important issue. Many products are used for a short time and then thrown away. Recycling allows some materials to be processed and used again. Recyclable paper, glass and plastic can therefore remain useful instead of becoming waste. However, recycling alone is not enough. People also need to reduce unnecessary consumption and reuse products whenever possible.\n\nEconomic development is closely connected to these environmental issues. A strong economy can create jobs and provide money for public services. At the same time, businesses need workers with suitable skills. Good education can help students acquire these skills and prepare them for changing job markets. In this way, education can support both individuals and the wider economy.\n\nSustainable development also requires the protection of natural areas. Forests, rivers and wetlands provide important habitats for many species. The loss of these habitats can reduce biodiversity. Conservation programmes can help preserve important natural areas, but they often require cooperation between governments, businesses and local communities.\n\nA sustainable city therefore needs more than economic growth. It needs a balance between development, environmental protection and quality of life. Transport systems should be efficient, waste should be managed responsibly, and education should prepare people for future employment. When these areas work together, communities can become healthier and more resilient.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one purpose of better public transport?",
+          "options": [
+            "To increase private car use",
+            "To reduce some pollution problems",
+            "To stop economic development",
+            "To reduce education opportunities"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "According to the passage, why is education important to the economy?",
+          "options": [
+            "It helps people acquire useful skills for employment.",
+            "It prevents people from using public transport.",
+            "It increases the amount of waste.",
+            "It destroys natural habitats."
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Economic development can provide money for public services.",
+          "answer": "True"
+        },
+        {
+          "statement": "Recycling can solve all environmental problems.",
+          "answer": "False"
+        },
+        {
+          "statement": "Conservation programmes may require cooperation between different groups.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Sustainable communities need to deal with several problems. Better public (6) ______ can provide alternatives to private vehicles. (7) ______ allows some materials to be processed and used again. A strong (8) ______ can create jobs and support public services. Good (9) ______ helps people develop skills for employment. Finally, (10) ______ programmes can help protect natural areas and animal habitats.",
+        "answers": [
+          "transport",
+          "recycling",
+          "economy",
+          "education",
+          "conservation"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “affordable” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "expensive",
+            "easy to pay for",
+            "dangerous",
+            "difficult to use"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “acquire” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "lose",
+            "develop or get",
+            "remove",
+            "exchange"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “preserve” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "protect",
+            "change",
+            "sell",
+            "build"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "environment",
+          "education",
+          "conservation",
+          "transport"
+        ],
+        "right": [
+          "schooling",
+          "conservation",
+          "surroundings",
+          "transit"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": "Good morning, everyone. Today we are going to talk about how our town can become a better place to live.\n\nFirst, we need to think about the environment. At the moment, air pollution is a problem, especially on busy roads. One possible solution is to improve public transport. If buses are comfortable and reliable, more people may use them instead of private cars.\n\nWe also need to deal with waste. Our town produces a lot of rubbish every day. People can recycle paper, plastic and glass. Recycling can reduce waste and save useful materials.\n\nEducation is another important area. Schools can teach students about environmental problems and help them develop useful skills. These skills may also help young people find jobs in the future.\n\nA healthy economy is important for the town. Local businesses need workers with different abilities, and a good market can create opportunities for both businesses and customers.\n\nFinally, we should protect natural areas outside the town. Some forests and rivers provide an important habitat for animals. Local groups are planning a conservation project to protect these areas.\n\nIf people, businesses and the local government work together, our town can become cleaner, healthier and more successful.",
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one environmental problem in the town?",
+          "options": [
+            "Water shortages",
+            "Air pollution",
+            "Lack of schools",
+            "Too many forests"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What may encourage more people to use buses?",
+          "options": [
+            "Higher prices",
+            "Fewer buses",
+            "Comfortable and reliable buses",
+            "Longer journeys"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "The speaker says that people can recycle paper, plastic and glass.",
+          "answer": "True"
+        },
+        {
+          "statement": "Schools can help students develop useful skills.",
+          "answer": "True"
+        },
+        {
+          "statement": "The conservation project will destroy forests and rivers.",
+          "answer": "False"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the sentences with NO MORE THAN TWO WORDS.",
+        "text": "Air ______ is a problem on busy roads.\nPeople can ______ paper, plastic and glass.\nSchools can help students develop useful ______.\nA healthy ______ is important for the town.\nForests and rivers provide an important ______ for animals.",
+        "answers": [
+          "pollution",
+          "recycle",
+          "skills",
+          "economy",
+          "habitat"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “reliable” is closest in meaning to:",
+          "options": [
+            "dependable",
+            "expensive",
+            "dangerous",
+            "crowded"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “abilities” is closest in meaning to:",
+          "options": [
+            "problems",
+            "skills",
+            "products",
+            "prices"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “protect” is closest in meaning to:",
+          "options": [
+            "damage",
+            "remove",
+            "keep safe",
+            "replace"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word with the correct meaning.",
+        "left": [
+          "transport",
+          "recycle",
+          "habitat",
+          "economy"
+        ],
+        "right": [
+          "natural place where an animal lives",
+          "system for moving people",
+          "use materials again",
+          "system of production, business and trade"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

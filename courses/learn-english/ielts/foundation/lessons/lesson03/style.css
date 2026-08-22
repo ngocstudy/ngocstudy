@@ -95,6 +95,7 @@ button:focus-visible,input:focus-visible{outline:3px solid rgba(37,99,235,.22);o
 }
 .speaker:active,.review-speaker:active{transform:scale(.95)}
 .ipa{text-align:center;color:var(--muted);font-size:15px;margin:8px 0}
+.pos{text-align:center;color:#667085;font-size:13px;font-weight:800;margin:-3px 0 8px;letter-spacing:.2px}
 .meaning{text-align:center;color:#d97706;font-size:22px;font-weight:800;margin:6px 0 20px}
 .box{margin-top:18px}
 .box h2{font-size:14px;color:var(--ink);margin-bottom:9px;letter-spacing:.02em}
@@ -1250,5 +1251,63 @@ button:disabled{opacity:.48;cursor:not-allowed;box-shadow:none!important;transfo
     #lessonRating,
     .lesson-score-row:last-child .lesson-score-value{
         font-size:14px;
+    }
+}
+
+
+/* UI FIX 4.13 - floating app-style back arrow
+   Keep the control simple and touch-friendly without changing navigation. */
+#backBtn{
+    position:absolute;
+    left:10px;
+    width:42px;
+    height:42px;
+    padding:0;
+    border:1px solid #dbe3ee;
+    border-radius:50%;
+    background:#ffffff;
+    color:transparent;
+    font-size:0;
+    line-height:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 4px 12px rgba(31,41,55,.12);
+    -webkit-tap-highlight-color:transparent;
+}
+#backBtn::before{
+    content:"";
+    width:10px;
+    height:10px;
+    border-left:2.5px solid #344054;
+    border-bottom:2.5px solid #344054;
+    transform:rotate(45deg);
+    margin-left:5px;
+}
+#backBtn::after{
+    content:"";
+    width:17px;
+    height:2.5px;
+    border-radius:999px;
+    background:#344054;
+    position:absolute;
+    left:12px;
+    top:50%;
+    transform:translateY(-50%);
+}
+#backBtn:hover{
+    background:#f8fbff;
+    border-color:#cbd8e8;
+    box-shadow:0 5px 14px rgba(31,41,55,.14);
+}
+#backBtn:active{
+    background:#eef5ff;
+    transform:translateY(-50%) scale(.94);
+}
+@media (max-width:600px){
+    #backBtn{
+        left:9px;
+        width:40px;
+        height:40px;
     }
 }

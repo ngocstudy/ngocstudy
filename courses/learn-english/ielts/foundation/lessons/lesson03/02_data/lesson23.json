@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "id": "lesson23",
+    "number": 23,
+    "title": "Climate Change",
+    "titleVi": "Biến đổi khí hậu"
+  },
+  "vocabulary": [
+    {
+      "word": "Climate",
+      "ipa": "/ˈklaɪmət/",
+      "meaning": "khí hậu",
+      "synonyms": [
+        {
+          "word": "Weather pattern",
+          "ipa": "/ˈweðə ˈpætən/",
+          "meaning": "kiểu thời tiết"
+        },
+        {
+          "word": "Climate conditions",
+          "ipa": "/ˈklaɪmət kənˈdɪʃənz/",
+          "meaning": "điều kiện khí hậu"
+        }
+      ],
+      "family": [
+        {
+          "word": "Climatic",
+          "ipa": "/klaɪˈmætɪk/",
+          "meaning": "thuộc khí hậu",
+          "pos": "adj"
+        },
+        {
+          "word": "Climatology",
+          "ipa": "/ˌklaɪməˈtɒlədʒi/",
+          "meaning": "khí hậu học",
+          "pos": "n"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Temperature",
+      "ipa": "/ˈtemprətʃə(r)/",
+      "meaning": "nhiệt độ",
+      "synonyms": [
+        {
+          "word": "Heat level",
+          "ipa": "/hiːt ˈlevl/",
+          "meaning": "mức nhiệt"
+        },
+        {
+          "word": "Degree",
+          "ipa": "/dɪˈɡriː/",
+          "meaning": "độ"
+        }
+      ],
+      "family": [
+        {
+          "word": "Temperate",
+          "ipa": "/ˈtempərət/",
+          "meaning": "ôn hòa",
+          "pos": "adj"
+        },
+        {
+          "word": "Temperature rise",
+          "ipa": "/ˈtemprətʃə raɪz/",
+          "meaning": "sự gia tăng nhiệt độ",
+          "pos": "n"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Greenhouse gas",
+      "ipa": "/ˈɡriːnhaʊs ɡæs/",
+      "meaning": "khí nhà kính",
+      "synonyms": [
+        {
+          "word": "Heat-trapping gas",
+          "ipa": "/hiːt ˈtræpɪŋ ɡæs/",
+          "meaning": "khí giữ nhiệt"
+        },
+        {
+          "word": "Atmospheric gas",
+          "ipa": "/ˌætməsˈferɪk ɡæs/",
+          "meaning": "khí trong khí quyển"
+        }
+      ],
+      "family": [
+        {
+          "word": "Greenhouse",
+          "ipa": "/ˈɡriːnhaʊs/",
+          "meaning": "nhà kính",
+          "pos": "n"
+        },
+        {
+          "word": "Gaseous",
+          "ipa": "/ˈɡæsiəs/",
+          "meaning": "thuộc dạng khí",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Carbon dioxide",
+      "ipa": "/ˌkɑːbən daɪˈɒksaɪd/",
+      "meaning": "khí CO₂",
+      "synonyms": [
+        {
+          "word": "CO₂",
+          "ipa": "/ˌsiː əʊ ˈtuː/",
+          "meaning": "khí CO₂"
+        },
+        {
+          "word": "Carbon emission",
+          "ipa": "/ˈkɑːbən ɪˈmɪʃən/",
+          "meaning": "phát thải cacbon"
+        }
+      ],
+      "family": [
+        {
+          "word": "Carbon",
+          "ipa": "/ˈkɑːbən/",
+          "meaning": "cacbon",
+          "pos": "n"
+        },
+        {
+          "word": "Carbonic",
+          "ipa": "/kɑːˈbɒnɪk/",
+          "meaning": "thuộc cacbon",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Drought",
+      "ipa": "/draʊt/",
+      "meaning": "hạn hán",
+      "synonyms": [
+        {
+          "word": "Dry spell",
+          "ipa": "/draɪ spel/",
+          "meaning": "thời kỳ khô hạn"
+        },
+        {
+          "word": "Water shortage",
+          "ipa": "/ˈwɔːtə ˈʃɔːtɪdʒ/",
+          "meaning": "thiếu nước"
+        }
+      ],
+      "family": [
+        {
+          "word": "Drought-stricken",
+          "ipa": "/ˈdraʊt ˌstrɪkən/",
+          "meaning": "bị hạn hán",
+          "pos": "adj"
+        },
+        {
+          "word": "Drought-resistant",
+          "ipa": "/ˈdraʊt rɪˌzɪstənt/",
+          "meaning": "chịu hạn",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Flood",
+      "ipa": "/flʌd/",
+      "meaning": "lũ lụt",
+      "synonyms": [
+        {
+          "word": "Inundation",
+          "ipa": "/ˌɪnʌnˈdeɪʃən/",
+          "meaning": "ngập lụt"
+        },
+        {
+          "word": "Overflow",
+          "ipa": "/ˌəʊvəˈfləʊ/",
+          "meaning": "tràn ngập"
+        }
+      ],
+      "family": [
+        {
+          "word": "Flooding",
+          "ipa": "/ˈflʌdɪŋ/",
+          "meaning": "sự ngập lụt",
+          "pos": "n"
+        },
+        {
+          "word": "Flooded",
+          "ipa": "/ˈflʌdɪd/",
+          "meaning": "bị ngập",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Renewable energy",
+      "ipa": "/rɪˈnjuːəbl ˈenədʒi/",
+      "meaning": "năng lượng tái tạo",
+      "synonyms": [
+        {
+          "word": "Clean energy",
+          "ipa": "/kliːn ˈenədʒi/",
+          "meaning": "năng lượng sạch"
+        },
+        {
+          "word": "Green energy",
+          "ipa": "/ɡriːn ˈenədʒi/",
+          "meaning": "năng lượng xanh"
+        }
+      ],
+      "family": [
+        {
+          "word": "Renewable",
+          "ipa": "/rɪˈnjuːəbl/",
+          "meaning": "có thể tái tạo",
+          "pos": "adj"
+        },
+        {
+          "word": "Renew",
+          "ipa": "/rɪˈnjuː/",
+          "meaning": "tái tạo, làm mới",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Emission",
+      "ipa": "/ɪˈmɪʃən/",
+      "meaning": "khí thải",
+      "synonyms": [
+        {
+          "word": "Discharge",
+          "ipa": "/dɪsˈtʃɑːdʒ/",
+          "meaning": "sự xả thải"
+        },
+        {
+          "word": "Release",
+          "ipa": "/rɪˈliːs/",
+          "meaning": "sự phát thải"
+        }
+      ],
+      "family": [
+        {
+          "word": "Emit",
+          "ipa": "/ɪˈmɪt/",
+          "meaning": "phát thải",
+          "pos": "v"
+        },
+        {
+          "word": "Emitted",
+          "ipa": "/ˈɪmɪtɪd/",
+          "meaning": "được phát thải",
+          "pos": "adj"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Sustainability",
+      "ipa": "/səˌsteɪnəˈbɪləti/",
+      "meaning": "tính bền vững",
+      "synonyms": [
+        {
+          "word": "Sustainable development",
+          "ipa": "/səˌsteɪnəbl dɪˈveləpmənt/",
+          "meaning": "phát triển bền vững"
+        },
+        {
+          "word": "Long-term viability",
+          "ipa": "/ˌlɒŋ tɜːm ˌvaɪəˈbɪləti/",
+          "meaning": "khả năng duy trì lâu dài"
+        }
+      ],
+      "family": [
+        {
+          "word": "Sustainable",
+          "ipa": "/səˈsteɪnəbl/",
+          "meaning": "bền vững",
+          "pos": "adj"
+        },
+        {
+          "word": "Sustain",
+          "ipa": "/səˈsteɪn/",
+          "meaning": "duy trì",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    },
+    {
+      "word": "Biodiversity",
+      "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+      "meaning": "đa dạng sinh học",
+      "synonyms": [
+        {
+          "word": "Biological diversity",
+          "ipa": "/ˌbaɪəˈlɒdʒɪkl daɪˈvɜːsəti/",
+          "meaning": "đa dạng sinh học"
+        },
+        {
+          "word": "Ecosystem diversity",
+          "ipa": "/ˈiːkəʊˌsɪstəm daɪˈvɜːsəti/",
+          "meaning": "đa dạng hệ sinh thái"
+        }
+      ],
+      "family": [
+        {
+          "word": "Diverse",
+          "ipa": "/daɪˈvɜːs/",
+          "meaning": "đa dạng",
+          "pos": "adj"
+        },
+        {
+          "word": "Diversify",
+          "ipa": "/daɪˈvɜːsɪfaɪ/",
+          "meaning": "đa dạng hóa",
+          "pos": "v"
+        }
+      ],
+      "pos": "n"
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Climate Change and Our Daily Life",
+      "text": "Climate change is affecting many parts of our daily life. One important change is the increase in temperature. In many places, average temperatures are becoming higher, and this can change the local climate.\n\nOne major cause is the increase in greenhouse gas in the atmosphere. Carbon dioxide is one of the gases connected with human activities. Cars, factories and some energy systems produce emission, which can contribute to climate change.\n\nClimate change can also affect water. Some areas may experience a long drought, while other areas may face a serious flood. A drought can cause a water shortage and make farming difficult. A flood can damage homes, roads and farmland.\n\nOne way to reduce some environmental problems is to use renewable energy. Solar and wind power are examples of clean energy. They can help reduce some emissions from traditional energy sources.\n\nAnother important idea is sustainability. People and governments need to think about how resources can be used for a long time without causing unnecessary damage. Protecting forests, oceans and other natural areas is also important for biodiversity.\n\nClimate change is a large global problem, but individuals can also take part in solutions. Saving energy, reducing waste and supporting cleaner forms of transport are simple actions that can contribute to a more sustainable future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What is one important change mentioned in the passage?",
+          "options": [
+            "A decrease in temperature",
+            "An increase in temperature",
+            "A decrease in rainfall everywhere",
+            "An increase in farming land"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What can renewable energy help reduce?",
+          "options": [
+            "Biodiversity",
+            "Water shortages",
+            "Some emissions",
+            "All floods"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Carbon dioxide is connected with some human activities.",
+          "answer": "True"
+        },
+        {
+          "statement": "Every country experiences drought at the same time.",
+          "answer": "Not Given"
+        },
+        {
+          "statement": "The passage says that solar and wind power are examples of renewable energy.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Climate change can affect both the environment and people's daily lives. An increase in 6. ________ is one important change. Human activities can produce 7. ________, including carbon dioxide. Some areas may experience 8. ________, while others may experience floods. The use of 9. ________ can help reduce some emissions. Protecting nature is also important for 10. ________.",
+        "answers": [
+          "temperature",
+          "emission",
+          "drought",
+          "renewable energy",
+          "biodiversity"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “drought” in the passage is closest in meaning to:",
+          "options": [
+            "A period of heavy rain",
+            "A long period with little water",
+            "A strong wind",
+            "A rise in temperature"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “emission” refers to:",
+          "options": [
+            "Something released into the environment",
+            "A natural disaster",
+            "A type of renewable energy",
+            "A water shortage"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “sustainability” is mainly related to:",
+          "options": [
+            "Using resources in a way that can continue for a long time",
+            "Increasing greenhouse gases",
+            "Building more roads",
+            "Producing more waste"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest meanings in Column B.",
+        "left": [
+          "climate",
+          "drought",
+          "renewable energy",
+          "sustainability"
+        ],
+        "right": [
+          "clean energy",
+          "long-term environmental balance",
+          "weather conditions over time",
+          "long period of dryness"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Climate Change, Energy and the Natural World",
+      "text": "Climate change is not only a change in weather conditions. It can influence natural systems, human activities and the way societies use resources. One of the main concerns is the gradual increase in global temperature, which can affect the climate in different regions.\n\nA major factor in this process is the concentration of greenhouse gas in the atmosphere. Carbon dioxide is especially important because large amounts can be produced by human activities such as burning fossil fuels. These activities create emission and can contribute to a warmer atmosphere.\n\nThe effects are not the same everywhere. In some regions, higher temperatures can increase the risk of drought. Long dry periods can reduce water supplies and make it harder for farmers to grow crops. In other areas, changes in rainfall may increase the risk of flood. Severe flooding can damage buildings, transport systems and agricultural land.\n\nClimate change can also affect natural habitats. When temperatures and rainfall patterns change, plants and animals may find it difficult to survive in their usual environments. As a result, biodiversity may decline. Protecting different species and ecosystems is therefore an important part of environmental action.\n\nEnergy production is another major issue. Many countries are investing in renewable energy, including solar and wind power. These sources can provide energy without relying on the same fossil-fuel systems that produce large amounts of greenhouse gas. However, changing an entire energy system requires time, investment and careful planning.\n\nFor this reason, sustainability has become an important concept in climate policy. Sustainable development aims to meet present needs while protecting resources for the future. Governments can support cleaner energy, improve public transport and protect natural areas. Individuals can also contribute by saving energy, reducing unnecessary consumption and making environmentally responsible choices.\n\nClimate change is therefore a complex problem. There is no single solution, but cooperation between governments, businesses and individuals can help societies respond to the challenge."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "Why is carbon dioxide important in the passage?",
+          "options": [
+            "It is a type of renewable energy.",
+            "Large amounts can be produced by human activities.",
+            "It prevents all flooding.",
+            "It increases biodiversity."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What does sustainable development aim to do?",
+          "options": [
+            "Meet present needs while protecting future resources",
+            "Increase the use of fossil fuels",
+            "Stop all changes in temperature",
+            "Reduce the number of ecosystems"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Climate change affects every region in exactly the same way.",
+          "answer": "False"
+        },
+        {
+          "statement": "Changes in temperature and rainfall can affect plants and animals.",
+          "answer": "True"
+        },
+        {
+          "statement": "The passage states that renewable energy is cheaper than all other forms of energy.",
+          "answer": "Not Given"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Climate change can affect weather, natural systems and human activities. A rise in global 6. ________ is one major concern. Human activities can produce 7. ________, including carbon dioxide. Some areas may face 8. ________, while others may experience flooding. Changes in natural conditions may reduce 9. ________. To address the problem, countries are increasingly considering 10. ________ and sustainable development.",
+        "answers": [
+          "temperature",
+          "emission",
+          "drought",
+          "biodiversity",
+          "renewable energy"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "In the passage, “concentration” is closest in meaning to:",
+          "options": [
+            "The amount of a substance in a particular place",
+            "A natural disaster",
+            "A form of transport",
+            "A type of animal"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The phrase “fossil-fuel systems” refers to systems that:",
+          "options": [
+            "Use solar and wind power",
+            "Depend on fossil fuels for energy",
+            "Protect biodiversity",
+            "Reduce all emissions"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "The word “decline” is closest in meaning to:",
+          "options": [
+            "Increase",
+            "Improve",
+            "Decrease",
+            "Continue"
+          ],
+          "answer": "C"
+        }
+      ],
+      "matching": {
+        "instruction": "",
+        "left": [
+          "emission",
+          "drought",
+          "biodiversity",
+          "sustainability"
+        ],
+        "right": [
+          "variety of living things",
+          "release",
+          "dry period",
+          "ability to continue long-term"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Climate Change in a Small Community",
+      "audio": "",
+      "transcript": "Today we are going to talk about climate change in a small community. The local climate has changed over recent years, and the average temperature has become higher. Scientists are also concerned about the amount of greenhouse gas in the atmosphere.\n\nOne important greenhouse gas is carbon dioxide. It is produced by activities such as using cars and burning fossil fuels. These activities create emission that can affect the environment.\n\nThe community has experienced different problems. During some years, there was a serious drought, and farmers had less water for their crops. In another year, heavy rain caused a flood, which damaged several roads.\n\nThe local government is now encouraging people to use renewable energy. Some public buildings have started using solar power. The community also wants to improve sustainability by saving energy and reducing waste.\n\nFinally, local people are working to protect forests and wetlands. These natural areas are important because they support biodiversity. Many different plants, animals and insects depend on them.\n\nClimate change is a difficult problem, but small communities can take practical steps. By reducing emissions, saving resources and protecting nature, people can help create a healthier future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What has happened to the average temperature in the community?",
+          "options": [
+            "It has become lower.",
+            "It has become higher.",
+            "It has stayed exactly the same.",
+            "It has disappeared."
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What type of renewable energy is mentioned?",
+          "options": [
+            "Coal",
+            "Oil",
+            "Solar power",
+            "Natural gas"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Carbon dioxide can be produced by using cars.",
+          "answer": "True"
+        },
+        {
+          "statement": "The community has never experienced flooding.",
+          "answer": "False"
+        },
+        {
+          "statement": "Local people are working to protect forests and wetlands.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "The local ________ has changed over recent years.",
+          "answer": "climate"
+        },
+        {
+          "question": "The average ________ has become higher.",
+          "answer": "temperature"
+        },
+        {
+          "question": "A serious ________ caused problems for farmers.",
+          "answer": "drought"
+        },
+        {
+          "question": "Heavy rain later caused a ________.",
+          "answer": "flood"
+        },
+        {
+          "question": "Some public buildings have started using ________ power.",
+          "answer": "solar"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "In the listening, “emission” means:",
+          "options": [
+            "Something released into the environment",
+            "A type of forest",
+            "A period without rain",
+            "A building"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In the listening, “sustainability” is connected with:",
+          "options": [
+            "Using resources responsibly for the future",
+            "Increasing waste",
+            "Building more roads",
+            "Producing more carbon dioxide"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "In the listening, “biodiversity” refers to:",
+          "options": [
+            "Different forms of life",
+            "Different types of energy",
+            "Higher temperatures",
+            "Heavy rainfall"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with the information in Column B.",
+        "left": [
+          "greenhouse gas",
+          "drought",
+          "renewable energy",
+          "biodiversity"
+        ],
+        "right": [
+          "a long period with little water",
+          "energy from sources that can be naturally renewed",
+          "a gas that can contribute to warming",
+          "variety of living things"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "A",
+          "2": "B",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

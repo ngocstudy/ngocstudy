@@ -1,0 +1,658 @@
+{
+  "vocabulary": [
+    {
+      "word": "Economy",
+      "ipa": "/ɪˈkɒnəmi/",
+      "meaning": "nền kinh tế",
+      "synonyms": [
+        {
+          "word": "finance",
+          "ipa": "/ˈfaɪnæns/",
+          "meaning": "tài chính"
+        },
+        {
+          "word": "commerce",
+          "ipa": "/ˈkɒmɜːs/",
+          "meaning": "thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "economic",
+          "ipa": "/ˌiːkəˈnɒmɪk/",
+          "pos": "adj",
+          "meaning": "thuộc về kinh tế"
+        },
+        {
+          "word": "economically",
+          "ipa": "/ˌiːkəˈnɒmɪkli/",
+          "pos": "adv",
+          "meaning": "về mặt kinh tế"
+        }
+      ]
+    },
+    {
+      "word": "Economic",
+      "ipa": "/ˌiːkəˈnɒmɪk/",
+      "meaning": "thuộc về kinh tế",
+      "synonyms": [
+        {
+          "word": "financial",
+          "ipa": "/faɪˈnænʃl/",
+          "meaning": "thuộc tài chính"
+        },
+        {
+          "word": "commercial",
+          "ipa": "/kəˈmɜːʃl/",
+          "meaning": "thuộc thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "economy",
+          "ipa": "/ɪˈkɒnəmi/",
+          "pos": "n",
+          "meaning": "nền kinh tế"
+        },
+        {
+          "word": "economist",
+          "ipa": "/ɪˈkɒnəmɪst/",
+          "pos": "n",
+          "meaning": "nhà kinh tế học"
+        }
+      ]
+    },
+    {
+      "word": "Business",
+      "ipa": "/ˈbɪznəs/",
+      "meaning": "kinh doanh; doanh nghiệp",
+      "synonyms": [
+        {
+          "word": "trade",
+          "ipa": "/treɪd/",
+          "meaning": "thương mại"
+        },
+        {
+          "word": "commerce",
+          "ipa": "/ˈkɒmɜːs/",
+          "meaning": "thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "businessman",
+          "ipa": "/ˈbɪznəsmæn/",
+          "pos": "n",
+          "meaning": "doanh nhân"
+        },
+        {
+          "word": "businesswoman",
+          "ipa": "/ˈbɪznəsˌwʊmən/",
+          "pos": "n",
+          "meaning": "nữ doanh nhân"
+        }
+      ]
+    },
+    {
+      "word": "Industry",
+      "ipa": "/ˈɪndəstri/",
+      "meaning": "ngành công nghiệp",
+      "synonyms": [
+        {
+          "word": "sector",
+          "ipa": "/ˈsektə(r)/",
+          "meaning": "lĩnh vực"
+        },
+        {
+          "word": "manufacturing",
+          "ipa": "/ˌmænjuˈfæktʃərɪŋ/",
+          "meaning": "ngành sản xuất"
+        }
+      ],
+      "family": [
+        {
+          "word": "industrial",
+          "ipa": "/ɪnˈdʌstriəl/",
+          "pos": "adj",
+          "meaning": "thuộc công nghiệp"
+        },
+        {
+          "word": "industrialize",
+          "ipa": "/ɪnˈdʌstriəlaɪz/",
+          "pos": "v",
+          "meaning": "công nghiệp hóa"
+        }
+      ]
+    },
+    {
+      "word": "Company",
+      "ipa": "/ˈkʌmpəni/",
+      "meaning": "công ty",
+      "synonyms": [
+        {
+          "word": "firm",
+          "ipa": "/fɜːm/",
+          "meaning": "doanh nghiệp"
+        },
+        {
+          "word": "corporation",
+          "ipa": "/ˌkɔːpəˈreɪʃn/",
+          "meaning": "tập đoàn"
+        }
+      ],
+      "family": [
+        {
+          "word": "accompany",
+          "ipa": "/əˈkʌmpəni/",
+          "pos": "v",
+          "meaning": "đi cùng"
+        },
+        {
+          "word": "companion",
+          "ipa": "/kəmˈpæniən/",
+          "pos": "n",
+          "meaning": "bạn đồng hành"
+        }
+      ]
+    },
+    {
+      "word": "Market",
+      "ipa": "/ˈmɑːkɪt/",
+      "meaning": "thị trường",
+      "synonyms": [
+        {
+          "word": "marketplace",
+          "ipa": "/ˈmɑːkɪtpleɪs/",
+          "meaning": "thị trường"
+        },
+        {
+          "word": "trade",
+          "ipa": "/treɪd/",
+          "meaning": "thương mại"
+        }
+      ],
+      "family": [
+        {
+          "word": "marketing",
+          "ipa": "/ˈmɑːkɪtɪŋ/",
+          "pos": "n",
+          "meaning": "tiếp thị"
+        },
+        {
+          "word": "marketer",
+          "ipa": "/ˈmɑːkɪtə(r)/",
+          "pos": "n",
+          "meaning": "người làm marketing"
+        }
+      ]
+    },
+    {
+      "word": "Customer",
+      "ipa": "/ˈkʌstəmə(r)/",
+      "meaning": "khách hàng",
+      "synonyms": [
+        {
+          "word": "client",
+          "ipa": "/ˈklaɪənt/",
+          "meaning": "khách hàng"
+        },
+        {
+          "word": "consumer",
+          "ipa": "/kənˈsjuːmə(r)/",
+          "meaning": "người tiêu dùng"
+        }
+      ],
+      "family": [
+        {
+          "word": "customize",
+          "ipa": "/ˈkʌstəmaɪz/",
+          "pos": "v",
+          "meaning": "tùy chỉnh"
+        },
+        {
+          "word": "custom-made",
+          "ipa": "/ˌkʌstəm ˈmeɪd/",
+          "pos": "adj",
+          "meaning": "làm theo yêu cầu"
+        }
+      ]
+    },
+    {
+      "word": "Product",
+      "ipa": "/ˈprɒdʌkt/",
+      "meaning": "sản phẩm",
+      "synonyms": [
+        {
+          "word": "goods",
+          "ipa": "/ɡʊdz/",
+          "meaning": "hàng hóa"
+        },
+        {
+          "word": "item",
+          "ipa": "/ˈaɪtəm/",
+          "meaning": "mặt hàng"
+        }
+      ],
+      "family": [
+        {
+          "word": "produce",
+          "ipa": "/prəˈdjuːs/",
+          "pos": "v",
+          "meaning": "sản xuất"
+        },
+        {
+          "word": "production",
+          "ipa": "/prəˈdʌkʃn/",
+          "pos": "n",
+          "meaning": "sự sản xuất"
+        }
+      ]
+    },
+    {
+      "word": "Price",
+      "ipa": "/praɪs/",
+      "meaning": "giá cả",
+      "synonyms": [
+        {
+          "word": "cost",
+          "ipa": "/kɒst/",
+          "meaning": "chi phí"
+        },
+        {
+          "word": "charge",
+          "ipa": "/tʃɑːdʒ/",
+          "meaning": "phí"
+        }
+      ],
+      "family": [
+        {
+          "word": "priceless",
+          "ipa": "/ˈpraɪsləs/",
+          "pos": "adj",
+          "meaning": "vô giá"
+        },
+        {
+          "word": "pricing",
+          "ipa": "/ˈpraɪsɪŋ/",
+          "pos": "n",
+          "meaning": "việc định giá"
+        }
+      ]
+    },
+    {
+      "word": "Income",
+      "ipa": "/ˈɪnkʌm/",
+      "meaning": "thu nhập",
+      "synonyms": [
+        {
+          "word": "earnings",
+          "ipa": "/ˈɜːnɪŋz/",
+          "meaning": "thu nhập"
+        },
+        {
+          "word": "salary",
+          "ipa": "/ˈsæləri/",
+          "meaning": "tiền lương"
+        }
+      ],
+      "family": [
+        {
+          "word": "earn",
+          "ipa": "/ɜːn/",
+          "pos": "v",
+          "meaning": "kiếm được"
+        },
+        {
+          "word": "earner",
+          "ipa": "/ˈɜːnə(r)/",
+          "pos": "n",
+          "meaning": "người kiếm thu nhập"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "The Economy in Everyday Life",
+      "audio": "",
+      "transcript": "The economy is an important part of everyday life. It includes businesses, companies, workers, customers, and the buying and selling of products. A strong economy can create more opportunities for people to work and earn an income.\n\nMany people work for a company or run their own business. A company may produce goods and sell them to customers. Some businesses are part of a larger industry, such as manufacturing, technology, or tourism. These industries provide jobs and support economic activity.\n\nThe market connects businesses and customers. A customer may choose from many different products. Companies need to understand what consumers want before they produce new goods. They may use marketing to learn about customer needs and improve their products.\n\nThe price of a product is also important. Customers often compare the cost of different items before making a decision. If a product is too expensive, some people may choose another product with a lower price.\n\nBusinesses need to make enough money to pay workers and cover their costs. When people have a stable income, they may have more money to spend on products and services. This spending can support local businesses and the wider economy.\n\nEconomic activity can change over time. Companies may grow when customers buy more products, while businesses may have problems when demand becomes lower. Understanding basic economic ideas can help people make better financial decisions in daily life."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can a strong economy create?",
+          "options": [
+            "Fewer jobs",
+            "More opportunities to work and earn income",
+            "Higher prices for every product",
+            "Fewer businesses"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Why do companies need to understand what customers want?",
+          "options": [
+            "To avoid producing products",
+            "To choose their workers",
+            "To improve and produce products that people want",
+            "To increase people’s income"
+          ],
+          "answer": "C"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Some people work for companies while others run their own businesses.",
+          "answer": "True"
+        },
+        {
+          "statement": "All companies are part of the manufacturing industry.",
+          "answer": "False"
+        },
+        {
+          "statement": "Customers often compare the prices of different products.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "The (6) ______ includes businesses, workers, customers, and the buying and selling of products. A (7) ______ may produce goods and sell them to customers. Businesses can be part of a larger (8) ______. Customers compare the (9) ______ of products before buying them. People with a stable (10) ______ may have more money to spend.",
+        "answers": [
+          "economy",
+          "company",
+          "industry",
+          "price",
+          "income"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “goods” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "products",
+            "workers",
+            "salaries",
+            "companies"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “demand” in the final paragraph is closest in meaning to:",
+          "options": [
+            "the amount people want to buy",
+            "the amount workers earn",
+            "the cost of production",
+            "the size of a company"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “stable” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "regular and reliable",
+            "very high",
+            "temporary",
+            "expensive"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Economy",
+          "Company",
+          "Customer",
+          "Product"
+        ],
+        "right": [
+          "Finance",
+          "Firm",
+          "Consumer",
+          "Goods"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "A",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Businesses, Markets, and Economic Growth",
+      "audio": "",
+      "transcript": "The economy affects many parts of people’s lives. It influences employment, business activity, prices, and household income. When economic conditions are positive, companies may expand, employ more workers, and produce more goods. When conditions become difficult, businesses may reduce production and customers may spend less money.\n\nA company is one important part of the economy. Companies produce products or provide services for customers. Some are small firms, while others are large corporations. They operate in different areas of the industry, including manufacturing, technology, transportation, and services. Industrial development can create employment and increase economic activity.\n\nThe market is where buyers and sellers interact. In a modern marketplace, customers can compare many products before deciding what to buy. A customer, or consumer, may consider quality, price, and personal needs when choosing a product. Companies therefore need to understand their clients and respond to changes in customer demand.\n\nA product can be a physical item or something that is produced for customers. Before a company introduces a new product, it may study the market and collect information about consumers. Marketing can help a company communicate with customers and encourage them to buy its goods.\n\nPrice is another important part of business decisions. Companies need to choose a pricing strategy that covers their costs while remaining acceptable to customers. If prices are too high, demand may decrease. If prices are too low, a company may not earn enough money to continue production.\n\nEconomic conditions can also influence household income. Workers earn a salary or other earnings from their jobs. When people have higher incomes, they may spend more money on goods and services. This spending can support businesses and contribute to economic activity.\n\nEconomists study these changes to understand how the economy works. They may examine employment, production, prices, income, and consumer behaviour. Although economic conditions can change for many reasons, businesses and individuals can make better decisions when they understand basic economic information."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What may companies do when economic conditions are positive?",
+          "options": [
+            "Reduce all production",
+            "Employ more workers and produce more goods",
+            "Stop selling products",
+            "Increase unemployment"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What may customers consider when choosing a product?",
+          "options": [
+            "Only the company’s size",
+            "Quality, price, and personal needs",
+            "Only the number of workers",
+            "The company’s industrial history"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Large corporations and small firms can both be part of the economy.",
+          "answer": "True"
+        },
+        {
+          "statement": "Customers never compare products before buying them.",
+          "answer": "False"
+        },
+        {
+          "statement": "Economic conditions can influence household income.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "The economy influences employment, business activity, prices, and household (6) ______. A (7) ______ can produce products or provide services. Customers interact with sellers in the (8) ______. Companies need to consider the (9) ______ of their products when making business decisions. Workers may receive a salary or other (10) ______ from their jobs.",
+        "answers": [
+          "income",
+          "company",
+          "market",
+          "price",
+          "earnings"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “expand” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "become larger",
+            "become cheaper",
+            "become smaller",
+            "stop working"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “corporation” in paragraph 2 is closest in meaning to:",
+          "options": [
+            "large company",
+            "customer",
+            "product",
+            "industry worker"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “earnings” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "money received from work",
+            "money spent on products",
+            "production costs",
+            "market prices"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Economic",
+          "Business",
+          "Market",
+          "Income"
+        ],
+        "right": [
+          "Commercial",
+          "Trade",
+          "Marketplace",
+          "Earnings"
+        ],
+        "answers": {
+          "0": "A",
+          "1": "B",
+          "2": "C",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "The Economy Around Us",
+      "audio": "",
+      "transcript": "Today, I want to talk about the economy and how it affects our daily lives.\n\nMany people work for a company or run a small business. Companies produce products and sell them to customers. Some companies are part of a larger industry, such as manufacturing, technology, or tourism.\n\nCustomers make choices in the market. Before buying a product, they may compare its price with the prices of other products. They may also think about quality and whether the product is useful for them.\n\nPeople also need an income to pay for food, housing, transport, and other needs. Income may come from a salary or from money earned through a business.\n\nEconomic activity can change over time. When customers buy more products, companies may increase production and employ more workers. When people spend less money, businesses may have fewer sales.\n\nUnderstanding basic economic ideas can help people make better decisions. It can help customers think carefully about prices and help businesses understand what their customers need.\n\nThe economy may seem difficult, but these simple ideas are part of everyday life."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What do companies sell to customers?",
+          "options": [
+            "Products",
+            "Industries",
+            "Salaries",
+            "Prices"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may customers compare before buying a product?",
+          "options": [
+            "The company’s workers",
+            "Prices",
+            "Employees’ incomes",
+            "Industrial production"
+          ],
+          "answer": "B"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "Some people run their own businesses.",
+          "answer": "True"
+        },
+        {
+          "statement": "Customers never think about price when buying a product.",
+          "answer": "False"
+        },
+        {
+          "statement": "When customers buy more products, companies may increase production.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Companies produce ______ and sell them to customers.",
+          "answer": "products"
+        },
+        {
+          "question": "Some companies are part of a larger ______.",
+          "answer": "industry"
+        },
+        {
+          "question": "Customers may compare the ______ of different products.",
+          "answer": "price"
+        },
+        {
+          "question": "People need an ______ to pay for everyday needs.",
+          "answer": "income"
+        },
+        {
+          "question": "Companies may increase ______ when customers buy more products.",
+          "answer": "production"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “daily” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "every day",
+            "every year",
+            "once a month",
+            "sometimes"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “useful” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "helpful",
+            "expensive",
+            "difficult",
+            "commercial"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “sales” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "the amount of products sold",
+            "the number of employees",
+            "the company’s income only",
+            "the cost of production"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their meanings in Column B.",
+        "left": [
+          "Economy",
+          "Company",
+          "Customer",
+          "Income"
+        ],
+        "right": [
+          "A person who buys goods",
+          "Money received from work",
+          "The system of business activity",
+          "A business organization"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "D",
+          "2": "A",
+          "3": "B"
+        }
+      }
+    }
+  },
+  "meta": {
+    "id": "lesson08",
+    "number": 8,
+    "title": "Economy",
+    "titleVi": "Kinh tế"
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "lesson12",
+    "number": 12,
+    "title": "Work & Employment",
+    "titleVi": "Công việc & Việc làm"
+  },
+  "vocabulary": [
+    {
+      "word": "Job",
+      "ipa": "/dʒɒb/",
+      "meaning": "công việc",
+      "synonyms": [
+        {
+          "word": "occupation",
+          "ipa": "/ˌɒkjuˈpeɪʃn/",
+          "meaning": "nghề nghiệp"
+        },
+        {
+          "word": "position",
+          "ipa": "/pəˈzɪʃn/",
+          "meaning": "vị trí công việc"
+        }
+      ],
+      "family": [
+        {
+          "word": "employ",
+          "ipa": "/ɪmˈplɔɪ/",
+          "pos": "",
+          "meaning": "tuyển dụng"
+        },
+        {
+          "word": "employment",
+          "ipa": "/ɪmˈplɔɪmənt/",
+          "pos": "",
+          "meaning": "việc làm"
+        }
+      ]
+    },
+    {
+      "word": "Career",
+      "ipa": "/kəˈrɪə(r)/",
+      "meaning": "sự nghiệp",
+      "synonyms": [
+        {
+          "word": "profession",
+          "ipa": "/prəˈfeʃn/",
+          "meaning": "nghề nghiệp"
+        },
+        {
+          "word": "vocation",
+          "ipa": "/vəʊˈkeɪʃn/",
+          "meaning": "nghề nghiệp"
+        }
+      ],
+      "family": [
+        {
+          "word": "careered",
+          "ipa": "/kəˈrɪəd/",
+          "pos": "",
+          "meaning": "phát triển sự nghiệp"
+        },
+        {
+          "word": "career-oriented",
+          "ipa": "/kəˈrɪər ˈɔːrientɪd/",
+          "pos": "",
+          "meaning": "định hướng sự nghiệp"
+        }
+      ]
+    },
+    {
+      "word": "Employee",
+      "ipa": "/ɪmˈplɔɪiː/",
+      "meaning": "nhân viên",
+      "synonyms": [
+        {
+          "word": "worker",
+          "ipa": "/ˈwɜːkə(r)/",
+          "meaning": "người lao động"
+        },
+        {
+          "word": "staff member",
+          "ipa": "/stɑːf ˈmembə(r)/",
+          "meaning": "nhân viên"
+        }
+      ],
+      "family": [
+        {
+          "word": "employ",
+          "ipa": "/ɪmˈplɔɪ/",
+          "pos": "",
+          "meaning": "tuyển dụng"
+        },
+        {
+          "word": "employer",
+          "ipa": "/ɪmˈplɔɪə(r)/",
+          "pos": "",
+          "meaning": "người sử dụng lao động"
+        }
+      ]
+    },
+    {
+      "word": "Employer",
+      "ipa": "/ɪmˈplɔɪə(r)/",
+      "meaning": "người sử dụng lao động",
+      "synonyms": [
+        {
+          "word": "company",
+          "ipa": "/ˈkʌmpəni/",
+          "meaning": "công ty"
+        },
+        {
+          "word": "organization",
+          "ipa": "/ˌɔːɡənaɪˈzeɪʃn/",
+          "meaning": "tổ chức"
+        }
+      ],
+      "family": [
+        {
+          "word": "employ",
+          "ipa": "/ɪmˈplɔɪ/",
+          "pos": "",
+          "meaning": "tuyển dụng"
+        },
+        {
+          "word": "employment",
+          "ipa": "/ɪmˈplɔɪmənt/",
+          "pos": "",
+          "meaning": "việc làm"
+        }
+      ]
+    },
+    {
+      "word": "Salary",
+      "ipa": "/ˈsæləri/",
+      "meaning": "tiền lương",
+      "synonyms": [
+        {
+          "word": "wage",
+          "ipa": "/weɪdʒ/",
+          "meaning": "tiền công"
+        },
+        {
+          "word": "income",
+          "ipa": "/ˈɪnkʌm/",
+          "meaning": "thu nhập"
+        }
+      ],
+      "family": [
+        {
+          "word": "salaried",
+          "ipa": "/ˈsælərid/",
+          "pos": "",
+          "meaning": "hưởng lương"
+        },
+        {
+          "word": "salary-related",
+          "ipa": "/ˈsæləri rɪˈleɪtɪd/",
+          "pos": "",
+          "meaning": "liên quan đến lương"
+        }
+      ]
+    },
+    {
+      "word": "Experience",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "meaning": "kinh nghiệm",
+      "synonyms": [
+        {
+          "word": "expertise",
+          "ipa": "/ˌekspɜːˈtiːz/",
+          "meaning": "chuyên môn"
+        },
+        {
+          "word": "skill",
+          "ipa": "/skɪl/",
+          "meaning": "kỹ năng"
+        }
+      ],
+      "family": [
+        {
+          "word": "experienced",
+          "ipa": "/ɪkˈspɪəriənst/",
+          "pos": "",
+          "meaning": "có kinh nghiệm"
+        },
+        {
+          "word": "inexperienced",
+          "ipa": "/ˌɪnɪkˈspɪəriənst/",
+          "pos": "",
+          "meaning": "thiếu kinh nghiệm"
+        }
+      ]
+    },
+    {
+      "word": "Interview",
+      "ipa": "/ˈɪntəvjuː/",
+      "meaning": "phỏng vấn",
+      "synonyms": [
+        {
+          "word": "meeting",
+          "ipa": "/ˈmiːtɪŋ/",
+          "meaning": "buổi gặp"
+        },
+        {
+          "word": "discussion",
+          "ipa": "/dɪˈskʌʃn/",
+          "meaning": "cuộc thảo luận"
+        }
+      ],
+      "family": [
+        {
+          "word": "interviewer",
+          "ipa": "/ˈɪntəvjuːə(r)/",
+          "pos": "",
+          "meaning": "người phỏng vấn"
+        },
+        {
+          "word": "interviewee",
+          "ipa": "/ˌɪntəvjuˈiː/",
+          "pos": "",
+          "meaning": "người được phỏng vấn"
+        }
+      ]
+    },
+    {
+      "word": "Professional",
+      "ipa": "/prəˈfeʃənl/",
+      "meaning": "chuyên nghiệp",
+      "synonyms": [
+        {
+          "word": "skilled",
+          "ipa": "/skɪld/",
+          "meaning": "thành thạo"
+        },
+        {
+          "word": "qualified",
+          "ipa": "/ˈkwɒlɪfaɪd/",
+          "meaning": "đủ trình độ"
+        }
+      ],
+      "family": [
+        {
+          "word": "profession",
+          "ipa": "/prəˈfeʃn/",
+          "pos": "",
+          "meaning": "nghề nghiệp"
+        },
+        {
+          "word": "professionally",
+          "ipa": "/prəˈfeʃənəli/",
+          "pos": "",
+          "meaning": "một cách chuyên nghiệp"
+        }
+      ]
+    },
+    {
+      "word": "Unemployment",
+      "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+      "meaning": "thất nghiệp",
+      "synonyms": [
+        {
+          "word": "joblessness",
+          "ipa": "/ˈdʒɒbləsnəs/",
+          "meaning": "tình trạng thất nghiệp"
+        },
+        {
+          "word": "redundancy",
+          "ipa": "/rɪˈdʌndənsi/",
+          "meaning": "mất việc"
+        }
+      ],
+      "family": [
+        {
+          "word": "unemployed",
+          "ipa": "/ˌʌnɪmˈplɔɪd/",
+          "pos": "",
+          "meaning": "thất nghiệp"
+        },
+        {
+          "word": "unemployment rate",
+          "ipa": "/ˌʌnɪmˈplɔɪmənt reɪt/",
+          "pos": "",
+          "meaning": "tỷ lệ thất nghiệp"
+        }
+      ]
+    },
+    {
+      "word": "Promotion",
+      "ipa": "/prəˈməʊʃn/",
+      "meaning": "sự thăng chức",
+      "synonyms": [
+        {
+          "word": "advancement",
+          "ipa": "/ədˈvɑːnsmənt/",
+          "meaning": "sự thăng tiến"
+        },
+        {
+          "word": "upgrade",
+          "ipa": "/ˈʌpɡreɪd/",
+          "meaning": "nâng cấp, thăng cấp"
+        }
+      ],
+      "family": [
+        {
+          "word": "promote",
+          "ipa": "/prəˈməʊt/",
+          "pos": "",
+          "meaning": "thăng chức, thúc đẩy"
+        },
+        {
+          "word": "promotional",
+          "ipa": "/prəˈməʊʃənl/",
+          "pos": "",
+          "meaning": "mang tính quảng bá, thăng chức"
+        }
+      ]
+    }
+  ],
+  "reading1": {
+    "passage": {
+      "title": "Finding and Developing a Career",
+      "text": "Work is an important part of modern life. Most people need a job to earn money and support themselves or their families. A job can also give people useful experience and help them develop new skills. People have different career goals. A career is the long-term development of a person's working life. Some people choose a particular profession because they enjoy the type of work, while others choose a career because it offers good opportunities. An employee works for an employer. Employees may work for a company, organization, school, hospital, or other workplace. Employers are responsible for providing suitable working conditions and paying their employees. One important part of employment is salary. A salary is the money an employee receives for their work. People may also consider other benefits when choosing a job, such as working hours, holidays, and opportunities for professional development. Experience is often important when people apply for a new position. Employers may look at a person's education, skills, and previous work experience. During an interview, applicants usually answer questions about their background and explain why they are suitable for the position. Being professional is also important. Professional employees should be responsible, reliable, and respectful at work. Good performance can sometimes lead to promotion, which means moving to a higher position in an organization. Finding a suitable job and developing a successful career can take time. With experience, skills, and a professional attitude, people may have more opportunities in the future."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can a job provide besides money?",
+          "options": [
+            "Experience and opportunities to develop skills",
+            "Free transportation",
+            "A university degree",
+            "A new company"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may happen after good performance at work?",
+          "options": [
+            "Promotion",
+            "Unemployment",
+            "Retirement",
+            "Resignation"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "An employee works for an employer.",
+          "answer": "True"
+        },
+        {
+          "statement": "All people choose their careers for exactly the same reason.",
+          "answer": "False"
+        },
+        {
+          "statement": "Employers may consider a person's previous work experience.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "Most people need a (6) ______ to earn money and support themselves. A (7) ______ describes the long-term development of a person's working life. An (8) ______ works for an employer. People receive a (9) ______ for their work. During an (10) ______, applicants answer questions about their background.",
+        "answers": [
+          "job",
+          "career",
+          "employee",
+          "salary",
+          "interview"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “suitable” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "appropriate",
+            "expensive",
+            "difficult",
+            "temporary"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "dependable",
+            "inexperienced",
+            "unemployed",
+            "unsuccessful"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “promotion” in paragraph 7 is closest in meaning to:",
+          "options": [
+            "advancement to a higher position",
+            "loss of employment",
+            "a job interview",
+            "a monthly salary"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Job",
+          "Career",
+          "Employee",
+          "Experience"
+        ],
+        "right": [
+          "Worker",
+          "Occupation",
+          "Profession",
+          "Expertise"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "reading2": {
+    "passage": {
+      "title": "Employment and Career Development",
+      "text": "Choosing a job is an important decision because work can affect a person's income, lifestyle, and future opportunities. Some people know what career they want from an early age, while others discover their interests after gaining different types of work experience. A career is more than a single job. It can include a series of positions and responsibilities that develop over many years. People may change jobs or even change professions as they gain new skills and discover different interests. Career development often requires learning, training, and practical experience. In the workplace, an employee works for an employer. The employer may be a private company, a public organization, or another institution. A good employer should provide reasonable working conditions and clear responsibilities. Employees, in turn, are expected to complete their work and behave professionally. Income is an important consideration when people choose employment. A salary provides regular income and can influence a person's quality of life. However, salary is not the only factor people consider. Working hours, job security, workplace culture, training, and opportunities for promotion can also be important. Many companies use an interview to select new employees. During an interview, employers may ask about a candidate's education, previous experience, skills, and career goals. Candidates may also be asked to explain how they could contribute to the organization. Having relevant experience can make it easier for a person to compete for a position. However, inexperienced workers can also develop their careers through education, training, internships, and entry-level jobs. Over time, they can gain practical knowledge and become more confident. Not everyone who wants to work can find a job immediately. Unemployment occurs when people who are willing and able to work do not have a job. High unemployment can affect individuals, families, and the wider economy. Governments and organizations may introduce programs to help people find employment or develop useful skills. Professional development can continue throughout a person's working life. Employees may take courses, learn new technologies, or accept new responsibilities. These activities can improve their skills and increase their chances of career advancement. A successful career does not necessarily mean having the highest salary or position. For many people, success also means having meaningful work, developing useful skills, maintaining a healthy work-life balance, and having opportunities to grow."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can career development require?",
+          "options": [
+            "Learning, training, and practical experience",
+            "Only a high salary",
+            "Only one job",
+            "No new skills"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which factor is mentioned as something people may consider besides salary?",
+          "options": [
+            "Job security",
+            "Weather",
+            "Tourism",
+            "Transportation between countries"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "A career can include a series of positions over many years.",
+          "answer": "True"
+        },
+        {
+          "statement": "Salary is the only factor people consider when choosing employment.",
+          "answer": "False"
+        },
+        {
+          "statement": "Unemployment can affect families and the wider economy.",
+          "answer": "True"
+        }
+      ],
+      "summary": {
+        "instruction": "Complete the summary using NO MORE THAN TWO WORDS from the passage.",
+        "text": "A (6) ______ can include a series of positions and responsibilities over many years. An (7) ______ works for an employer. People may consider salary, job security, and opportunities for (8) ______ when choosing employment. Companies may use an (9) ______ to select new employees. (10) ______ occurs when people who are willing and able to work do not have a job.",
+        "answers": [
+          "career",
+          "employee",
+          "promotion",
+          "interview",
+          "unemployment"
+        ]
+      },
+      "vocabulary": [
+        {
+          "question": "The word “consideration” in paragraph 3 is closest in meaning to:",
+          "options": [
+            "factor to think about",
+            "employment contract",
+            "working position",
+            "professional qualification"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “contribute” in paragraph 4 is closest in meaning to:",
+          "options": [
+            "provide help or value",
+            "leave a job",
+            "receive a salary",
+            "attend an interview"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “advancement” in paragraph 8 is closest in meaning to:",
+          "options": [
+            "progress to a higher level",
+            "loss of employment",
+            "lack of experience",
+            "reduction in salary"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match the words in Column A with their closest synonyms in Column B.",
+        "left": [
+          "Employer",
+          "Salary",
+          "Unemployment",
+          "Professional"
+        ],
+        "right": [
+          "Joblessness",
+          "Company",
+          "Wage",
+          "Qualified"
+        ],
+        "answers": {
+          "0": "B",
+          "1": "C",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  },
+  "listening": {
+    "passage": {
+      "title": "Finding a Job",
+      "audio": "",
+      "transcript": "Today, I want to talk about work and employment. Most people need a job to earn money and support themselves. A job can also give people useful experience and help them develop new skills. A career is the long-term development of a person's working life. People may change jobs as they gain experience or discover new interests. An employee works for an employer. Employees receive a salary for their work. They may also have opportunities for training and promotion. When a company needs a new employee, it may organize an interview. During the interview, the employer may ask about the applicant's skills, education, and previous experience. Being professional is important at work. Employees should be responsible, respectful, and reliable. However, not everyone can find a job. Unemployment happens when people who want to work do not have a job. People can improve their chances of finding employment by developing useful skills and gaining experience. A good career can take time to build. Learning, working hard, and gaining experience can help people achieve their career goals."
+    },
+    "quiz": {
+      "mcq": [
+        {
+          "question": "What can a job provide?",
+          "options": [
+            "Money and useful experience",
+            "Only holidays",
+            "Free education",
+            "A guaranteed promotion"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What may a company organize when it needs a new employee?",
+          "options": [
+            "An interview",
+            "A journey",
+            "A vacation",
+            "A competition"
+          ],
+          "answer": "A"
+        }
+      ],
+      "tfn": [
+        {
+          "statement": "A career is the long-term development of a person's working life.",
+          "answer": "True"
+        },
+        {
+          "statement": "Employees do not receive a salary for their work.",
+          "answer": "False"
+        },
+        {
+          "statement": "Unemployment happens when people who want to work do not have a job.",
+          "answer": "True"
+        }
+      ],
+      "gapFill": [
+        {
+          "question": "Most people need a ______ to earn money.",
+          "answer": "job"
+        },
+        {
+          "question": "A ______ is the long-term development of a person's working life.",
+          "answer": "career"
+        },
+        {
+          "question": "An ______ works for an employer.",
+          "answer": "employee"
+        },
+        {
+          "question": "Employees receive a ______ for their work.",
+          "answer": "salary"
+        },
+        {
+          "question": "______ happens when people who want to work do not have a job.",
+          "answer": "unemployment"
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "The word “applicant” in paragraph 5 is closest in meaning to:",
+          "options": [
+            "a person applying for a job",
+            "a company owner",
+            "a professional trainer",
+            "an unemployed employer"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “reliable” in paragraph 6 is closest in meaning to:",
+          "options": [
+            "dependable",
+            "inexperienced",
+            "unemployed",
+            "temporary"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "The word “achieve” in the final paragraph is closest in meaning to:",
+          "options": [
+            "reach or succeed in",
+            "lose",
+            "change",
+            "avoid"
+          ],
+          "answer": "A"
+        }
+      ],
+      "matching": {
+        "instruction": "Match each word in Column A with the correct meaning in Column B.",
+        "left": [
+          "Job",
+          "Employee",
+          "Salary",
+          "Promotion"
+        ],
+        "right": [
+          "Money received regularly for work",
+          "A person who works for an employer",
+          "Work or position",
+          "Advancement to a higher position"
+        ],
+        "answers": {
+          "0": "C",
+          "1": "B",
+          "2": "A",
+          "3": "D"
+        }
+      }
+    }
+  }
+}

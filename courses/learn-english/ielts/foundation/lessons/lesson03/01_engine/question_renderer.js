@@ -371,24 +371,15 @@ function renderSummary() {
 
     if (mode === "reading") {
 
-        let text = data.text;
+        let summaryIndex = 0;
+        let text = String(data.text || "").replace(/_{4,}/g, () => {
 
-        for (let i = 0; i < 5; i++) {
+            const index = summaryIndex++;
+            const answer = state.summaryAnswer[index] || "";
 
-            text = text.replace(
-                "________",
-                `<input class="summary-input"
-                        data-index="${i}">`
-            );
-
-        }
-
-        state.summaryAnswer.forEach((answer, index) => {
-
-            text = text.replace(
-                `data-index="${index}"`,
-                `data-index="${index}" value="${answer || ""}"`
-            );
+            return `<input class="summary-input"
+                           data-index="${index}"
+                           value="${answer}">`;
 
         });
 
